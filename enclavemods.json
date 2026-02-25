@@ -1,7 +1,7 @@
 [
   {
     "name": "Enclave Plasma Gun Aligned Automatic Barrel",
-    "desc": "Improved recoil and hip-fire accuracy. Reduces Action Point cost by 5%.",
+    "desc": "Improved recoil and hip-fire accuracy. Reduces Action Point (AP) cost by 5%.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -9,7 +9,7 @@
   },
   {
     "name": "Enclave Plasma Gun Aligned Sniper Barrel",
-    "desc": "Improved recoil and hip-fire accuracy. Increases range and damage. Reduces Action Point cost by 5%.",
+    "desc": "Improved recoil and hip-fire accuracy. Increases range and damage. Reduces AP cost by 5%.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -17,7 +17,7 @@
   },
   {
     "name": "Enclave Plasma Gun Aligned Splitter",
-    "desc": "Splits beam into 4 projectiles. Improved recoil and hip-fire accuracy. Reduces Action Point cost by 5%.",
+    "desc": "Splits beam into 4 projectiles. Improved recoil and hip-fire accuracy. Reduces AP cost by 5%.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -25,7 +25,7 @@
   },
   {
     "name": "Enclave Plasma Gun Automatic Barrel",
-    "desc": "Enables full-automatic fire. Improved hip-fire accuracy.",
+    "desc": "Enables full-automatic fire for high-rate of fire builds. Improved hip-fire accuracy.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -41,7 +41,7 @@
   },
   {
     "name": "Enclave Plasma Gun Long Recon Scope",
-    "desc": "Superior magnification. Marks enemies while aiming.",
+    "desc": "Superior magnification. Automatically marks/tracks enemies while aiming down sights.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -49,7 +49,7 @@
   },
   {
     "name": "Enclave Plasma Gun Long Scope",
-    "desc": "Superior magnification for long-range engagement.",
+    "desc": "Superior magnification for long-range engagements. Increases weapon weight.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -57,7 +57,7 @@
   },
   {
     "name": "Enclave Plasma Gun Medium Night Vision Scope",
-    "desc": "Better magnification and provides night vision capabilities.",
+    "desc": "Better magnification and provides high-clarity green-tinted night vision capabilities.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -65,7 +65,7 @@
   },
   {
     "name": "Enclave Plasma Gun Medium Scope",
-    "desc": "Better magnification for medium-range engagement.",
+    "desc": "Better magnification for medium-to-long range combat.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -73,7 +73,7 @@
   },
   {
     "name": "Enclave Plasma Gun Precise Stock",
-    "desc": "Greatly improves weapon durability and hip-fire accuracy.",
+    "desc": "Greatly improves weapon durability and improves Bash damage and hip-fire accuracy.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -81,7 +81,7 @@
   },
   {
     "name": "Enclave Plasma Gun Reflex Sight",
-    "desc": "Improved focus and better hip-fire accuracy. Reduces Action Point cost by 15%.",
+    "desc": "Optimized for VATS builds. Best-in-slot sight that reduces Action Point (AP) cost by 15%.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -89,7 +89,7 @@
   },
   {
     "name": "Enclave Plasma Gun Short Night Vision Scope",
-    "desc": "Improved magnification and provides night vision capabilities.",
+    "desc": "Improved magnification with night vision. Known for providing the highest AP cost increase.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -97,7 +97,7 @@
   },
   {
     "name": "Enclave Plasma Gun Splitter",
-    "desc": "Splits the plasma beam into 4 separate projectiles.",
+    "desc": "Standard beam splitter that turns the plasma gun into a shotgun-like weapon.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -105,7 +105,7 @@
   },
   {
     "name": "Enclave Plasma Gun Stabilized Automatic Barrel",
-    "desc": "Enables full-automatic fire. Superior recoil control.",
+    "desc": "Enables full-automatic fire with superior recoil control.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -113,7 +113,7 @@
   },
   {
     "name": "Enclave Plasma Gun True Flamer Barrel",
-    "desc": "Fires a continuous stream of plasma. Superior hip-fire accuracy.",
+    "desc": "Fires a continuous stream of plasma. Provides superior hip-fire accuracy.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -121,7 +121,7 @@
   },
   {
     "name": "Enclave Plasma Gun True Short Barrel",
-    "desc": "Standard semi-auto barrel with superior hip-fire accuracy.",
+    "desc": "Standard-range semi-auto barrel with superior hip-fire accuracy.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -137,7 +137,7 @@
   },
   {
     "name": "Enclave Plasma Gun True Splitter",
-    "desc": "Splits beam into 4 projectiles. Superior hip-fire accuracy.",
+    "desc": "Beam splitter with superior hip-fire accuracy. Ideal for manual aiming builds.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
