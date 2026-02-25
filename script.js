@@ -59,3 +59,6 @@ function filterItems() {
     const filtered = currentData.filter(i => i.name.toLowerCase().includes(val));
     renderList(filtered);
 }
+
+// Initial load
+loadData(' ');
