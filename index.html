@@ -33,15 +33,13 @@
         </div>
     </div>
 
-    <!-- The Detail Modal -->
+    <!-- Details Modal -->
     <div id="detailModal" class="modal" onclick="closeModal()">
-        <div class="modal-content">
+        <div class="modal-content" onclick="event.stopPropagation()">
             <h2 id="modalTitle"></h2>
-            <div id="modalImgContainer">
-                <img id="modalImg" src="">
-            </div>
+            <img id="modalImg" src="">
             <div id="modalPrices"></div>
-            <p class="close-hint">[CLICK TO CLOSE]</p>
+            <p style="margin-top:20px; color:#0f0; font-size:0.8rem;">[ CLICK OUTSIDE TO CLOSE ]</p>
         </div>
     </div>
 
