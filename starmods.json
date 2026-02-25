@@ -1,7 +1,7 @@
 [
   {
     "name": "Anti-armor",
-    "desc": "1-Star Legendary Mod",
+    "desc": "[Weapon] Ignores 50% of your target's armor.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -10,7 +10,7 @@
   },
   {
     "name": "Assassin's",
-    "desc": "1-Star Legendary Mod",
+    "desc": "[Weapon] +50% damage to Humans. [Armor] -15% damage from Humans.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -19,7 +19,7 @@
   },
   {
     "name": "Auto Stim",
-    "desc": "1-Star Legendary Mod",
+    "desc": "[Armor] Automatically use a Stimpak when hit while health is 25% or less, once every 60 seconds.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -28,7 +28,7 @@
   },
   {
     "name": "Berserker's",
-    "desc": "1-Star Legendary Mod",
+    "desc": "[Weapon] Damage increases as your Damage Resistance decreases (up to +50%).",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -37,7 +37,7 @@
   },
   {
     "name": "Executioner's",
-    "desc": "1-Star Legendary Mod",
+    "desc": "[Weapon] +50% more damage when your target is below 40% health.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -46,7 +46,7 @@
   },
   {
     "name": "Exterminator's",
-    "desc": "1-Star Legendary Mod",
+    "desc": "[Weapon] +50% damage to Mirelurks and insects. [Armor] -15% damage from Mirelurks and insects.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -55,7 +55,7 @@
   },
   {
     "name": "Furious",
-    "desc": "1-Star Legendary Mod",
+    "desc": "[Weapon] Damage increased after each consecutive hit on the same target (up to +45%).",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -64,7 +64,7 @@
   },
   {
     "name": "Hunter's",
-    "desc": "1-Star Legendary Mod",
+    "desc": "[Weapon] +50% damage to Animals. [Armor] -15% damage from Animals.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -73,7 +73,7 @@
   },
   {
     "name": "Instigating",
-    "desc": "1-Star Legendary Mod",
+    "desc": "[Weapon] Double damage if the target is at full health.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -82,7 +82,7 @@
   },
   {
     "name": "Junkie's",
-    "desc": "1-Star Legendary Mod",
+    "desc": "[Weapon] Damage increases as you suffer from more addictions (up to +50%).",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -91,7 +91,7 @@
   },
   {
     "name": "Medic's",
-    "desc": "1-Star Legendary Mod",
+    "desc": "[Weapon] V.A.T.S. critical hits heal you and your team.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -100,7 +100,7 @@
   },
   {
     "name": "Mutant Slayer's",
-    "desc": "1-Star Legendary Mod",
+    "desc": "[Weapon] +50% damage to Super Mutants. [Armor] -15% damage from Super Mutants.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -109,7 +109,7 @@
   },
   {
     "name": "Mutant's",
-    "desc": "1-Star Legendary Mod",
+    "desc": "[Weapon] +5% damage per mutation (max +25%). [Armor] +10 Energy and Damage Resistance if mutated.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -118,7 +118,7 @@
   },
   {
     "name": "Nocturnal",
-    "desc": "1-Star Legendary Mod",
+    "desc": "[Weapon] Damage increases at night (+50% at peak).",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -127,7 +127,7 @@
   },
   {
     "name": "Quad",
-    "desc": "1-Star Legendary Mod",
+    "desc": "[Weapon] Quadruple ammo capacity.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -136,7 +136,7 @@
   },
   {
     "name": "Regenerating",
-    "desc": "1-Star Legendary Mod",
+    "desc": "[Armor] Slowly regenerate health while not in combat.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -145,7 +145,7 @@
   },
   {
     "name": "Unyielding",
-    "desc": "1-Star Legendary Mod",
+    "desc": "[Armor] Gain up to +3 to all SPECIAL stats (except Endurance) when health is low.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -154,7 +154,7 @@
   },
   {
     "name": "Vampire's",
-    "desc": "1-Star Legendary Mod",
+    "desc": "[Weapon] Restore a small amount of health when you hit an enemy.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -163,7 +163,7 @@
   },
   {
     "name": "Zealot's",
-    "desc": "1-Star Legendary Mod",
+    "desc": "[Weapon] +50% damage to Scorched. [Armor] -15% damage from Scorched.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -172,7 +172,7 @@
   },
   {
     "name": "Antiseptic",
-    "desc": "2-Star Legendary Mod",
+    "desc": "[Armor] +25% reduced disease chance from environmental hazards.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -181,7 +181,7 @@
   },
   {
     "name": "Basher's",
-    "desc": "2-Star Legendary Mod",
+    "desc": "[Weapon] +50% Bash damage.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -190,7 +190,7 @@
   },
   {
     "name": "Charisma",
-    "desc": "2-Star Legendary Mod",
+    "desc": "[Armor] +2 Charisma.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -199,7 +199,7 @@
   },
   {
     "name": "Crippling",
-    "desc": "2-Star Legendary Mod",
+    "desc": "[Weapon] +50% Limb damage.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -208,7 +208,7 @@
   },
   {
     "name": "Explosive",
-    "desc": "2-Star Legendary Mod",
+    "desc": "[Weapon] Projectiles explode for +20% weapon damage.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -217,7 +217,7 @@
   },
   {
     "name": "Glutton",
-    "desc": "2-Star Legendary Mod",
+    "desc": "[Armor] Hunger and Thirst grow 10% slower.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -226,7 +226,7 @@
   },
   {
     "name": "Heavy Hitter's",
-    "desc": "2-Star Legendary Mod",
+    "desc": "[Weapon] +40% Power Attack damage.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -235,7 +235,7 @@
   },
   {
     "name": "Hitman's",
-    "desc": "2-Star Legendary Mod",
+    "desc": "[Weapon] +25% damage while aiming.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -244,7 +244,7 @@
   },
   {
     "name": "Inertial",
-    "desc": "2-Star Legendary Mod",
+    "desc": "[Weapon] Replenish 15 Action Points on each kill.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -253,7 +253,7 @@
   },
   {
     "name": "Last Shot",
-    "desc": "2-Star Legendary Mod",
+    "desc": "[Weapon] The final round in a magazine has a 25% chance to deal twice as much damage.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -262,7 +262,7 @@
   },
   {
     "name": "Luck",
-    "desc": "2-Star Legendary Mod (+2 Luck)",
+    "desc": "[Armor] +2 Luck.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -271,7 +271,7 @@
   },
   {
     "name": "Perception",
-    "desc": "2-Star Legendary Mod (+2 Perception)",
+    "desc": "[Armor] +2 Perception.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -280,7 +280,7 @@
   },
   {
     "name": "Poisoner's",
-    "desc": "2-Star Legendary Mod",
+    "desc": "[Armor] +25 Poison Resistance.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -289,7 +289,7 @@
   },
   {
     "name": "Rapid",
-    "desc": "2-Star Legendary Mod",
+    "desc": "[Weapon] +25% Faster Fire Rate or +40% Weapon Swing Speed.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -298,7 +298,7 @@
   },
   {
     "name": "Riposting",
-    "desc": "2-Star Legendary Mod",
+    "desc": "[Weapon] Reflects 50% of melee damage back while blocking.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -307,7 +307,7 @@
   },
   {
     "name": "Strength",
-    "desc": "2-Star Legendary Mod (+2 Strength)",
+    "desc": "[Armor] +2 Strength.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -316,7 +316,7 @@
   },
   {
     "name": "V.A.T.S. Enhanced",
-    "desc": "2-Star Legendary Mod",
+    "desc": "[Weapon] +50% V.A.T.S. hit chance.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -325,7 +325,7 @@
   },
   {
     "name": "Vital",
-    "desc": "2-Star Legendary Mod",
+    "desc": "[Weapon] +50% Critical damage.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -334,7 +334,7 @@
   },
   {
     "name": "Warming",
-    "desc": "2-Star Legendary Mod",
+    "desc": "[Armor] +25 Cryo Resistance.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -343,7 +343,7 @@
   },
   {
     "name": "Adamantium",
-    "desc": "3-Star Legendary Mod",
+    "desc": "[Armor] Receive 15% less Limb Damage.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -352,7 +352,7 @@
   },
   {
     "name": "Arms Keeper's",
-    "desc": "3-Star Legendary Mod",
+    "desc": "[Armor] Weapon weights reduced by 20%.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -361,7 +361,7 @@
   },
   {
     "name": "Belted",
-    "desc": "3-Star Legendary Mod",
+    "desc": "[Armor] Ammo weight reduced by 20%.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -370,7 +370,7 @@
   },
   {
     "name": "Burning",
-    "desc": "3-Star Legendary Mod",
+    "desc": "[Armor] 5% chance to deal 12 Fire damage per second for 3 seconds to melee attackers.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -379,7 +379,7 @@
   },
   {
     "name": "Cavalier's",
-    "desc": "3-Star Legendary Mod",
+    "desc": "[Armor] 75% chance to reduce damage by 15% while sprinting.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -388,7 +388,7 @@
   },
   {
     "name": "Defender's",
-    "desc": "3-Star Legendary Mod",
+    "desc": "[Armor] -15% damage taken while blocking. [Melee] -40% damage taken while power attacking.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -397,7 +397,7 @@
   },
   {
     "name": "Diver's",
-    "desc": "3-Star Legendary Mod",
+    "desc": "[Armor] Breathe underwater.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -406,7 +406,7 @@
   },
   {
     "name": "Durability",
-    "desc": "3-Star Legendary Mod",
+    "desc": "[Weapon] Breaks 50% slower.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -415,7 +415,7 @@
   },
   {
     "name": "Electrified",
-    "desc": "3-Star Legendary Mod",
+    "desc": "[Armor] 5% chance to deal 12 Energy damage per second for 3 seconds to melee attackers.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -424,7 +424,7 @@
   },
   {
     "name": "Endurance",
-    "desc": "3-Star Legendary Mod (+3 Endurance)",
+    "desc": "[Weapon] +3 Endurance.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -433,7 +433,7 @@
   },
   {
     "name": "Frozen",
-    "desc": "3-Star Legendary Mod",
+    "desc": "[Armor] 5% chance to deal 12 Cryo damage per second for 3 seconds to melee attackers.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -442,7 +442,7 @@
   },
   {
     "name": "Ghost's",
-    "desc": "3-Star Legendary Mod",
+    "desc": "[Weapon] Hits have a 10% chance to generate a Stealth Field for 2 seconds.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -451,7 +451,7 @@
   },
   {
     "name": "Lightweight",
-    "desc": "3-Star Legendary Mod",
+    "desc": "[Weapon] 90% reduced weight.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -460,7 +460,7 @@
   },
   {
     "name": "Luck",
-    "desc": "3-Star Legendary Mod (+3 Luck)",
+    "desc": "[Weapon] +3 Luck.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -469,7 +469,7 @@
   },
   {
     "name": "Lucky Hit",
-    "desc": "3-Star Legendary Mod",
+    "desc": "[Weapon] +15% V.A.T.S. Critical Meter fill rate.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -478,7 +478,7 @@
   },
   {
     "name": "Pack Rat's",
-    "desc": "3-Star Legendary Mod",
+    "desc": "[Armor] Junk item weights reduced by 20%.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -487,7 +487,7 @@
   },
   {
     "name": "Perception",
-    "desc": "3-Star Legendary Mod (+3 Perception)",
+    "desc": "[Weapon] +3 Perception.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -496,7 +496,7 @@
   },
   {
     "name": "Resilient",
-    "desc": "3-Star Legendary Mod",
+    "desc": "[Weapon] +250 Damage Resistance while reloading.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -505,7 +505,7 @@
   },
   {
     "name": "Steadfast",
-    "desc": "3-Star Legendary Mod",
+    "desc": "[Weapon] +50 Damage Resistance while aiming.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -514,7 +514,7 @@
   },
   {
     "name": "Strength",
-    "desc": "3-Star Legendary Mod (+3 Strength)",
+    "desc": "[Weapon] +3 Strength.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -523,7 +523,7 @@
   },
   {
     "name": "Thru-hiker's",
-    "desc": "3-Star Legendary Mod",
+    "desc": "[Armor] Food, drink, and chem weights reduced by 20%.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
