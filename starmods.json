@@ -1,0 +1,533 @@
+[
+  {
+    "name": "Anti-armor",
+    "desc": "1-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "1-Star"
+  },
+  {
+    "name": "Assassin's",
+    "desc": "1-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "1-Star"
+  },
+  {
+    "name": "Auto Stim",
+    "desc": "1-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "1-Star"
+  },
+  {
+    "name": "Berserker's",
+    "desc": "1-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "1-Star"
+  },
+  {
+    "name": "Executioner's",
+    "desc": "1-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "1-Star"
+  },
+  {
+    "name": "Exterminator's",
+    "desc": "1-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "1-Star"
+  },
+  {
+    "name": "Furious",
+    "desc": "1-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "1-Star"
+  },
+  {
+    "name": "Hunter's",
+    "desc": "1-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "1-Star"
+  },
+  {
+    "name": "Instigating",
+    "desc": "1-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "1-Star"
+  },
+  {
+    "name": "Junkie's",
+    "desc": "1-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "1-Star"
+  },
+  {
+    "name": "Medic's",
+    "desc": "1-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "1-Star"
+  },
+  {
+    "name": "Mutant Slayer's",
+    "desc": "1-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "1-Star"
+  },
+  {
+    "name": "Mutant's",
+    "desc": "1-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "1-Star"
+  },
+  {
+    "name": "Nocturnal",
+    "desc": "1-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "1-Star"
+  },
+  {
+    "name": "Quad",
+    "desc": "1-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "1-Star"
+  },
+  {
+    "name": "Regenerating",
+    "desc": "1-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "1-Star"
+  },
+  {
+    "name": "Unyielding",
+    "desc": "1-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "1-Star"
+  },
+  {
+    "name": "Vampire's",
+    "desc": "1-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "1-Star"
+  },
+  {
+    "name": "Zealot's",
+    "desc": "1-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "1-Star"
+  },
+  {
+    "name": "Antiseptic",
+    "desc": "2-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "2-Star"
+  },
+  {
+    "name": "Basher's",
+    "desc": "2-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "2-Star"
+  },
+  {
+    "name": "Charisma",
+    "desc": "2-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "2-Star"
+  },
+  {
+    "name": "Crippling",
+    "desc": "2-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "2-Star"
+  },
+  {
+    "name": "Explosive",
+    "desc": "2-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "2-Star"
+  },
+  {
+    "name": "Glutton",
+    "desc": "2-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "2-Star"
+  },
+  {
+    "name": "Heavy Hitter's",
+    "desc": "2-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "2-Star"
+  },
+  {
+    "name": "Hitman's",
+    "desc": "2-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "2-Star"
+  },
+  {
+    "name": "Inertial",
+    "desc": "2-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "2-Star"
+  },
+  {
+    "name": "Last Shot",
+    "desc": "2-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "2-Star"
+  },
+  {
+    "name": "Luck",
+    "desc": "2-Star Legendary Mod (+2 Luck)",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "2-Star"
+  },
+  {
+    "name": "Perception",
+    "desc": "2-Star Legendary Mod (+2 Perception)",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "2-Star"
+  },
+  {
+    "name": "Poisoner's",
+    "desc": "2-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "2-Star"
+  },
+  {
+    "name": "Rapid",
+    "desc": "2-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "2-Star"
+  },
+  {
+    "name": "Riposting",
+    "desc": "2-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "2-Star"
+  },
+  {
+    "name": "Strength",
+    "desc": "2-Star Legendary Mod (+2 Strength)",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "2-Star"
+  },
+  {
+    "name": "V.A.T.S. Enhanced",
+    "desc": "2-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "2-Star"
+  },
+  {
+    "name": "Vital",
+    "desc": "2-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "2-Star"
+  },
+  {
+    "name": "Warming",
+    "desc": "2-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "2-Star"
+  },
+  {
+    "name": "Adamantium",
+    "desc": "3-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "3-Star"
+  },
+  {
+    "name": "Arms Keeper's",
+    "desc": "3-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "3-Star"
+  },
+  {
+    "name": "Belted",
+    "desc": "3-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "3-Star"
+  },
+  {
+    "name": "Burning",
+    "desc": "3-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "3-Star"
+  },
+  {
+    "name": "Cavalier's",
+    "desc": "3-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "3-Star"
+  },
+  {
+    "name": "Defender's",
+    "desc": "3-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "3-Star"
+  },
+  {
+    "name": "Diver's",
+    "desc": "3-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "3-Star"
+  },
+  {
+    "name": "Durability",
+    "desc": "3-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "3-Star"
+  },
+  {
+    "name": "Electrified",
+    "desc": "3-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "3-Star"
+  },
+  {
+    "name": "Endurance",
+    "desc": "3-Star Legendary Mod (+3 Endurance)",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "3-Star"
+  },
+  {
+    "name": "Frozen",
+    "desc": "3-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "3-Star"
+  },
+  {
+    "name": "Ghost's",
+    "desc": "3-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "3-Star"
+  },
+  {
+    "name": "Lightweight",
+    "desc": "3-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "3-Star"
+  },
+  {
+    "name": "Luck",
+    "desc": "3-Star Legendary Mod (+3 Luck)",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "3-Star"
+  },
+  {
+    "name": "Lucky Hit",
+    "desc": "3-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "3-Star"
+  },
+  {
+    "name": "Pack Rat's",
+    "desc": "3-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "3-Star"
+  },
+  {
+    "name": "Perception",
+    "desc": "3-Star Legendary Mod (+3 Perception)",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "3-Star"
+  },
+  {
+    "name": "Resilient",
+    "desc": "3-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "3-Star"
+  },
+  {
+    "name": "Steadfast",
+    "desc": "3-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "3-Star"
+  },
+  {
+    "name": "Strength",
+    "desc": "3-Star Legendary Mod (+3 Strength)",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "3-Star"
+  },
+  {
+    "name": "Thru-hiker's",
+    "desc": "3-Star Legendary Mod",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0,
+    "star": "3-Star"
+  }
+]
