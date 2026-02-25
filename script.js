@@ -52,4 +52,4 @@ function filterItems() {
 }
 
 // Load plans by default
-// loadData('plans.json');
+ loadData('');
