@@ -1,25 +1,30 @@
+/* --- GLOBAL STYLES --- */
 body {
     background-color: #050505;
     color: #00ff00;
     font-family: 'VT323', monospace;
     text-transform: uppercase;
-    padding: 20px;
+    margin: 0;
+    padding: 15px; /* Balanced padding for all screens */
 }
 
 .terminal-container {
-    max-width: 800px;
+    max-width: 850px;
     margin: auto;
     border: 2px solid #00ff00;
     padding: 20px;
     box-shadow: 0 0 15px rgba(0, 255, 0, 0.2);
 }
 
-header { text-align: center; margin-bottom: 20px; }
+header { 
+    text-align: center; 
+    margin-bottom: 20px; 
+}
 
-/* Button Grid */
+/* --- NAVIGATION & SEARCH --- */
 .button-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr; /* 2 columns on PC */
     gap: 10px;
     margin-bottom: 20px;
 }
@@ -30,8 +35,9 @@ button {
     border: 1px solid #00ff00;
     font-family: 'VT323', monospace;
     font-size: 1.2rem;
-    padding: 5px;
+    padding: 8px;
     cursor: pointer;
+    transition: 0.2s;
 }
 
 button:hover {
@@ -39,191 +45,132 @@ button:hover {
     color: #000;
 }
 
-/* Search Bar */
 .search-area input {
     width: 100%;
     background: transparent;
     border: 1px solid #00ff00;
     color: #00ff00;
-    padding: 10px;
+    padding: 12px;
     font-family: 'VT323', monospace;
     font-size: 1.5rem;
     box-sizing: border-box;
+    margin-bottom: 20px;
 }
 
-/* List Items */
+/* --- LIST ITEMS --- */
 .item-row {
     display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid #003300;
-    padding: 10px 0;
-    cursor: pointer;
-}
-
-.item-row:hover { background: #001100; }
-
-.price-tag { color: #f1c40f; } /* Yellow for caps like your image */
-
-/* Modal */
-.modal {
-    display: none;
-    position: fixed;
-    top: 0; left: 0; width: 100%; height: 100%;
-    background: rgba(0,0,0,0.9);
-    justify-content: center;
-    align-items: center;
-}
-
-.modal-content {
-    border: 2px solid #0f0;
-    padding: 40px;
-    background: #000;
-    text-align: center;
-}
-
-/* Container for the Name and Description */
-.text-container {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-}
-
-/* The Item Name (Top line) */
-.item-name {
-    font-size: 1.4rem;
-    color: #00ff00; /* Bright Neon Green */
-    font-weight: bold;
-}
-
-/* The Description (Bottom line) */
-.item-subtext {
-    font-size: 0.95rem;
-    color: #008800; /* Dimmer Green for that CRT look */
-    letter-spacing: 1px;
-}
-
-/* Ensure the row handles the two lines of text nicely */
-.item-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center; /* Keeps price centered vertically */
+    justify-content: space-between; /* Name left, Price right */
+    align-items: center; 
     padding: 12px 10px;
     border-bottom: 1px solid #003300;
     cursor: pointer;
     transition: background 0.2s;
+    gap: 10px;
 }
 
 .item-row:hover {
     background: rgba(0, 255, 0, 0.1);
 }
 
-/* Color Filters */
-.icon-blue {
-    /* Turns the icon Vault-Tec Blue */
-    filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(180deg) brightness(118%) contrast(119%);
-    width: 20px;
-    height: 20px;
-    vertical-align: middle;
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    flex: 1; /* Allows text to grow */
 }
 
-.icon-red {
-    /* Turns the icon Crimson Red */
-    filter: invert(15%) sepia(95%) saturate(6932%) hue-rotate(358deg) brightness(95%) contrast(112%);
-    width: 20px;
-    height: 20px;
-    vertical-align: middle;
+.item-name {
+    font-size: 1.4rem;
+    color: #00ff00;
+    font-weight: bold;
+    line-height: 1.1;
 }
 
-/* Pricing Layout on the side */
+.item-subtext {
+    font-size: 0.95rem;
+    color: #008800; /* Dimmer green */
+    letter-spacing: 1px;
+}
+
+/* --- CURRENCY & ICONS --- */
 .price-container {
     text-align: right;
     display: flex;
     flex-direction: column;
     gap: 4px;
-    min-width: 80px;
+    min-width: 90px; /* Prevents price from jumping */
 }
 
 .currency-row {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    gap: 5px;
+    gap: 6px;
     font-weight: bold;
     font-size: 1.1rem;
 }
 
-/* Specific colors for the text to match icons */
 .caps-text { color: #ff3333; }   /* Red */
 .bobble-text { color: #3399ff; } /* Blue */
 
-/* Modal Image Tweaks */
-#modalImg {
-    border: 2px solid #0f0;
-    box-shadow: 0 0 10px #0f0;
-    margin: 15px 0;
+.icon-red {
+    filter: invert(15%) sepia(95%) saturate(6932%) hue-rotate(358deg) brightness(95%) contrast(112%);
+    width: 20px;
+    height: 20px;
 }
 
-.icon-red { filter: invert(15%) sepia(95%) saturate(6932%) hue-rotate(358deg) brightness(95%) contrast(112%); width: 20px; }
-.icon-blue { filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(180deg) brightness(118%) contrast(119%); width: 20px; }
-.caps-text { color: #ff3333; }
-.bobble-text { color: #3399ff; }
-
-/* ... Keep your existing colors and body styles from before ... */
-body {
-    background-color: #050505;
-    color: #00ff00;
-    font-family: 'VT323', monospace;
-    text-transform: uppercase;
-    padding: 10px; /* Reduced for mobile */
+.icon-blue {
+    filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(180deg) brightness(118%) contrast(119%);
+    width: 20px;
+    height: 20px;
 }
 
-.terminal-container {
-    max-width: 800px;
-    margin: auto;
-    border: 2px solid #00ff00;
-    padding: 15px;
-    box-shadow: 0 0 15px rgba(0, 255, 0, 0.2);
-}
-
-/* BUTTON GRID: 2 columns on desktop, 1 on mobile */
-.button-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
-    gap: 10px;
-    margin-bottom: 20px;
-}
-
-/* ITEM ROW: Handles text wrapping on small screens */
-.item-row {
-    display: flex;
-    justify-content: space-between;
+/* --- MODAL --- */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0,0,0,0.95);
+    justify-content: center;
     align-items: center;
-    padding: 12px 5px;
-    border-bottom: 1px solid #003300;
-    gap: 10px;
+    z-index: 1000;
 }
 
-/* MOBILE RESPONSIVENESS */
-@media (max-width: 600px) {
-    .button-grid {
-        grid-template-columns: 1fr; /* Stack buttons vertically */
-    }
-    
-    h1 { font-size: 1.5rem; } /* Shrink title slightly */
-    
-    .item-name { font-size: 1.1rem; }
-    .item-subtext { font-size: 0.8rem; }
-    
-    .modal-content {
-        width: 90%;
-        padding: 20px;
-    }
+.modal-content {
+    border: 2px solid #0f0;
+    padding: 30px;
+    background: #000;
+    text-align: center;
+    max-width: 450px;
+    width: 90%;
 }
 
-/* Image styling to ensure it doesn't overflow the phone screen */
 #modalImg {
     max-width: 100%;
     height: auto;
     border: 1px solid #0f0;
-    margin-top: 10px;
+    box-shadow: 0 0 10px #0f0;
+    margin: 15px 0;
+}
+
+/* --- MOBILE RESPONSIVENESS --- */
+@media (max-width: 600px) {
+    body { padding: 10px; }
+
+    .terminal-container { padding: 15px; }
+
+    .button-grid {
+        grid-template-columns: 1fr; /* Stack buttons vertically on phones */
+    }
+    
+    .item-name { font-size: 1.15rem; }
+    .item-subtext { font-size: 0.85rem; }
+    
+    .currency-row { font-size: 1rem; }
+    .price-container { min-width: 80px; }
+
+    .modal-content {
+        padding: 20px;
+    }
 }
