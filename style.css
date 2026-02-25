@@ -117,3 +117,62 @@ button:hover {
     background: rgba(0, 255, 0, 0.1);
 }
 
+/* ... Keep your existing colors and body styles from before ... */
+body {
+    background-color: #050505;
+    color: #00ff00;
+    font-family: 'VT323', monospace;
+    text-transform: uppercase;
+    padding: 10px; /* Reduced for mobile */
+}
+
+.terminal-container {
+    max-width: 800px;
+    margin: auto;
+    border: 2px solid #00ff00;
+    padding: 15px;
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.2);
+}
+
+/* BUTTON GRID: 2 columns on desktop, 1 on mobile */
+.button-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/* ITEM ROW: Handles text wrapping on small screens */
+.item-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 5px;
+    border-bottom: 1px solid #003300;
+    gap: 10px;
+}
+
+/* MOBILE RESPONSIVENESS */
+@media (max-width: 600px) {
+    .button-grid {
+        grid-template-columns: 1fr; /* Stack buttons vertically */
+    }
+    
+    h1 { font-size: 1.5rem; } /* Shrink title slightly */
+    
+    .item-name { font-size: 1.1rem; }
+    .item-subtext { font-size: 0.8rem; }
+    
+    .modal-content {
+        width: 90%;
+        padding: 20px;
+    }
+}
+
+/* Image styling to ensure it doesn't overflow the phone screen */
+#modalImg {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #0f0;
+    margin-top: 10px;
+}
