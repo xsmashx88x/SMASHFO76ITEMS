@@ -117,6 +117,57 @@ button:hover {
     background: rgba(0, 255, 0, 0.1);
 }
 
+/* Color Filters */
+.icon-blue {
+    /* Turns the icon Vault-Tec Blue */
+    filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(180deg) brightness(118%) contrast(119%);
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.icon-red {
+    /* Turns the icon Crimson Red */
+    filter: invert(15%) sepia(95%) saturate(6932%) hue-rotate(358deg) brightness(95%) contrast(112%);
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+/* Pricing Layout on the side */
+.price-container {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    min-width: 80px;
+}
+
+.currency-row {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+/* Specific colors for the text to match icons */
+.caps-text { color: #ff3333; }   /* Red */
+.bobble-text { color: #3399ff; } /* Blue */
+
+/* Modal Image Tweaks */
+#modalImg {
+    border: 2px solid #0f0;
+    box-shadow: 0 0 10px #0f0;
+    margin: 15px 0;
+}
+
+.icon-red { filter: invert(15%) sepia(95%) saturate(6932%) hue-rotate(358deg) brightness(95%) contrast(112%); width: 20px; }
+.icon-blue { filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(180deg) brightness(118%) contrast(119%); width: 20px; }
+.caps-text { color: #ff3333; }
+.bobble-text { color: #3399ff; }
+
 /* ... Keep your existing colors and body styles from before ... */
 body {
     background-color: #050505;
