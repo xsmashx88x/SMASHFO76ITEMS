@@ -1,7 +1,7 @@
 [
   {
     "name": "Enclave Plasma Gun Aligned Automatic Barrel",
-    "desc": "Enclave Plasma Gun Mod",
+    "desc": "Improved recoil and hip-fire accuracy. Reduces Action Point cost by 5%.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -9,7 +9,7 @@
   },
   {
     "name": "Enclave Plasma Gun Aligned Sniper Barrel",
-    "desc": "Enclave Plasma Gun Mod",
+    "desc": "Improved recoil and hip-fire accuracy. Increases range and damage. Reduces Action Point cost by 5%.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -17,7 +17,7 @@
   },
   {
     "name": "Enclave Plasma Gun Aligned Splitter",
-    "desc": "Enclave Plasma Gun Mod",
+    "desc": "Splits beam into 4 projectiles. Improved recoil and hip-fire accuracy. Reduces Action Point cost by 5%.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -25,7 +25,7 @@
   },
   {
     "name": "Enclave Plasma Gun Automatic Barrel",
-    "desc": "Enclave Plasma Gun Mod",
+    "desc": "Enables full-automatic fire. Improved hip-fire accuracy.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -33,7 +33,7 @@
   },
   {
     "name": "Enclave Plasma Gun Gamma Wave Emitter",
-    "desc": "Enclave Plasma Gun Mod",
+    "desc": "Adds Burning damage to attacks and increases Critical Hit damage by 15%.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -41,7 +41,7 @@
   },
   {
     "name": "Enclave Plasma Gun Long Recon Scope",
-    "desc": "Enclave Plasma Gun Mod",
+    "desc": "Superior magnification. Marks enemies while aiming.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -49,7 +49,7 @@
   },
   {
     "name": "Enclave Plasma Gun Long Scope",
-    "desc": "Enclave Plasma Gun Mod",
+    "desc": "Superior magnification for long-range engagement.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -57,7 +57,7 @@
   },
   {
     "name": "Enclave Plasma Gun Medium Night Vision Scope",
-    "desc": "Enclave Plasma Gun Mod",
+    "desc": "Better magnification and provides night vision capabilities.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -65,7 +65,7 @@
   },
   {
     "name": "Enclave Plasma Gun Medium Scope",
-    "desc": "Enclave Plasma Gun Mod",
+    "desc": "Better magnification for medium-range engagement.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -73,7 +73,7 @@
   },
   {
     "name": "Enclave Plasma Gun Precise Stock",
-    "desc": "Enclave Plasma Gun Mod",
+    "desc": "Greatly improves weapon durability and hip-fire accuracy.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -81,7 +81,7 @@
   },
   {
     "name": "Enclave Plasma Gun Reflex Sight",
-    "desc": "Enclave Plasma Gun Mod",
+    "desc": "Improved focus and better hip-fire accuracy. Reduces Action Point cost by 15%.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -89,7 +89,7 @@
   },
   {
     "name": "Enclave Plasma Gun Short Night Vision Scope",
-    "desc": "Enclave Plasma Gun Mod",
+    "desc": "Improved magnification and provides night vision capabilities.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -97,7 +97,7 @@
   },
   {
     "name": "Enclave Plasma Gun Splitter",
-    "desc": "Enclave Plasma Gun Mod",
+    "desc": "Splits the plasma beam into 4 separate projectiles.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -105,7 +105,7 @@
   },
   {
     "name": "Enclave Plasma Gun Stabilized Automatic Barrel",
-    "desc": "Enclave Plasma Gun Mod",
+    "desc": "Enables full-automatic fire. Superior recoil control.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -113,7 +113,7 @@
   },
   {
     "name": "Enclave Plasma Gun True Flamer Barrel",
-    "desc": "Enclave Plasma Gun Mod",
+    "desc": "Fires a continuous stream of plasma. Superior hip-fire accuracy.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -121,7 +121,7 @@
   },
   {
     "name": "Enclave Plasma Gun True Short Barrel",
-    "desc": "Enclave Plasma Gun Mod",
+    "desc": "Standard semi-auto barrel with superior hip-fire accuracy.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -129,7 +129,7 @@
   },
   {
     "name": "Enclave Plasma Gun True Sniper Barrel",
-    "desc": "Enclave Plasma Gun Mod",
+    "desc": "Long-range semi-auto barrel with superior hip-fire accuracy.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -137,7 +137,7 @@
   },
   {
     "name": "Enclave Plasma Gun True Splitter",
-    "desc": "Enclave Plasma Gun Mod",
+    "desc": "Splits beam into 4 projectiles. Superior hip-fire accuracy.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
