@@ -1,1 +1,18 @@
-
+[
+  {
+    "name": "test",
+    "desc": "test",
+    "image": "https://imgur.com/link-to-image.png",
+    "caps": 15000,
+    "leaders": 15000,
+    "ll3": 15000
+  },
+  {
+    "name": "test",
+    "desc": "test",
+    "image": "https://imgur.com/link-to-image.png",
+    "caps": 15000,
+    "leaders": 15000,
+    "ll3": 15000
+  }
+]
