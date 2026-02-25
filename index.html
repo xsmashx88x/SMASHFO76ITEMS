@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+        <meta charset="UTF-8">
+    <!-- CRITICAL: This makes the site responsive on mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMASH'S List Of Items For Sale</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
 </head>
@@ -33,9 +37,11 @@
     <div id="detailModal" class="modal" onclick="closeModal()">
         <div class="modal-content">
             <h2 id="modalTitle"></h2>
-            <img id="modalImg" src="" style="width:100%; max-width:300px; border: 1px solid #0f0;">
+            <div id="modalImgContainer">
+                <img id="modalImg" src="">
+            </div>
             <div id="modalPrices"></div>
-            <p>[CLICK ANYWHERE TO CLOSE]</p>
+            <p class="close-hint">[CLICK TO CLOSE]</p>
         </div>
     </div>
 
