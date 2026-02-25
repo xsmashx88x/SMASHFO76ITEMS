@@ -1,25 +1,31 @@
 let currentData = [];
 
 async function loadData(filename) {
-    const response = await fetch(filename);
-    currentData = await response.json();
-    renderList(currentData);
+    const list = document.getElementById('itemList');
+    list.innerHTML = "<div>LOADING...</div>";
+
+    try {
+        // CACHE BUSTER: Adding a unique timestamp forces the browser to get the latest file
+        const cacheBuster = "?t=" + new Date().getTime();
+        const response = await fetch(filename + cacheBuster);
+        
+        if (!response.ok) throw new Error("File not found");
+
+        currentData = await response.json();
+        renderList(currentData);
+    } catch (error) {
+        console.error("Load error:", error);
+        list.innerHTML = `<div style="color: red;">[ ERROR: REBOOT TERMINAL ]</div>`;
+    }
 }
 
 function renderList(items) {
     const list = document.getElementById('itemList');
-    
-    if (items.length === 0) {
-        list.innerHTML = "<div class='item-row'>[ NO ARCHIVES FOUND ]</div>";
-        return;
-    }
-
     list.innerHTML = items.map((item, index) => `
         <div class="item-row" onclick="openDetails(${index})">
-            <div class="text-container">
+            <div>
                 <div class="item-name">${item.name}</div>
-                <!-- This shows the description immediately -->
-                <div class="item-subtext">${item.desc || 'No additional data'}</div>
+                <div class="item-subtext">${item.desc || ''}</div>
             </div>
             <div class="price-tag">${item.caps.toLocaleString()}c</div>
         </div>
@@ -29,15 +35,18 @@ function renderList(items) {
 function openDetails(index) {
     const item = currentData[index];
     document.getElementById('modalTitle').innerText = item.name;
-    document.getElementById('modalImg').src = item.image;
     
-    // Multi-currency display
+    // Cache bust the image too, just in case you updated the picture
+    const cacheBuster = "?t=" + new Date().getTime();
+    document.getElementById('modalImg').src = item.image + cacheBuster;
+    
     document.getElementById('modalPrices').innerHTML = `
-        <p>CAPS: ${item.caps}</p>
-        <p>LEADER BOBBLEHEADS: ${item.leaders}</p>
-        <p>LIVE & LOVE 3: ${item.ll3}</p>
+        <div style="margin-top:15px; border-top: 1px solid #0f0; padding-top:10px;">
+            <p>CAPS: ${item.caps.toLocaleString()}</p>
+            <p>LEADERS: ${item.leaders || 0}</p>
+            <p>LL3: ${item.ll3 || 0}</p>
+        </div>
     `;
-    
     document.getElementById('detailModal').style.display = 'flex';
 }
 
@@ -50,6 +59,3 @@ function filterItems() {
     const filtered = currentData.filter(i => i.name.toLowerCase().includes(val));
     renderList(filtered);
 }
-
-// Load plans by default
- loadData('');
