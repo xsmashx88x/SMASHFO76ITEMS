@@ -8,11 +8,18 @@ async function loadData(filename) {
 
 function renderList(items) {
     const list = document.getElementById('itemList');
+    
+    if (items.length === 0) {
+        list.innerHTML = "<div class='item-row'>[ NO ARCHIVES FOUND ]</div>";
+        return;
+    }
+
     list.innerHTML = items.map((item, index) => `
         <div class="item-row" onclick="openDetails(${index})">
-            <div>
-                <div style="font-size: 1.4rem;">${item.name}</div>
-                <div style="font-size: 0.9rem; opacity: 0.7;">${item.desc}</div>
+            <div class="text-container">
+                <div class="item-name">${item.name}</div>
+                <!-- This shows the description immediately -->
+                <div class="item-subtext">${item.desc || 'No additional data'}</div>
             </div>
             <div class="price-tag">${item.caps.toLocaleString()}c</div>
         </div>
