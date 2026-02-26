@@ -68,26 +68,38 @@ function openDetails(index) {
     const cacheBuster = "?t=" + new Date().getTime();
     const itemImg = document.getElementById('modalImg');
     
-    // Set source and add the click event to zoom
+    // Set image and zoom function
     itemImg.src = (item.image || 'placeholder.png') + cacheBuster;
-    itemImg.onclick = openZoom; // <--- ADD THIS LINE
-    
-    document.getElementById('modalPrices').innerHTML = `
-        <div style="margin-top:15px; border-top: 1px solid #0f0; padding-top:10px; text-align: left;">
+    itemImg.onclick = openZoom;
+
+    // Build the Modal Info content
+    let modalHTML = `
+        <div class="modal-pricing-block">
             <div class="currency-row" style="justify-content: flex-start; margin-bottom: 8px;">
                 <img src="fo76_caps.png" class="icon-red" style="width:24px;height:24px;"> 
                 <span class="caps-text" style="font-size: 1.4rem;">CAPS: ${item.caps.toLocaleString()}</span>
             </div>
-            <div class="currency-row" style="justify-content: flex-start;">
+            <div class="currency-row" style="justify-content: flex-start; margin-bottom: 15px;">
                 <img src="mtg.png" class="icon-blue" style="width:24px;height:24px;"> 
                 <span class="bobble-text" style="font-size: 1.4rem;">BOBBLEHEADS: ${item.leaders || 0}</span>
             </div>
-        </div>
     `;
+
+    // --- NEW: CHECK FOR ALT_VIEW ---
+    if (item.alt_view) {
+        modalHTML += `
+            <div class="alt-view-container">
+                <a href="${item.alt_view}" target="_blank" class="alt-view-btn">
+                    [ ACCESS EXTERNAL DATA ARCHIVE ]
+                </a>
+            </div>
+        `;
+    }
+
+    modalHTML += `</div>`; // Close the block
+    
+    document.getElementById('modalPrices').innerHTML = modalHTML;
     document.getElementById('detailModal').style.display = 'flex';
-}
-function closeModal() {
-    document.getElementById('detailModal').style.display = 'none';
 }
 
 function filterItems() {
