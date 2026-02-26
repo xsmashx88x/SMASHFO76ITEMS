@@ -13,6 +13,7 @@
             --glow-color: rgba(0, 255, 65, 0.25);
             --caps-red: #ff4444;
             --leaders-blue: #44aaff;
+            --trade-orange: #ffb347;
         }
 
         body {
@@ -53,16 +54,20 @@
         .item-row { display: flex; justify-content: space-between; align-items: center; padding: 15px 10px; border-bottom: 1px solid rgba(0,255,0,0.1); cursor: pointer; }
         .item-row:hover { background: rgba(0, 255, 0, 0.1); }
         .item-name { font-size: 1.5rem; color: var(--main-color); font-weight: bold; }
-        .item-subtext { font-size: 1.1rem; color: var(--dim-color); }
+        .item-subtext { font-size: 1.1rem; color: var(--dim-color); white-space: normal; line-height: 1.2; }
 
-        .price-container { text-align: right; display: flex; flex-direction: column; gap: 4px; }
-        .currency-row { display: flex; justify-content: flex-end; align-items: center; gap: 8px; font-weight: bold; font-size: 1.2rem; }
+        .price-container { text-align: right; display: flex; flex-direction: column; gap: 2px; min-width: 110px; }
+        .currency-row { display: flex; justify-content: flex-end; align-items: center; gap: 6px; font-weight: bold; font-size: 1.1rem; }
+        
         .caps-text { color: var(--caps-red); }
-        .bobble-text { color: var(--leaders-blue); }
-        .icon-red { filter: invert(15%) sepia(95%) saturate(6932%) hue-rotate(358deg) brightness(95%) contrast(112%); width: 20px; }
-        .icon-blue { filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(180deg) brightness(118%) contrast(119%); width: 20px; }
+        .leaders-text { color: var(--leaders-blue); }
+        .trade-text { color: var(--trade-orange); }
 
-        /* --- MODAL DESIGN --- */
+        .icon-red { filter: invert(15%) sepia(95%) saturate(6932%) hue-rotate(358deg) brightness(95%) contrast(112%); width: 16px; }
+        .icon-blue { filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(180deg) brightness(118%) contrast(119%); width: 16px; }
+        /* Simple filter to make the trade icon orange/gold */
+        .icon-orange { filter: invert(80%) sepia(50%) saturate(1000%) hue-rotate(330deg); width: 16px; }
+
         .modal { display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.96); justify-content: center; align-items: center; cursor: pointer; }
         .modal-content { border: 3px solid var(--main-color); padding: 25px; background: #020502; text-align: center; max-width: 600px; width: 90%; max-height: 90vh; overflow-y: auto; position: relative; cursor: default; transition: max-width 0.4s ease; }
         .modal-content.wide { max-width: 95% !important; }
@@ -71,15 +76,17 @@
         .img-small { max-height: 350px; max-width: 100%; cursor: zoom-in; }
         .img-large { max-height: 75vh !important; max-width: 100% !important; cursor: zoom-out !important; }
 
+        #modalDesc { color: var(--dim-color); margin-bottom: 15px; white-space: normal; text-align: center; line-height: 1.4; }
+
         .info-grid { text-align: left; margin-top: 20px; border-top: 2px solid var(--main-color); padding-top: 15px; display: flex; flex-direction: column; gap: 8px; }
-        .info-line { display: flex; justify-content: space-between; border-bottom: 1px solid rgba(0,255,0,0.1); padding: 4px 0; }
-        .info-key { color: var(--dim-color); font-weight: bold; }
-        .info-value { color: var(--main-color); }
+        .info-line { display: flex; justify-content: space-between; border-bottom: 1px solid rgba(0,255,0,0.1); padding: 4px 0; align-items: flex-start; }
+        .info-key { color: var(--dim-color); font-weight: bold; padding-right: 10px; }
+        .info-value { color: var(--main-color); text-align: right; }
 
         .alt-view-btn { display: inline-block; color: var(--main-color); text-decoration: none; padding: 10px; border: 1px solid var(--main-color); margin-top: 20px; width: 100%; box-sizing: border-box; }
         .alt-view-btn:hover { background: var(--main-color); color: #000; }
 
-        @media (max-width: 600px) { .button-grid { grid-template-columns: 1fr; } .item-name { font-size: 1.2rem; } }
+        @media (max-width: 600px) { .button-grid { grid-template-columns: 1fr; } .item-name { font-size: 1.1rem; } .currency-row { font-size: 0.9rem; } }
     </style>
 </head>
 <body>
@@ -94,7 +101,7 @@
         </div>
 
         <header>
-            <h1>SMASH'S ROBCO TERMINAL [v6.0]</h1>
+            <h1>SMASH'S ROBCO TERMINAL [v8.0]</h1>
             <p>[ ID: XBOX | xsmashx88x ]</p>
         </header>
 
@@ -118,32 +125,33 @@
             <input type="text" id="searchInput" placeholder="SEARCH ACTIVE CATEGORY..." onkeyup="filterItems()">
         </div>
 
-<div id="itemList">
-    <div class="item-row" style="justify-content: center; opacity: 0.5;">
-        [ SYSTEM READY: PLEASE SELECT A CATEGORY ABOVE ]
+        <div id="itemList">
+            <div class="item-row" style="justify-content: center; opacity: 0.5;">
+                [ SYSTEM READY: PLEASE SELECT A CATEGORY ABOVE ]
+            </div>
+        </div>
     </div>
-</div>
 
     <!-- DETAIL WINDOW -->
     <div id="detailModal" class="modal" onclick="closeModal()">
         <div class="modal-content" onclick="event.stopPropagation()">
             <h2 id="modalTitle" style="font-size: 2rem; margin: 0;"></h2>
-            <p id="modalDesc" style="color: var(--dim-color); margin-bottom: 15px;"></p>
-            
+            <div id="modalDesc"></div>
             <img id="modalImg" src="" onclick="toggleImageSize()" class="img-small">
-
-            <div id="modalStats" class="info-grid">
-                <!-- All JSON data will be injected here automatically -->
-            </div>
-
+            <div id="modalStats" class="info-grid"></div>
             <div id="modalLinks"></div>
-            
             <p style="margin-top:20px; color:var(--dim-color); font-size:0.8rem;">[ CLICK OUTSIDE TO EXIT ]</p>
         </div>
     </div>
 
     <script>
         let currentData = [];
+
+        function formatVal(val) {
+            if (val === undefined || val === null || val === "") return "0";
+            if (typeof val === 'number') return val.toLocaleString();
+            return val.toString().toUpperCase();
+        }
 
         function changeTheme(hex) {
             document.documentElement.style.setProperty('--main-color', hex);
@@ -176,8 +184,9 @@
                         <div class="item-subtext">${item.desc || ''}</div>
                     </div>
                     <div class="price-container">
-                        <div class="currency-row caps-text">${(item.caps||0).toLocaleString()} <img src="fo76_caps.png" class="icon-red"></div>
-                        <div class="currency-row bobble-text">${item.leaders||0} <img src="mtg.png" class="icon-blue"></div>
+                        <div class="currency-row caps-text">${formatVal(item.caps)} <img src="fo76_caps.png" class="icon-red"></div>
+                        <div class="currency-row leaders-text">${formatVal(item.leaders)} <img src="mtg.png" class="icon-blue"></div>
+                        <div class="currency-row trade-text">${formatVal(item.trade)} <img src="mtg.png" class="icon-orange"></div>
                     </div>
                 </div>`;
             }).join('');
@@ -186,31 +195,30 @@
         function openDetails(idx) {
             const item = currentData[idx];
             document.getElementById('modalTitle').innerText = item.name;
-            document.getElementById('modalDesc').innerText = item.desc || "";
+            document.getElementById('modalDesc').innerHTML = item.desc || "";
             
             const img = document.getElementById('modalImg');
             img.src = (item.image || 'placeholder.png') + "?t=" + Date.now();
             img.className = 'img-small';
 
-            // --- UNIVERSAL DATA LOADER ---
             let statsHTML = "";
-            
-            // 1. Force Currencies to top with icons
             statsHTML += `
                 <div class="info-line">
-                    <span class="info-key">TRADING VALUE (CAPS)</span>
-                    <span class="info-value caps-text">${(item.caps||0).toLocaleString()} <img src="fo76_caps.png" class="icon-red" style="width:14px;"></span>
+                    <span class="info-key">CAPS VALUE</span>
+                    <span class="info-value caps-text">${formatVal(item.caps)} <img src="fo76_caps.png" class="icon-red" style="width:14px;"></span>
                 </div>
                 <div class="info-line">
-                    <span class="info-key">TRADING VALUE (LEADERS)</span>
-                    <span class="info-value bobble-text">${item.leaders||0} <img src="mtg.png" class="icon-blue" style="width:14px;"></span>
+                    <span class="info-key">LEADERS VALUE</span>
+                    <span class="info-value leaders-text">${formatVal(item.leaders)} <img src="mtg.png" class="icon-blue" style="width:14px;"></span>
+                </div>
+                <div class="info-line">
+                    <span class="info-key">TRADE STATUS</span>
+                    <span class="info-value trade-text">${formatVal(item.trade)} <img src="mtg.png" class="icon-orange" style="width:14px;"></span>
                 </div>
             `;
 
-            // 2. Loop through EVERYTHING else in your JSON
             for (const [key, value] of Object.entries(item)) {
-                // Skip things we already displayed or don't want in the text list
-                const skip = ['name', 'image', 'desc', 'caps', 'leaders', 'alt_view'];
+                const skip = ['name', 'image', 'desc', 'caps', 'leaders', 'trade', 'alt_view'];
                 if (!skip.includes(key.toLowerCase())) {
                     statsHTML += `
                         <div class="info-line">
@@ -221,8 +229,6 @@
                 }
             }
             document.getElementById('modalStats').innerHTML = statsHTML;
-
-            // 3. Handle Wiki Link
             document.getElementById('modalLinks').innerHTML = item.alt_view ? 
                 `<a href="${item.alt_view}" target="_blank" class="alt-view-btn">[ ACCESS EXTERNAL WIKI DATA ]</a>` : '';
 
@@ -274,14 +280,11 @@
 
         window.onclick = (e) => { if (e.target == document.getElementById('detailModal')) closeModal(); }
 
-// --- INITIALIZATION ---
-window.onload = () => {
-    const savedColor = localStorage.getItem('robco_user_color');
-    if (savedColor) changeTheme(savedColor);
-    
-    updateCounts();
-    // loadData is no longer called here, so the screen stays clear.
-};
+        window.onload = () => {
+            const savedColor = localStorage.getItem('robco_user_color');
+            if (savedColor) changeTheme(savedColor);
+            updateCounts();
+        };
     </script>
 </body>
 </html>
