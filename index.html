@@ -42,29 +42,24 @@
         </div>
     </div>
 
-<!-- The Modal Container -->
+<!-- 1. The Detail Modal (Green Box) -->
 <div id="detailModal" class="modal" onclick="closeModal()">
-    
-    <!-- The Modal Box (Adding stopPropagation prevents the box itself from closing when clicked) -->
     <div class="modal-content" onclick="event.stopPropagation()">
         <h2 id="modalTitle"></h2>
-        
         <div id="modalImgContainer">
-            <img id="modalImg" src="" onclick="openZoom()">
+            <!-- Clicking THIS opens the zoom -->
+            <img id="modalImg" src="" onclick="openZoom(this.src)">
         </div>
-
         <div id="modalPrices"></div>
-        
-        <p style="margin-top:20px; color:#0f0; font-size:0.8rem; opacity:0.5;">
-            [ CLICK OUTSIDE TO EXIT ]
-        </p>
+        <p style="margin-top:20px; color:#0f0; font-size:0.8rem; opacity:0.5;">[ CLICK OUTSIDE TO EXIT ]</p>
     </div>
 </div>
 
-    <!-- The Fullscreen Zoom Overlay -->
+<!-- 2. The Zoom Overlay (Fullscreen) -->
+<!-- Clicking ANYWHERE on this div calls closeZoom() -->
 <div id="zoomOverlay" class="zoom-overlay" onclick="closeZoom()">
     <img id="zoomedImg" src="">
-    <div class="zoom-hint">[ CLICK ANYWHERE TO GO BACK ]</div>
+    <div class="zoom-hint">[ CLICK ANYWHERE TO CLOSE ZOOM ]</div>
 </div>
 
     <script src="script.js"></script>
