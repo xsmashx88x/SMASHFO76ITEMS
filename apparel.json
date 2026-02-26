@@ -1,18 +1,18 @@
 [
   {
-    "name": "apparel test",
-    "desc": "apparel test",
-    "image": "https://imgur.com/link-to-image.png",
-    "caps": 15000,
-    "leaders": 15000,
-    "ll3": 15000
+    "name": "Asylum Worker Hat",
+    "desc": "Blue, Forrest, Green, Pink, Red, White, Yellow",
+    "image": " ",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
   },
   {
-    "name": "apparel test",
-    "desc": "apparel test",
-    "image": "https://imgur.com/link-to-image.png",
-    "caps": 15000,
-    "leaders": 15000,
-    "ll3": 15000
+    "name": "Asylum Worker",
+    "desc": "Blue, Brown, Green, Pink, White, Yellow",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/asylum_worker_uniforms.png",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
   }
 ]
