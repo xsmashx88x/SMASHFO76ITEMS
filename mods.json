@@ -1,18 +1,1340 @@
 [
   {
-    "name": "mods test",
-    "desc": "mods test",
-    "image": "https://imgur.com/link-to-image.png",
-    "caps": 15000,
-    "leaders": 15000,
-    "ll3": 15000
+    "name": "Boxing Glove Lead Lining Mod",
+    "desc": "Adds energy damage and improves the chance to stagger opponents.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 15,
+    "leaders": 0,
+    "ll3": 0
   },
   {
-    "name": "mods test",
-    "desc": "mods test",
-    "image": "https://imgur.com/link-to-image.png",
-    "caps": 15000,
-    "leaders": 15000,
-    "ll3": 15000
+    "name": ".44 Stabilized Long Barrel",
+    "desc": "Provides superior recoil control and improved range for the .44 Pistol.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "10mm True Long Barrel",
+    "desc": "Superior hip-fire accuracy and range for the 10mm Pistol.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "50 Cal Machine Gun Heavy Barrel",
+    "desc": "Greatly increases damage and range at the cost of increased weight.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Assault Rifle Bruising Stock",
+    "desc": "Improves bash damage and recoil control.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Assault Rifle Piercing Magazine",
+    "desc": "Improves armor penetration and reload speed.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Assault Rifle Refined Receiver",
+    "desc": "Increases base damage and critical hit damage.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Assault Rifle Stinging Magazine",
+    "desc": "Improves armor penetration and increases ammo capacity.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Assaultron Blade Electrified Mod",
+    "desc": "Adds energy damage to the Assaultron Blade.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Auto Grenade Launcher Heavy Barrel",
+    "desc": "Increases damage and range for the Auto Grenade Launcher.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Barbed Flaming Pitchfork",
+    "desc": "Adds both Bleed and Fire (Energy) damage to the Pitchfork.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Barbed Walking Cane Mod",
+    "desc": "Adds Bleed damage to the Walking Cane.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Baseball Bat Barbed Mod",
+    "desc": "Adds Bleed damage and improves armor penetration.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Baseball Bat Chain-Wrapped Mod",
+    "desc": "Improves armor penetration.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Baseball Bat Heated Rocket Mod",
+    "desc": "Adds fire damage and improves chance to stagger enemies.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Baseball Bat Sharp Mod",
+    "desc": "Adds Bleed damage and improves armor penetration.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Baseball Bat Spiked Rocket Mod",
+    "desc": "Adds bleed, fire damage, armor penetration, and stagger.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Baton Electrified Mod",
+    "desc": "Adds energy damage to the Baton.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Broadsider Multi Shot Canister",
+    "desc": "Increases ammo capacity to 3 shots before reloading.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Chainsaw Long Bow Bar",
+    "desc": "Increases damage and adds a bleed effect to the Chainsaw.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Chinese Officer Sword Electrified Blade Mod",
+    "desc": "Adds energy damage to the sword.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Chinese Officer Sword Electrified Serrated Blade Mod",
+    "desc": "Adds energy, bleed, and armor penetration.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Combat Asbestos Torso Mod",
+    "desc": "Grants immunity to being set on fire and increases energy resistance.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Combat Lead Lined Limb Mod",
+    "desc": "Increases Radiation Resistance for Combat Armor limbs.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Combat Rifle Comfort Stock",
+    "desc": "Improves recoil control and hip-fire accuracy.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Combat Rifle Short Night Vision Scope",
+    "desc": "Short-range magnification with night vision capabilities.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Combat Shadowed Leg Mod",
+    "desc": "Improves stealth in dark environments.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Combat Shotgun Vicious Receiver",
+    "desc": "Provides superior critical hit damage and improved accuracy.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Combat Strengthened Limb Mod",
+    "desc": "Reduces incoming limb damage to Combat Armor.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Cryolator Glow Sights",
+    "desc": "Improved focus and hip-fire accuracy for the Cryolator.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Double-Barrel Shotgun Precise Short Stock",
+    "desc": "Improves hip-fire accuracy and recoil control.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Double-Barrel Shotgun Stabilized Long Barrel",
+    "desc": "Provides superior recoil control and improved range.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Electrified Buzz Blades Mod",
+    "desc": "Adds energy damage to the Mr. Handy Buzz Blade.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Enclave Plasma Gun Aligned Automatic Barrel",
+    "desc": "Improved recoil and hip-fire accuracy. Reduces AP cost by 5%.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Enclave Plasma Gun Aligned Sniper Barrel",
+    "desc": "Improved recoil and hip-fire accuracy. Reduces AP cost by 5%.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Enclave Plasma Gun Aligned Splitter",
+    "desc": "Splits beam into 4 projectiles. Improved recoil and hip-fire. Reduces AP cost by 5%.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Enclave Plasma Gun Automatic Barrel",
+    "desc": "Enables full-automatic fire. Improved hip-fire accuracy.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Enclave Plasma Gun Gamma Wave Emitter",
+    "desc": "Adds Burning damage and increases Critical Hit damage by 15%.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Enclave Plasma Gun Long Recon Scope",
+    "desc": "Superior magnification. Automatically marks/tracks enemies.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Enclave Plasma Gun Long Scope",
+    "desc": "Superior magnification for long-range engagements.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Enclave Plasma Gun Medium Night Vision Scope",
+    "desc": "Medium magnification with high-clarity night vision.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Enclave Plasma Gun Medium Scope",
+    "desc": "Medium magnification for versatile range combat.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Enclave Plasma Gun Precise Stock",
+    "desc": "Greatly improves weapon durability and hip-fire accuracy.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Enclave Plasma Gun Reflex Sight",
+    "desc": "VATS optimized sight. Reduces Action Point (AP) cost by 15%.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Enclave Plasma Gun Short Night Vision Scope",
+    "desc": "Short-range night vision scope.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Enclave Plasma Gun Splitter",
+    "desc": "Turns the plasma gun into a high-powered energy shotgun.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Enclave Plasma Gun Stabilized Automatic Barrel",
+    "desc": "Automatic fire with superior recoil control.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Enclave Plasma Gun True Flamer Barrel",
+    "desc": "Continuous plasma stream with superior hip-fire accuracy.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Enclave Plasma Gun True Short Barrel",
+    "desc": "Superior hip-fire accuracy for semi-auto fire.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Enclave Plasma Gun True Sniper Barrel",
+    "desc": "Long-range semi-auto barrel with superior hip-fire accuracy.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Enclave Plasma Gun True Splitter",
+    "desc": "Superior hip-fire accuracy for the beam splitter mod.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Excavator Headlamp",
+    "desc": "Standard illumination for Excavator Power Armor.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Excavator Optimized Servos",
+    "desc": "Reduces Action Point (AP) cost when power sprinting.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Excavator Overdrive Servos",
+    "desc": "Increases sprint speed at the cost of higher Action Point (AP) drain.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Excavator Reactive Plates",
+    "desc": "Reflects 50% of incoming melee damage back to the attacker.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Extra Flame Jets Shishkebab Mod",
+    "desc": "Greatly increases the Fire damage dealt by the Shishkebab.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Fatman MIRV Launcher",
+    "desc": "Splits the mini-nuke into several smaller cluster warheads.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Flamer Compression Nozzle",
+    "desc": "Increases damage and improves the range of the Flamer stream.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Gamma Gun Electric Signal Carrier Antennae",
+    "desc": "Adds energy damage and increases the Gamma Gun fire rate.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Gauss Rifle Stabilized Shielded Barrel",
+    "desc": "Provides superior recoil control and improved range.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Handmade Rifle Calibrated Receiver",
+    "desc": "Provides superior critical hit damage for the Handmade Rifle.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Handmade Rifle Long Night Vision Scope",
+    "desc": "Long-range magnification with high-clarity night vision.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Heating Coil Power Fist Mod",
+    "desc": "Adds energy damage to the Power Fist.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Heavy Pipe Wrench Mod",
+    "desc": "Increases damage and improves chance to stagger enemies.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Heavy Rocket Sledgehammer Mod",
+    "desc": "Adds fire damage and improves chance to stagger enemies.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Heavy Sharp Rocket Sledgehammer Mod",
+    "desc": "Adds bleed, fire damage, armor penetration, and stagger.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Hooked Pipe Wrench Mod",
+    "desc": "Adds Bleed damage and improves armor penetration.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  [
+  {
+    "name": "Hunting Rifle Calibrated Receiver",
+    "desc": "Provides superior critical hit damage for the Hunting Rifle.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Hunting Rifle Large Magazine",
+    "desc": "Increases ammo capacity for the Hunting Rifle.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Hunting Rifle Perforating Magazine",
+    "desc": "Provides superior armor penetration for the Hunting Rifle.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Hunting Rifle Precise .50 Receiver",
+    "desc": "Changes caliber to .50. Improved accuracy and recoil control.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Hunting Rifle Refined .50 Receiver",
+    "desc": "Changes caliber to .50. Increases base damage.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Hunting Rifle Snappy Receiver",
+    "desc": "Improved rate of fire and accuracy for the Hunting Rifle.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Hunting Rifle True Receiver",
+    "desc": "Superior hip-fire accuracy for the Hunting Rifle.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Laser Gun Aligned Automatic Barrel",
+    "desc": "Improved recoil and hip-fire accuracy. Reduces AP cost.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Laser Gun Gamma Wave Emitter",
+    "desc": "Adds burning damage and increases critical hit damage.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Laser Gun Hair Trigger Capacitor",
+    "desc": "Improved rate of fire for the Laser Gun.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Laser Gun Precise Stock",
+    "desc": "Improved accuracy and durability for the Laser Gun.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Laser Gun Stabilized Sniper Barrel",
+    "desc": "Provides superior recoil control and range for the Laser Gun.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Leather Studded Arm Mod",
+    "desc": "Highest damage and energy resistance for Leather armor arms.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Leather Studded Torso Mod",
+    "desc": "Highest damage and energy resistance for Leather armor torso.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Leather Treated Arm Mod",
+    "desc": "Standard improvement to damage and energy resistance for Leather arms.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Leather Treated Leg Mod",
+    "desc": "Standard improvement to damage and energy resistance for Leather legs.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Leather Treated Torso Mod",
+    "desc": "Standard improvement to damage and energy resistance for Leather torso.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Lever Action Rifle Vicious Receiver",
+    "desc": "Superior critical hit damage and improved accuracy for the Lever Action Rifle.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Marine Aerodynamic Limb Mod",
+    "desc": "Reduces Action Point cost for power attacks.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Marine Arm Hardened",
+    "desc": "Increases damage resistance for Marine Armor arms.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Marine BioCommMesh Torso Mod",
+    "desc": "Increases the duration of chems by 50%.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Marine Braced Limb Mod",
+    "desc": "Reduces damage taken while blocking.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Marine Cushioned Limb Mod",
+    "desc": "Reduces falling damage.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Marine Custom Fitted Limb Mod",
+    "desc": "Reduces Action Point cost when sprinting.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Marine Padded Torso Mod",
+    "desc": "Reduces damage from explosions for Marine Armor torso.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Marine Pneumatic Torso Mod",
+    "desc": "Reduces the duration of staggers.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Marine Pocketed Torso Mod",
+    "desc": "Increases carry weight for Marine Armor torso (+10).",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Marine Torso Tempered",
+    "desc": "Improves damage and energy resistance for Marine Armor torso.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Meat Hook Extra Hooks Mod",
+    "desc": "Increases damage and adds bleed damage to the Meat Hook.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Metal Armor Custom Fitted Limb Mod",
+    "desc": "Reduces Action Point cost when sprinting for Metal Armor.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Metal Armor Lead Lined Torso Mod",
+    "desc": "Increases Radiation Resistance for Metal Armor torso (+15).",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Metal Armor Polished Arm Mod",
+    "desc": "Maximum damage and energy resistance for Metal Armor arms.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Metal Armor Polished Torso Mod",
+    "desc": "Maximum damage and energy resistance for Metal Armor torso.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Metal Armor Shadowed Torso Mod",
+    "desc": "Improves stealth in dark areas for Metal Armor torso.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Metal Armor Sleek Limb Mod",
+    "desc": "Increases movement speed while sneaking.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Minigun Shredder",
+    "desc": "Adds high melee damage when spinning the barrel without ammunition.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Missile Launcher Quad Barrel",
+    "desc": "Increases the Missile Launcher's ammo capacity to 4 missiles.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Pipe Bolt-Action Long Night Vision Scope",
+    "desc": "Long-range magnification with night vision for the Pipe Bolt-Action Gun.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Pipe Bolt-Action True Receiver",
+    "desc": "Superior hip-fire accuracy for the Pipe Bolt-Action Gun.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Pipe Gun Long Night Vision Scope",
+    "desc": "Long-range magnification with night vision for the Pipe Gun.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Pipe Gun Perforating Magazine",
+    "desc": "Provides superior armor penetration for the Pipe Gun.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Pipe Gun Stabilized Long Barrel",
+    "desc": "Provides superior recoil control and range for the Pipe Gun.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Pipe Revolver Hardened Receiver",
+    "desc": "Increases damage for the Pipe Revolver.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Pipe Revolver Long Night Vision Scope",
+    "desc": "Long-range magnification with night vision for the Pipe Revolver.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Pitchfork Flamer",
+    "desc": "Adds fire damage to the Pitchfork.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plasma Gun Aligned Automatic Barrel",
+    "desc": "Improved recoil and hip-fire accuracy for the Plasma Gun. Reduces AP cost.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plasma Gun Long Night Vision Scope",
+    "desc": "Long-range magnification with night vision for the Plasma Gun.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plasma Gun True Short Barrel",
+    "desc": "Superior hip-fire accuracy for the Plasma Gun.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plasma Gun True Sniper Barrel",
+    "desc": "Long-range semi-auto barrel with superior hip-fire accuracy for the Plasma Gun.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Pole Hook Puncturing Mod",
+    "desc": "Adds armor penetration to the Pole Hook.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Pump Action Shotgun Calibrated Receiver",
+    "desc": "Provides superior critical hit damage for the Pump Action Shotgun.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Puncturing Pipe Wrench Mod",
+    "desc": "Adds armor penetration to the Pipe Wrench.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Puncturing Sledgehammer Mod",
+    "desc": "Adds armor penetration to the Sledgehammer.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Radium Rifle Powerful Receiver",
+    "desc": "Provides superior damage for the Radium Rifle.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Raider Braced Limb Mod",
+    "desc": "Reduces damage taken while blocking for Raider Armor.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Raider Buttressed Arm Mod",
+    "desc": "Maximum damage and energy resistance for Raider Armor arms.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Raider Cushioned Limb Mod",
+    "desc": "Reduces falling damage for Raider Armor.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Raider Kinetic Servos",
+    "desc": "Increases Action Point refresh speed while moving in Raider Power Armor.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Raider Tempered Arm Mod",
+    "desc": "Mid-tier damage and energy resistance for Raider Armor arms.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Raider Tempered Leg Mod",
+    "desc": "Mid-tier damage and energy resistance for Raider Armor legs.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Raider Tempered Torso Mod",
+    "desc": "Mid-tier damage and energy resistance for Raider Armor torso.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Raider Tesla Coils",
+    "desc": "Deals constant energy damage to nearby enemies while wearing Raider Power Armor.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Railway Rifle Large Bayonet",
+    "desc": "Improves bash damage and adds bleed damage to the Railway Rifle.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Robot Armor Brawling Limb Mod",
+    "desc": "Increases unarmed damage with Robot Armor.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Robot Armor Aerodynamic Limb Mod",
+    "desc": "Reduces Action Point cost for power attacks.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Robot Armor Alloyed Arm Mod",
+    "desc": "Mid-tier damage and energy resistance for Robot Armor arms.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Robot Armor Pneumatic Torso Mod",
+    "desc": "Reduces the duration of staggers for Robot Armor.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Robot Armor Shadowed Torso Mod",
+    "desc": "Improves stealth in dark areas for Robot Armor torso.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Sacrificial Blade Machete Mod",
+    "desc": "Greatly increases damage and adds bleed and poison damage to the Machete.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Searing Heavy Sharp Rocket Sledgehammer Mod",
+    "desc": "Adds fire, bleed, and limb damage with a high chance to stagger enemies.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Serrated Blade Knife Mod",
+    "desc": "Adds bleed damage and improves armor penetration for the Knife.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Serrated Blade Machete Mod",
+    "desc": "Adds bleed damage and improves armor penetration for the Machete.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Sharp Heavy Sledgehammer Mod",
+    "desc": "Adds bleed damage and armor penetration to the Sledgehammer.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Sharp Knuckles Mod",
+    "desc": "Adds bleed damage and armor penetration to the Knuckles.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Single Action Revolver Ivory Grip",
+    "desc": "Changes the look of the Single Action Revolver's grip to polished ivory.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Ski Sword Skate Blade",
+    "desc": "Adds bleed damage and armor penetration to the Ski Sword.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Spiked Knuckles Mod",
+    "desc": "Adds armor penetration to the Knuckles.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Spiked Pool Cue Mod",
+    "desc": "Adds armor penetration to the Pool Cue.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Spiked Rocket Heavy Sledgehammer Mod",
+    "desc": "Adds fire damage and armor penetration with improved stagger.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Spiked Walking Cane Mod",
+    "desc": "Adds armor penetration to the Walking Cane.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Stealth Blade Knife Mod",
+    "desc": "Improved stealth and added bleed damage for the Knife.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Syringer Glow Reflex Sight",
+    "desc": "Improved focus and hip-fire accuracy for the Syringer.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "T-45 Core Assembly",
+    "desc": "Increases Action Point refresh speed in T-45 Power Armor.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "T-45 Headlamp",
+    "desc": "Standard illumination for T-45 Power Armor.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "T-45 Kinetic Dynamo",
+    "desc": "Taking damage recharges Action Points while in T-45 Power Armor.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "T-45 Sensor Array",
+    "desc": "Increases Perception by 2 in T-45 Power Armor.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "T-51b Headlamp",
+    "desc": "Standard illumination for T-51b Power Armor.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "T-51b Headlamp Red Tactical",
+    "desc": "Provides bright red tactical illumination.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "T-51b Headlamp Vaultboy",
+    "desc": "Casts a Vault-Boy silhouette light.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "T-51b Kinetic Servos",
+    "desc": "Increases Action Point refresh speed while moving in T-51b Power Armor.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "T-51b Overdrive Servos",
+    "desc": "Increases sprint speed at the cost of higher AP drain.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "T-51b Reactive Plates",
+    "desc": "Reflects 50% of melee damage back to the attacker.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "T-60 Headlamp Bright",
+    "desc": "Superior white light illumination for T-60 Power Armor.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "T-60 Headlamp Red Tactical",
+    "desc": "Provides bright red tactical illumination.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "T-60 Motion-Assist Servos",
+    "desc": "Increases Strength by 2 while in T-60 Power Armor.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Tesla Rifle Reflex Sight",
+    "desc": "Reduced Action Point cost and better hip-fire accuracy for the Tesla Rifle.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Trapper Asbestos Torso Mod",
+    "desc": "Grants immunity to being set on fire and increases energy resistance for Trapper Armor.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Trapper Custom Fitted Limb Mod",
+    "desc": "Reduces Action Point cost when sprinting.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Trapper Pneumatic Torso Mod",
+    "desc": "Reduces the duration of staggers.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Ultracite Gatling Laser Stabilized Long Barrel",
+    "desc": "Provides superior recoil control and range for the Ultracite Gatling Laser.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
   }
+]
 ]
