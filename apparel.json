@@ -3,8 +3,8 @@
     "name": "Asylum Worker Hat",
     "desc": "Blue, Forrest, Green, Pink, Red, White, Yellow",
     "image": "",
-    "caps": 0,
-    "leaders": 0,
+    "caps": 169,
+    "leaders": 2,
     "Trade": "Yes"
   },
   {
@@ -12,7 +12,7 @@
     "desc": "Blue, Brown, Green, Pink, White, Yellow",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/asylum_worker_uniforms.png",
     "caps": 0,
-    "leaders": 0,
+    "leaders": 2500,
     "Trade": "Yes"
   }
 ]
