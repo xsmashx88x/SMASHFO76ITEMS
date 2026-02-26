@@ -3,6 +3,8 @@ let currentData = [];
 // 1. DATA LOADING
 async function loadData(filename) {
     const list = document.getElementById('itemList');
+    // Clear search input when switching categories
+    document.getElementById('searchInput').value = "";
     list.innerHTML = "<div class='item-row'>[ LOADING... ]</div>";
 
     try {
@@ -21,13 +23,18 @@ async function loadData(filename) {
 // 2. RENDERING THE MAIN LIST
 function renderList(items) {
     const list = document.getElementById('itemList');
-    if (items.length === 0) {
-        list.innerHTML = "<div class='item-row'>[ EMPTY ]</div>";
+    
+    if (!items || items.length === 0) {
+        list.innerHTML = "<div class='item-row'>[ NO MATCHING DATA FOUND ]</div>";
         return;
     }
 
-    list.innerHTML = items.map((item, index) => `
-        <div class="item-row" onclick="openDetails(${index})">
+    list.innerHTML = items.map((item, index) => {
+        // Find the index in the ORIGINAL currentData to keep the modal working after search
+        const originalIndex = currentData.indexOf(item);
+        
+        return `
+        <div class="item-row" onclick="openDetails(${originalIndex})">
             <div class="text-container">
                 <div class="item-name">${item.name}</div>
                 <div class="item-subtext">${item.desc || ''}</div>
@@ -43,21 +50,21 @@ function renderList(items) {
                 </div>
             </div>
         </div>
-    `).join('');
+    `}).join('');
 }
 
 // 3. MODAL LOGIC (GREEN BOX)
 function openDetails(index) {
     const item = currentData[index];
+    if (!item) return;
+
     document.getElementById('modalTitle').innerText = item.name;
     
     const cacheBuster = "?t=" + new Date().getTime();
     const itemImg = document.getElementById('modalImg');
     
-    // Set image and zoom function
     itemImg.src = (item.image || 'placeholder.png') + cacheBuster;
     
-    // Build the Modal Info content
     let modalHTML = `
         <div class="modal-pricing-block">
             <div class="currency-row" style="justify-content: flex-start; margin-bottom: 8px;">
@@ -70,7 +77,6 @@ function openDetails(index) {
             </div>
     `;
 
-    // Support for alt_view (Wiki Link)
     if (item.alt_view) {
         modalHTML += `
             <div class="alt-view-container" style="margin-top: 20px; border-top: 1px dashed #008800; padding-top: 15px;">
@@ -82,7 +88,6 @@ function openDetails(index) {
     }
 
     modalHTML += `</div>`; 
-    
     document.getElementById('modalPrices').innerHTML = modalHTML;
     document.getElementById('detailModal').style.display = 'flex';
 }
@@ -105,30 +110,39 @@ function closeZoom() {
     document.getElementById('zoomOverlay').style.display = 'none';
 }
 
-// 5. SEARCH LOGIC
+// 5. SEARCH LOGIC - "CHECK EVERYTHING"
 function filterItems() {
-    const val = document.getElementById('searchInput').value.toLowerCase();
-    const filtered = currentData.filter(i => i.name.toLowerCase().includes(val));
+    const val = document.getElementById('searchInput').value.toLowerCase().trim();
+    
+    // If search is empty, show everything
+    if (val === "") {
+        renderList(currentData);
+        return;
+    }
+
+    const filtered = currentData.filter(i => {
+        const name = (i.name || "").toLowerCase();
+        const description = (i.desc || "").toLowerCase();
+        
+        // Returns true if the search value is found in EITHER the name or description
+        return name.includes(val) || description.includes(val);
+    });
+
     renderList(filtered);
 }
 
 // 6. CLICK OUTSIDE TO CLOSE FIX
-// This handles both the Modal and the Zoom Overlay
 window.onclick = function(event) {
     const modal = document.getElementById('detailModal');
     const zoom = document.getElementById('zoomOverlay');
 
-    // If clicking the dark background of the green modal box
     if (event.target == modal) {
         closeModal();
     }
-    
-    // If clicking anywhere on the full-screen zoom background
     if (event.target == zoom) {
         closeZoom();
     }
 }
-
 // 7. INITIAL LOAD
 // Replace 'plans.json' with your actual main filename
 loadData(' ');
