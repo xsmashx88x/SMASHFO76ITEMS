@@ -1,854 +1,1256 @@
 [
   {
-    "name": "Advertisement Posters",
-    "desc": "Unlocks a variety of wall-mounted advertisement posters for your C.A.M.P.",
+    "name": "Assorted Lights",
+    "desc": "Unlocks a variety of miscellaneous lighting fixtures for your C.A.M.P.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 469, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Artillery",
-    "desc": "Unlocks the Artillery Piece and Smoke Grenade box for calling in fire support.",
+    "name": "Basketball Hoop 2",
+    "desc": "Unlocks a specific wall-mounted basketball hoop variant for your C.A.M.P.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Backyard Grill",
-    "desc": "Unlocks a standard outdoor cooking grill for your C.A.M.P.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Barbed Harpoon",
-    "desc": "Unlocks the barbed mod for the Harpoon Gun, adding bleed damage.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Barn Building Set",
-    "desc": "Unlocks the red barn-style walls, roofs, and doors for C.A.M.P. construction.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Baseball Player Statue",
-    "desc": "Unlocks a decorative bronze statue of a baseball player.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Bathtub",
-    "desc": "Unlocks a standard white porcelain bathtub for your C.A.M.P.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Bear Arm",
-    "desc": "Unlocks the ability to craft the powerful Bear Arm melee weapon.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 69, "leaders": 0, "trade": "Yes"
   },
   {
     "name": "Bear-Proof Trashcan",
-    "desc": "Unlocks a heavy-duty, lidded trashcan for your C.A.M.P.",
+    "desc": "Unlocks a sturdy, metal bear-proof trash container for your C.A.M.P.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 269, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Beeswax Candle",
-    "desc": "Unlocks a C.A.M.P. resource that provides a constant source of Oil.",
+    "name": "BioCommMesh Trapper Armor Lining",
+    "desc": "Armor mod plan that increases the duration of Chems for Trapper armor chest pieces.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 650, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "BioCommMesh Metal Armor Lining",
-    "desc": "Increases chem duration by 50% for Metal Armor torso.",
+    "name": "Bottle and Cappy Balloon Statue",
+    "desc": "Unlocks a decorative Nuka-World themed balloon statue of Bottle and Cappy.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 869, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "BioCommMesh Robot Armor Lining",
-    "desc": "Increases chem duration by 50% for Robot Armor torso.",
+    "name": "Bottle and Cappy Hoop Jump Statue",
+    "desc": "Unlocks a decorative Nuka-World themed statue featuring Bottle and Cappy jumping through a hoop.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "BoS Combat Armor Chest Piece",
-    "desc": "Unlocks the BoS mod for Combat Armor chests, providing the highest resistance.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Brahmin Pen",
-    "desc": "Unlocks a fertilizer producer and a tame Brahmin for your C.A.M.P.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 869, "leaders": 0, "trade": "Yes"
   },
   {
     "name": "Broken Toilet",
-    "desc": "Unlocks a decorative, grimy broken toilet for your C.A.M.P.",
+    "desc": "Unlocks a decorative, non-functional broken toilet for your C.A.M.P.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Canopy Tent",
-    "desc": "Unlocks a large outdoor tent structure for your C.A.M.P.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 69, "leaders": 0, "trade": "Yes"
   },
   {
     "name": "Chemistry Workbench",
-    "desc": "Unlocks the crafting station for chems, ammo, and explosives.",
+    "desc": "A vital crafting station used to create chems, explosives, and various items.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 169, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Cushioned Leather Armor Legs",
-    "desc": "Reduces falling damage for Leather Armor legs.",
+    "name": "Cigarette Machine",
+    "desc": "Unlocks a decorative pre-war cigarette vending machine for your C.A.M.P.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 69, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Cryo Mine",
+    "desc": "Unlocks the ability to craft explosive mines that freeze nearby enemies upon detonation.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 169, "leaders": 0, "trade": "Yes"
   },
   {
     "name": "Cushioned Raider Armor Legs",
-    "desc": "Reduces falling damage for Raider Armor legs.",
+    "desc": "Armor mod plan for Raider leg armor that reduces falling damage.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Cushioned Trapper Armor Legs",
-    "desc": "Reduces falling damage for Trapper Armor legs.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Daisy Rug",
-    "desc": "Unlocks a decorative circular rug with a daisy flower pattern.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 169, "leaders": 0, "trade": "Yes"
   },
   {
     "name": "Deep Pocketed Combat Armor Chest",
-    "desc": "Greatly increases carry weight (+20) for Combat Armor torso.",
+    "desc": "Armor mod plan for Combat Armor that significantly increases carry weight capacity.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 1169, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Deep Pocketed Leather Armor Chest",
-    "desc": "Greatly increases carry weight (+20) for Leather Armor torso.",
+    "name": "Deep Pocketed Metal Armor Chest",
+    "desc": "Armor mod plan for Metal Armor that significantly increases carry weight capacity.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 1169, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Deep Pocketed Raider Armor Limbs",
-    "desc": "Greatly increases carry weight (+10 per limb) for Raider Armor.",
+    "name": "Deep Pocketed Robot Armor Chest",
+    "desc": "Armor mod plan for Robot Armor that significantly increases carry weight capacity.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 1169, "leaders": 0, "trade": "Yes"
   },
   {
     "name": "Domestic Tables",
-    "desc": "Unlocks a set of clean wooden indoor tables for your C.A.M.P.",
+    "desc": "Unlocks a selection of clean, indoor residential-style tables for your C.A.M.P.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 300, "leaders": 0, "trade": "Yes"
   },
   {
     "name": "Double Display Shelf",
-    "desc": "Unlocks a two-tiered wooden shelf for displaying items.",
+    "desc": "Unlocks a tall, dual-level wooden shelving unit for displaying items in your C.A.M.P.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 300, "leaders": 0, "trade": "Yes"
   },
   {
     "name": "Electrified Mr. Handy Buzz Blade",
-    "desc": "Unlocks the electrified mod for the Buzz Blade, adding energy damage.",
+    "desc": "Weapon mod plan that adds energy damage to the Mr. Handy Buzz Blade melee weapon.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 50, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Fasnacht Balloons 01",
-    "desc": "Decorative colorful balloon clusters for your C.A.M.P.",
+    "name": "Gas Signage",
+    "desc": "Unlocks various gas station and automotive-themed signs for your C.A.M.P.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Fasnacht Balloons 02",
-    "desc": "A second variation of decorative colorful balloon clusters.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Fasnacht Branch Garland 01",
-    "desc": "A festive wall-mounted branch decoration with ornaments.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Fasnacht Confetti Pile 01",
-    "desc": "Unlocks a decorative floor-based pile of colorful confetti.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Fasnacht Confetti Pile 02",
-    "desc": "A second variation of floor confetti piles.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Fasnacht Flag Pole 01",
-    "desc": "A tall, festive flagpole for your C.A.M.P.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Fasnacht Flag Pole 02",
-    "desc": "A second variation of the festive Fasnacht flagpole.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Fasnacht Hanging Ribbons 01",
-    "desc": "Festive ribbons that hang from ceilings or rafters.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Fasnacht Hanging Ribbons 02",
-    "desc": "A second variation of hanging festive ribbons.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Fasnacht Hanging Snowflakes 01",
-    "desc": "Decorative hanging snowflake ornaments.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Fasnacht Hanging Snowflakes 02",
-    "desc": "A second variation of hanging snowflake ornaments.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Fasnacht Helvetia Garland 01",
-    "desc": "A wide festive wall garland featuring Helvetian colors.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Fasnacht Helvetia Garland 02",
-    "desc": "A second variation of the wide festive wall garland.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Fasnacht Mounted Flag 01",
-    "desc": "A wall-mounted festive Fasnacht flag.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Fasnacht Mounted Flag 02",
-    "desc": "A second variation of the wall-mounted festive flag.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Fasnacht Mounted Ribbons",
-    "desc": "Wall-mounted clusters of festive ribbons.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Fasnacht Party Streamers 01",
-    "desc": "Unlocks colorful hanging party streamers.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Fasnacht Party Streamers 02",
-    "desc": "A second variation of hanging party streamers.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Fasnacht Pole Lantern 02",
-    "desc": "A festive lantern on a tall wooden pole.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Fasnacht Ribbons Pole 01",
-    "desc": "A tall pole wrapped in festive ribbons.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Fasnacht Ribbons Pole 02",
-    "desc": "A second variation of the ribbon-wrapped pole.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Fasnacht Veggie Man Beer Stein",
-    "desc": "Unlocks a craftable decorative beer stein featuring the Veggie Man.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Flower Box - Ash Rose",
-    "desc": "A rectangular wooden flower box containing Ash Roses.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Flower Box - Aster",
-    "desc": "A rectangular wooden flower box containing Asters.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Flower Box - Mutated Fern",
-    "desc": "A rectangular wooden flower box containing Mutated Ferns.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Flower Box - Rhododendron",
-    "desc": "A rectangular wooden flower box containing Rhododendrons.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Flower Box - Soot Flower",
-    "desc": "A rectangular wooden flower box containing Soot Flowers.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Flowering Box - Ash Rose",
-    "desc": "A decorative C.A.M.P. box with Ash Roses in bloom.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Flowering Box - Aster",
-    "desc": "A decorative C.A.M.P. box with Asters in bloom.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Flowering Box - Mutated Fern",
-    "desc": "A decorative C.A.M.P. box with Mutated Ferns in bloom.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Flowering Box - Rhododendron",
-    "desc": "A decorative C.A.M.P. box with Rhododendrons in bloom.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Flowering Box - Soot Flower",
-    "desc": "A decorative C.A.M.P. box with Soot Flowers in bloom.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Footlocker",
-    "desc": "Unlocks a military-style footlocker for storage in your C.A.M.P.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Fort Steuben Sign",
-    "desc": "A decorative metal wall sign for Fort Steuben.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Gulper Rug",
-    "desc": "Unlocks a large floor rug made from the hide of a Gulper.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Gulper Smacker",
-    "desc": "Unlocks the ability to craft the Gulper Smacker melee weapon.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Heavy Metal Torso",
-    "desc": "Unlocks the crafting of the Heavy variant for Metal Armor chest pieces.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Helvetian Flower Display",
-    "desc": "A decorative arrangement of flowers in a wooden Helvetian stand.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Herdsman's Bell - Basic",
-    "desc": "Unlocks the basic version of the Herdsman's Bell decoration.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 100, "leaders": 0, "trade": "Yes"
   },
   {
     "name": "Herdsman's Bell - Fasnacht",
-    "desc": "Unlocks the Fasnacht-themed variant of the Herdsman's Bell.",
+    "desc": "Unlocks the ability to craft the commemorative Fasnacht event Herdsman's Bell.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 169, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Herdsman's Bell - Lincoln",
-    "desc": "Unlocks the Lincoln variant of the Herdsman's Bell.",
+    "name": "Large Toolbox",
+    "desc": "Unlocks a large, red metal storage container for your C.A.M.P.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 769, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Horned Shepherd's Crook",
-    "desc": "Unlocks a horned modification for the Shepherd's Crook.",
+    "name": "Lawn Flamingoes",
+    "desc": "Unlocks classic pink plastic lawn flamingo decorations for your C.A.M.P.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Jitterbug Judy Outfit",
-    "desc": "Unlocks the ability to craft the Jitterbug Judy cosmetic outfit.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Jukebox",
-    "desc": "Unlocks a functional jukebox that plays music in your C.A.M.P.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Kitchen Stove",
-    "desc": "Unlocks a standard cooking station stove for your C.A.M.P.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Laser Gun Tuned Beta Wave Tuner",
-    "desc": "Adds burning damage and improves critical damage for the Laser Gun.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Lead Lined Marine Armor Chest",
-    "desc": "Increases radiation resistance for Marine Armor torso pieces.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Lead Lined Metal Armor Chest",
-    "desc": "Increases radiation resistance for Metal Armor torso pieces.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 200, "leaders": 0, "trade": "Yes"
   },
   {
     "name": "Lead Lined Raider Armor Chest",
-    "desc": "Increases radiation resistance for Raider Armor torso pieces.",
+    "desc": "Armor mod plan for Raider chest armor that adds radiation resistance.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 569, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Light Boxes",
-    "desc": "Unlocks modular light blocks that can change colors via power terminals.",
+    "name": "Light Combat Legs",
+    "desc": "Teaches you how to craft the light-tier leg pieces for Combat Armor.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Light Combat Torso",
-    "desc": "Unlocks the crafting of standard Light Combat Armor chest pieces.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 669, "leaders": 0, "trade": "Yes"
   },
   {
     "name": "Light Metal Arms",
-    "desc": "Unlocks the crafting of standard Light Metal Armor arm pieces.",
+    "desc": "Teaches you how to craft the light-tier arm pieces for Metal Armor.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 150, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Light Metal Legs",
+    "desc": "Teaches you how to craft the light-tier leg pieces for Metal Armor.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 150, "leaders": 0, "trade": "Yes"
   },
   {
     "name": "Light Metal Torso",
-    "desc": "Unlocks the crafting of standard Light Metal Armor chest pieces.",
+    "desc": "Teaches you how to craft the light-tier chest piece for Metal Armor.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 150, "leaders": 0, "trade": "Yes"
   },
   {
     "name": "MIRV Frag Grenade",
-    "desc": "Unlocks the crafting of the MIRV grenade, which splits into cluster explosives.",
+    "desc": "Unlocks the ability to craft fragmentation grenades that split into multiple explosives upon impact.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 175, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Megasloth Pelt Rug",
-    "desc": "A large floor rug made from a Megasloth hide.",
+    "name": "Marine Legs",
+    "desc": "Teaches you how to craft the leg pieces for advanced Marine Armor.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 1200, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Marine Torso",
+    "desc": "Teaches you how to craft the chest piece for advanced Marine Armor.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 1200, "leaders": 0, "trade": "Yes"
   },
   {
     "name": "Metal Diner Doors",
-    "desc": "Unlocks the classic metal swing doors found in pre-war diners.",
+    "desc": "Unlocks swinging metal doors commonly found in diners for your C.A.M.P.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 200, "leaders": 0, "trade": "Yes"
   },
   {
     "name": "Metal Shelves",
-    "desc": "Unlocks a set of industrial metal storage shelves.",
+    "desc": "Unlocks industrial-style metal shelving units for your C.A.M.P.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 300, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Metal Signs",
-    "desc": "Unlocks a variety of small metal signs for wall decoration.",
+    "name": "Modern Kitchen Tables",
+    "desc": "Unlocks sleek, contemporary-style kitchen tables for your C.A.M.P.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Metal Stools",
-    "desc": "Unlocks a set of metal stools for seating.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Milk Vending Machine",
-    "desc": "A decorative C.A.M.P. item that resembles a pre-war milk vendor.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Minigun",
-    "desc": "Unlocks the ability to craft the heavy Minigun weapon.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 300, "leaders": 0, "trade": "Yes"
   },
   {
     "name": "Mole Miner Gauntlet",
-    "desc": "Unlocks the ability to craft the Mole Miner Gauntlet melee weapon.",
+    "desc": "Teaches you how to craft the signature clawed melee weapon of the Mole Miners.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Motorized Butter Churn",
-    "desc": "A C.A.M.P. resource producer that generates Cooking Oil over time.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Mounted Blue Devil Head",
-    "desc": "Unlocks a wall-mounted trophy head of the Blue Devil cryptid.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Mounted Mega Sloth",
-    "desc": "Unlocks a wall-mounted trophy head of a Mega Sloth.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Mounted Radroach",
-    "desc": "Unlocks a wall-mounted trophy of a Radroach.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 169, "leaders": 0, "trade": "Yes"
   },
   {
     "name": "Mr. Handy Buzz Blade",
-    "desc": "Unlocks the ability to craft the standard Mr. Handy Buzz Blade.",
+    "desc": "Teaches you how to craft the circular saw melee weapon commonly used by Mr. Handy units.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 300, "leaders": 0, "trade": "Yes"
   },
   {
     "name": "Nuka Quantum Grenade",
-    "desc": "Unlocks the crafting of highly powerful Nuka-Cola Quantum grenades.",
+    "desc": "Unlocks the ability to craft powerful explosive grenades using Nuka-Cola Quantum.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 225, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Nuka-Cola Grenade",
-    "desc": "Unlocks the crafting of explosive Nuka-Cola grenades.",
+    "name": "Nuka-Cola Ad Barrier",
+    "desc": "Unlocks a concrete defensive barrier featuring Nuka-Cola advertising.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 1169, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Office Desk",
-    "desc": "Unlocks a clean pre-war metal office desk for your C.A.M.P.",
+    "name": "Nuke Mine",
+    "desc": "Unlocks the ability to craft a powerful landmine that releases a small nuclear explosion upon contact.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 100, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Old Man Winter Effigy",
-    "desc": "Unlocks a large bonfire effigy that can be lit.",
+    "name": "Ogua Egg",
+    "desc": "Unlocks a decorative, placeable egg of the cryptid Ogua for your C.A.M.P.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 2269, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Painted Wooden Doors",
-    "desc": "Unlocks a set of colorful wooden doors for building.",
+    "name": "Pocketed Combat Armor Limbs",
+    "desc": "Armor mod plan for Combat Armor arms and legs that increases carry weight capacity.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Park Grill",
-    "desc": "Unlocks a public park style charcoal grill cooking station.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Pianos",
-    "desc": "Unlocks various playable pianos that grant an AP refresh buff.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Pickaxe",
-    "desc": "Unlocks the ability to craft the pickaxe melee weapon.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 1169, "leaders": 0, "trade": "Yes"
   },
   {
     "name": "Pocketed Leather Armor Chest",
-    "desc": "Increases carry weight (+10) for Leather Armor torso.",
+    "desc": "Armor mod plan for Leather Armor chest pieces that increases carry weight capacity.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 1169, "leaders": 0, "trade": "Yes"
   },
   {
     "name": "Pocketed Leather Armor Limbs",
-    "desc": "Increases carry weight (+5 per limb) for Leather Armor limbs.",
+    "desc": "Armor mod plan for Leather Armor arms and legs that increases carry weight capacity.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Pocketed Metal Armor Limbs",
-    "desc": "Increases carry weight (+5 per limb) for Metal Armor limbs.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 1169, "leaders": 0, "trade": "Yes"
   },
   {
     "name": "Pocketed Raider Armor Chest",
-    "desc": "Increases carry weight (+10) for Raider Armor torso.",
+    "desc": "Armor mod plan for Raider Armor chest pieces that increases carry weight capacity.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 569, "leaders": 0, "trade": "Yes"
   },
   {
     "name": "Pocketed Raider Armor Limbs",
-    "desc": "Increases carry weight (+5 per limb) for Raider Armor limbs.",
+    "desc": "Armor mod plan for Raider Armor arms and legs that increases carry weight capacity.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 569, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Portable Toilet",
+    "desc": "Unlocks a 'Port-a-Pottie' style structure for your C.A.M.P.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 200, "leaders": 0, "trade": "Yes"
   },
   {
     "name": "Potted Plants",
-    "desc": "Unlocks a variety of small potted indoor plants for decoration.",
+    "desc": "Unlocks various decorative indoor plants in ceramic and plastic pots.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 469, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Rug Set 2",
-    "desc": "Unlocks a second collection of decorative floor rugs.",
+    "name": "Power Armor Stations",
+    "desc": "A heavy-duty crafting station used for modifying and repairing Power Armor sets.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 1169, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Scorchbeast Queen Beer Stein",
-    "desc": "Unlocks a craftable beer stein featuring the Scorchbeast Queen.",
+    "name": "Pre-War Dressers",
+    "desc": "Unlocks clean, pre-war style wooden dressers for bedroom storage in your C.A.M.P.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 769, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Pulse Grenade",
+    "desc": "Unlocks the ability to craft electromagnetic grenades that deal massive damage to robots and Power Armor.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 150, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Raider Jet Pack",
+    "desc": "Power Armor mod plan that adds a high-mobility jet pack to Raider Power Armor torsos.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 3000, "leaders": 0, "trade": "Yes"
   },
   {
     "name": "Shadowed Combat Armor Arms",
-    "desc": "Improves stealth in dark environments for Combat Armor arms.",
+    "desc": "Armor mod plan for Combat Armor arms that improves stealth in dark environments.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Shadowed Combat Armor Chest",
-    "desc": "Improves stealth in dark environments for Combat Armor torso.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Shadowed Metal Armor Arms",
-    "desc": "Improves stealth in dark environments for Metal Armor arms.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 669, "leaders": 0, "trade": "Yes"
   },
   {
     "name": "Shadowed Robot Armor Chest",
-    "desc": "Improves stealth in dark environments for Robot Armor torso.",
+    "desc": "Armor mod plan for Robot Armor chest pieces that improves stealth in dark environments.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 669, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Single-Action Revolver",
-    "desc": "Unlocks the ability to craft the Single-Action Revolver.",
+    "name": "Shadowed Robot Armor Legs",
+    "desc": "Armor mod plan for Robot Armor legs that improves stealth in dark environments.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 669, "leaders": 0, "trade": "Yes"
   },
   {
     "name": "Single-Action Revolver Ivory Grip",
-    "desc": "Modifies the Single-Action Revolver with a decorative ivory grip.",
+    "desc": "A cosmetic mod plan that adds a classic ivory-styled grip to the Single-Action Revolver.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 100, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Spin the Wheel Ornament",
-    "desc": "A decorative C.A.M.P. ornament based on the Spin the Wheel event.",
+    "name": "Strengthened Leather Armor Limbs",
+    "desc": "Armor mod plan for Leather Armor arms and legs that reduces limb damage taken.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Stone Fountain",
-    "desc": "Unlocks a large decorative stone water fountain for your C.A.M.P.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 569, "leaders": 0, "trade": "Yes"
   },
   {
     "name": "Strengthened Raider Armor Limbs",
-    "desc": "Reduces incoming limb damage for Raider Armor limbs.",
+    "desc": "Armor mod plan for Raider Armor arms and legs that reduces limb damage taken.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 569, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Switchblade Serrated Blade",
-    "desc": "Adds bleed and armor penetration to the Switchblade.",
+    "name": "T-45 Jet Pack",
+    "desc": "Power Armor mod plan that adds a high-mobility jet pack to T-45 Power Armor torsos.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 3000, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "T-51b Chest Piece",
-    "desc": "Unlocks the crafting of the T-51b Power Armor chest piece.",
+    "name": "T-45 Motion-Assist Servos",
+    "desc": "Power Armor mod plan for T-45 legs that increases the user's Strength stat.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 420, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "T-51b Jet Pack",
+    "desc": "Power Armor mod plan that adds a high-mobility jet pack to T-51b Power Armor torsos.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 3000, "leaders": 0, "trade": "Yes"
   },
   {
     "name": "T-51b Motion-Assist Servos",
-    "desc": "Increases Strength (+2) while wearing T-51b Power Armor.",
+    "desc": "Power Armor mod plan for T-51b legs that increases the user's Strength stat.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "T-60 Jet Pack",
-    "desc": "Unlocks the Jet Pack modification for the T-60 Power Armor torso.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "T-60 Motion-Assist Servos",
-    "desc": "Increases Strength (+2) while wearing T-60 Power Armor.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 469, "leaders": 0, "trade": "Yes"
   },
   {
     "name": "Tesla Rifle",
-    "desc": "Unlocks the ability to craft the Tesla Rifle energy weapon.",
+    "desc": "Teaches you how to craft the Tesla Rifle, an energy weapon that arcs electricity between multiple targets.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 2269, "leaders": 0, "trade": "Yes"
   },
   {
     "name": "Tinker's Workbench",
-    "desc": "Unlocks the crafting station for ammo, grenades, and quest items.",
+    "desc": "A vital crafting station used to create ammunition, grenades, and various gadgets.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 250, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Track Lighting",
-    "desc": "Unlocks a set of adjustable track lights for your C.A.M.P.",
+    "name": "Ultra-Light Build Leather Armor Chest",
+    "desc": "Armor mod plan for Leather chest pieces that reduces weight and increases Action Point capacity.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 1169, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Trapper Legs",
-    "desc": "Unlocks the crafting of standard Trapper Armor leg pieces.",
+    "name": "Ultra-Light Build Marine Armor Chest",
+    "desc": "Armor mod plan for Marine chest pieces that reduces weight and increases Action Point capacity.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
-  },
-  {
-    "name": "Tunnel of Love Snow Globe",
-    "desc": "A decorative snow globe featuring the Tunnel of Love attraction.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 500, "leaders": 0, "trade": "Yes"
   },
   {
     "name": "Ultra-Light Build Marine Armor Limbs",
-    "desc": "Greatly reduces weight and increases AP (+5) for Marine Armor.",
+    "desc": "Armor mod plan for Marine arms and legs that reduces weight and increases Action Point capacity.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 1169, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Ultra-Light Build Metal Armor Chest",
-    "desc": "Greatly reduces weight and increases AP (+5) for Metal Armor torso.",
+    "name": "Ultra-Light Build Robot Armor Chest",
+    "desc": "Armor mod plan for Robot chest pieces that reduces weight and increases Action Point capacity.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 500, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Ultra-Light Build Robot Armor Limbs",
-    "desc": "Greatly reduces weight and increases AP (+5) for Robot Armor.",
+    "name": "Ultracite Cooling Vent",
+    "desc": "A Power Armor mod plan for Ultracite legs that helps manage fusion core heat.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 200, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Ultracite Helm",
+    "desc": "Teaches you how to craft the helmet for the advanced Ultracite Power Armor set.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 500, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Ultracite Jet Pack",
+    "desc": "Power Armor mod plan that adds a high-mobility jet pack to Ultracite Power Armor torsos.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 3000, "leaders": 0, "trade": "Yes"
   },
   {
     "name": "Ultracite Left Arm",
-    "desc": "Unlocks the crafting of the Ultracite Power Armor left arm.",
+    "desc": "Teaches you how to craft the left arm piece for the advanced Ultracite Power Armor set.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 500, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Ultracite Optimized Bracers",
-    "desc": "Reduces Action Point cost for power attacks in Ultracite Power Armor.",
+    "name": "Ultracite Left Leg",
+    "desc": "Teaches you how to craft the left leg piece for the advanced Ultracite Power Armor set.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 500, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Wall Mounted Fan",
-    "desc": "Unlocks a decorative oscillating wall-mounted fan.",
+    "name": "Ultracite Motion-Assist Servos",
+    "desc": "Power Armor mod plan for Ultracite legs that increases the user's Strength stat.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 200, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Warehouse Building Set",
-    "desc": "Unlocks industrial corrugated metal walls and doors for building.",
+    "name": "Ultracite Right Leg",
+    "desc": "Teaches you how to craft the right leg piece for the advanced Ultracite Power Armor set.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 500, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Ultracite Torso",
+    "desc": "Teaches you how to craft the chest piece for the advanced Ultracite Power Armor set.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 500, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Welcome Mats",
+    "desc": "Unlocks placeable welcome mats for your C.A.M.P. entrance.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 200, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Wind Instruments",
+    "desc": "Unlocks playable wind-based musical instruments like the tuba for your C.A.M.P.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 350, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Wood Tables",
+    "desc": "Unlocks a collection of simple wooden tables for your C.A.M.P.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 300, "leaders": 0, "trade": "Yes"
   },
   {
     "name": "Wooden Crate",
     "desc": "Unlocks a basic wooden storage crate for your C.A.M.P.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 769, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Wooden Shack Doors",
+    "desc": "Unlocks basic wooden doors suited for shack-style structures.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 200, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Wooden Stool",
+    "desc": "Unlocks a simple wooden stool for seating in your C.A.M.P.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 200, "leaders": 0, "trade": "Yes"
+  },
+    {
+    "name": "T-60 Jet Pack",
+    "desc": "Power Armor mod plan that adds a high-mobility jet pack to T-60 Power Armor torsos.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Minigun",
+    "desc": "Teaches you how to craft the Minigun, a high-rate-of-fire heavy weapon.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Bottle and Cappy Painting Statue",
+    "desc": "Unlocks a decorative Nuka-World themed statue of Bottle and Cappy with a painting theme.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Ultra-Light Build Metal Armor Chest",
+    "desc": "Armor mod plan for Metal chest pieces that reduces weight and increases Action Point capacity.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Ultracite Left Arm",
+    "desc": "Teaches you how to craft the left arm piece for the advanced Ultracite Power Armor set.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Ultracite Torso",
+    "desc": "Teaches you how to craft the chest piece for the advanced Ultracite Power Armor set.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Mole Miner Gauntlet",
+    "desc": "Teaches you how to craft the signature clawed melee weapon of the Mole Miners.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Pocketed Leather Armor Limbs",
+    "desc": "Armor mod plan for Leather Armor arms and legs that increases carry weight capacity.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Strengthened Raider Armor Limbs",
+    "desc": "Armor mod plan for Raider Armor arms and legs that reduces limb damage taken.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Nuka Quantum Grenade",
+    "desc": "Unlocks the ability to craft powerful explosive grenades using Nuka-Cola Quantum.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Basketball Hoop",
+    "desc": "Unlocks a standard basketball hoop for your C.A.M.P.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Basketball Hoop 2",
+    "desc": "Unlocks a specific wall-mounted basketball hoop variant for your C.A.M.P.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Fasnacht Balloons 02",
+    "desc": "Unlocks a festive set of hanging balloons commemorative of the Fasnacht festival.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Helvetian Flower Display",
+    "desc": "Unlocks a decorative floral arrangement themed after the town of Helvetia.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Hunting Rifle Medium NV Scope",
+    "desc": "Weapon mod plan that adds a medium-range Night Vision scope to the Hunting Rifle.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Scorchbeast Queen Beer Stein",
+    "desc": "Unlocks a collectible decorative beer stein featuring the Scorchbeast Queen.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Blue Ridge Scout Outfit",
+    "desc": "Teaches you how to craft the rugged apparel of the Blue Ridge Caravan Scouts.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Fasnacht Branch Garland 01",
+    "desc": "Unlocks a festive branch-style garland decoration for the Fasnacht event.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Fasnacht Hanging Ribbons 01",
+    "desc": "Unlocks a colorful hanging ribbon decoration for the Fasnacht event.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Fasnacht Hanging Ribbons 02",
+    "desc": "Unlocks a colorful hanging ribbon decoration (Variant 2) for the Fasnacht event.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Fasnacht Helvetia Garland 02",
+    "desc": "Unlocks a specialized decorative garland for the Fasnacht event.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Fasnacht Mounted Flag 01",
+    "desc": "Unlocks a festive wall-mounted flag decoration for the Fasnacht event.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Fasnacht Mounted Flag 02",
+    "desc": "Unlocks a festive wall-mounted flag decoration (Variant 2) for the Fasnacht event.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Fasnacht Ribbons Pole 01",
+    "desc": "Unlocks a standing pole decorated with colorful ribbons for the Fasnacht event.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Fasnacht Ribbons Pole 02",
+    "desc": "Unlocks a standing pole decorated with colorful ribbons (Variant 2) for the Fasnacht event.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Flowering Box - Ash Rose",
+    "desc": "Unlocks a decorative window box containing Ash Roses for your C.A.M.P.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Single-Action Revolver Ivory Grip",
+    "desc": "A cosmetic mod plan that adds a classic ivory-styled grip to the Single-Action Revolver.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Advertisement Posters",
+    "desc": "Unlocks a variety of wall-mounted advertisement posters for your C.A.M.P.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Artillery",
+    "desc": "Unlocks the ability to build an Artillery piece to provide support fire via smoke grenades.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Backyard Grill",
+    "desc": "Unlocks a classic charcoal grill for outdoor cooking in your C.A.M.P.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Barbed Harpoon",
+    "desc": "Weapon mod plan that adds barbs to Harpoon Gun projectiles for increased damage.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Barn Building Set",
+    "desc": "Unlocks a complete set of rustic, red barn-style walls, roofs, and doors for your C.A.M.P.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Baseball Player Statue",
+    "desc": "Unlocks a decorative bronze statue of a baseball player for your C.A.M.P.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Bathtub",
+    "desc": "Unlocks a classic ceramic bathtub for your C.A.M.P.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Bear Arm",
+    "desc": "Teaches you how to craft the rare Bear Arm melee weapon, made from a Yao Guai skull.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Bear-Proof Trashcan",
+    "desc": "Unlocks a sturdy, metal bear-proof trash container for your C.A.M.P.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Beeswax Candle",
+    "desc": "Unlocks a decorative, light-providing beeswax candle for your C.A.M.P.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "BioCommMesh Metal Armor Lining",
+    "desc": "Armor mod plan that increases the duration of Chems for Metal armor chest pieces.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "BioCommMesh Robot Armor Lining",
+    "desc": "Armor mod plan that increases the duration of Chems for Robot armor chest pieces.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "BOS Combat Armor Chest Piece",
+    "desc": "High-tier armor mod plan that applies Brotherhood of Steel specifications to Combat Armor.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Brahmin Pen",
+    "desc": "Unlocks the ability to place a Fertilizer Producer in your C.A.M.P., which includes a tame Brahmin.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Broken Toilet",
+    "desc": "Unlocks a decorative, non-functional broken toilet for your C.A.M.P.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Canopy Tent",
+    "desc": "Unlocks a large, open-air canopy tent for your C.A.M.P.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Chemistry Workbench",
+    "desc": "A vital crafting station used to create chems, explosives, and various items.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Cushioned Leather Armor Legs",
+    "desc": "Armor mod plan for Leather leg armor that reduces falling damage.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Cushioned Raider Armor Legs",
+    "desc": "Armor mod plan for Raider leg armor that reduces falling damage.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Cushioned Trapper Armor Legs",
+    "desc": "Armor mod plan for Trapper leg armor that reduces falling damage.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Daisy Rug",
+    "desc": "Unlocks a decorative floor rug featuring a daisy flower pattern.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Deep Pocketed Combat Armor Chest",
+    "desc": "Armor mod plan for Combat Armor that significantly increases carry weight capacity.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Deep Pocketed Leather Armor Chest",
+    "desc": "Armor mod plan for Leather Armor that significantly increases carry weight capacity.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Deep Pocketed Raider Armor Limbs",
+    "desc": "Armor mod plan for Raider Armor limbs that significantly increases carry weight capacity.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Domestic Tables",
+    "desc": "Unlocks a selection of clean, indoor residential-style tables for your C.A.M.P.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Double Display Shelf",
+    "desc": "Unlocks a tall, dual-level wooden shelving unit for displaying items in your C.A.M.P.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Electrified Mr. Handy Buzz Blade",
+    "desc": "Weapon mod plan that adds energy damage to the Mr. Handy Buzz Blade melee weapon.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Fasnacht Balloons 01",
+    "desc": "Unlocks a festive set of standing balloons commemorative of the Fasnacht festival.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Fasnacht Confetti Pile",
+    "desc": "Unlocks a decorative pile of colorful confetti for your C.A.M.P. floor.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Fasnacht Flag Pole",
+    "desc": "Unlocks a standing flag pole featuring Fasnacht commemorative banners.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Fasnacht Hanging Snowflakes",
+    "desc": "Unlocks decorative hanging snowflake ornaments for the Fasnacht event.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Fasnacht Helvetia Garland 01",
+    "desc": "Unlocks a festive garland decoration (Variant 1) for the Fasnacht event.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Fasnacht Mounted Ribbons 02",
+    "desc": "Unlocks wall-mounted ribbon decorations (Variant 2) for the Fasnacht event.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Fasnacht Party Streamers",
+    "desc": "Unlocks festive ceiling-mounted streamers for the Fasnacht event.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Fasnacht Pole Lantern 02",
+    "desc": "Unlocks a decorative standing pole lantern (Variant 2) for the Fasnacht event.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Fasnacht Veggie Man Beer Stein",
+    "desc": "Unlocks a collectible decorative beer stein featuring the Fasnacht 'Veggie Man'.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Flower Box - Aster",
+    "desc": "Unlocks a decorative wooden box containing Aster flowers for your C.A.M.P.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Flower Box - Mutated Fern",
+    "desc": "Unlocks a decorative wooden box containing Mutated Ferns for your C.A.M.P.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Flower Box - Rhododendron",
+    "desc": "Unlocks a decorative wooden box containing Rhododendron flowers for your C.A.M.P.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Flower Box - Soot Flower",
+    "desc": "Unlocks a decorative wooden box containing Soot Flowers for your C.A.M.P.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Footlocker",
+    "desc": "Unlocks a low-profile metal storage container for your C.A.M.P.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Fort Steuben Sign",
+    "desc": "Unlocks a decorative historical sign for Fort Steuben.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Gulper Rug",
+    "desc": "Unlocks a decorative floor rug made from the hide of a Gulper.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Gulper Smacker",
+    "desc": "Teaches you how to craft the Gulper Smacker, a large two-handed melee weapon.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Heavy Metal Torso",
+    "desc": "Teaches you how to craft the heavy-tier chest piece for Metal Armor.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Herdsman's Bell - Basic",
+    "desc": "Unlocks the ability to craft a standard Herdsman's Bell.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Herdsman's Bell - Lincoln",
+    "desc": "Unlocks the ability to craft the 'Lincoln' variant of the Herdsman's Bell.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Horned Shepherd's Crook",
+    "desc": "Weapon mod plan that adds horns to the Shepherd's Crook melee weapon.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Jitterbug Judy Outfit",
+    "desc": "Teaches you how to craft the stylish Jitterbug Judy apparel.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Jukebox",
+    "desc": "Unlocks a playable Jukebox that provides music for your C.A.M.P.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Kitchen Stove",
+    "desc": "A basic cooking station used to prepare food and drinks in your C.A.M.P.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Laser Gun Tuned Beta Wave Tuner",
+    "desc": "Weapon mod plan for Laser guns that adds fire damage and improves critical hit damage.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Lead Lined Marine Armor Chest",
+    "desc": "Armor mod plan for Marine chest armor that adds radiation resistance.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Lead Lined Metal Armor Chest",
+    "desc": "Armor mod plan for Metal chest armor that adds radiation resistance.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Light Boxes",
+    "desc": "Unlocks customizable, powered light cubes that can change colors.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Light Combat Torso",
+    "desc": "Teaches you how to craft the light-tier chest piece for Combat Armor.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Light Metal Arms",
+    "desc": "Teaches you how to craft the light-tier arm pieces for Metal Armor.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Light Metal Torso",
+    "desc": "Teaches you how to craft the light-tier chest piece for Metal Armor.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "MIRV Frag Grenade",
+    "desc": "Unlocks the ability to craft fragmentation grenades that split into multiple explosives upon impact.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Megasloth Pelt Rug",
+    "desc": "Unlocks a large, decorative floor rug made from Megasloth fur.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Metal Diner Doors",
+    "desc": "Unlocks swinging metal doors commonly found in diners for your C.A.M.P.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Metal Shelves",
+    "desc": "Unlocks industrial-style metal shelving units for your C.A.M.P.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Metal Signs",
+    "desc": "Unlocks a variety of small metal signs for C.A.M.P. decoration.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Metal Stools",
+    "desc": "Unlocks simple, durable metal stools for seating in your C.A.M.P.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Milk Vending Machine",
+    "desc": "Unlocks a decorative pre-war milk vending machine for your C.A.M.P.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Motorized Butter Churn",
+    "desc": "Unlocks a motorized resource producer that generates Cooking Oil for your C.A.M.P.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Mounted Blue Devil Head",
+    "desc": "Unlocks a decorative wall mount featuring the head of the cryptid Blue Devil.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Mounted Mega Sloth",
+    "desc": "Unlocks a decorative wall mount featuring the head of a Mega Sloth.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Mounted Radroach",
+    "desc": "Unlocks a decorative wall mount featuring a Radroach.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Mr. Handy Buzz Blade",
+    "desc": "Teaches you how to craft the circular saw melee weapon commonly used by Mr. Handy units.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Nuka-Cola Grenade",
+    "desc": "Unlocks the ability to craft explosive grenades using standard Nuka-Cola.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Office Desk",
+    "desc": "Unlocks a standard metal office desk for your C.A.M.P.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Old Man Winter Effigy",
+    "desc": "Unlocks a large bonfire structure featuring the 'Old Man Winter' effigy for the Fasnacht event.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Painted Wooden Doors",
+    "desc": "Unlocks a set of wooden doors with various paint finishes for your C.A.M.P.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Park Grill",
+    "desc": "Unlocks a heavy-duty metal grill typical of public parks for your C.A.M.P.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Pianos",
+    "desc": "Unlocks playable pianos (Upright and Grand) to provide music and the 'Well Tuned' buff.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Pickaxe",
+    "desc": "Teaches you how to craft the Pickaxe, a slow but hard-hitting two-handed melee weapon.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Pocketed Metal Armor Limbs",
+    "desc": "Armor mod plan for Metal Armor arms and legs that increases carry weight capacity.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Potted Plants",
+    "desc": "Unlocks various decorative indoor plants in ceramic and plastic pots.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Rug Set 2",
+    "desc": "Unlocks a second collection of miscellaneous decorative rugs for floor covering.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Shadowed Combat Armor Chest",
+    "desc": "Armor mod plan for Combat Armor chest pieces that improves stealth in dark environments.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Shadowed Metal Armor Arms",
+    "desc": "Armor mod plan for Metal Armor arms that improves stealth in dark environments.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Single-Action Revolver",
+    "desc": "Teaches you how to craft the powerful, slow-reloading Single-Action Revolver.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Spin the Wheel Ornament",
+    "desc": "Unlocks a decorative C.A.M.P. item themed after the Nuka-World 'Spin the Wheel' event.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Stone Fountain",
+    "desc": "Unlocks a decorative stone water fountain for your C.A.M.P. garden or courtyard.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Switchblade Serrated Blade",
+    "desc": "Weapon mod plan that adds a serrated edge to the Switchblade, causing bleed damage.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "T-51b Chest Piece",
+    "desc": "Teaches you how to craft the chest piece for the T-51b Power Armor set.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "T-60 Motion-Assist Servos",
+    "desc": "Power Armor mod plan for T-60 legs that increases the user's Strength stat.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Tesla Rifle",
+    "desc": "Teaches you how to craft the Tesla Rifle, an energy weapon that arcs electricity between multiple targets.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Tinker's Workbench",
+    "desc": "A vital crafting station used to create ammunition, grenades, and various gadgets.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Track Lighting",
+    "desc": "Unlocks a set of modern track lighting fixtures for your C.A.M.P.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Trapper Legs",
+    "desc": "Teaches you how to craft the leg pieces for Trapper Armor.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Tunnel of Love Snow Globe",
+    "desc": "Unlocks a commemorative Nuka-World snow globe from the 'Tunnel of Love' attraction.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Ultra-Light Build Robot Armor Limbs",
+    "desc": "Armor mod plan for Robot arms and legs that reduces weight and increases Action Point capacity.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Ultracite Optimized Bracers",
+    "desc": "Power Armor mod plan for Ultracite arms that reduces the Action Point cost of power attacks.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Wall Mounted Fan",
+    "desc": "Unlocks a functional wall-mounted electric fan for your C.A.M.P.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Warehouse Building Set",
+    "desc": "Unlocks a complete set of industrial corrugated metal walls and roofs for your C.A.M.P.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Wooden Crate",
+    "desc": "Unlocks a basic wooden storage crate for your C.A.M.P.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
   },
   {
     "name": "Wooden Desks",
-    "desc": "Unlocks a set of simple wooden pre-war desks.",
+    "desc": "Unlocks various styles of wooden desks for your C.A.M.P.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 0, "leaders": 0, "trade": "Yes"
   },
   {
     "name": "Wooden Patio Chair",
-    "desc": "Unlocks a simple wooden chair designed for outdoor use.",
+    "desc": "Unlocks simple wooden chairs designed for outdoor use in your C.A.M.P.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 0, "leaders": 0, "trade": "Yes"
   },
   {
     "name": "Wooden Picnic Table",
-    "desc": "Unlocks a large wooden picnic table for outdoor seating.",
+    "desc": "Unlocks a classic outdoor wooden picnic table for your C.A.M.P.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 0, "leaders": 0, "trade": "Yes"
   },
   {
     "name": "Player Title: Masked",
-    "desc": "Unlocks the 'Masked' prefix/suffix for your player title.",
+    "desc": "Unlocks the 'Masked' title to be displayed on your player nameplate.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 0, "leaders": 0, "trade": "Yes"
   },
   {
     "name": "Player Title: Mutated",
-    "desc": "Unlocks the 'Mutated' prefix/suffix for your player title.",
+    "desc": "Unlocks the 'Mutated' title to be displayed on your player nameplate.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "Trade": "Yes"
+    "caps": 0, "leaders": 0, "trade": "Yes"
   }
 ]
