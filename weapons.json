@@ -1,18 +1,10 @@
-/[
-  {
-    "name": "weapons test",
-    "desc": "weapons test",
-    "image": "https://imgur.com/link-to-image.png",
-    "caps": 15000,
-    "leaders": 15000,
-    "ll3": 15000
-  },
-  {
-    "name": "weapons test",
-    "desc": "weapons test",
-    "image": "https://imgur.com/link-to-image.png",
-    "caps": 15000,
-    "leaders": 15000,
-    "ll3": 15000
-  }
+[
+{
+  "name": "Troubleshooter's Short Western Revolver ★★★",
+  "desc": "+50% Damage to Robots ★<br>+50% Chance to Hit a Target in V.A.T.S. ★★<br>-25% Action Point Cost ★★★",
+  /"image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_weapon.webp",
+  "caps": 0,
+  "leaders": 0,
+  "ll3": 0
+}
 ]
