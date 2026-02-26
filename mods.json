@@ -72,7 +72,7 @@
     "trade": "Yes"
   },
   {
-    "name": "Auto Grenade Launcher Heavy Barrel",
+    "name": "Auto Grenade Launcher Heavy Barrel (2)",
     "desc": "Increases damage and range for the Auto Grenade Launcher.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
@@ -80,7 +80,7 @@
     "trade": "Yes"
   },
   {
-    "name": "Barbed Flaming Pitchfork",
+    "name": "Barbed Flaming Pitchfork (2)",
     "desc": "Adds both Bleed and Fire (Energy) damage to the Pitchfork.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
@@ -88,7 +88,7 @@
     "trade": "Yes"
   },
   {
-    "name": "Barbed Walking Cane Mod",
+    "name": "Barbed Walking Cane Mod (9)",
     "desc": "Adds Bleed damage to the Walking Cane.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
@@ -105,7 +105,7 @@
   },
   {
     "name": "Baseball Bat Chain-Wrapped Mod",
-    "desc": "Improves armor penetration.",
+    "desc": "Improves armor penetration for the Baseball Bat.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -136,7 +136,7 @@
     "trade": "Yes"
   },
   {
-    "name": "Baton Electrified Mod",
+    "name": "Baton Electrified Mod (2)",
     "desc": "Adds energy damage to the Baton.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
@@ -160,16 +160,16 @@
     "trade": "Yes"
   },
   {
-    "name": "Chinese Officer Sword Electrified Blade Mod",
-    "desc": "Adds energy damage to the sword.",
+    "name": "Chinese Officer Sword Electrified Blade Mod (2)",
+    "desc": "Adds energy damage to the Chinese Officer Sword.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
     "trade": "Yes"
   },
   {
-    "name": "Chinese Officer Sword Electrified Serrated Blade Mod",
-    "desc": "Adds energy, bleed, and armor penetration.",
+    "name": "Chinese Officer Sword Electrified Serrated Blade Mod (2)",
+    "desc": "Adds energy, bleed, and armor penetration to the sword.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -193,7 +193,7 @@
   },
   {
     "name": "Combat Rifle Comfort Stock",
-    "desc": "Improves recoil control and hip-fire accuracy.",
+    "desc": "Improves recoil control and hip-fire accuracy for the Combat Rifle.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -209,7 +209,7 @@
   },
   {
     "name": "Combat Shadowed Leg Mod",
-    "desc": "Improves stealth in dark environments.",
+    "desc": "Improves stealth in dark environments for Combat Armor.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -256,7 +256,7 @@
     "trade": "Yes"
   },
   {
-    "name": "Electrified Buzz Blades Mod",
+    "name": "Electrified Buzz Blades Mod (2)",
     "desc": "Adds energy damage to the Mr. Handy Buzz Blade.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
@@ -296,7 +296,7 @@
     "trade": "Yes"
   },
   {
-    "name": "Extra Flame Jets Shishkebab Mod",
+    "name": "Extra Flame Jets Shishkebab Mod (2)",
     "desc": "Greatly increases the Fire damage dealt by the Shishkebab.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
@@ -320,7 +320,7 @@
     "trade": "Yes"
   },
   {
-    "name": "Gamma Gun Electric Signal Carrier Antennae",
+    "name": "Gamma Gun Electric Signal Carrier Antennae (3)",
     "desc": "Adds energy damage and increases the Gamma Gun fire rate.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
@@ -360,7 +360,7 @@
     "trade": "Yes"
   },
   {
-    "name": "Heavy Pipe Wrench Mod",
+    "name": "Heavy Pipe Wrench Mod (2)",
     "desc": "Increases damage and improves chance to stagger enemies.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
@@ -376,7 +376,7 @@
     "trade": "Yes"
   },
   {
-    "name": "Heavy Sharp Rocket Sledgehammer Mod",
+    "name": "Heavy Sharp Rocket Sledgehammer Mod (5)",
     "desc": "Adds bleed, fire damage, armor penetration, and stagger.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
@@ -384,7 +384,7 @@
     "trade": "Yes"
   },
   {
-    "name": "Hooked Pipe Wrench Mod",
+    "name": "Hooked Pipe Wrench Mod (2)",
     "desc": "Adds Bleed damage and improves armor penetration.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
@@ -504,7 +504,7 @@
     "trade": "Yes"
   },
   {
-    "name": "Leather Treated Arm Mod",
+    "name": "Leather Treated Arm Mod (2)",
     "desc": "Standard improvement to damage and energy resistance for Leather arms.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
@@ -512,7 +512,7 @@
     "trade": "Yes"
   },
   {
-    "name": "Leather Treated Leg Mod",
+    "name": "Leather Treated Leg Mod (2)",
     "desc": "Standard improvement to damage and energy resistance for Leather legs.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
@@ -536,7 +536,7 @@
     "trade": "Yes"
   },
   {
-    "name": "Marine Aerodynamic Limb Mod",
+    "name": "Marine Aerodynamic Limb Mod (2)",
     "desc": "Reduces Action Point cost for power attacks.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
@@ -568,15 +568,15 @@
     "trade": "Yes"
   },
   {
-    "name": "Marine Cushioned Limb Mod",
-    "desc": "Reduces falling damage.",
+    "name": "Marine Cushioned Limb Mod (2)",
+    "desc": "Reduces falling damage for Marine Armor.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
     "trade": "Yes"
   },
   {
-    "name": "Marine Custom Fitted Limb Mod",
+    "name": "Marine Custom Fitted Limb Mod (2)",
     "desc": "Reduces Action Point cost when sprinting.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
@@ -688,7 +688,7 @@
     "trade": "Yes"
   },
   {
-    "name": "Pipe Bolt-Action Long Night Vision Scope",
+    "name": "Pipe Bolt-Action Long Night Vision Scope (2)",
     "desc": "Long-range magnification with night vision for the Pipe Bolt-Action Gun.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
@@ -704,7 +704,7 @@
     "trade": "Yes"
   },
   {
-    "name": "Pipe Gun Long Night Vision Scope",
+    "name": "Pipe Gun Long Night Vision Scope (2)",
     "desc": "Long-range magnification with night vision for the Pipe Gun.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
@@ -744,7 +744,7 @@
     "trade": "Yes"
   },
   {
-    "name": "Pitchfork Flamer",
+    "name": "Pitchfork Flamer (3)",
     "desc": "Adds fire damage to the Pitchfork.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
@@ -808,7 +808,7 @@
     "trade": "Yes"
   },
   {
-    "name": "Puncturing Sledgehammer Mod",
+    "name": "Puncturing Sledgehammer Mod (2)",
     "desc": "Adds armor penetration to the Sledgehammer.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
@@ -880,8 +880,8 @@
     "trade": "Yes"
   },
   {
-    "name": "Raider Tesla Coils",
-    "desc": "Deals constant energy damage to nearby enemies while wearing Raider Power Armor.",
+    "name": "Raider Tesla Coils (2)",
+    "desc": "Deals constant energy damage to nearby enemies in Raider Power Armor.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -896,7 +896,7 @@
     "trade": "Yes"
   },
   {
-    "name": "Robot Amor Brawling Limb Mod",
+    "name": "Robot Armor Brawling Limb Mod",
     "desc": "Increases unarmed damage with Robot Armor.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
@@ -936,8 +936,8 @@
     "trade": "Yes"
   },
   {
-    "name": "Sacrificial Blade Machete Mod",
-    "desc": "Greatly increases damage and adds bleed and poison damage to the Machete.",
+    "name": "Sacrificial Blade Machete Mod (3)",
+    "desc": "Greatly increases damage and adds bleed and poison damage.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -945,14 +945,14 @@
   },
   {
     "name": "Searing Heavy Sharp Rocket Sledgehammer Mod",
-    "desc": "Adds fire, bleed, and limb damage with a high chance to stagger enemies.",
+    "desc": "Adds fire, bleed, and limb damage with high stagger chance.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
     "trade": "Yes"
   },
   {
-    "name": "Serrated Blade Knife Mod",
+    "name": "Serrated Blade Knife Mod (2)",
     "desc": "Adds bleed damage and improves armor penetration for the Knife.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
@@ -960,7 +960,7 @@
     "trade": "Yes"
   },
   {
-    "name": "Serrated Blade Machete Mod",
+    "name": "Serrated Blade Machete Mod (2)",
     "desc": "Adds bleed damage and improves armor penetration for the Machete.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
@@ -970,6 +970,14 @@
   {
     "name": "Sharp Heavy Sledgehammer Mod",
     "desc": "Adds bleed damage and armor penetration to the Sledgehammer.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "trade": "Yes"
+  },
+  {
+    "name": "Sharp Knuckles Mod",
+    "desc": "Adds bleed damage and armor penetration to the Knuckles.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -1016,7 +1024,7 @@
     "trade": "Yes"
   },
   {
-    "name": "Spiked Rocket Heavy Sledgehammer Mod",
+    "name": "Spiked Rocket Heavy Sledgehammer Mod (3)",
     "desc": "Adds fire damage and armor penetration with improved stagger.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
@@ -1089,7 +1097,7 @@
   },
   {
     "name": "T-51b Headlamp Red Tactical",
-    "desc": "Provides bright red tactical illumination.",
+    "desc": "Provides bright red tactical illumination for T-51b armor.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -1097,7 +1105,7 @@
   },
   {
     "name": "T-51b Headlamp Vaultboy",
-    "desc": "Casts a Vault-Boy silhouette light.",
+    "desc": "Casts a Vault-Boy silhouette light for T-51b armor.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -1105,7 +1113,7 @@
   },
   {
     "name": "T-51b Kinetic Servos",
-    "desc": "Increases Action Point refresh speed while moving in T-51b Power Armor.",
+    "desc": "Increases Action Point refresh speed while moving in T-51b armor.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -1113,7 +1121,7 @@
   },
   {
     "name": "T-51b Overdrive Servos",
-    "desc": "Increases sprint speed at the cost of higher AP drain.",
+    "desc": "Increases sprint speed at the cost of higher Action Point drain.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -1121,7 +1129,7 @@
   },
   {
     "name": "T-51b Reactive Plates",
-    "desc": "Reflects 50% of melee damage back to the attacker.",
+    "desc": "Reflects 50% of incoming melee damage back to the attacker.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -1136,8 +1144,8 @@
     "trade": "Yes"
   },
   {
-    "name": "T-60 Headlamp Red Tactical",
-    "desc": "Provides bright red tactical illumination.",
+    "name": "T-60 Headlamp Red Tactical (2)",
+    "desc": "Provides bright red tactical illumination for T-60 armor.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -1161,7 +1169,7 @@
   },
   {
     "name": "Trapper Asbestos Torso Mod",
-    "desc": "Grants immunity to being set on fire and increases energy resistance for Trapper Armor.",
+    "desc": "Grants immunity to being set on fire and increases energy resistance.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -1169,7 +1177,7 @@
   },
   {
     "name": "Trapper Custom Fitted Limb Mod",
-    "desc": "Reduces Action Point cost when sprinting.",
+    "desc": "Reduces Action Point cost when sprinting for Trapper armor.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -1177,7 +1185,7 @@
   },
   {
     "name": "Trapper Pneumatic Torso Mod",
-    "desc": "Reduces the duration of staggers.",
+    "desc": "Reduces the duration of staggers for Trapper armor torso.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
