@@ -2,28 +2,158 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!-- Essential for Mobile Scaling -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SMASH'S List Of Items For Sale</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- Google Font for Terminal Style -->
+    <title>SMASH'S ROBCO TERMINAL</title>
+    <!-- Fallout Terminal Font -->
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <style>
+        /* --- 1. THEME VARIABLES --- */
+        :root {
+            /* Default System Green */
+            --main-color: #00ff41;
+            --dim-color: rgba(0, 255, 65, 0.6);
+            --glow-color: rgba(0, 255, 65, 0.25);
+            
+            /* Trading Currencies (Fixed) */
+            --caps-red: #ff4444;
+            --leaders-blue: #44aaff;
+        }
+
+        /* --- 2. GLOBAL STYLES --- */
+        body {
+            background-color: #050a05;
+            color: var(--main-color);
+            font-family: 'VT323', monospace;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin: 0;
+            padding: 15px;
+            transition: color 0.3s ease;
+        }
+
+        /* CRT Terminal Effect */
+        .terminal-container {
+            max-width: 900px;
+            margin: auto;
+            border: 2px solid var(--main-color);
+            padding: 20px;
+            box-shadow: inset 0 0 20px rgba(0, 255, 0, 0.05), 0 0 15px var(--glow-color);
+            background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.1) 50%), 
+                        linear-gradient(90deg, rgba(255, 0, 0, 0.02), rgba(0, 255, 0, 0.01), rgba(0, 0, 255, 0.02));
+            background-size: 100% 3px, 3px 100%;
+        }
+
+        /* --- THEME PICKER UI --- */
+        .theme-controls {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 15px;
+            border-bottom: 1px solid var(--dim-color);
+            padding-bottom: 10px;
+        }
+
+        .color-dot {
+            width: 18px;
+            height: 18px;
+            border: 1px solid #fff;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        .color-dot:hover { transform: scale(1.2); }
+
+        /* The Custom Color Tool */
+        #customPicker {
+            background: none;
+            border: 1px solid var(--main-color);
+            width: 25px;
+            height: 25px;
+            cursor: pointer;
+            padding: 0;
+        }
+
+        /* --- HEADER & BUTTONS --- */
+        header { text-align: center; margin-bottom: 25px; }
+        header h1 { color: var(--main-color); font-size: 2.2rem; text-shadow: 0 0 8px var(--glow-color); margin:0; }
+        .header-desc { font-size: 1.1rem; color: var(--dim-color); padding: 10px 0; }
+
+        .button-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 10px; margin-bottom: 25px; }
+        button {
+            background: rgba(0, 30, 0, 0.2);
+            color: var(--main-color);
+            border: 1px solid var(--main-color);
+            font-family: 'VT323', monospace;
+            font-size: 1.15rem;
+            padding: 10px 5px;
+            cursor: pointer;
+        }
+        button:hover { background: var(--main-color); color: #000; box-shadow: 0 0 12px var(--main-color); }
+
+        .search-area input {
+            width: 100%; background: transparent; border: 1px solid var(--main-color);
+            color: var(--main-color); padding: 12px; font-family: 'VT323', monospace;
+            font-size: 1.5rem; box-sizing: border-box; margin-bottom: 20px; outline: none;
+        }
+
+        /* --- LIST ITEMS --- */
+        .item-row { display: flex; justify-content: space-between; align-items: center; padding: 15px 10px; border-bottom: 1px solid rgba(0,255,0,0.1); cursor: pointer; gap: 15px; }
+        .item-row:hover { background: rgba(0, 255, 0, 0.1); }
+        .item-name { font-size: 1.5rem; color: var(--main-color); font-weight: bold; }
+        .item-subtext { font-size: 1.1rem; color: var(--dim-color); }
+
+        /* --- CURRENCY --- */
+        .price-container { text-align: right; display: flex; flex-direction: column; gap: 4px; min-width: 100px; }
+        .currency-row { display: flex; justify-content: flex-end; align-items: center; gap: 8px; font-weight: bold; font-size: 1.2rem; }
+        .caps-text { color: var(--caps-red); }
+        .bobble-text { color: var(--leaders-blue); }
+        .icon-red { filter: invert(15%) sepia(95%) saturate(6932%) hue-rotate(358deg) brightness(95%) contrast(112%); width: 20px; }
+        .icon-blue { filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(180deg) brightness(118%) contrast(119%); width: 20px; }
+
+        /* --- MODAL (BOX) --- */
+        .modal { display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.95); justify-content: center; align-items: center; cursor: pointer; }
+        .modal-content { border: 3px solid var(--main-color); padding: 25px; background: #020502; text-align: center; max-width: 650px; width: 90%; max-height: 95vh; overflow-y: auto; position: relative; cursor: default; transition: max-width 0.4s ease; }
+        .modal-content.wide { max-width: 95% !important; }
+
+        #modalImg { display: block; transition: 0.3s; border: 1px solid var(--main-color); margin: 15px auto; }
+        .img-small { max-height: 400px; max-width: 100%; cursor: zoom-in; }
+        .img-large { max-height: 80vh !important; max-width: 100% !important; cursor: zoom-out !important; }
+        
+        .alt-view-btn { display: inline-block; color: var(--main-color); text-decoration: none; padding: 10px; border: 1px solid var(--main-color); margin-top: 15px; }
+        .alt-view-btn:hover { background: var(--main-color); color: #000; }
+
+        @media (max-width: 600px) { .button-grid { grid-template-columns: 1fr; } .item-name { font-size: 1.2rem; } }
+    </style>
 </head>
 <body>
+
     <div class="terminal-container">
+        <!-- THEME CONTROLS -->
+        <div class="theme-controls">
+            <span>TERMINAL COLOR:</span>
+            <!-- Presets -->
+            <div class="color-dot" style="background:#00ff41" title="Classic Green" onclick="changeTheme('#00ff41')"></div>
+            <div class="color-dot" style="background:#ffb347" title="Amber" onclick="changeTheme('#ffb347')"></div>
+            <div class="color-dot" style="background:#44aaff" title="Vault Blue" onclick="changeTheme('#44aaff')"></div>
+            <div class="color-dot" style="background:#ffffff" title="White" onclick="changeTheme('#ffffff')"></div>
+            <!-- Full Color Picker -->
+            <input type="color" id="customPicker" title="Custom Color" oninput="changeTheme(this.value)">
+        </div>
+
         <header>
-            <h1>SMASH'S ROBCO TERMINAL [v4.2]</h1>
-            <p class="id-tag">[ ACCESSING DATABASE: xsmashx88x ]</p>
-            <p class="header-desc">PRICES ARE NEGOTIABLE. IF A PRICE IS MISSING, MESSAGE ME ON XBOX TO WORK OUT A DEAL!</p>
+            <h1>SMASH'S ROBCO TERMINAL [v5.0]</h1>
+            <p>[ ID: XBOX | xsmashx88x ]</p>
+            <p class="header-desc">PRICES ARE NEGOTIABLE. CONTACT VIA XBOX FOR TRADES.</p>
         </header>
 
-        <!-- Navigation Grid: Counts will be added to labels automatically by JS -->
         <nav class="button-grid">
             <button id="btn-enclave" onclick="loadData('enclavemods.json')">[ENCLAVE MODS]</button>
             <button id="btn-star" onclick="loadData('starmods.json')">[★ MODS]</button>
-            <button id="btn-fas" onclick="loadData('fasmask.json')">[FAS MASKS]</button>
+            <button id="btn-fas" onclick="loadData('fasmask.json')">[FAS MASK]</button>
             <button id="btn-plans" onclick="loadData('plans.json')">[PLANS]</button>
-            <button id="btn-recipe" onclick="loadData('recipe.json')">[RECIPES]</button>
+            <button id="btn-recipe" onclick="loadData('recipe.json')">[RECIPE]</button>
             <button id="btn-weapons" onclick="loadData('weapons.json')">[WEAPONS]</button>
             <button id="btn-armor" onclick="loadData('armor.json')">[ARMOR]</button>
             <button id="btn-mods" onclick="loadData('mods.json')">[MODS]</button>
@@ -35,35 +165,150 @@
         </nav>
 
         <div class="search-area">
-            <input type="text" id="searchInput" placeholder="SEARCH ARCHIVES (PICK A CATEGORY FIRST)..." onkeyup="filterItems()">
+            <input type="text" id="searchInput" placeholder="SEARCH DATABASE AFTER PICKING A CATEGORY..." onkeyup="filterItems()">
         </div>
 
-        <!-- This is where your list of items appears -->
-        <div id="itemList" class="item-list">
-            <div class="item-row">[ STANDBY: INITIALIZING SYSTEM... ]</div>
-        </div>
+        <div id="itemList"></div>
     </div>
 
-    <!-- THE DETAIL MODAL (Green Terminal Box) -->
-    <!-- Clicking background calls closeModal() -->
+    <!-- THE DETAIL MODAL -->
     <div id="detailModal" class="modal" onclick="closeModal()">
-        <!-- Clicking inside content calls stopPropagation() to prevent closing -->
         <div class="modal-content" onclick="event.stopPropagation()">
             <h2 id="modalTitle"></h2>
-            
             <div id="modalImgContainer">
-                <!-- Large, Clear Image. Clicks toggle expansion size -->
-                <img id="modalImg" src="" onclick="toggleImageSize()" class="img-small" title="Click to Expand/Shrink Image">
+                <img id="modalImg" src="" onclick="toggleImageSize()" class="img-small">
             </div>
-
-            <!-- Pricing rows and External Wiki links injected here -->
             <div id="modalPrices"></div>
-            
-            <p class="exit-hint">[ CLICK OUTSIDE THIS BOX TO EXIT ]</p>
+            <p style="margin-top:20px; color:var(--dim-color); font-size:0.8rem;">[ CLICK OUTSIDE TO EXIT ]</p>
         </div>
     </div>
 
-    <!-- Ensure script.js is at the very bottom -->
-    <script src="script.js"></script>
+    <script>
+        let currentData = [];
+
+        // --- 1. THEME & MEMORY LOGIC ---
+        function changeTheme(hex) {
+            // Update the CSS Variables
+            document.documentElement.style.setProperty('--main-color', hex);
+            // Create a dimmer version for subtext (60% opacity)
+            document.documentElement.style.setProperty('--dim-color', hex + '99'); 
+            // Create a glow version (25% opacity)
+            document.documentElement.style.setProperty('--glow-color', hex + '40');
+            
+            // Sync the color picker input
+            document.getElementById('customPicker').value = hex;
+
+            // Save to browser memory
+            localStorage.setItem('robco_user_color', hex);
+        }
+
+        // --- 2. DATA LOADING ---
+        async function loadData(filename) {
+            const list = document.getElementById('itemList');
+            document.getElementById('searchInput').value = "";
+            list.innerHTML = "<div class='item-row'>[ ACCESSING DATABASE... ]</div>";
+            try {
+                const response = await fetch(filename + "?t=" + Date.now());
+                if (!response.ok) throw new Error();
+                currentData = await response.json();
+                renderList(currentData);
+            } catch (e) { list.innerHTML = "<div class='item-row' style='color:red'>[ ERROR: FILE NOT FOUND ]</div>"; }
+        }
+
+        function renderList(items) {
+            const list = document.getElementById('itemList');
+            if (!items || items.length === 0) { list.innerHTML = "<div class='item-row'>[ NO DATA ]</div>"; return; }
+            list.innerHTML = items.map(item => {
+                const idx = currentData.indexOf(item);
+                return `
+                <div class="item-row" onclick="openDetails(${idx})">
+                    <div class="text-container">
+                        <div class="item-name">${item.name}</div>
+                        <div class="item-subtext">${item.desc || ''}</div>
+                    </div>
+                    <div class="price-container">
+                        <div class="currency-row caps-text">${(item.caps||0).toLocaleString()} <img src="fo76_caps.png" class="icon-red"></div>
+                        <div class="currency-row bobble-text">${item.leaders||0} <img src="mtg.png" class="icon-blue"></div>
+                    </div>
+                </div>`;
+            }).join('');
+        }
+
+        // --- 3. MODAL & IMAGE LOGIC ---
+        function toggleImageSize() {
+            const img = document.getElementById('modalImg');
+            const box = document.querySelector('.modal-content');
+            if (img.classList.contains('img-small')) {
+                img.classList.replace('img-small', 'img-large');
+                box.classList.add('wide');
+            } else {
+                img.classList.replace('img-large', 'img-small');
+                box.classList.remove('wide');
+            }
+        }
+
+        function openDetails(idx) {
+            const item = currentData[idx];
+            document.getElementById('modalTitle').innerText = item.name;
+            const img = document.getElementById('modalImg');
+            img.src = (item.image || 'placeholder.png') + "?t=" + Date.now();
+            img.className = 'img-small';
+            document.getElementById('modalPrices').innerHTML = `
+                <div style="margin-top:15px; border-top: 1px solid var(--main-color); padding-top:10px; text-align:left;">
+                    <div class="currency-row" style="justify-content:flex-start; margin-bottom:10px;">
+                        <img src="fo76_caps.png" class="icon-red" style="width:28px;"> <span class="caps-text">CAPS: ${(item.caps||0).toLocaleString()}</span>
+                    </div>
+                    <div class="currency-row" style="justify-content:flex-start; gap:12px;">
+                        <img src="mtg.png" class="icon-blue" style="width:28px;"> <span class="bobble-text">BOBBLEHEADS: ${item.leaders||0}</span>
+                    </div>
+                    ${item.alt_view ? `<center><a href="${item.alt_view}" target="_blank" class="alt-view-btn">[ VIEW WIKI DATA ]</a></center>` : ''}
+                </div>`;
+            document.getElementById('detailModal').style.display = 'flex';
+        }
+
+        function closeModal() {
+            document.getElementById('detailModal').style.display = 'none';
+            document.getElementById('modalImg').className = 'img-small';
+            document.querySelector('.modal-content').classList.remove('wide');
+        }
+
+        // --- 4. SEARCH & COUNTS ---
+        function filterItems() {
+            const val = document.getElementById('searchInput').value.toLowerCase();
+            renderList(currentData.filter(i => i.name.toLowerCase().includes(val) || (i.desc||'').toLowerCase().includes(val)));
+        }
+
+        async function updateCounts() {
+            const btns = [
+                {id:'btn-enclave', f:'enclavemods.json', l:'ENCLAVE MODS'}, {id:'btn-star', f:'starmods.json', l:'★ MODS'},
+                {id:'btn-fas', f:'fasmask.json', l:'FAS MASK'}, {id:'btn-plans', f:'plans.json', l:'PLANS'},
+                {id:'btn-recipe', f:'recipe.json', l:'RECIPE'}, {id:'btn-weapons', f:'weapons.json', l:'WEAPONS'},
+                {id:'btn-armor',   f:'armor.json',    l:'ARMOR'},   {id:'btn-mods', f:'mods.json', l:'MODS'},
+                {id:'btn-food',    f:'fooddrink.json', l:'FOOD & DRINK'}, {id:'btn-aid', f:'aid.json', l:'AID'},
+                {id:'btn-misc',    f:'miscjunk.json', l:'MISC + JUNK'}, {id:'btn-ammo', f:'ammo.json', l:'AMMO'},
+                {id:'btn-apparel', f:'apparel.json',  l:'APPAREL'}
+            ];
+            btns.forEach(async b => {
+                try {
+                    const r = await fetch(b.f + "?t=" + Date.now());
+                    const d = await r.json();
+                    const btn = document.getElementById(b.id);
+                    if (btn) btn.innerText = `[${b.l}] (${d.length})`;
+                } catch(e){}
+            });
+        }
+
+        window.onclick = (e) => { if (e.target == document.getElementById('detailModal')) closeModal(); }
+
+        // --- 5. INITIALIZATION ---
+        window.onload = () => {
+            // Load saved color preference
+            const savedColor = localStorage.getItem('robco_user_color');
+            if (savedColor) changeTheme(savedColor);
+            
+            updateCounts();
+            loadData('plans.json');
+        };
+    </script>
 </body>
 </html>
