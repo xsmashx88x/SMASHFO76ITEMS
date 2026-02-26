@@ -71,20 +71,11 @@
         .modal-content { border: 3px solid var(--main-color); padding: 25px; background: #020502; text-align: center; max-width: 600px; width: 90%; max-height: 90vh; overflow-y: auto; position: relative; cursor: default; transition: max-width 0.4s ease; }
         .modal-content.wide { max-width: 95% !important; }
 
-        /* --- CLOSE BUTTON FOR MOBILE --- */
         .close-modal-btn {
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            background: #ff4444;
-            color: #000;
-            border: none;
-            padding: 5px 15px;
-            font-family: 'VT323', monospace;
-            font-size: 1.2rem;
-            font-weight: bold;
-            cursor: pointer;
-            z-index: 1001;
+            position: absolute; top: 10px; right: 10px;
+            background: #ff4444; color: #000; border: none;
+            padding: 5px 15px; font-family: 'VT323', monospace;
+            font-size: 1.2rem; font-weight: bold; cursor: pointer; z-index: 1001;
         }
         .close-modal-btn:hover { background: #fff; }
 
@@ -164,12 +155,15 @@
     <!-- DETAIL WINDOW -->
     <div id="detailModal" class="modal" onclick="closeModal()">
         <div class="modal-content" onclick="event.stopPropagation()">
-            <!-- MOBILE FRIENDLY CLOSE BUTTON -->
             <button class="close-modal-btn" onclick="closeModal()">[X] CLOSE</button>
-            
             <h2 id="modalTitle" style="font-size: 2rem; margin: 0;"></h2>
             <div id="modalDesc"></div>
-            <img id="modalImg" src="" onclick="toggleImageSize()" class="img-small">
+            
+            <!-- FIXED: THE CONTAINER WRAPPER WAS MISSING -->
+            <div id="modalImgContainer">
+                <img id="modalImg" src="" onclick="toggleImageSize()" class="img-small">
+            </div>
+
             <div id="modalStats" class="info-grid"></div>
             <div id="modalLinks"></div>
             <p style="margin-top:20px; color:var(--dim-color); font-size:0.8rem;">[ CLICK OUTSIDE OR USE BUTTON TO EXIT ]</p>
@@ -180,28 +174,18 @@
         let currentData = [];
 
         function formatVal(val) {
-    // 1. If the value is missing, empty, or literally 0, return a placeholder
-    if (val === undefined || val === null || val === "" || val === 0 || val === "0") {
-        return "---"; 
-    }
-    
-    // Convert to string and clean it up for checking
-    let text = val.toString().toUpperCase().trim();
-
-    // 2. Check for specific Trade keywords
-    if (text === "YES" || text === "TRUE") return "✅ YES"; 
-    if (text === "NO" || text === "FALSE") return "✖ NO";
-    if (text === "WTT") return "🤝 WTT ONLY";
-
-    // 3. If it's a number (like 500), format it with commas
-    // We check if it's a number AND doesn't have letters
-    if (!isNaN(val) && !/[a-z]/i.test(val)) {
-        return Number(val).toLocaleString();
-    }
-
-    // 4. Otherwise, just return the text as it is
-    return text;
-}
+            if (val === undefined || val === null || val === "" || val === 0 || val === "0") {
+                return "---"; 
+            }
+            let text = val.toString().toUpperCase().trim();
+            if (text === "YES" || text === "TRUE") return "✅ YES"; 
+            if (text === "NO" || text === "FALSE") return "✖ NO";
+            if (text === "WTT") return "🤝 WTT ONLY";
+            if (!isNaN(val) && !/[a-z]/i.test(val)) {
+                return Number(val).toLocaleString();
+            }
+            return text;
+        }
 
         function changeTheme(hex) {
             document.documentElement.style.setProperty('--main-color', hex);
@@ -242,24 +226,21 @@
             }).join('');
         }
 
-function openDetails(idx) {
-    const item = currentData[idx];
-    document.getElementById('modalTitle').innerText = item.name;
-    document.getElementById('modalDesc').innerHTML = item.desc || "";
-    
-    // --- NEW: IMAGE BLOCKER LOGIC ---
-    const imgContainer = document.getElementById('modalImgContainer');
-    const img = document.getElementById('modalImg');
+        function openDetails(idx) {
+            const item = currentData[idx];
+            document.getElementById('modalTitle').innerText = item.name;
+            document.getElementById('modalDesc').innerHTML = item.desc || "";
+            
+            const imgContainer = document.getElementById('modalImgContainer');
+            const img = document.getElementById('modalImg');
 
-    if (item.image && item.image.trim() !== "") {
-        // If image exists, show the container and set the source
-        imgContainer.style.display = "block";
-        img.src = item.image + "?t=" + Date.now();
-        img.className = 'img-small'; // Always start small
-    } else {
-        // If image is missing, hide the entire container
-        imgContainer.style.display = "none";
-    }
+            if (item.image && item.image.trim() !== "") {
+                imgContainer.style.display = "block";
+                img.src = item.image + "?t=" + Date.now();
+                img.className = 'img-small';
+            } else {
+                imgContainer.style.display = "none";
+            }
 
             let statsHTML = `
                 <div class="modal-pricing-block">
