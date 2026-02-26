@@ -1,362 +1,356 @@
 [
   {
-    "name": "Bloatfly Loaf",
-    "desc": "Unlocks the recipe to craft Bloatfly Loaf, providing HP and increased Radiation Resistance.",
-    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
-    "caps": 100,
-    "leaders": 0,
-    "Trade": "Yes"
+    "name": "Recipe: Bloatfly Loaf",
+    "desc": "Teaches you how to cook a Bloatfly Loaf at a cooking station, which provides food and a small health buff.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 100, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Bloodbug Peppersteak",
-    "desc": "Unlocks the recipe to craft Bloodbug Peppersteak, which increases maximum HP for a duration.",
-    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
-    "caps": 100,
-    "leaders": 0,
-    "Trade": "Yes"
+    "name": "Recipe: Bloodbug Peppersteak",
+    "desc": "Teaches you how to cook Bloodbug Peppersteak at a cooking station, which provides food and increases your maximum Health.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 100, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Ground Molerat",
-    "desc": "Unlocks the recipe to craft Ground Molerat, providing HP and a bonus to Agility.",
-    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
-    "caps": 100,
-    "leaders": 0,
-    "Trade": "Yes"
+    "name": "Recipe: Ground Molerat",
+    "desc": "Teaches you how to cook Ground Molerat at a cooking station, a simple meal providing food and health.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 100, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Healing Salve (Forest)",
-    "desc": "Unlocks the recipe for a regional healing salve that restores HP and has a chance to cure diseases.",
-    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
-    "caps": 200,
-    "leaders": 0,
-    "Trade": "Yes"
+    "name": "Recipe: Healing Salve (Forest)",
+    "desc": "Teaches you how to craft Healing Salve at a chemistry station using ingredients found in the Forest region to restore health.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 200, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Infused Blood Leaf Tea",
-    "desc": "Unlocks the recipe for a refreshing tea that provides HP and a boost to Radiation Resistance.",
-    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
-    "caps": 100,
-    "leaders": 0,
-    "Trade": "Yes"
+    "name": "Recipe: Infused Blood Leaf Tea",
+    "desc": "Teaches you how to brew Infused Blood Leaf Tea at a cooking station, providing health and a boost to your Perception.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 100, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Infused Soot Flower Tea",
-    "desc": "Unlocks the recipe for a tea that restores HP and increases maximum Action Points (AP).",
-    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
-    "caps": 100,
-    "leaders": 0,
-    "Trade": "Yes"
+    "name": "Recipe: Infused Soot Flower Tea",
+    "desc": "Teaches you how to brew Infused Soot Flower Tea at a cooking station, providing hydration and increasing your maximum Action Points.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 100, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Mirelurk Cake",
-    "desc": "Unlocks the recipe for Mirelurk Cake, which allows you to breathe underwater for a limited time.",
-    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
-    "caps": 169,
-    "leaders": 0,
-    "Trade": "Yes"
+    "name": "Recipe: Mirelurk Cake",
+    "desc": "Teaches you how to cook Mirelurk Cake at a cooking station, providing food and the ability to breathe underwater for a limited time.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 169, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Mirelurk Jerky",
-    "desc": "Unlocks the recipe for Mirelurk Jerky, providing HP and a boost to Damage Resistance.",
-    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
-    "caps": 100,
-    "leaders": 0,
-    "Trade": "Yes"
+    "name": "Recipe: Mirelurk Jerky",
+    "desc": "Teaches you how to cook Mirelurk Jerky at a cooking station, providing a boost to your Damage Resistance.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 100, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Mirelurk Softshell Cake",
-    "desc": "Unlocks the recipe for a softshell cake that restores HP and improves AP regeneration speed.",
-    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
-    "caps": 100,
-    "leaders": 0,
-    "Trade": "Yes"
+    "name": "Recipe: Mirelurk Softshell Cake",
+    "desc": "Teaches you how to cook Mirelurk Softshell Cake at a cooking station, providing food and improving your maximum AP.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 100, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Psycho",
-    "desc": "Unlocks the crafting for the Psycho chem, which increases Damage output and Damage Resistance.",
-    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
-    "caps": 569,
-    "leaders": 0,
-    "Trade": "Yes"
+    "name": "Recipe: Psycho",
+    "desc": "Teaches you how to craft the chem Psycho at a chemistry station, which increases your damage dealt and damage resistance.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 569, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Radstag Stew",
-    "desc": "Unlocks the recipe for Radstag Stew, providing HP and a temporary boost to Energy Resistance.",
-    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
-    "caps": 100,
-    "leaders": 0,
-    "Trade": "Yes"
+    "name": "Recipe: Radstag Stew",
+    "desc": "Teaches you how to cook Radstag Stew at a cooking station, providing food and a boost to your Energy Resistance.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 100, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "S'mores",
-    "desc": "Unlocks the recipe for the campfire classic, providing HP and a boost to Energy Resistance.",
-    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
-    "caps": 100,
-    "leaders": 0,
-    "Trade": "Yes"
+    "name": "Recipe: Smores",
+    "desc": "Teaches you how to cook S'mores at a cooking station, providing food and a significant boost to your maximum Action Points.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 100, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Scorchbeast Mixed Meat Stew",
-    "desc": "Unlocks a powerful stew that provides HP and increases all SPECIAL stats for Carnivores.",
-    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
-    "caps": 100,
-    "leaders": 0,
-    "Trade": "Yes"
+    "name": "Recipe: Scorchbeast Mixed Meat Stew",
+    "desc": "Teaches you how to cook a hearty stew using various Scorchbeast meats, providing massive food value and multiple stat buffs.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 1001, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Silt Bean Puree",
-    "desc": "Unlocks the recipe for Silt Bean Puree, providing HP and a temporary bonus to Damage Resistance.",
-    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
-    "caps": 100,
-    "leaders": 0,
-    "Trade": "Yes"
+    "name": "Recipe: Scorchbeast Mixed Meat Stew",
+    "desc": "Teaches you how to cook a hearty stew using various Scorchbeast meats, providing massive food value and multiple stat buffs.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Steeped Aster Tea",
-    "desc": "Unlocks the recipe for Aster Tea, providing HP and a temporary boost to Charisma.",
-    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
-    "caps": 100,
-    "leaders": 0,
-    "Trade": "Yes"
+    "name": "Recipe: Silt Bean Puree",
+    "desc": "Teaches you how to cook Silt Bean Puree at a cooking station, providing food and a boost to your Damage Resistance.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 100, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Steeped Carrot Flower Tea",
-    "desc": "Unlocks the recipe for Carrot Flower Tea, providing HP and a temporary boost to Perception.",
-    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
-    "caps": 100,
-    "leaders": 0,
-    "Trade": "Yes"
+    "name": "Recipe: Steeped Aster Tea",
+    "desc": "Teaches you how to brew Steeped Aster Tea at a cooking station, which provides hydration and improves your Intelligence stat.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 100, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Steeped Melon Blossom Chai",
-    "desc": "Unlocks the recipe for Melon Blossom Chai, providing HP and a temporary boost to Agility.",
-    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
-    "caps": 100,
-    "leaders": 0,
-    "Trade": "Yes"
+    "name": "Recipe: Steeped Carrot Flower Tea",
+    "desc": "Teaches you how to brew Steeped Carrot Flower Tea at a cooking station, providing hydration and boosting your Perception.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 100, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Sweet Tato Stew",
-    "desc": "Unlocks the recipe for a sweet stew that provides HP and a duration of health regeneration.",
-    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
-    "caps": 100,
-    "leaders": 0,
-    "Trade": "Yes"
+    "name": "Recipe: Steeped Melon Blossom Chai",
+    "desc": "Teaches you how to brew Steeped Melon Blossom Chai at a cooking station, providing hydration and boosting your Agility.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 100, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Tasty Mutton Meat Pie",
-    "desc": "Unlocks a meat pie recipe that provides HP and increases Melee Damage for a duration.",
-    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
-    "caps": 100,
-    "leaders": 0,
-    "Trade": "Yes"
+    "name": "Recipe: Sweet Tato Stew",
+    "desc": "Teaches you how to cook Sweet Tato Stew at a cooking station, providing food and a steady health regeneration effect.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 100, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Aged Mirelurk Queen Steak",
-    "desc": "Unlocks the recipe for a gourmet steak that restores HP and increases Endurance.",
-    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
-    "caps": 0,
-    "leaders": 0,
-    "Trade": "Yes"
+    "name": "Recipe: Tasty Mutton Meat Pie",
+    "desc": "Teaches you how to cook Tasty Mutton Meat Pie at a cooking station, providing food and a boost to your Melee Damage.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 100, "leaders": 0, "trade": "Yes"
+  },
+    {
+    "name": "Recipe: Fasnacht Sausage",
+    "desc": "Teaches you how to cook Fasnacht Sausage, a festive meat item that satisfies hunger and does not spoil.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Blackberry Honey Crisp",
-    "desc": "Unlocks a sweet snack recipe that restores HP and significantly improves AP regeneration.",
-    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
-    "caps": 0,
-    "leaders": 0,
-    "Trade": "Yes"
+    "name": "Recipe: Steeped Strangler Bloom Tea",
+    "desc": "Teaches you how to brew Steeped Strangler Bloom Tea, which provides Rad Resistance and restores health.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Cranberry Meatball Grinder",
-    "desc": "Unlocks a sandwich recipe that restores HP and provides a large bonus to maximum HP.",
-    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
-    "caps": 0,
-    "leaders": 0,
-    "Trade": "Yes"
+    "name": "Recipe: Steeped Tato Flower Tea",
+    "desc": "Teaches you how to brew Steeped Tato Flower Tea, which grants a boost to your maximum Action Points.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Dog Meat Steak",
-    "desc": "Unlocks a simple meat recipe providing HP and a temporary boost to Endurance.",
-    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
-    "caps": 0,
-    "leaders": 0,
-    "Trade": "Yes"
+    "name": "Recipe: Aged Mirelurk Queen Steak",
+    "desc": "Teaches you how to cook an Aged Mirelurk Queen Steak, which provides a significant boost to maximum Health.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Fasnacht Donut",
-    "desc": "Unlocks the recipe for a festive donut that provides HP and fills Food and Water meters.",
-    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
-    "caps": 0,
-    "leaders": 0,
-    "Trade": "Yes"
+    "name": "Recipe: Blackberry Honey Crisp",
+    "desc": "Teaches you how to cook Blackberry Honey Crisp, a dessert that provides excellent Action Point regeneration.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Fasnacht Sausage",
-    "desc": "Unlocks the recipe for a festive sausage that provides HP and a bonus to maximum HP.",
-    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
-    "caps": 0,
-    "leaders": 0,
-    "Trade": "Yes"
+    "name": "Recipe: Bloodbug Peppersteak",
+    "desc": "Teaches you how to cook Bloodbug Peppersteak, which increases your maximum Health for a duration.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Fried Deerskins",
-    "desc": "Unlocks a crunchy snack recipe providing HP and a temporary boost to Agility.",
-    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
-    "caps": 0,
-    "leaders": 0,
-    "Trade": "Yes"
+    "name": "Recipe: Cranberry Meatball Grinder",
+    "desc": "Teaches you how to cook a Cranberry Meatball Grinder, which provides a large boost to maximum Health.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Fried Radtoad Legs",
-    "desc": "Unlocks a unique recipe providing HP and a slight increase to jump height.",
-    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
-    "caps": 0,
-    "leaders": 0,
-    "Trade": "Yes"
+    "name": "Recipe: Dog Meat Steak",
+    "desc": "Teaches you how to cook Dog Meat Steak, a basic meal that satisfies hunger and restores Health.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Fury",
-    "desc": "Unlocks the crafting for the Fury chem, boosting Melee Damage and Damage Resistance at the cost of Perception.",
-    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
-    "caps": 0,
-    "leaders": 0,
-    "Trade": "Yes"
+    "name": "Recipe: Fasnacht Donut",
+    "desc": "Teaches you how to cook the festive Fasnacht Donut, a sweet treat that does not spoil over time.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Healing Salve (Toxic Valley)",
-    "desc": "Unlocks the regional healing salve recipe for the Toxic Valley, restoring HP and curing diseases.",
-    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
-    "caps": 0,
-    "leaders": 0,
-    "Trade": "Yes"
+    "name": "Recipe: Fried Deerskins",
+    "desc": "Teaches you how to cook Fried Deerskins, which provides a boost to your Agility stat.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Iguana Soup",
-    "desc": "Unlocks the recipe for Iguana Soup, providing HP and a boost to Luck.",
-    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
-    "caps": 0,
-    "leaders": 0,
-    "Trade": "Yes"
+    "name": "Recipe: Fried Radtoad Legs",
+    "desc": "Teaches you how to cook Fried Radtoad Legs, a simple meal that provides food and a small amount of Health.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Megasloth Tenderloin",
-    "desc": "Unlocks a heavy meat recipe providing HP and a significant bonus to Strength.",
-    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
-    "caps": 0,
-    "leaders": 0,
-    "Trade": "Yes"
+    "name": "Recipe: Fury",
+    "desc": "Teaches you how to craft Fury, a powerful chem that increases Melee Damage and Damage Resistance while reducing Perception.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Mentats",
-    "desc": "Unlocks the crafting for Mentats, a chem that increases Intelligence and Perception.",
-    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
-    "caps": 0,
-    "leaders": 0,
-    "Trade": "Yes"
+    "name": "Recipe: Ground Molerat",
+    "desc": "Teaches you how to cook Ground Molerat, a basic meal providing standard food and Health restoration.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "RadAway",
-    "desc": "Unlocks the essential medical recipe for RadAway, which removes radiation from the body.",
-    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
-    "caps": 0,
-    "leaders": 0,
-    "Trade": "Yes"
+    "name": "Recipe: Healing Salve (Toxic Valley)",
+    "desc": "Teaches you how to craft a Healing Salve using ingredients from the Toxic Valley to quickly restore Health.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Radscorpion Fillet",
-    "desc": "Unlocks the recipe for Radscorpion Fillet, providing HP and a boost to Energy Resistance.",
-    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
-    "caps": 0,
-    "leaders": 0,
-    "Trade": "Yes"
+    "name": "Recipe: Iguana Soup",
+    "desc": "Teaches you how to cook Iguana Soup, which provides a temporary boost to your Luck stat.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Squirrel On A Stick",
-    "desc": "Unlocks a simple snack recipe providing HP and a temporary boost to Agility.",
-    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
-    "caps": 0,
-    "leaders": 0,
-    "Trade": "Yes"
+    "name": "Recipe: Infused Blood Leaf Tea",
+    "desc": "Teaches you how to brew Infused Blood Leaf Tea, which provides a boost to your Perception stat.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Steeped Ash Rose Tea",
-    "desc": "Unlocks the recipe for Ash Rose Tea, providing HP and a temporary boost to Strength.",
-    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
-    "caps": 0,
-    "leaders": 0,
-    "Trade": "Yes"
+    "name": "Recipe: Infused Soot Flower Tea",
+    "desc": "Teaches you how to brew Infused Soot Flower Tea, which increases your maximum Action Points.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Steeped Fern Flower Tea",
-    "desc": "Unlocks the recipe for Fern Flower Tea, providing HP and a temporary boost to Strength.",
-    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
-    "caps": 0,
-    "leaders": 0,
-    "Trade": "Yes"
+    "name": "Recipe: Megasloth Tenderloin",
+    "desc": "Teaches you how to cook Megasloth Tenderloin, which provides a substantial boost to your maximum Health.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Steeped Fever Blossom Tea",
-    "desc": "Unlocks the recipe for Fever Blossom Tea, providing HP and a significant boost to AP regeneration.",
-    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
-    "caps": 0,
-    "leaders": 0,
-    "Trade": "Yes"
+    "name": "Recipe: Mentats",
+    "desc": "Teaches you how to craft Mentats, a chem that boosts Intelligence and Perception stats.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Steeped Gourd Blossom Tea",
-    "desc": "Unlocks the recipe for Gourd Blossom Tea, providing HP and a temporary boost to Perception.",
-    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
-    "caps": 0,
-    "leaders": 0,
-    "Trade": "Yes"
+    "name": "Recipe: Mirelurk Softshell Cake",
+    "desc": "Teaches you how to cook Mirelurk Softshell Cake, which provides food and increases your maximum Action Points.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Steeped Melon Bloom Tea",
-    "desc": "Unlocks the recipe for Melon Bloom Tea, providing HP and a temporary boost to Agility.",
-    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
-    "caps": 0,
-    "leaders": 0,
-    "Trade": "Yes"
+    "name": "Recipe: RadAway",
+    "desc": "Teaches you how to craft RadAway at a chemistry station to remove radiation from your body.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Steeped Strangler Pod Tea",
-    "desc": "Unlocks the recipe for Strangler Pod Tea, providing HP and boosting Radiation Resistance.",
-    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
-    "caps": 0,
-    "leaders": 0,
-    "Trade": "Yes"
+    "name": "Recipe: Radscorpion Fillet",
+    "desc": "Teaches you how to cook Radscorpion Fillet, which provides a boost to your Energy Resistance.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Stimpak",
-    "desc": "Unlocks the critical medical recipe for crafting standard Stimpaks to restore HP.",
-    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
-    "caps": 0,
-    "leaders": 0,
-    "Trade": "Yes"
+    "name": "Recipe: Radstag Stew",
+    "desc": "Teaches you how to cook Radstag Stew, which provides food and improves your Energy Resistance.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Stimpak Diffuser",
-    "desc": "Unlocks the rare recipe for Stimpak Diffusers, which restore HP to the user and nearby teammates.",
-    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
-    "caps": 0,
-    "leaders": 0,
-    "Trade": "Yes"
+    "name": "Recipe: Smores",
+    "desc": "Teaches you how to cook S'mores, which satisfies hunger and provides a significant boost to maximum Action Points.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Sweet Blackberry Tea",
-    "desc": "Unlocks a sweet tea recipe that restores HP and improves Action Point (AP) regeneration.",
-    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
-    "caps": 0,
-    "leaders": 0,
-    "Trade": "Yes"
+    "name": "Recipe: Scorchbeast Mixed Meat Stew",
+    "desc": "Teaches you how to cook a hearty stew using Scorchbeast parts, providing massive food value and multiple stat buffs.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
   },
   {
-    "name": "Tasty Stingwing Stew",
-    "desc": "Unlocks a high-quality stew recipe that restores HP and provides a bonus to Perception.",
-    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
-    "caps": 0,
-    "leaders": 0,
-    "Trade": "Yes"
+    "name": "Recipe: Silt Bean Puree",
+    "desc": "Teaches you how to cook Silt Bean Puree, which provides food and boosts your Damage Resistance.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Recipe: Squirrel On A Stick",
+    "desc": "Teaches you how to cook Squirrel On A Stick, a simple roasted snack that provides food and Health.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Recipe: Steeped Ash Rose Tea",
+    "desc": "Teaches you how to brew Steeped Ash Rose Tea, which provides hydration and a boost to Charisma.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Recipe: Steeped Fern Flower Tea",
+    "desc": "Teaches you how to brew Steeped Fern Flower Tea, which provides hydration and a boost to your Strength stat.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Recipe: Steeped Fever Blossom Tea",
+    "desc": "Teaches you how to brew Steeped Fever Blossom Tea, which significantly improves your Action Point regeneration.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Recipe: Steeped Gourd Blossom Tea",
+    "desc": "Teaches you how to brew Steeped Gourd Blossom Tea, which provides hydration and boosts your Perception.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Recipe: Steeped Melon Bloom Tea",
+    "desc": "Teaches you how to brew Steeped Melon Bloom Tea, which provides hydration and increases your Agility stat.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Recipe: Steeped Melon Blossom Chai",
+    "desc": "Teaches you how to brew Steeped Melon Blossom Chai, a specialized tea that provides a boost to Agility.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Recipe: Steeped Strangler Pod Tea",
+    "desc": "Teaches you how to brew Steeped Strangler Pod Tea, which provides hydration and increases Radiation Resistance.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Recipe: Stimpak",
+    "desc": "Teaches you how to craft a standard Stimpak at a chemistry station for essential Health restoration.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Recipe: Stimpak Diffuser",
+    "desc": "Teaches you how to craft Stimpak Diffusers, which create a healing cloud that restores Health to you and nearby teammates.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Recipe: Sweet Blackberry Tea",
+    "desc": "Teaches you how to brew Sweet Blackberry Tea, which provides a long-lasting boost to Action Point regeneration.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Recipe: Tasty Mutton Meat Pie",
+    "desc": "Teaches you how to cook a Tasty Mutton Meat Pie, which satisfies hunger and increases Melee Damage.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
+  {
+    "name": "Recipe: Tasty Stingwing Stew",
+    "desc": "Teaches you how to cook Tasty Stingwing Stew, which provides food and a boost to your Perception stat.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
   }
 ]
