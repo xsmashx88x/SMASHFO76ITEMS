@@ -5,7 +5,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 15,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": ".44 Stabilized Long Barrel",
@@ -13,7 +13,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "10mm True Long Barrel",
@@ -21,7 +21,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "50 Cal Machine Gun Heavy Barrel",
@@ -29,7 +29,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Assault Rifle Bruising Stock",
@@ -37,7 +37,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Assault Rifle Piercing Magazine",
@@ -45,7 +45,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Assault Rifle Refined Receiver",
@@ -53,7 +53,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Assault Rifle Stinging Magazine",
@@ -61,7 +61,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Assaultron Blade Electrified Mod",
@@ -69,7 +69,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Auto Grenade Launcher Heavy Barrel",
@@ -77,7 +77,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Barbed Flaming Pitchfork",
@@ -85,7 +85,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Barbed Walking Cane Mod",
@@ -93,7 +93,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Baseball Bat Barbed Mod",
@@ -101,7 +101,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Baseball Bat Chain-Wrapped Mod",
@@ -109,7 +109,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Baseball Bat Heated Rocket Mod",
@@ -117,7 +117,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Baseball Bat Sharp Mod",
@@ -125,7 +125,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Baseball Bat Spiked Rocket Mod",
@@ -133,7 +133,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Baton Electrified Mod",
@@ -141,7 +141,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Broadsider Multi Shot Canister",
@@ -149,7 +149,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Chainsaw Long Bow Bar",
@@ -157,7 +157,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Chinese Officer Sword Electrified Blade Mod",
@@ -165,7 +165,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Chinese Officer Sword Electrified Serrated Blade Mod",
@@ -173,7 +173,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Combat Asbestos Torso Mod",
@@ -181,7 +181,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Combat Lead Lined Limb Mod",
@@ -189,7 +189,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Combat Rifle Comfort Stock",
@@ -197,7 +197,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Combat Rifle Short Night Vision Scope",
@@ -205,7 +205,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Combat Shadowed Leg Mod",
@@ -213,7 +213,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Combat Shotgun Vicious Receiver",
@@ -221,7 +221,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Combat Strengthened Limb Mod",
@@ -229,7 +229,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Cryolator Glow Sights",
@@ -237,7 +237,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Double-Barrel Shotgun Precise Short Stock",
@@ -245,7 +245,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Double-Barrel Shotgun Stabilized Long Barrel",
@@ -253,7 +253,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Electrified Buzz Blades Mod",
@@ -261,7 +261,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Excavator Headlamp",
@@ -269,7 +269,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Excavator Optimized Servos",
@@ -277,7 +277,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Excavator Overdrive Servos",
@@ -285,7 +285,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Excavator Reactive Plates",
@@ -293,7 +293,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Extra Flame Jets Shishkebab Mod",
@@ -301,7 +301,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Fatman MIRV Launcher",
@@ -309,7 +309,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Flamer Compression Nozzle",
@@ -317,7 +317,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Gamma Gun Electric Signal Carrier Antennae",
@@ -325,7 +325,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Gauss Rifle Stabilized Shielded Barrel",
@@ -333,7 +333,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Handmade Rifle Calibrated Receiver",
@@ -341,7 +341,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Handmade Rifle Long Night Vision Scope",
@@ -349,7 +349,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Heating Coil Power Fist Mod",
@@ -357,7 +357,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Heavy Pipe Wrench Mod",
@@ -365,7 +365,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Heavy Rocket Sledgehammer Mod",
@@ -373,7 +373,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Heavy Sharp Rocket Sledgehammer Mod",
@@ -381,7 +381,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Hooked Pipe Wrench Mod",
@@ -389,7 +389,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Hunting Rifle Calibrated Receiver",
@@ -397,7 +397,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Hunting Rifle Large Magazine",
@@ -405,7 +405,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Hunting Rifle Perforating Magazine",
@@ -413,7 +413,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Hunting Rifle Precise .50 Receiver",
@@ -421,7 +421,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Hunting Rifle Refined .50 Receiver",
@@ -429,7 +429,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Hunting Rifle Snappy Receiver",
@@ -437,7 +437,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Hunting Rifle True Receiver",
@@ -445,7 +445,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Laser Gun Aligned Automatic Barrel",
@@ -453,7 +453,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Laser Gun Gamma Wave Emitter",
@@ -461,7 +461,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Laser Gun Hair Trigger Capacitor",
@@ -469,7 +469,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Laser Gun Precise Stock",
@@ -477,7 +477,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Laser Gun Stabilized Sniper Barrel",
@@ -485,7 +485,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Leather Studded Arm Mod",
@@ -493,7 +493,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Leather Studded Torso Mod",
@@ -501,7 +501,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Leather Treated Arm Mod",
@@ -509,7 +509,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Leather Treated Leg Mod",
@@ -517,7 +517,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Leather Treated Torso Mod",
@@ -525,7 +525,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Lever Action Rifle Vicious Receiver",
@@ -533,7 +533,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Marine Aerodynamic Limb Mod",
@@ -541,7 +541,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Marine Arm Hardened",
@@ -549,7 +549,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Marine BioCommMesh Torso Mod",
@@ -557,7 +557,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Marine Braced Limb Mod",
@@ -565,7 +565,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Marine Cushioned Limb Mod",
@@ -573,7 +573,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Marine Custom Fitted Limb Mod",
@@ -581,7 +581,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Marine Padded Torso Mod",
@@ -589,7 +589,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Marine Pneumatic Torso Mod",
@@ -597,7 +597,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Marine Pocketed Torso Mod",
@@ -605,7 +605,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Marine Torso Tempered",
@@ -613,7 +613,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Meat Hook Extra Hooks Mod",
@@ -621,7 +621,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Metal Armor Custom Fitted Limb Mod",
@@ -629,7 +629,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Metal Armor Lead Lined Torso Mod",
@@ -637,7 +637,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Metal Armor Polished Arm Mod",
@@ -645,7 +645,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Metal Armor Polished Torso Mod",
@@ -653,7 +653,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Metal Armor Shadowed Torso Mod",
@@ -661,7 +661,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Metal Armor Sleek Limb Mod",
@@ -669,7 +669,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Minigun Shredder",
@@ -677,7 +677,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Missile Launcher Quad Barrel",
@@ -685,7 +685,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Pipe Bolt-Action Long Night Vision Scope",
@@ -693,7 +693,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Pipe Bolt-Action True Receiver",
@@ -701,7 +701,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Pipe Gun Long Night Vision Scope",
@@ -709,7 +709,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Pipe Gun Perforating Magazine",
@@ -717,7 +717,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Pipe Gun Stabilized Long Barrel",
@@ -725,7 +725,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Pipe Revolver Hardened Receiver",
@@ -733,7 +733,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Pipe Revolver Long Night Vision Scope",
@@ -741,7 +741,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Pitchfork Flamer",
@@ -749,7 +749,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Plasma Gun Aligned Automatic Barrel",
@@ -757,7 +757,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Plasma Gun Long Night Vision Scope",
@@ -765,7 +765,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Plasma Gun True Short Barrel",
@@ -773,7 +773,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Plasma Gun True Sniper Barrel",
@@ -781,7 +781,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Pole Hook Puncturing Mod",
@@ -789,7 +789,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Pump Action Shotgun Calibrated Receiver",
@@ -797,7 +797,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Puncturing Pipe Wrench Mod",
@@ -805,7 +805,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Puncturing Sledgehammer Mod",
@@ -813,7 +813,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Radium Rifle Powerful Receiver",
@@ -821,7 +821,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Raider Braced Limb Mod",
@@ -829,7 +829,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Raider Buttressed Arm Mod",
@@ -837,7 +837,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Raider Cushioned Limb Mod",
@@ -845,7 +845,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Raider Kinetic Servos",
@@ -853,7 +853,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Raider Tempered Arm Mod",
@@ -861,7 +861,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Raider Tempered Leg Mod",
@@ -869,7 +869,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Raider Tempered Torso Mod",
@@ -877,7 +877,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Raider Tesla Coils",
@@ -885,7 +885,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Railway Rifle Large Bayonet",
@@ -893,7 +893,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Robot Amor Brawling Limb Mod",
@@ -901,7 +901,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Robot Armor Aerodynamic Limb Mod",
@@ -909,7 +909,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Robot Armor Alloyed Arm Mod",
@@ -917,7 +917,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Robot Armor Pneumatic Torso Mod",
@@ -925,7 +925,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Robot Armor Shadowed Torso Mod",
@@ -933,7 +933,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Sacrificial Blade Machete Mod",
@@ -941,7 +941,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Searing Heavy Sharp Rocket Sledgehammer Mod",
@@ -949,7 +949,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Serrated Blade Knife Mod",
@@ -957,7 +957,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Serrated Blade Machete Mod",
@@ -965,7 +965,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Sharp Heavy Sledgehammer Mod",
@@ -973,7 +973,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Sharp Knuckles Mod",
@@ -981,7 +981,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Single Action Revolver Ivory Grip",
@@ -989,7 +989,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Ski Sword Skate Blade",
@@ -997,7 +997,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Spiked Knuckles Mod",
@@ -1005,7 +1005,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Spiked Pool Cue Mod",
@@ -1013,7 +1013,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Spiked Rocket Heavy Sledgehammer Mod",
@@ -1021,7 +1021,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Spiked Walking Cane Mod",
@@ -1029,7 +1029,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Stealth Blade Knife Mod",
@@ -1037,7 +1037,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Syringer Glow Reflex Sight",
@@ -1045,7 +1045,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "T-45 Core Assembly",
@@ -1053,7 +1053,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "T-45 Headlamp",
@@ -1061,7 +1061,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "T-45 Kinetic Dynamo",
@@ -1069,7 +1069,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "T-45 Sensor Array",
@@ -1077,7 +1077,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "T-51b Headlamp",
@@ -1085,7 +1085,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "T-51b Headlamp Red Tactical",
@@ -1093,7 +1093,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "T-51b Headlamp Vaultboy",
@@ -1101,7 +1101,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "T-51b Kinetic Servos",
@@ -1109,7 +1109,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "T-51b Overdrive Servos",
@@ -1117,7 +1117,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "T-51b Reactive Plates",
@@ -1125,7 +1125,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "T-60 Headlamp Bright",
@@ -1133,7 +1133,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "T-60 Headlamp Red Tactical",
@@ -1141,7 +1141,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "T-60 Motion-Assist Servos",
@@ -1149,7 +1149,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Tesla Rifle Reflex Sight",
@@ -1157,7 +1157,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Trapper Asbestos Torso Mod",
@@ -1165,7 +1165,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Trapper Custom Fitted Limb Mod",
@@ -1173,7 +1173,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Trapper Pneumatic Torso Mod",
@@ -1181,7 +1181,7 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Ultracite Gatling Laser Stabilized Long Barrel",
@@ -1189,6 +1189,6 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   }
 ]
