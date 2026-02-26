@@ -242,14 +242,24 @@
             }).join('');
         }
 
-        function openDetails(idx) {
-            const item = currentData[idx];
-            document.getElementById('modalTitle').innerText = item.name;
-            document.getElementById('modalDesc').innerHTML = item.desc || "";
-            
-            const img = document.getElementById('modalImg');
-            img.src = (item.image || 'placeholder.png') + "?t=" + Date.now();
-            img.className = 'img-small';
+function openDetails(idx) {
+    const item = currentData[idx];
+    document.getElementById('modalTitle').innerText = item.name;
+    document.getElementById('modalDesc').innerHTML = item.desc || "";
+    
+    // --- NEW: IMAGE BLOCKER LOGIC ---
+    const imgContainer = document.getElementById('modalImgContainer');
+    const img = document.getElementById('modalImg');
+
+    if (item.image && item.image.trim() !== "") {
+        // If image exists, show the container and set the source
+        imgContainer.style.display = "block";
+        img.src = item.image + "?t=" + Date.now();
+        img.className = 'img-small'; // Always start small
+    } else {
+        // If image is missing, hide the entire container
+        imgContainer.style.display = "none";
+    }
 
             let statsHTML = `
                 <div class="modal-pricing-block">
