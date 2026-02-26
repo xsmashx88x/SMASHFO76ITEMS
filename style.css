@@ -246,3 +246,21 @@ button:hover {
 
     .modal-content { padding: 15px; }
 }
+
+button {
+    /* ... existing styles ... */
+    white-space: nowrap; /* Keeps the (count) on the same line */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Shrinks text nicely if too long */
+    font-size: 1.1rem; /* Slightly smaller to fit numbers if needed */
+}
+
+/* Adjust grid for mobile so numbers don't wrap weirdly */
+@media (max-width: 600px) {
+    .button-grid {
+        grid-template-columns: 1fr; 
+    }
+    button {
+        font-size: 1.2rem; /* Keep them big and easy to tap on phones */
+    }
+}
