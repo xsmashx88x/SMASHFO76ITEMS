@@ -147,49 +147,49 @@ button:hover {
     cursor: pointer; /* Hint that clicking background closes it */
 }
 
+/* --- UPDATED MODAL BOX (ADAPTIVE WIDTH) --- */
 .modal-content {
     border: 2px solid #0f0;
-    padding: 25px;
+    padding: 20px;
     background: #000;
     text-align: center;
-    max-width: 500px;
-    width: 90%;
-    max-height: 90vh;
+    max-width: 650px; /* Increased from 500px to allow bigger images */
+    width: 95%;
+    max-height: 95vh;
     overflow-y: auto;
     position: relative;
-    cursor: default; /* Keep cursor normal inside the box */
+    transition: max-width 0.4s ease; /* Smoothly widens when image grows */
 }
 
-/* --- CLICK-TO-RESIZE IMAGE LOGIC --- */
-#modalImgContainer {
-    width: 100%;
-    margin: 15px 0;
-    display: flex;
-    justify-content: center;
+/* When the image is expanded, let the box grow even wider */
+.modal-content.wide {
+    max-width: 95% !important;
 }
 
+/* --- THE IMAGE STATES --- */
 #modalImg {
     display: block;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease-in-out;
     border: 1px solid #0f0;
+    margin: 15px auto;
 }
 
-/* Small State (Default) */
+/* SMALL STATE (The New "Big" Preview) */
 .img-small {
-    max-height: 250px;
+    max-height: 400px; /* Increased from 250px - much clearer preview */
     max-width: 100%;
     cursor: zoom-in;
 }
 
-/* Large State (Expanded) */
+/* LARGE STATE (The "Huge" Expansion) */
 .img-large {
-    max-height: 550px;
-    max-width: 100%;
+    max-height: 80vh !important; /* Takes up 80% of screen height */
+    max-width: 100% !important;
     cursor: zoom-out !important;
-    box-shadow: 0 0 15px #0f0;
+    box-shadow: 0 0 20px #0f0;
 }
 
-/* Custom Scrollbar for Modal */
+/* Custom Scrollbar */
 .modal-content::-webkit-scrollbar { width: 6px; }
 .modal-content::-webkit-scrollbar-thumb { background: #008800; }
 
