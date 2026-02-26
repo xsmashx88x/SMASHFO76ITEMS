@@ -1,68 +1,98 @@
-/* --- GLOBAL STYLES --- */
+/* --- VAULT-TEC TERMINAL THEME --- */
+:root {
+    --phosphor-bright: #00ff41; /* Primary Name Color */
+    --phosphor-medium: #00cc33; /* Borders/Buttons */
+    --phosphor-dim: #008822;    /* Subtext/Descriptions */
+    --phosphor-glow: rgba(0, 255, 65, 0.25);
+}
+
 body {
-    background-color: #050505;
-    color: #00ff00;
+    background-color: #050a05;
+    color: var(--phosphor-medium);
     font-family: 'VT323', monospace;
     text-transform: uppercase;
+    letter-spacing: 1px; /* Makes terminal font much clearer */
     margin: 0;
     padding: 15px;
 }
 
+/* Suble CRT Scanline Effect */
 .terminal-container {
-    max-width: 850px;
+    max-width: 900px;
     margin: auto;
-    border: 2px solid #00ff00;
+    border: 2px solid var(--phosphor-medium);
     padding: 20px;
-    box-shadow: 0 0 15px rgba(0, 255, 0, 0.2);
+    box-shadow: inset 0 0 20px rgba(0, 255, 0, 0.05), 0 0 15px var(--phosphor-glow);
+    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.1) 50%), 
+                linear-gradient(90deg, rgba(255, 0, 0, 0.02), rgba(0, 255, 0, 0.01), rgba(0, 0, 255, 0.02));
+    background-size: 100% 3px, 3px 100%;
 }
 
 header { 
     text-align: center; 
-    margin-bottom: 20px; 
+    margin-bottom: 25px; 
+}
+
+header h1 {
+    color: var(--phosphor-bright);
+    font-size: 2.2rem;
+    text-shadow: 0 0 8px var(--phosphor-glow);
+    margin: 0;
 }
 
 .header-desc {
-    font-size: 1rem;
-    color: #00ff00;
-    opacity: 0.8;
-    border-bottom: 1px solid #003300;
-    padding-bottom: 10px;
+    font-size: 1.1rem;
+    color: var(--phosphor-medium);
+    opacity: 0.9;
+    border-bottom: 1px solid var(--phosphor-dim);
+    padding-bottom: 15px;
+    margin-top: 10px;
 }
 
-/* --- NAVIGATION & SEARCH --- */
+/* --- BUTTON GRID (With Item Counts) --- */
 .button-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 button {
-    background: transparent;
-    color: #00ff00;
-    border: 1px solid #00ff00;
+    background: rgba(0, 30, 0, 0.3);
+    color: var(--phosphor-medium);
+    border: 1px solid var(--phosphor-medium);
     font-family: 'VT323', monospace;
-    font-size: 1.2rem;
-    padding: 8px;
+    font-size: 1.15rem;
+    padding: 10px 5px;
     cursor: pointer;
     transition: 0.2s;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 button:hover {
-    background: #00ff00;
+    background: var(--phosphor-medium);
     color: #000;
+    box-shadow: 0 0 12px var(--phosphor-medium);
 }
 
+/* --- SEARCH BAR --- */
 .search-area input {
     width: 100%;
     background: transparent;
-    border: 1px solid #00ff00;
-    color: #00ff00;
+    border: 1px solid var(--phosphor-medium);
+    color: var(--phosphor-bright);
     padding: 12px;
     font-family: 'VT323', monospace;
     font-size: 1.5rem;
     box-sizing: border-box;
     margin-bottom: 20px;
+    outline: none;
+}
+
+.search-area input::placeholder {
+    color: var(--phosphor-dim);
 }
 
 /* --- LIST ITEMS --- */
@@ -70,15 +100,15 @@ button:hover {
     display: flex;
     justify-content: space-between;
     align-items: center; 
-    padding: 12px 10px;
-    border-bottom: 1px solid #003300;
+    padding: 15px 10px;
+    border-bottom: 1px solid rgba(0, 255, 0, 0.1);
     cursor: pointer;
     transition: background 0.2s;
-    gap: 10px;
+    gap: 15px;
 }
 
 .item-row:hover {
-    background: rgba(0, 255, 0, 0.1);
+    background: rgba(0, 255, 0, 0.08);
 }
 
 .text-container {
@@ -89,49 +119,48 @@ button:hover {
 }
 
 .item-name {
-    font-size: 1.4rem;
-    color: #00ff00;
+    font-size: 1.5rem;
+    color: var(--phosphor-bright);
+    text-shadow: 0 0 5px var(--phosphor-glow);
     font-weight: bold;
     line-height: 1.1;
 }
 
 .item-subtext {
-    font-size: 0.95rem;
-    color: #008800; /* Dimmer green */
+    font-size: 1.1rem;
+    color: var(--phosphor-dim);
     letter-spacing: 1px;
 }
 
-/* --- CURRENCY & ICONS --- */
+/* --- CURRENCY DISPLAY --- */
 .price-container {
     text-align: right;
     display: flex;
     flex-direction: column;
     gap: 4px;
-    min-width: 95px;
+    min-width: 100px;
 }
 
 .currency-row {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    gap: 6px;
+    gap: 8px;
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
-.caps-text { color: #ff3333; }   /* Red */
-.bobble-text { color: #3399ff; } /* Blue */
+.caps-text { color: #ff4444; }   /* Crimson Red */
+.bobble-text { color: #44aaff; } /* Vault Blue */
 
 .icon-red {
     filter: invert(15%) sepia(95%) saturate(6932%) hue-rotate(358deg) brightness(95%) contrast(112%);
-    width: 20px;
-    height: 20px;
+    width: 20px; height: 20px;
 }
 
 .icon-blue {
     filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(180deg) brightness(118%) contrast(119%);
-    width: 20px;
-    height: 20px;
+    width: 20px; height: 20px;
 }
 
 /* --- MODAL (GREEN BOX) --- */
@@ -141,126 +170,84 @@ button:hover {
     z-index: 1000;
     left: 0; top: 0;
     width: 100%; height: 100%;
-    background-color: rgba(0,0,0,0.92);
+    background-color: rgba(0,0,0,0.94);
     justify-content: center;
     align-items: center;
-    cursor: pointer; /* Hint that clicking background closes it */
+    cursor: pointer;
 }
 
-/* --- UPDATED MODAL BOX (ADAPTIVE WIDTH) --- */
 .modal-content {
-    border: 2px solid #0f0;
-    padding: 20px;
-    background: #000;
+    border: 3px solid var(--phosphor-bright);
+    padding: 25px;
+    background: #020502;
     text-align: center;
-    max-width: 650px; /* Increased from 500px to allow bigger images */
-    width: 95%;
+    max-width: 650px; 
+    width: 90%;
     max-height: 95vh;
     overflow-y: auto;
     position: relative;
-    transition: max-width 0.4s ease; /* Smoothly widens when image grows */
+    transition: max-width 0.4s ease;
+    cursor: default;
 }
 
-/* When the image is expanded, let the box grow even wider */
 .modal-content.wide {
     max-width: 95% !important;
 }
 
-/* --- THE IMAGE STATES --- */
+/* --- ADAPTIVE IMAGES --- */
 #modalImg {
     display: block;
     transition: all 0.3s ease-in-out;
-    border: 1px solid #0f0;
+    border: 1px solid var(--phosphor-bright);
     margin: 15px auto;
 }
 
-/* SMALL STATE (The New "Big" Preview) */
 .img-small {
-    max-height: 400px; /* Increased from 250px - much clearer preview */
+    max-height: 400px; /* Big Preview */
     max-width: 100%;
     cursor: zoom-in;
 }
 
-/* LARGE STATE (The "Huge" Expansion) */
 .img-large {
-    max-height: 80vh !important; /* Takes up 80% of screen height */
+    max-height: 80vh !important; /* Huge Expansion */
     max-width: 100% !important;
     cursor: zoom-out !important;
-    box-shadow: 0 0 20px #0f0;
-}
-
-/* Custom Scrollbar */
-.modal-content::-webkit-scrollbar { width: 6px; }
-.modal-content::-webkit-scrollbar-thumb { background: #008800; }
-
-/* --- ALT VIEW (WIKI) LINK --- */
-.alt-view-container {
-    margin-top: 15px;
-    padding-top: 15px;
-    border-top: 1px dashed #008800;
+    box-shadow: 0 0 20px var(--phosphor-glow);
 }
 
 .alt-view-btn {
     display: inline-block;
-    color: #00ff00;
+    color: var(--phosphor-bright);
     text-decoration: none;
-    font-size: 1.1rem;
-    padding: 8px 12px;
-    border: 1px solid #00ff00;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    border: 1px solid var(--phosphor-bright);
     background: rgba(0, 255, 0, 0.05);
     transition: 0.3s;
+    margin-top: 15px;
 }
 
 .alt-view-btn:hover {
-    background: #00ff00;
+    background: var(--phosphor-bright);
     color: #000;
-    box-shadow: 0 0 10px #00ff00;
-}
-
-.modal-pricing-block {
-    margin-top: 15px;
-    border-top: 1px solid #0f0;
-    padding-top: 10px;
 }
 
 .exit-hint {
-    margin-top: 20px;
-    color: #0f0;
-    font-size: 0.8rem;
-    opacity: 0.5;
+    margin-top: 25px;
+    color: var(--phosphor-dim);
+    font-size: 0.9rem;
 }
 
 /* --- MOBILE RESPONSIVENESS --- */
 @media (max-width: 600px) {
     body { padding: 10px; }
-    .terminal-container { padding: 12px; }
-
-    .button-grid {
-        grid-template-columns: 1fr; /* Stack buttons on phones */
-    }
+    header h1 { font-size: 1.6rem; }
     
-    .item-name { font-size: 1.1rem; }
-    .item-subtext { font-size: 0.8rem; }
+    .button-grid { grid-template-columns: 1fr; }
+    
+    .item-name { font-size: 1.2rem; }
+    .item-subtext { font-size: 0.9rem; }
+    
     .currency-row { font-size: 1rem; }
-    .price-container { min-width: 80px; }
-
-    .modal-content { padding: 15px; }
-}
-
-button {
-    /* ... existing styles ... */
-    white-space: nowrap; /* Keeps the (count) on the same line */
-    overflow: hidden;
-    text-overflow: ellipsis; /* Shrinks text nicely if too long */
-    font-size: 1.1rem; /* Slightly smaller to fit numbers if needed */
-}
-
-/* Adjust grid for mobile so numbers don't wrap weirdly */
-@media (max-width: 600px) {
-    .button-grid {
-        grid-template-columns: 1fr; 
-    }
-    button {
-        font-size: 1.2rem; /* Keep them big and easy to tap on phones */
-    }
+    .price-container { min-width: 85px; }
 }
