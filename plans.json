@@ -1,7 +1,7 @@
 [
   {
     "name": "Plan: Pocketed Leather Armor Limbs",
-    "desc": "Armor Mod Plan",
+    "desc": "Unlocks the 'Pocketed' mod for Leather Armor limbs, increasing carry weight.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 0,
     "leaders": 0,
@@ -9,7 +9,7 @@
   },
   {
     "name": "Plan: Fasnacht Balloons 02",
-    "desc": "CAMP Plan",
+    "desc": "Unlocks the 'Fasnacht Balloons 02' decorative object for your CAMP.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 0,
     "leaders": 0,
@@ -17,7 +17,7 @@
   },
   {
     "name": "Plan: Fasnacht Hanging Ribbons 01",
-    "desc": "CAMP Plan",
+    "desc": "Unlocks the 'Fasnacht Hanging Ribbons 01' wall decoration for your CAMP.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 0,
     "leaders": 0,
@@ -25,7 +25,7 @@
   },
   {
     "name": "Plan: Fasnacht Hanging Ribbons 02",
-    "desc": "CAMP Plan",
+    "desc": "Unlocks the 'Fasnacht Hanging Ribbons 02' wall decoration for your CAMP.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 0,
     "leaders": 0,
@@ -33,7 +33,7 @@
   },
   {
     "name": "Plan: Fasnacht Helvetia Garland 02",
-    "desc": "CAMP Plan",
+    "desc": "Unlocks the 'Fasnacht Helvetia Garland 02' wall decoration for your CAMP.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 0,
     "leaders": 0,
@@ -41,7 +41,7 @@
   },
   {
     "name": "Plan: Fasnacht Ribbons Pole 01",
-    "desc": "CAMP Plan",
+    "desc": "Unlocks the 'Fasnacht Ribbons Pole 01' decorative floor object for your CAMP.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 0,
     "leaders": 0,
@@ -49,7 +49,7 @@
   },
   {
     "name": "Plan: Fasnacht Ribbons Pole 02",
-    "desc": "CAMP Plan",
+    "desc": "Unlocks the 'Fasnacht Ribbons Pole 02' decorative floor object for your CAMP.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 0,
     "leaders": 0,
@@ -57,7 +57,7 @@
   },
   {
     "name": "Plan: Assorted Lights",
-    "desc": "CAMP Plan",
+    "desc": "Unlocks a collection of various colored lightbulbs and industrial light fixtures for your CAMP.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 469,
     "leaders": 0,
@@ -65,7 +65,7 @@
   },
   {
     "name": "Plan: Basketball Hoop 2",
-    "desc": "CAMP Plan",
+    "desc": "Unlocks a wall-mounted basketball hoop for your CAMP.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 69,
     "leaders": 0,
@@ -73,7 +73,7 @@
   },
   {
     "name": "Plan: Bear-Proof Trashcan",
-    "desc": "CAMP Plan",
+    "desc": "Unlocks a heavy-duty metal trashcan for your CAMP.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 269,
     "leaders": 0,
@@ -81,7 +81,7 @@
   },
   {
     "name": "Plan: BioCommMesh Trapper Armor Lining",
-    "desc": "Armor Mod Plan",
+    "desc": "Unlocks the 'BioCommMesh' mod for Trapper Armor, which increases the duration of chem effects.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 650,
     "leaders": 0,
@@ -89,7 +89,7 @@
   },
   {
     "name": "Plan: Bottle and Cappy Balloon Statue",
-    "desc": "CAMP Plan",
+    "desc": "Unlocks a Nuka-World themed balloon statue featuring Bottle and Cappy for your CAMP.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 869,
     "leaders": 0,
@@ -97,7 +97,7 @@
   },
   {
     "name": "Plan: Bottle and Cappy Hoop Jump Statue",
-    "desc": "CAMP Plan",
+    "desc": "Unlocks a decorative statue of Cappy jumping through a hoop for your CAMP.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 869,
     "leaders": 0,
@@ -105,7 +105,7 @@
   },
   {
     "name": "Plan: Broken Toilet",
-    "desc": "CAMP Plan",
+    "desc": "Unlocks a decorative broken toilet for your CAMP.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 69,
     "leaders": 0,
@@ -113,7 +113,7 @@
   },
   {
     "name": "Plan: Chemistry Workbench",
-    "desc": "Crafting Station Plan",
+    "desc": "Unlocks the Chemistry Workbench crafting station for your CAMP.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 169,
     "leaders": 0,
@@ -121,7 +121,7 @@
   },
   {
     "name": "Plan: Cigarette Machine",
-    "desc": "CAMP Plan",
+    "desc": "Unlocks a vintage cigarette vending machine for your CAMP.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 69,
     "leaders": 0,
@@ -129,7 +129,7 @@
   },
   {
     "name": "Plan: Cryo Mine",
-    "desc": "Explosive Plan",
+    "desc": "Unlocks the ability to craft Cryo Mines, which freeze and slow enemies.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 169,
     "leaders": 0,
@@ -137,7 +137,7 @@
   },
   {
     "name": "Plan: Cushioned Raider Armor Legs",
-    "desc": "Armor Mod Plan",
+    "desc": "Unlocks the 'Cushioned' mod for Raider Armor legs, reducing falling damage.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 169,
     "leaders": 0,
@@ -145,7 +145,7 @@
   },
   {
     "name": "Plan: Deep Pocketed Combat Armor Chest",
-    "desc": "Armor Mod Plan",
+    "desc": "Unlocks the 'Deep Pocketed' mod for Combat Armor chest pieces, greatly increasing carry weight.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 1169,
     "leaders": 0,
@@ -153,7 +153,7 @@
   },
   {
     "name": "Plan: Deep Pocketed Metal Armor Chest",
-    "desc": "Armor Mod Plan",
+    "desc": "Unlocks the 'Deep Pocketed' mod for Metal Armor chest pieces, greatly increasing carry weight.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 1169,
     "leaders": 0,
@@ -161,7 +161,7 @@
   },
   {
     "name": "Plan: Deep Pocketed Robot Armor Chest",
-    "desc": "Armor Mod Plan",
+    "desc": "Unlocks the 'Deep Pocketed' mod for Robot Armor chest pieces, greatly increasing carry weight.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 1169,
     "leaders": 0,
@@ -169,7 +169,7 @@
   },
   {
     "name": "Plan: Domestic Tables",
-    "desc": "CAMP Plan",
+    "desc": "Unlocks a set of wooden indoor tables for your CAMP.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 300,
     "leaders": 0,
@@ -177,7 +177,7 @@
   },
   {
     "name": "Plan: Double Display Shelf",
-    "desc": "CAMP Plan",
+    "desc": "Unlocks a wooden shelf unit for displaying items in your CAMP.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 300,
     "leaders": 0,
@@ -185,7 +185,7 @@
   },
   {
     "name": "Plan: Electrified Mr. Handy Buzz Blade",
-    "desc": "Weapon Mod Plan",
+    "desc": "Unlocks the Electrified modification for the Mr. Handy Buzz Blade, adding energy damage.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 50,
     "leaders": 0,
@@ -193,7 +193,7 @@
   },
   {
     "name": "Plan: Flower Box - Ash Rose",
-    "desc": "CAMP Plan",
+    "desc": "Unlocks a decorative planter containing Ash Roses for your CAMP.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 269,
     "leaders": 0,
@@ -201,7 +201,7 @@
   },
   {
     "name": "Plan: Flower Box - Mutated Fern",
-    "desc": "CAMP Plan",
+    "desc": "Unlocks a decorative planter containing Mutated Ferns for your CAMP.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 269,
     "leaders": 0,
@@ -209,7 +209,7 @@
   },
   {
     "name": "Plan: Flowering Box - Ash Rose",
-    "desc": "CAMP Plan",
+    "desc": "Unlocks a decorative planter box with blooming Ash Roses for your CAMP.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 269,
     "leaders": 0,
@@ -217,7 +217,7 @@
   },
   {
     "name": "Plan: Gas Signage",
-    "desc": "CAMP Plan",
+    "desc": "Unlocks a collection of gas station and fuel-themed metal signs for your CAMP.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 100,
     "leaders": 0,
@@ -225,7 +225,7 @@
   },
   {
     "name": "Plan: Herdsman's Bell - Fasnacht",
-    "desc": "Apparel Plan",
+    "desc": "Unlocks the ability to craft the Fasnacht Herdsman's Bell.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 169,
     "leaders": 0,
@@ -233,7 +233,7 @@
   },
   {
     "name": "Plan: Large Toolbox",
-    "desc": "CAMP Plan",
+    "desc": "Unlocks a large red metal toolbox for your CAMP, serving as a stash container.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 769,
     "leaders": 0,
@@ -241,7 +241,7 @@
   },
   {
     "name": "Plan: Lawn Flamingoes",
-    "desc": "CAMP Plan",
+    "desc": "Unlocks decorative pink lawn flamingoes for your CAMP.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 200,
     "leaders": 0,
@@ -249,7 +249,7 @@
   },
   {
     "name": "Plan: Lead Lined Raider Armor Chest",
-    "desc": "Armor Mod Plan",
+    "desc": "Unlocks the 'Lead Lined' mod for Raider Armor chest pieces, increasing Radiation Resistance.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 569,
     "leaders": 0,
@@ -257,7 +257,7 @@
   },
   {
     "name": "Plan: Light Combat Legs",
-    "desc": "Armor Plan",
+    "desc": "Unlocks the ability to craft Light Combat Armor leg pieces.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 669,
     "leaders": 0,
@@ -265,7 +265,7 @@
   },
   {
     "name": "Plan: Light Metal Arms",
-    "desc": "Armor Plan",
+    "desc": "Unlocks the ability to craft Light Metal Armor arm pieces.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 150,
     "leaders": 0,
@@ -273,7 +273,7 @@
   },
   {
     "name": "Plan: Light Metal Legs",
-    "desc": "Armor Plan",
+    "desc": "Unlocks the ability to craft Light Metal Armor leg pieces.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 150,
     "leaders": 0,
@@ -281,7 +281,7 @@
   },
   {
     "name": "Plan: Light Metal Torso",
-    "desc": "Armor Plan",
+    "desc": "Unlocks the ability to craft Light Metal Armor chest pieces.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 150,
     "leaders": 0,
@@ -289,7 +289,7 @@
   },
   {
     "name": "Plan: MIRV Frag Grenade",
-    "desc": "Explosive Plan",
+    "desc": "Unlocks the ability to craft MIRV Frag Grenades, which split into multiple explosives on impact.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 175,
     "leaders": 0,
@@ -297,7 +297,7 @@
   },
   {
     "name": "Plan: Marine Legs",
-    "desc": "Armor Plan",
+    "desc": "Unlocks the ability to craft Marine Armor leg pieces.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 1200,
     "leaders": 0,
@@ -305,7 +305,7 @@
   },
   {
     "name": "Plan: Marine Torso",
-    "desc": "Armor Plan",
+    "desc": "Unlocks the ability to craft Marine Armor chest pieces.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 1200,
     "leaders": 0,
@@ -313,7 +313,7 @@
   },
   {
     "name": "Plan: Metal Diner Doors",
-    "desc": "CAMP Plan",
+    "desc": "Unlocks heavy metal swing-style diner doors for your CAMP.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 200,
     "leaders": 0,
@@ -321,7 +321,7 @@
   },
   {
     "name": "Plan: Metal Shelves",
-    "desc": "CAMP Plan",
+    "desc": "Unlocks industrial metal shelving units for your CAMP.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 300,
     "leaders": 0,
@@ -329,7 +329,7 @@
   },
   {
     "name": "Plan: Modern Kitchen Tables",
-    "desc": "CAMP Plan",
+    "desc": "Unlocks sleek, modern-style kitchen tables for your CAMP.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 300,
     "leaders": 0,
@@ -337,7 +337,7 @@
   },
   {
     "name": "Plan: Mole Miner Gauntlet",
-    "desc": "Weapon Plan",
+    "desc": "Unlocks the ability to craft the Mole Miner Gauntlet melee weapon.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 169,
     "leaders": 0,
@@ -345,7 +345,7 @@
   },
   {
     "name": "Plan: Mr. Handy Buzz Blade",
-    "desc": "Weapon Plan",
+    "desc": "Unlocks the ability to craft the Mr. Handy Buzz Blade melee weapon.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 300,
     "leaders": 0,
@@ -353,7 +353,7 @@
   },
   {
     "name": "Plan: Nuka Quantum Grenade",
-    "desc": "Explosive Plan",
+    "desc": "Unlocks the ability to craft powerful Nuka Quantum Grenades using Nuka-Cola Quantum.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 225,
     "leaders": 0,
@@ -361,7 +361,7 @@
   },
   {
     "name": "Plan: Nuka-Cola Ad Barrier",
-    "desc": "CAMP Plan",
+    "desc": "Unlocks a decorative concrete barrier featuring Nuka-Cola advertisements for your CAMP.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 1169,
     "leaders": 0,
@@ -369,7 +369,7 @@
   },
   {
     "name": "Plan: Nuke Mine",
-    "desc": "Explosive Plan",
+    "desc": "Unlocks the ability to craft Nuke Mines, which create a small radioactive explosion.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 100,
     "leaders": 0,
@@ -377,7 +377,7 @@
   },
   {
     "name": "Plan: Ogua Egg",
-    "desc": "CAMP Plan",
+    "desc": "Unlocks a decorative Ogua Egg nest for your CAMP.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 2269,
     "leaders": 0,
@@ -385,7 +385,7 @@
   },
   {
     "name": "Plan: Pocketed Combat Armor Limbs",
-    "desc": "Armor Mod Plan",
+    "desc": "Unlocks the 'Pocketed' mod for Combat Armor limbs, increasing carry weight.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 1169,
     "leaders": 0,
@@ -393,7 +393,7 @@
   },
   {
     "name": "Plan: Pocketed Leather Armor Chest",
-    "desc": "Armor Mod Plan",
+    "desc": "Unlocks the 'Pocketed' mod for Leather Armor chest pieces, increasing carry weight.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 1169,
     "leaders": 0,
@@ -401,7 +401,7 @@
   },
   {
     "name": "Plan: Pocketed Leather Armor Limbs",
-    "desc": "Armor Mod Plan",
+    "desc": "Unlocks the 'Pocketed' mod for Leather Armor limbs, increasing carry weight.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 1169,
     "leaders": 0,
@@ -409,7 +409,7 @@
   },
   {
     "name": "Plan: Pocketed Raider Armor Chest",
-    "desc": "Armor Mod Plan",
+    "desc": "Unlocks the 'Pocketed' mod for Raider Armor chest pieces, increasing carry weight.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 569,
     "leaders": 0,
@@ -417,7 +417,7 @@
   },
   {
     "name": "Plan: Pocketed Raider Armor Limbs",
-    "desc": "Armor Mod Plan",
+    "desc": "Unlocks the 'Pocketed' mod for Raider Armor limbs, increasing carry weight.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 569,
     "leaders": 0,
@@ -425,7 +425,7 @@
   },
   {
     "name": "Plan: Portable Toilet",
-    "desc": "CAMP Plan",
+    "desc": "Unlocks a blue plastic portable toilet for your CAMP.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 200,
     "leaders": 0,
@@ -433,7 +433,7 @@
   },
   {
     "name": "Plan: Potted Plants",
-    "desc": "CAMP Plan",
+    "desc": "Unlocks several varieties of indoor potted plants for your CAMP.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 469,
     "leaders": 0,
@@ -441,7 +441,7 @@
   },
   {
     "name": "Plan: Power Armor Stations",
-    "desc": "CAMP Plan",
+    "desc": "Unlocks the Power Armor Station crafting station for your CAMP, used to craft and repair Power Armor.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 1169,
     "leaders": 0,
@@ -449,7 +449,7 @@
   },
   {
     "name": "Plan: Pre-War Dressers",
-    "desc": "CAMP Plan",
+    "desc": "Unlocks a set of clean, pre-war style wooden dressers for your CAMP.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 769,
     "leaders": 0,
@@ -457,7 +457,7 @@
   },
   {
     "name": "Plan: Pulse Grenade",
-    "desc": "Explosive Plan",
+    "desc": "Unlocks the ability to craft Pulse Grenades, which deal energy damage particularly effective against robots.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 150,
     "leaders": 0,
@@ -465,7 +465,7 @@
   },
   {
     "name": "Plan: Raider Jet Pack",
-    "desc": "Power Armor Mod Plan",
+    "desc": "Unlocks the Jet Pack modification for Raider Power Armor torso pieces, allowing flight.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 3000,
     "leaders": 0,
@@ -473,7 +473,7 @@
   },
   {
     "name": "Plan: Shadowed Combat Armor Arms",
-    "desc": "Armor Mod Plan",
+    "desc": "Unlocks the 'Shadowed' mod for Combat Armor arms, improving stealth in dark areas.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 669,
     "leaders": 0,
@@ -481,7 +481,7 @@
   },
   {
     "name": "Plan: Shadowed Robot Armor Chest",
-    "desc": "Armor Mod Plan",
+    "desc": "Unlocks the 'Shadowed' mod for Robot Armor chest pieces, improving stealth in dark areas.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 669,
     "leaders": 0,
@@ -489,7 +489,7 @@
   },
   {
     "name": "Plan: Shadowed Robot Armor Legs",
-    "desc": "Armor Mod Plan",
+    "desc": "Unlocks the 'Shadowed' mod for Robot Armor leg pieces, improving stealth in dark areas.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 669,
     "leaders": 0,
@@ -497,7 +497,7 @@
   },
   {
     "name": "Plan: Single-Action Revolver Ivory Grip",
-    "desc": "Weapon Mod Plan",
+    "desc": "Unlocks the decorative Ivory Grip modification for the Single-Action Revolver.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 100,
     "leaders": 0,
@@ -505,7 +505,7 @@
   },
   {
     "name": "Plan: Strengthened Leather Armor Limbs",
-    "desc": "Armor Mod Plan",
+    "desc": "Unlocks the 'Strengthened' mod for Leather Armor limbs, reducing limb damage taken.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 569,
     "leaders": 0,
@@ -513,7 +513,7 @@
   },
   {
     "name": "Plan: Strengthened Raider Armor Limbs",
-    "desc": "Armor Mod Plan",
+    "desc": "Unlocks the 'Strengthened' mod for Raider Armor limbs, reducing limb damage taken.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 569,
     "leaders": 0,
@@ -521,7 +521,7 @@
   },
   {
     "name": "Plan: T-45 Jet Pack",
-    "desc": "Power Armor Mod Plan",
+    "desc": "Unlocks the Jet Pack modification for T-45 Power Armor torso pieces, allowing flight.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 3000,
     "leaders": 0,
@@ -529,7 +529,7 @@
   },
   {
     "name": "Plan: T-45 Motion-Assist Servos",
-    "desc": "Power Armor Mod Plan",
+    "desc": "Unlocks the 'Motion-Assist Servos' mod for T-45 Power Armor torso pieces, increasing Strength.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 420,
     "leaders": 0,
@@ -537,7 +537,7 @@
   },
   {
     "name": "Plan: T-51b Jet Pack",
-    "desc": "Power Armor Mod Plan",
+    "desc": "Unlocks the Jet Pack modification for T-51b Power Armor torso pieces, allowing flight.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 3000,
     "leaders": 0,
@@ -545,7 +545,7 @@
   },
   {
     "name": "Plan: T-51b Motion-Assist Servos",
-    "desc": "Power Armor Mod Plan",
+    "desc": "Unlocks the 'Motion-Assist Servos' mod for T-51b Power Armor torso pieces, increasing Strength.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 469,
     "leaders": 0,
@@ -553,7 +553,7 @@
   },
   {
     "name": "Plan: Tesla Rifle",
-    "desc": "Weapon Plan",
+    "desc": "Unlocks the ability to craft the Tesla Rifle, an energy weapon that arcs between targets.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 2269,
     "leaders": 0,
@@ -561,7 +561,7 @@
   },
   {
     "name": "Plan: Tesla Rifle ",
-    "desc": "Weapon Plan",
+    "desc": "Unlocks the ability to craft the Tesla Rifle, an energy weapon that arcs between targets.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 2569,
     "leaders": 0,
@@ -569,7 +569,7 @@
   },
   {
     "name": "Plan: Tinker's Workbench",
-    "desc": "Crafting Station Plan",
+    "desc": "Unlocks the Tinker's Workbench crafting station for your CAMP, used to craft ammo and explosives.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 250,
     "leaders": 0,
@@ -577,7 +577,7 @@
   },
   {
     "name": "Plan: Ultra-Light Build Leather Armor Chest",
-    "desc": "Armor Mod Plan",
+    "desc": "Unlocks the 'Ultra-Light' mod for Leather Armor chest pieces, reducing weight and increasing Action Points.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 1169,
     "leaders": 0,
@@ -585,7 +585,7 @@
   },
   {
     "name": "Plan: Ultra-Light Build Marine Armor Chest",
-    "desc": "Armor Mod Plan",
+    "desc": "Unlocks the 'Ultra-Light' mod for Marine Armor chest pieces, reducing weight and increasing Action Points.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 500,
     "leaders": 0,
@@ -593,7 +593,7 @@
   },
   {
     "name": "Plan: Ultra-Light Build Marine Armor Limbs",
-    "desc": "Armor Mod Plan",
+    "desc": "Unlocks the 'Ultra-Light' mod for Marine Armor limbs, reducing weight and increasing Action Points.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 1169,
     "leaders": 0,
@@ -601,7 +601,7 @@
   },
   {
     "name": "Plan: Ultra-Light Build Robot Armor Chest",
-    "desc": "Armor Mod Plan",
+    "desc": "Unlocks the 'Ultra-Light' mod for Robot Armor chest pieces, reducing weight and increasing Action Points.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 1169,
     "leaders": 0,
@@ -609,7 +609,7 @@
   },
   {
     "name": "Plan: Ultracite Cooling Vent",
-    "desc": "Power Armor Mod Plan",
+    "desc": "Unlocks the 'Cooling Vent' mod for Ultracite Power Armor limbs, reducing Fusion Core drain while sprinting.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 200,
     "leaders": 0,
@@ -617,7 +617,7 @@
   },
   {
     "name": "Plan: Ultracite Helm",
-    "desc": "Power Armor Plan",
+    "desc": "Unlocks the ability to craft the Ultracite Power Armor helmet.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 500,
     "leaders": 0,
@@ -625,7 +625,7 @@
   },
   {
     "name": "Plan: Ultracite Jet Pack",
-    "desc": "Power Armor Mod Plan",
+    "desc": "Unlocks the Jet Pack modification for Ultracite Power Armor torso pieces, allowing flight.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 3000,
     "leaders": 0,
@@ -633,7 +633,7 @@
   },
   {
     "name": "Plan: Ultracite Left Arm",
-    "desc": "Power Armor Plan",
+    "desc": "Unlocks the ability to craft the Ultracite Power Armor left arm.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 500,
     "leaders": 0,
@@ -641,7 +641,7 @@
   },
   {
     "name": "Plan: Ultracite Left Leg",
-    "desc": "Power Armor Plan",
+    "desc": "Unlocks the ability to craft the Ultracite Power Armor left leg.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 500,
     "leaders": 0,
@@ -649,7 +649,7 @@
   },
   {
     "name": "Plan: Ultracite Motion-Assist Servos",
-    "desc": "Power Armor Mod Plan",
+    "desc": "Unlocks the 'Motion-Assist Servos' mod for Ultracite Power Armor torso pieces, increasing Strength.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 200,
     "leaders": 0,
@@ -657,7 +657,7 @@
   },
   {
     "name": "Plan: Ultracite Right Leg",
-    "desc": "Power Armor Plan",
+    "desc": "Unlocks the ability to craft the Ultracite Power Armor right leg.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 500,
     "leaders": 0,
@@ -665,7 +665,7 @@
   },
   {
     "name": "Plan: Ultracite Torso",
-    "desc": "Power Armor Plan",
+    "desc": "Unlocks the ability to craft the Ultracite Power Armor chest piece.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 500,
     "leaders": 0,
@@ -673,7 +673,7 @@
   },
   {
     "name": "Plan: Welcome Mats",
-    "desc": "CAMP Plan",
+    "desc": "Unlocks decorative welcome mats for your CAMP.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 200,
     "leaders": 0,
@@ -681,7 +681,7 @@
   },
   {
     "name": "Plan: Wind Instruments",
-    "desc": "CAMP Plan",
+    "desc": "Unlocks musical wind instruments (like the tuba) for your CAMP.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 350,
     "leaders": 0,
@@ -689,7 +689,7 @@
   },
   {
     "name": "Plan: Wood Tables",
-    "desc": "CAMP Plan",
+    "desc": "Unlocks several varieties of rustic wooden tables for your CAMP.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 300,
     "leaders": 0,
@@ -697,7 +697,7 @@
   },
   {
     "name": "Plan: Wooden Crate",
-    "desc": "CAMP Plan",
+    "desc": "Unlocks stackable wooden storage crates for your CAMP.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 769,
     "leaders": 0,
@@ -705,7 +705,7 @@
   },
   {
     "name": "Plan: Wooden Shack Doors",
-    "desc": "CAMP Plan",
+    "desc": "Unlocks simple, rustic wooden doors for your CAMP structures.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 200,
     "leaders": 0,
@@ -713,7 +713,7 @@
   },
   {
     "name": "Plan: Wooden Stool",
-    "desc": "CAMP Plan",
+    "desc": "Unlocks a simple wooden stool for seating in your CAMP.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
     "caps": 200,
     "leaders": 0,
