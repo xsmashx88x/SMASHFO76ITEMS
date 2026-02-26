@@ -128,30 +128,28 @@ button:hover {
 
 /* --- MODAL --- */
 .modal {
-    display: none;
+    display: none; 
     position: fixed;
-    top: 0; left: 0; width: 100%; height: 100%;
-    background: rgba(0,0,0,0.95);
+    z-index: 1000; /* Stays on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Covers full width */
+    height: 100%; /* Covers full height */
+    background-color: rgba(0,0,0,0.9); /* Dark semi-transparent background */
+    
+    /* These two lines center the green box */
     justify-content: center;
     align-items: center;
-    z-index: 1000;
 }
 
+/* Ensure the pointer changes to a hand when hovering over the dark area */
+.modal {
+    cursor: pointer;
+}
+
+/* Ensure the pointer goes back to normal when hovering over the green box */
 .modal-content {
-    border: 2px solid #0f0;
-    padding: 30px;
-    background: #000;
-    text-align: center;
-    max-width: 450px;
-    width: 90%;
-}
-
-#modalImg {
-    max-width: 100%;
-    height: auto;
-    border: 1px solid #0f0;
-    box-shadow: 0 0 10px #0f0;
-    margin: 15px 0;
+    cursor: default;
 }
 
 
