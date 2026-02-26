@@ -197,6 +197,40 @@ button:hover {
     letter-spacing: 2px;
 }
 
+/* --- ALT VIEW BUTTON STYLES --- */
+.alt-view-container {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px dashed #008800; /* Subtle separator */
+    text-align: center;
+}
+
+.alt-view-btn {
+    display: inline-block;
+    color: #00ff00;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 8px 12px;
+    border: 1px solid #00ff00;
+    background: rgba(0, 255, 0, 0.05);
+    transition: all 0.3s ease;
+    letter-spacing: 1px;
+}
+
+.alt-view-btn:hover {
+    background: #00ff00;
+    color: #000;
+    box-shadow: 0 0 15px #00ff00;
+    cursor: pointer;
+}
+
+/* Ensure the pricing block inside the modal looks clean */
+.modal-pricing-block {
+    margin-top: 15px;
+    border-top: 1px solid #0f0;
+    padding-top: 10px;
+}
+
 /* --- MOBILE RESPONSIVENESS --- */
 @media (max-width: 600px) {
     body { padding: 10px; }
