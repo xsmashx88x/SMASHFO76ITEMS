@@ -148,21 +148,51 @@ button:hover {
 }
 
 /* Ensure the pointer goes back to normal when hovering over the green box */
+/* --- IMPROVED MODAL (SCROLLABLE) --- */
 .modal-content {
-    cursor: default;
+    border: 2px solid #0f0;
+    padding: 25px;
+    background: #000;
+    text-align: center;
+    max-width: 500px;
+    width: 90%;
+    max-height: 90vh; /* Prevents box from going off screen */
+    overflow-y: auto; /* Adds scrollbar if image is large */
+    position: relative;
 }
 
-
-/* --- ZOOM FEATURE STYLES --- */
-
-/* Changes cursor when hovering over the image in the modal */
+/* --- CLICK-TO-ZOOM IMAGE LOGIC --- */
 #modalImg {
     cursor: zoom-in;
-    transition: transform 0.2s ease;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #0f0;
+    margin: 15px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#modalImg:hover {
-    transform: scale(1.02); /* Slight nudge to show it's clickable */
+/* The Normal Size */
+.standard-size {
+    max-width: 200px; 
+    max-height: 200px;
+    object-fit: contain;
+}
+
+/* The Expanded Size (When Clicked) */
+.expanded-size {
+    max-width: 100% !important;
+    max-height: none !important;
+    cursor: zoom-out !important;
+    box-shadow: 0 0 15px #0f0;
+}
+
+/* Hide scrollbar for a cleaner terminal look */
+.modal-content::-webkit-scrollbar {
+    width: 5px;
+}
+.modal-content::-webkit-scrollbar-thumb {
+    background: #008800;
 }
 
 /* The Fullscreen Background */
