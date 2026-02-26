@@ -43,12 +43,34 @@ function renderList(items) {
     `).join('');
 }
 
+// --- NEW ZOOM FUNCTIONS ---
+
+function openZoom() {
+    const modalImgSrc = document.getElementById('modalImg').src;
+    const zoomedImg = document.getElementById('zoomedImg');
+    const overlay = document.getElementById('zoomOverlay');
+
+    zoomedImg.src = modalImgSrc; // Take the source from the modal
+    overlay.style.display = 'flex'; // Show the zoom screen
+}
+
+function closeZoom() {
+    document.getElementById('zoomOverlay').style.display = 'none';
+}
+
+// --- UPDATED OPENDETAILS ---
+// (Find your existing openDetails function and make sure the onclick is added to the image)
+
 function openDetails(index) {
     const item = currentData[index];
     document.getElementById('modalTitle').innerText = item.name;
     
     const cacheBuster = "?t=" + new Date().getTime();
-    document.getElementById('modalImg').src = (item.image || 'placeholder.png') + cacheBuster;
+    const itemImg = document.getElementById('modalImg');
+    
+    // Set source and add the click event to zoom
+    itemImg.src = (item.image || 'placeholder.png') + cacheBuster;
+    itemImg.onclick = openZoom; // <--- ADD THIS LINE
     
     document.getElementById('modalPrices').innerHTML = `
         <div style="margin-top:15px; border-top: 1px solid #0f0; padding-top:10px; text-align: left;">
@@ -64,7 +86,6 @@ function openDetails(index) {
     `;
     document.getElementById('detailModal').style.display = 'flex';
 }
-
 function closeModal() {
     document.getElementById('detailModal').style.display = 'none';
 }
