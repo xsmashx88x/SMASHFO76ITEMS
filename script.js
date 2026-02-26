@@ -108,5 +108,27 @@ function filterItems() {
     renderList(filtered);
 }
 
+// Function to close the modal
+function closeModal() {
+    const modal = document.getElementById('detailModal');
+    modal.style.display = 'none';
+}
+
+// BACKUP: This listens for clicks anywhere on the screen
+window.onclick = function(event) {
+    const modal = document.getElementById('detailModal');
+    const zoom = document.getElementById('zoomOverlay');
+
+    // If the user clicks the background of the modal, close it
+    if (event.target == modal) {
+        closeModal();
+    }
+    
+    // If the user clicks the background of the zoom overlay, close it
+    if (event.target == zoom) {
+        closeZoom();
+    }
+}
+
 // Start with plans
 loadData(' ');
