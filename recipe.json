@@ -1,7 +1,7 @@
 [
   {
     "name": "Recipe: Bloatfly Loaf",
-    "desc": "Recipe",
+    "desc": "Consumable: +20 HP and +10 Radiation Resistance for 30 minutes.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 100,
     "leaders": 0,
@@ -9,7 +9,7 @@
   },
   {
     "name": "Recipe: Bloodbug Peppersteak",
-    "desc": "Recipe",
+    "desc": "Consumable: +40 HP and +20 Max HP for 30 minutes.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 100,
     "leaders": 0,
@@ -17,7 +17,7 @@
   },
   {
     "name": "Recipe: Fasnacht Donut",
-    "desc": "Recipe",
+    "desc": "Consumable: +40 HP and +20 Max AP for 30 minutes. Does not spoil.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 126,
     "leaders": 0,
@@ -25,7 +25,7 @@
   },
   {
     "name": "Recipe: Fasnacht Sausage",
-    "desc": "Recipe",
+    "desc": "Consumable: +40 HP and +20 Max HP for 30 minutes. Does not spoil.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 126,
     "leaders": 0,
@@ -33,7 +33,7 @@
   },
   {
     "name": "Recipe: Ground Molerat",
-    "desc": "Recipe",
+    "desc": "Consumable: +20 HP and +1 Agility for 30 minutes.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 100,
     "leaders": 0,
@@ -41,7 +41,7 @@
   },
   {
     "name": "Recipe: Healing Salve (Forest)",
-    "desc": "Recipe",
+    "desc": "Consumable: Instantly restores 20% Health. A faster alternative to Stimpaks.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 200,
     "leaders": 0,
@@ -49,7 +49,7 @@
   },
   {
     "name": "Recipe: Infused Blood Leaf Tea",
-    "desc": "Recipe",
+    "desc": "Consumable: +20 HP and +2 Perception for 30 minutes.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 100,
     "leaders": 0,
@@ -57,7 +57,7 @@
   },
   {
     "name": "Recipe: Infused Soot Flower Tea",
-    "desc": "Recipe",
+    "desc": "Consumable: +20 HP and +20 Max AP for 30 minutes.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 100,
     "leaders": 0,
@@ -65,7 +65,7 @@
   },
   {
     "name": "Recipe: Mirelurk Cake",
-    "desc": "Recipe",
+    "desc": "Consumable: +40 HP and allows underwater breathing for 10 minutes.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 169,
     "leaders": 0,
@@ -73,7 +73,7 @@
   },
   {
     "name": "Recipe: Mirelurk Jerky",
-    "desc": "Recipe",
+    "desc": "Consumable: +40 HP and +15 Damage Resistance for 30 minutes.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 100,
     "leaders": 0,
@@ -81,7 +81,7 @@
   },
   {
     "name": "Recipe: Mirelurk Softshell Cake",
-    "desc": "Recipe",
+    "desc": "Consumable: +40 HP and increases AP Regeneration (+5) for 30 minutes.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 100,
     "leaders": 0,
@@ -89,7 +89,7 @@
   },
   {
     "name": "Recipe: Psycho",
-    "desc": "Recipe",
+    "desc": "Chem: +25% Damage and +25 Damage Resistance for 3 minutes.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 569,
     "leaders": 0,
@@ -97,7 +97,7 @@
   },
   {
     "name": "Recipe: Radstag Stew",
-    "desc": "Recipe",
+    "desc": "Consumable: +40 HP and +30 Energy Resistance for 30 minutes.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 100,
     "leaders": 0,
@@ -105,7 +105,7 @@
   },
   {
     "name": "Recipe: S'mores",
-    "desc": "Recipe",
+    "desc": "Consumable: +60 HP and +30 Max AP for 30 minutes.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 100,
     "leaders": 0,
@@ -113,7 +113,7 @@
   },
   {
     "name": "Recipe: Scorchbeast Mixed Meat Stew",
-    "desc": "Recipe",
+    "desc": "Consumable: +85 HP and +2 to all SPECIAL stats (except Luck) for 30 minutes.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 100,
     "leaders": 0,
@@ -121,7 +121,7 @@
   },
   {
     "name": "Recipe: Silt Bean Puree",
-    "desc": "Recipe",
+    "desc": "Consumable: +20 HP and +15 Damage Resistance for 30 minutes.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 100,
     "leaders": 0,
@@ -129,7 +129,7 @@
   },
   {
     "name": "Recipe: Steeped Aster Tea",
-    "desc": "Recipe",
+    "desc": "Consumable: +2 Perception and +20 Max HP for 30 minutes.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 100,
     "leaders": 0,
@@ -137,7 +137,7 @@
   },
   {
     "name": "Recipe: Steeped Carrot Flower Tea",
-    "desc": "Recipe",
+    "desc": "Consumable: +2 Perception and +20 Max AP for 30 minutes.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 100,
     "leaders": 0,
@@ -145,7 +145,7 @@
   },
   {
     "name": "Recipe: Steeped Melon Blossom Chai",
-    "desc": "Recipe",
+    "desc": "Consumable: +2 Agility and +20 Max AP for 30 minutes.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 100,
     "leaders": 0,
@@ -153,7 +153,7 @@
   },
   {
     "name": "Recipe: Sweet Tato Stew",
-    "desc": "Recipe",
+    "desc": "Consumable: +40 HP and grants health regeneration (0.25 HP/sec) for 30 minutes.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 100,
     "leaders": 0,
@@ -161,7 +161,7 @@
   },
   {
     "name": "Recipe: Tasty Mutton Meat Pie",
-    "desc": "Recipe",
+    "desc": "Consumable: +40 HP and +10% Melee Damage for 30 minutes.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 100,
     "leaders": 0,
@@ -169,7 +169,7 @@
   },
   {
     "name": "Recipe: Tasty Squirrel Stew",
-    "desc": "Recipe",
+    "desc": "Consumable: +40 HP and a +10% Experience (XP) bonus for 60 minutes.",
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 100,
     "leaders": 0,
