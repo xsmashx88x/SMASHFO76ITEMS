@@ -53,7 +53,20 @@ function renderList(items) {
     `}).join('');
 }
 
-// 3. MODAL LOGIC (GREEN BOX)
+// 1. TOGGLE IMAGE SIZE (NO FULLSCREEN)
+function toggleImageSize() {
+    const img = document.getElementById('modalImg');
+    // If it has standard size, change to expanded. If not, go back to standard.
+    if (img.classList.contains('standard-size')) {
+        img.classList.remove('standard-size');
+        img.classList.add('expanded-size');
+    } else {
+        img.classList.remove('expanded-size');
+        img.classList.add('standard-size');
+    }
+}
+
+// 2. UPDATED OPENDETAILS
 function openDetails(index) {
     const item = currentData[index];
     if (!item) return;
@@ -63,8 +76,10 @@ function openDetails(index) {
     const cacheBuster = "?t=" + new Date().getTime();
     const itemImg = document.getElementById('modalImg');
     
+    // Always reset image to small size when opening a new item
     itemImg.src = (item.image || 'placeholder.png') + cacheBuster;
-    
+    itemImg.className = 'standard-size'; 
+
     let modalHTML = `
         <div class="modal-pricing-block">
             <div class="currency-row" style="justify-content: flex-start; margin-bottom: 8px;">
@@ -80,7 +95,7 @@ function openDetails(index) {
     if (item.alt_view) {
         modalHTML += `
             <div class="alt-view-container" style="margin-top: 20px; border-top: 1px dashed #008800; padding-top: 15px;">
-                <a href="${item.alt_view}" target="_blank" class="alt-view-btn" style="text-decoration: none;">
+                <a href="${item.alt_view}" target="_blank" class="alt-view-btn">
                     [ ACCESS EXTERNAL DATA ARCHIVE ]
                 </a>
             </div>
@@ -89,25 +104,24 @@ function openDetails(index) {
 
     modalHTML += `</div>`; 
     document.getElementById('modalPrices').innerHTML = modalHTML;
+    
+    // Show the green modal
     document.getElementById('detailModal').style.display = 'flex';
 }
 
+// 3. UPDATED CLOSE (Ensures image resets for next time)
 function closeModal() {
     document.getElementById('detailModal').style.display = 'none';
+    document.getElementById('modalImg').className = 'standard-size';
 }
 
-// 4. ZOOM LOGIC (FULLSCREEN)
-function openZoom() {
-    const modalImgSrc = document.getElementById('modalImg').src;
-    const zoomedImg = document.getElementById('zoomedImg');
-    const overlay = document.getElementById('zoomOverlay');
-
-    zoomedImg.src = modalImgSrc; 
-    overlay.style.display = 'flex'; 
-}
-
-function closeZoom() {
-    document.getElementById('zoomOverlay').style.display = 'none';
+// 4. CLICK OUTSIDE TO CLOSE
+window.onclick = function(event) {
+    const modal = document.getElementById('detailModal');
+    // If you click the dark area, the modal closes
+    if (event.target == modal) {
+        closeModal();
+    }
 }
 
 // 5. SEARCH LOGIC - "CHECK EVERYTHING"
