@@ -5,7 +5,7 @@
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 100,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Bloodbug Peppersteak",
@@ -13,7 +13,7 @@
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 100,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Ground Molerat",
@@ -21,7 +21,7 @@
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 100,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Healing Salve (Forest)",
@@ -29,7 +29,7 @@
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 200,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Infused Blood Leaf Tea",
@@ -37,7 +37,7 @@
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 100,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Infused Soot Flower Tea",
@@ -45,7 +45,7 @@
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 100,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Mirelurk Cake",
@@ -53,7 +53,7 @@
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 169,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Mirelurk Jerky",
@@ -61,7 +61,7 @@
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 100,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Mirelurk Softshell Cake",
@@ -69,7 +69,7 @@
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 100,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Psycho",
@@ -77,7 +77,7 @@
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 569,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Radstag Stew",
@@ -85,7 +85,7 @@
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 100,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "S'mores",
@@ -93,7 +93,7 @@
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 100,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Scorchbeast Mixed Meat Stew",
@@ -101,7 +101,7 @@
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 100,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Silt Bean Puree",
@@ -109,7 +109,7 @@
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 100,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Steeped Aster Tea",
@@ -117,7 +117,7 @@
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 100,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Steeped Carrot Flower Tea",
@@ -125,7 +125,7 @@
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 100,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Steeped Melon Blossom Chai",
@@ -133,7 +133,7 @@
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 100,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Sweet Tato Stew",
@@ -141,7 +141,7 @@
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 100,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Tasty Mutton Meat Pie",
@@ -149,7 +149,7 @@
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 100,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Aged Mirelurk Queen Steak",
@@ -157,7 +157,7 @@
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Blackberry Honey Crisp",
@@ -165,7 +165,7 @@
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Cranberry Meatball Grinder",
@@ -173,7 +173,7 @@
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Dog Meat Steak",
@@ -181,7 +181,7 @@
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Fasnacht Donut",
@@ -189,7 +189,7 @@
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Fasnacht Sausage",
@@ -197,7 +197,7 @@
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Fried Deerskins",
@@ -205,7 +205,7 @@
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Fried Radtoad Legs",
@@ -213,7 +213,7 @@
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Fury",
@@ -221,7 +221,7 @@
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Healing Salve (Toxic Valley)",
@@ -229,7 +229,7 @@
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Iguana Soup",
@@ -237,7 +237,7 @@
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Megasloth Tenderloin",
@@ -245,7 +245,7 @@
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Mentats",
@@ -253,7 +253,7 @@
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "RadAway",
@@ -261,7 +261,7 @@
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Radscorpion Fillet",
@@ -269,7 +269,7 @@
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Squirrel On A Stick",
@@ -277,7 +277,7 @@
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Steeped Ash Rose Tea",
@@ -285,7 +285,7 @@
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Steeped Fern Flower Tea",
@@ -293,7 +293,7 @@
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Steeped Fever Blossom Tea",
@@ -301,7 +301,7 @@
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Steeped Gourd Blossom Tea",
@@ -309,7 +309,7 @@
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Steeped Melon Bloom Tea",
@@ -317,7 +317,7 @@
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Steeped Strangler Pod Tea",
@@ -325,7 +325,7 @@
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Stimpak",
@@ -333,7 +333,7 @@
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Stimpak Diffuser",
@@ -341,7 +341,7 @@
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Sweet Blackberry Tea",
@@ -349,7 +349,7 @@
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Tasty Stingwing Stew",
@@ -357,6 +357,6 @@
     "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/Fo76_recipe.webp?raw=true",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   }
 ]
