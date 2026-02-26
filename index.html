@@ -65,12 +65,28 @@
 
         .icon-red { filter: invert(15%) sepia(95%) saturate(6932%) hue-rotate(358deg) brightness(95%) contrast(112%); width: 16px; }
         .icon-blue { filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(180deg) brightness(118%) contrast(119%); width: 16px; }
-        /* Simple filter to make the trade icon orange/gold */
         .icon-orange { filter: invert(80%) sepia(50%) saturate(1000%) hue-rotate(330deg); width: 16px; }
 
         .modal { display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.96); justify-content: center; align-items: center; cursor: pointer; }
         .modal-content { border: 3px solid var(--main-color); padding: 25px; background: #020502; text-align: center; max-width: 600px; width: 90%; max-height: 90vh; overflow-y: auto; position: relative; cursor: default; transition: max-width 0.4s ease; }
         .modal-content.wide { max-width: 95% !important; }
+
+        /* --- CLOSE BUTTON FOR MOBILE --- */
+        .close-modal-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: #ff4444;
+            color: #000;
+            border: none;
+            padding: 5px 15px;
+            font-family: 'VT323', monospace;
+            font-size: 1.2rem;
+            font-weight: bold;
+            cursor: pointer;
+            z-index: 1001;
+        }
+        .close-modal-btn:hover { background: #fff; }
 
         #modalImg { display: block; transition: 0.3s; border: 1px solid var(--main-color); margin: 15px auto; }
         .img-small { max-height: 350px; max-width: 100%; cursor: zoom-in; }
@@ -86,41 +102,19 @@
         .alt-view-btn { display: inline-block; color: var(--main-color); text-decoration: none; padding: 10px; border: 1px solid var(--main-color); margin-top: 20px; width: 100%; box-sizing: border-box; }
         .alt-view-btn:hover { background: var(--main-color); color: #000; }
 
-        /* --- IMPROVED MODAL PRICING DISPLAY --- */
-.modal-pricing-block {
-    margin-top: 15px;
-    border-top: 2px solid var(--main-color);
-    padding-top: 15px;
-    text-align: left; /* Keep it left-aligned like a database */
-}
+        .modal-pricing-block { margin-top: 15px; border-top: 2px solid var(--main-color); padding-top: 15px; text-align: left; }
+        .modal-currency-row { display: flex; align-items: center; justify-content: flex-start; gap: 12px; margin-bottom: 10px; padding: 5px; background: rgba(255, 255, 255, 0.03); }
+        .modal-caps { color: #ff4444 !important; font-size: 1.8rem; font-weight: bold; }
+        .modal-leaders { color: #44aaff !important; font-size: 1.8rem; font-weight: bold; }
+        .modal-trade { color: #ffb347 !important; font-size: 1.8rem; font-weight: bold; }
+        .modal-icon { width: 28px !important; height: 28px !important; }
 
-/* Specific styling for the numbers in the modal */
-.modal-currency-row {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 12px;
-    margin-bottom: 10px;
-    padding: 5px;
-    background: rgba(255, 255, 255, 0.03); /* Subtle dark bar for contrast */
-}
-
-/* Force colors so they aren't that blurry blue */
-.modal-caps { color: #ff4444 !important; font-size: 1.8rem; font-weight: bold; }
-.modal-leaders { color: #44aaff !important; font-size: 1.8rem; font-weight: bold; }
-.modal-trade { color: #ffb347 !important; font-size: 1.8rem; font-weight: bold; }
-
-/* Larger icons for the modal */
-.modal-icon {
-    width: 28px !important;
-    height: 28px !important;
-}
-
-
-
-
-
-        @media (max-width: 600px) { .button-grid { grid-template-columns: 1fr; } .item-name { font-size: 1.1rem; } .currency-row { font-size: 0.9rem; } }
+        @media (max-width: 600px) { 
+            .button-grid { grid-template-columns: 1fr; } 
+            .item-name { font-size: 1.1rem; } 
+            .currency-row { font-size: 0.9rem; } 
+            .close-modal-btn { width: 100%; position: relative; top: 0; right: 0; margin-bottom: 15px; }
+        }
     </style>
 </head>
 <body>
@@ -135,7 +129,7 @@
         </div>
 
         <header>
-            <h1>SMASH'S ROBCO TERMINAL [v8.1]</h1>
+            <h1>SMASH'S ROBCO TERMINAL [v8.2]</h1>
             <p>[ ID: XBOX | xsmashx88x ]</p>
         </header>
 
@@ -169,34 +163,38 @@
     <!-- DETAIL WINDOW -->
     <div id="detailModal" class="modal" onclick="closeModal()">
         <div class="modal-content" onclick="event.stopPropagation()">
+            <!-- MOBILE FRIENDLY CLOSE BUTTON -->
+            <button class="close-modal-btn" onclick="closeModal()">[X] CLOSE</button>
+            
             <h2 id="modalTitle" style="font-size: 2rem; margin: 0;"></h2>
             <div id="modalDesc"></div>
             <img id="modalImg" src="" onclick="toggleImageSize()" class="img-small">
             <div id="modalStats" class="info-grid"></div>
             <div id="modalLinks"></div>
-            <p style="margin-top:20px; color:var(--dim-color); font-size:0.8rem;">[ CLICK OUTSIDE TO EXIT ]</p>
+            <p style="margin-top:20px; color:var(--dim-color); font-size:0.8rem;">[ CLICK OUTSIDE OR USE BUTTON TO EXIT ]</p>
         </div>
     </div>
 
     <script>
         let currentData = [];
 
-function formatVal(val) {
-    if (val === undefined || val === null || val === "") return "0";
-    
-    // If it's a number (like 500), show the number
-    if (typeof val === 'number') return val.toLocaleString();
-    
-    // Convert to Uppercase for checking
-    let text = val.toString().toUpperCase();
+        function formatVal(val, type = 'default') {
+            if (val === undefined || val === null || val === "") return "0";
+            
+            let text = val.toString().toUpperCase().trim();
 
-    // CUSTOM FALLOUT REPLACEMENTS
-    if (text === "YES") return "✅ AVAILABLE"; 
-    if (text === "NO") return "✖ SECURED";
-    if (text === "WTT") return "🤝 WTT ONLY";
+            // Logic for YES / NO / WTT
+            if (text === "YES") return "✅ AVAILABLE"; 
+            if (text === "NO") return "✖ SECURED";
+            if (text === "WTT") return "🤝 WTT ONLY";
 
-    return text;
-}
+            // If it's a number, format with commas
+            if (!isNaN(val) && val !== "") {
+                return Number(val).toLocaleString();
+            }
+
+            return text;
+        }
 
         function changeTheme(hex) {
             document.documentElement.style.setProperty('--main-color', hex);
@@ -237,54 +235,52 @@ function formatVal(val) {
             }).join('');
         }
 
-function openDetails(idx) {
-    const item = currentData[idx];
-    document.getElementById('modalTitle').innerText = item.name;
-    document.getElementById('modalDesc').innerHTML = item.desc || "";
-    
-    const img = document.getElementById('modalImg');
-    img.src = (item.image || 'placeholder.png') + "?t=" + Date.now();
-    img.className = 'img-small';
+        function openDetails(idx) {
+            const item = currentData[idx];
+            document.getElementById('modalTitle').innerText = item.name;
+            document.getElementById('modalDesc').innerHTML = item.desc || "";
+            
+            const img = document.getElementById('modalImg');
+            img.src = (item.image || 'placeholder.png') + "?t=" + Date.now();
+            img.className = 'img-small';
 
-    // --- NEW CLEAR FORMATTING FOR MODAL ---
-    let statsHTML = `
-        <div class="modal-pricing-block">
-            <div class="modal-currency-row">
-                <img src="fo76_caps.png" class="icon-red modal-icon">
-                <span class="modal-caps">${formatVal(item.caps)} CAPS</span>
-            </div>
-            <div class="modal-currency-row">
-                <img src="mtg.png" class="icon-blue modal-icon">
-                <span class="modal-leaders">${formatVal(item.leaders)} LEADERS</span>
-            </div>
-            <div class="modal-currency-row">
-                <img src="mtg.png" class="icon-orange modal-icon">
-                <span class="modal-trade">${formatVal(item.trade)} TRADE</span>
-            </div>
-        </div>
-    `;
-
-    // The "Everything Else" Data Loader
-    statsHTML += `<div class="info-grid">`;
-    for (const [key, value] of Object.entries(item)) {
-        const skip = ['name', 'image', 'desc', 'caps', 'leaders', 'trade', 'alt_view'];
-        if (!skip.includes(key.toLowerCase())) {
-            statsHTML += `
-                <div class="info-line">
-                    <span class="info-key">${key.toUpperCase()}</span>
-                    <span class="info-value">${value}</span>
+            let statsHTML = `
+                <div class="modal-pricing-block">
+                    <div class="modal-currency-row">
+                        <img src="fo76_caps.png" class="icon-red modal-icon">
+                        <span class="modal-caps">${formatVal(item.caps)} CAPS</span>
+                    </div>
+                    <div class="modal-currency-row">
+                        <img src="mtg.png" class="icon-blue modal-icon">
+                        <span class="modal-leaders">${formatVal(item.leaders)} LEADERS</span>
+                    </div>
+                    <div class="modal-currency-row">
+                        <img src="mtg.png" class="icon-orange modal-icon">
+                        <span class="modal-trade">${formatVal(item.trade)} TRADE</span>
+                    </div>
                 </div>
             `;
+
+            statsHTML += `<div class="info-grid">`;
+            for (const [key, value] of Object.entries(item)) {
+                const skip = ['name', 'image', 'desc', 'caps', 'leaders', 'trade', 'alt_view'];
+                if (!skip.includes(key.toLowerCase())) {
+                    statsHTML += `
+                        <div class="info-line">
+                            <span class="info-key">${key.toUpperCase()}</span>
+                            <span class="info-value">${value}</span>
+                        </div>
+                    `;
+                }
+            }
+            statsHTML += `</div>`;
+
+            document.getElementById('modalStats').innerHTML = statsHTML;
+            document.getElementById('modalLinks').innerHTML = item.alt_view ? 
+                `<a href="${item.alt_view}" target="_blank" class="alt-view-btn">[ ACCESS EXTERNAL WIKI DATA ]</a>` : '';
+
+            document.getElementById('detailModal').style.display = 'flex';
         }
-    }
-    statsHTML += `</div>`;
-
-    document.getElementById('modalStats').innerHTML = statsHTML;
-    document.getElementById('modalLinks').innerHTML = item.alt_view ? 
-        `<a href="${item.alt_view}" target="_blank" class="alt-view-btn">[ ACCESS EXTERNAL WIKI DATA ]</a>` : '';
-
-    document.getElementById('detailModal').style.display = 'flex';
-}
 
         function closeModal() {
             document.getElementById('detailModal').style.display = 'none';
