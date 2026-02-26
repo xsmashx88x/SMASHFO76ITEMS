@@ -5,7 +5,7 @@
     "image": "",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   },
   {
     "name": "Asylum Worker",
@@ -13,6 +13,6 @@
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/asylum_worker_uniforms.png",
     "caps": 0,
     "leaders": 0,
-    "ll3": 0
+    "Trade": "Yes"
   }
 ]
