@@ -3,11 +3,12 @@ let currentData = [];
 // 1. DATA LOADING
 async function loadData(filename) {
     const list = document.getElementById('itemList');
+    
     // Clear search input when switching categories
     const searchInput = document.getElementById('searchInput');
     if (searchInput) searchInput.value = "";
     
-    list.innerHTML = "<div class='item-row'>[ LOADING ARCHIVES... ]</div>";
+    list.innerHTML = "<div class='item-row'>[ ACCESSING DATABASE... ]</div>";
 
     try {
         const cacheBuster = "?t=" + new Date().getTime();
@@ -18,7 +19,7 @@ async function loadData(filename) {
         renderList(currentData);
     } catch (error) {
         console.error("Load error:", error);
-        list.innerHTML = `<div class='item-row' style="color:#ff3333">[ ERROR: ${filename.toUpperCase()} NOT FOUND ]</div>`;
+        list.innerHTML = `<div class='item-row' style="color:#ff4444">[ ERROR: ${filename.toUpperCase()} NOT FOUND ]</div>`;
     }
 }
 
@@ -32,7 +33,7 @@ function renderList(items) {
     }
 
     list.innerHTML = items.map((item) => {
-        // Find the index in the ORIGINAL currentData to keep the modal working after search
+        // Find the index in the ORIGINAL currentData to keep modal accurate after searching
         const originalIndex = currentData.indexOf(item);
         
         return `
@@ -55,21 +56,22 @@ function renderList(items) {
     `}).join('');
 }
 
-// TOGGLE IMAGE SIZE & MODAL WIDTH
+// 3. IMAGE TOGGLE (Click to Grow/Shrink)
 function toggleImageSize() {
     const img = document.getElementById('modalImg');
     const modalBox = document.querySelector('.modal-content');
     
+    // Toggles between phosphor-clear preview and high-detail expansion
     if (img.classList.contains('img-small')) {
         img.classList.replace('img-small', 'img-large');
-        modalBox.classList.add('wide'); // Makes the green box wider too
+        modalBox.classList.add('wide'); // Widens terminal box for big view
     } else {
         img.classList.replace('img-large', 'img-small');
-        modalBox.classList.remove('wide'); // Shrinks the green box back
+        modalBox.classList.remove('wide');
     }
 }
 
-// 4. MODAL LOGIC (OPEN DETAILS)
+// 4. MODAL LOGIC (Details View)
 function openDetails(index) {
     const item = currentData[index];
     if (!item) return;
@@ -79,23 +81,23 @@ function openDetails(index) {
     const cacheBuster = "?t=" + new Date().getTime();
     const itemImg = document.getElementById('modalImg');
     
-    // Set image and reset it to small state
+    // Set image and reset size classes
     itemImg.src = (item.image || 'placeholder.png') + cacheBuster;
     itemImg.className = 'img-small'; 
 
     let modalHTML = `
         <div class="modal-pricing-block">
-            <div class="currency-row" style="justify-content: flex-start; margin-bottom: 10px; gap: 10px;">
-                <img src="fo76_caps.png" class="icon-red" style="width:24px;height:24px;"> 
-                <span class="caps-text" style="font-size: 1.5rem;">CAPS: ${item.caps ? item.caps.toLocaleString() : 0}</span>
+            <div class="currency-row" style="justify-content: flex-start; margin-bottom: 12px; gap: 12px;">
+                <img src="fo76_caps.png" class="icon-red" style="width:28px; height:28px;"> 
+                <span class="caps-text" style="font-size: 1.6rem;">CAPS: ${item.caps ? item.caps.toLocaleString() : 0}</span>
             </div>
-            <div class="currency-row" style="justify-content: flex-start; gap: 10px;">
-                <img src="mtg.png" class="icon-blue" style="width:24px;height:24px;"> 
-                <span class="bobble-text" style="font-size: 1.5rem;">BOBBLEHEADS: ${item.leaders || 0}</span>
+            <div class="currency-row" style="justify-content: flex-start; gap: 12px;">
+                <img src="mtg.png" class="icon-blue" style="width:28px; height:28px;"> 
+                <span class="bobble-text" style="font-size: 1.6rem;">BOBBLEHEADS: ${item.leaders || 0}</span>
             </div>
     `;
 
-    // Support for alt_view (Wiki Link)
+    // Wiki/Alt View Button
     if (item.alt_view) {
         modalHTML += `
             <div class="alt-view-container">
@@ -109,21 +111,20 @@ function openDetails(index) {
     modalHTML += `</div>`; 
     document.getElementById('modalPrices').innerHTML = modalHTML;
     
-    // Display the modal
     document.getElementById('detailModal').style.display = 'flex';
 }
 
-// Ensure the box resets when closed
+// 5. MODAL CLOSING (Resets state)
 function closeModal() {
     document.getElementById('detailModal').style.display = 'none';
     const img = document.getElementById('modalImg');
     const modalBox = document.querySelector('.modal-content');
     
-    img.className = 'img-small';
-    modalBox.classList.remove('wide');
+    if (img) img.className = 'img-small';
+    if (modalBox) modalBox.classList.remove('wide');
 }
 
-// 6. SEARCH LOGIC (Checks Name and Description)
+// 6. SEARCH LOGIC (Checks Name & Desc)
 function filterItems() {
     const val = document.getElementById('searchInput').value.toLowerCase().trim();
     
@@ -141,32 +142,30 @@ function filterItems() {
     renderList(filtered);
 }
 
-// 7. GLOBAL CLICK HANDLER (Click Outside to Close)
+// 7. CLICK OUTSIDE TO CLOSE
 window.onclick = function(event) {
     const modal = document.getElementById('detailModal');
-    // If clicking the semi-transparent background, close the modal
     if (event.target == modal) {
         closeModal();
     }
 }
 
-// 8. NEW: AUTO-COUNT FUNCTION
+// 8. AUTO-COUNT FUNCTION (Updates button labels)
 async function updateAllCounts() {
-    // List all your buttons and their matching files
     const buttonMap = [
-        { id: 'btn-enclave', file: 'enclavemods.json', label: '[Enclave MODS]' },
-        { id: 'btn-star',    file: 'starmods.json',    label: '[★ Mods]' },
-        { id: 'btn-fas',     file: 'fasmask.json',     label: '[FAS Mask]' },
-        { id: 'btn-plans',   file: 'plans.json',       label: '[PLANS]' },
-        { id: 'btn-recipe',  file: 'recipe.json',      label: '[Recipe]' },
-        { id: 'btn-weapons', file: 'weapons.json',     label: '[WEAPONS]' },
-        { id: 'btn-armor',   file: 'armor.json',       label: '[Armor]' },
-        { id: 'btn-mods',    file: 'mods.json',        label: '[MODS]' },
-        { id: 'btn-food',    file: 'fooddrink.json',   label: '[Food Drinks]' },
-        { id: 'btn-aid',     file: 'aid.json',         label: '[Aid]' },
-        { id: 'btn-misc',    file: 'miscjunk.json',    label: '[MISC + Junk]' },
-        { id: 'btn-ammo',    file: 'ammo.json',        label: '[Ammo]' },
-        { id: 'btn-apparel', file: 'apparel.json',     label: '[APPAREL]' }
+        { id: 'btn-enclave', file: 'enclavemods.json', label: 'ENCLAVE MODS' },
+        { id: 'btn-star',    file: 'starmods.json',    label: '★ MODS' },
+        { id: 'btn-fas',     file: 'fasmask.json',     label: 'FAS MASK' },
+        { id: 'btn-plans',   file: 'plans.json',       label: 'PLANS' },
+        { id: 'btn-recipe',  file: 'recipe.json',      label: 'RECIPE' },
+        { id: 'btn-weapons', file: 'weapons.json',     label: 'WEAPONS' },
+        { id: 'btn-armor',   file: 'armor.json',       label: 'ARMOR' },
+        { id: 'btn-mods',    file: 'mods.json',        label: 'MODS' },
+        { id: 'btn-food',    file: 'fooddrink.json',   label: 'FOOD & DRINK' },
+        { id: 'btn-aid',     file: 'aid.json',         label: 'AID' },
+        { id: 'btn-misc',    file: 'miscjunk.json',    label: 'MISC + JUNK' },
+        { id: 'btn-ammo',    file: 'ammo.json',        label: 'AMMO' },
+        { id: 'btn-apparel', file: 'apparel.json',     label: 'APPAREL' }
     ];
 
     buttonMap.forEach(async (item) => {
@@ -178,18 +177,17 @@ async function updateAllCounts() {
                 const count = data.length;
                 const btn = document.getElementById(item.id);
                 if (btn) {
-                    // This changes button to: [PLANS] (24)
-                    btn.innerText = `${item.label} (${count})`;
+                    btn.innerText = `[${item.label}] (${count})`;
                 }
             }
         } catch (e) {
-            console.log("Count failed for: " + item.file);
+            console.warn("Count failed for: " + item.file);
         }
     });
 }
 
-// 9. INITIAL LOAD
-// We run the count update AND load the first file
-updateAllCounts();
-// Set 'plans.json' as default, or any other file you want loaded first
-loadData(' ');
+// 9. INITIAL BOOT SEQUENCE
+window.onload = () => {
+    updateAllCounts();    // Pull counts for all buttons
+    loadData(' '); // Load Plans as the default screen
+};
