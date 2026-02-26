@@ -8,7 +8,7 @@
     "trade": "Yes"
   },
   {
-    "name": "Enclave Plasma Gun Aligned Sniper Barrel",
+    "name": "Enclave Plasma Gun Aligned Sniper Barrel (3)",
     "desc": "Improved recoil and hip-fire accuracy. Reduces Action Point (AP) cost by 5%.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
@@ -16,8 +16,8 @@
     "trade": "Yes"
   },
   {
-    "name": "Enclave Plasma Gun Aligned Splitter",
-    "desc": "Splits beam into 4 projectiles. Improved recoil and hip-fire. Reduces AP cost by 5%.",
+    "name": "Enclave Plasma Gun Aligned Splitter (2)",
+    "desc": "Splits beam into 4 projectiles. Improved recoil and hip-fire. Reduces Action Point (AP) cost by 5%.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
     "leaders": 0,
@@ -32,7 +32,7 @@
     "trade": "Yes"
   },
   {
-    "name": "Enclave Plasma Gun Gamma Wave Emitter",
+    "name": "Enclave Plasma Gun Gamma Wave Emitter (2)",
     "desc": "Adds Burning damage and increases Critical Hit damage by 15%.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
@@ -48,7 +48,7 @@
     "trade": "Yes"
   },
   {
-    "name": "Enclave Plasma Gun Long Scope",
+    "name": "Enclave Plasma Gun Long Scope (2)",
     "desc": "Superior magnification for long-range engagements.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
@@ -88,7 +88,7 @@
     "trade": "Yes"
   },
   {
-    "name": "Enclave Plasma Gun Short Night Vision Scope",
+    "name": "Enclave Plasma Gun Short Night Vision Scope (2)",
     "desc": "Short-range magnification with night vision capabilities.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
     "caps": 0,
