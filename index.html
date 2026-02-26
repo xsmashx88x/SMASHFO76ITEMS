@@ -55,11 +55,9 @@
     </div>
 </div>
 
-<!-- 2. The Zoom Overlay (Fullscreen) -->
-<!-- Clicking ANYWHERE on this div calls closeZoom() -->
-<div id="zoomOverlay" class="zoom-overlay" onclick="closeZoom()">
-    <img id="zoomedImg" src="">
-    <div class="zoom-hint">[ CLICK ANYWHERE TO CLOSE ZOOM ]</div>
+<div id="modalImgContainer">
+    <!-- Clicking this will now just toggle its size -->
+    <img id="modalImg" src="" onclick="toggleImageSize()" class="standard-size">
 </div>
 
     <script src="script.js"></script>
