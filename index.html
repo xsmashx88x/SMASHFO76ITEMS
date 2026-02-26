@@ -86,6 +86,40 @@
         .alt-view-btn { display: inline-block; color: var(--main-color); text-decoration: none; padding: 10px; border: 1px solid var(--main-color); margin-top: 20px; width: 100%; box-sizing: border-box; }
         .alt-view-btn:hover { background: var(--main-color); color: #000; }
 
+        /* --- IMPROVED MODAL PRICING DISPLAY --- */
+.modal-pricing-block {
+    margin-top: 15px;
+    border-top: 2px solid var(--main-color);
+    padding-top: 15px;
+    text-align: left; /* Keep it left-aligned like a database */
+}
+
+/* Specific styling for the numbers in the modal */
+.modal-currency-row {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    margin-bottom: 10px;
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.03); /* Subtle dark bar for contrast */
+}
+
+/* Force colors so they aren't that blurry blue */
+.modal-caps { color: #ff4444 !important; font-size: 1.8rem; font-weight: bold; }
+.modal-leaders { color: #44aaff !important; font-size: 1.8rem; font-weight: bold; }
+.modal-trade { color: #ffb347 !important; font-size: 1.8rem; font-weight: bold; }
+
+/* Larger icons for the modal */
+.modal-icon {
+    width: 28px !important;
+    height: 28px !important;
+}
+
+
+
+
+
         @media (max-width: 600px) { .button-grid { grid-template-columns: 1fr; } .item-name { font-size: 1.1rem; } .currency-row { font-size: 0.9rem; } }
     </style>
 </head>
@@ -147,11 +181,22 @@
     <script>
         let currentData = [];
 
-        function formatVal(val) {
-            if (val === undefined || val === null || val === "") return "0";
-            if (typeof val === 'number') return val.toLocaleString();
-            return val.toString().toUpperCase();
-        }
+function formatVal(val) {
+    if (val === undefined || val === null || val === "") return "0";
+    
+    // If it's a number (like 500), show the number
+    if (typeof val === 'number') return val.toLocaleString();
+    
+    // Convert to Uppercase for checking
+    let text = val.toString().toUpperCase();
+
+    // CUSTOM FALLOUT REPLACEMENTS
+    if (text === "YES") return "✅ AVAILABLE"; 
+    if (text === "NO") return "✖ SECURED";
+    if (text === "WTT") return "🤝 WTT ONLY";
+
+    return text;
+}
 
         function changeTheme(hex) {
             document.documentElement.style.setProperty('--main-color', hex);
@@ -192,48 +237,54 @@
             }).join('');
         }
 
-        function openDetails(idx) {
-            const item = currentData[idx];
-            document.getElementById('modalTitle').innerText = item.name;
-            document.getElementById('modalDesc').innerHTML = item.desc || "";
-            
-            const img = document.getElementById('modalImg');
-            img.src = (item.image || 'placeholder.png') + "?t=" + Date.now();
-            img.className = 'img-small';
+function openDetails(idx) {
+    const item = currentData[idx];
+    document.getElementById('modalTitle').innerText = item.name;
+    document.getElementById('modalDesc').innerHTML = item.desc || "";
+    
+    const img = document.getElementById('modalImg');
+    img.src = (item.image || 'placeholder.png') + "?t=" + Date.now();
+    img.className = 'img-small';
 
-            let statsHTML = "";
+    // --- NEW CLEAR FORMATTING FOR MODAL ---
+    let statsHTML = `
+        <div class="modal-pricing-block">
+            <div class="modal-currency-row">
+                <img src="fo76_caps.png" class="icon-red modal-icon">
+                <span class="modal-caps">${formatVal(item.caps)} CAPS</span>
+            </div>
+            <div class="modal-currency-row">
+                <img src="mtg.png" class="icon-blue modal-icon">
+                <span class="modal-leaders">${formatVal(item.leaders)} LEADERS</span>
+            </div>
+            <div class="modal-currency-row">
+                <img src="mtg.png" class="icon-orange modal-icon">
+                <span class="modal-trade">${formatVal(item.trade)} TRADE</span>
+            </div>
+        </div>
+    `;
+
+    // The "Everything Else" Data Loader
+    statsHTML += `<div class="info-grid">`;
+    for (const [key, value] of Object.entries(item)) {
+        const skip = ['name', 'image', 'desc', 'caps', 'leaders', 'trade', 'alt_view'];
+        if (!skip.includes(key.toLowerCase())) {
             statsHTML += `
                 <div class="info-line">
-                    <span class="info-key">CAPS VALUE</span>
-                    <span class="info-value caps-text">${formatVal(item.caps)} <img src="fo76_caps.png" class="icon-red" style="width:14px;"></span>
-                </div>
-                <div class="info-line">
-                    <span class="info-key">LEADERS VALUE</span>
-                    <span class="info-value leaders-text">${formatVal(item.leaders)} <img src="mtg.png" class="icon-blue" style="width:14px;"></span>
-                </div>
-                <div class="info-line">
-                    <span class="info-key">TRADE STATUS</span>
-                    <span class="info-value trade-text">${formatVal(item.trade)} <img src="mtg.png" class="icon-orange" style="width:14px;"></span>
+                    <span class="info-key">${key.toUpperCase()}</span>
+                    <span class="info-value">${value}</span>
                 </div>
             `;
-
-            for (const [key, value] of Object.entries(item)) {
-                const skip = ['name', 'image', 'desc', 'caps', 'leaders', 'trade', 'alt_view'];
-                if (!skip.includes(key.toLowerCase())) {
-                    statsHTML += `
-                        <div class="info-line">
-                            <span class="info-key">${key.toUpperCase()}</span>
-                            <span class="info-value">${value}</span>
-                        </div>
-                    `;
-                }
-            }
-            document.getElementById('modalStats').innerHTML = statsHTML;
-            document.getElementById('modalLinks').innerHTML = item.alt_view ? 
-                `<a href="${item.alt_view}" target="_blank" class="alt-view-btn">[ ACCESS EXTERNAL WIKI DATA ]</a>` : '';
-
-            document.getElementById('detailModal').style.display = 'flex';
         }
+    }
+    statsHTML += `</div>`;
+
+    document.getElementById('modalStats').innerHTML = statsHTML;
+    document.getElementById('modalLinks').innerHTML = item.alt_view ? 
+        `<a href="${item.alt_view}" target="_blank" class="alt-view-btn">[ ACCESS EXTERNAL WIKI DATA ]</a>` : '';
+
+    document.getElementById('detailModal').style.display = 'flex';
+}
 
         function closeModal() {
             document.getElementById('detailModal').style.display = 'none';
