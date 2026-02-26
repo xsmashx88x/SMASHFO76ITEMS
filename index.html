@@ -178,23 +178,29 @@
     <script>
         let currentData = [];
 
-        function formatVal(val, type = 'default') {
-            if (val === undefined || val === null || val === "") return "0";
-            
-            let text = val.toString().toUpperCase().trim();
+        function formatVal(val) {
+    // 1. If the value is missing, empty, or literally 0, return a placeholder
+    if (val === undefined || val === null || val === "" || val === 0 || val === "0") {
+        return "---"; 
+    }
+    
+    // Convert to string and clean it up for checking
+    let text = val.toString().toUpperCase().trim();
 
-            // Logic for YES / NO / WTT
-            if (text === "YES") return "✅ AVAILABLE"; 
-            if (text === "NO") return "✖ SECURED";
-            if (text === "WTT") return "🤝 WTT ONLY";
+    // 2. Check for specific Trade keywords
+    if (text === "YES" || text === "TRUE") return "✅ YES"; 
+    if (text === "NO" || text === "FALSE") return "✖ NO";
+    if (text === "WTT") return "🤝 WTT ONLY";
 
-            // If it's a number, format with commas
-            if (!isNaN(val) && val !== "") {
-                return Number(val).toLocaleString();
-            }
+    // 3. If it's a number (like 500), format it with commas
+    // We check if it's a number AND doesn't have letters
+    if (!isNaN(val) && !/[a-z]/i.test(val)) {
+        return Number(val).toLocaleString();
+    }
 
-            return text;
-        }
+    // 4. Otherwise, just return the text as it is
+    return text;
+}
 
         function changeTheme(hex) {
             document.documentElement.style.setProperty('--main-color', hex);
