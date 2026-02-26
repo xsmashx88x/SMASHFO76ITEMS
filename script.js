@@ -150,6 +150,46 @@ window.onclick = function(event) {
     }
 }
 
-// 8. INITIAL LOAD
+// 8. NEW: AUTO-COUNT FUNCTION
+async function updateAllCounts() {
+    // List all your buttons and their matching files
+    const buttonMap = [
+        { id: 'btn-enclave', file: 'enclavemods.json', label: '[Enclave MODS]' },
+        { id: 'btn-star',    file: 'starmods.json',    label: '[★ Mods]' },
+        { id: 'btn-fas',     file: 'fasmask.json',     label: '[FAS Mask]' },
+        { id: 'btn-plans',   file: 'plans.json',       label: '[PLANS]' },
+        { id: 'btn-recipe',  file: 'recipe.json',      label: '[Recipe]' },
+        { id: 'btn-weapons', file: 'weapons.json',     label: '[WEAPONS]' },
+        { id: 'btn-armor',   file: 'armor.json',       label: '[Armor]' },
+        { id: 'btn-mods',    file: 'mods.json',        label: '[MODS]' },
+        { id: 'btn-food',    file: 'fooddrink.json',   label: '[Food Drinks]' },
+        { id: 'btn-aid',     file: 'aid.json',         label: '[Aid]' },
+        { id: 'btn-misc',    file: 'miscjunk.json',    label: '[MISC + Junk]' },
+        { id: 'btn-ammo',    file: 'ammo.json',        label: '[Ammo]' },
+        { id: 'btn-apparel', file: 'apparel.json',     label: '[APPAREL]' }
+    ];
+
+    buttonMap.forEach(async (item) => {
+        try {
+            const cacheBuster = "?t=" + new Date().getTime();
+            const response = await fetch(item.file + cacheBuster);
+            if (response.ok) {
+                const data = await response.json();
+                const count = data.length;
+                const btn = document.getElementById(item.id);
+                if (btn) {
+                    // This changes button to: [PLANS] (24)
+                    btn.innerText = `${item.label} (${count})`;
+                }
+            }
+        } catch (e) {
+            console.log("Count failed for: " + item.file);
+        }
+    });
+}
+
+// 9. INITIAL LOAD
+// We run the count update AND load the first file
+updateAllCounts();
 // Set 'plans.json' as default, or any other file you want loaded first
 loadData(' ');
