@@ -4,8 +4,10 @@ let currentData = [];
 async function loadData(filename) {
     const list = document.getElementById('itemList');
     // Clear search input when switching categories
-    document.getElementById('searchInput').value = "";
-    list.innerHTML = "<div class='item-row'>[ LOADING... ]</div>";
+    const searchInput = document.getElementById('searchInput');
+    if (searchInput) searchInput.value = "";
+    
+    list.innerHTML = "<div class='item-row'>[ LOADING ARCHIVES... ]</div>";
 
     try {
         const cacheBuster = "?t=" + new Date().getTime();
@@ -16,7 +18,7 @@ async function loadData(filename) {
         renderList(currentData);
     } catch (error) {
         console.error("Load error:", error);
-        list.innerHTML = `<div class='item-row' style="color:red">[ ERROR: ARCHIVE NOT FOUND ]</div>`;
+        list.innerHTML = `<div class='item-row' style="color:#ff3333">[ ERROR: ${filename.toUpperCase()} NOT FOUND ]</div>`;
     }
 }
 
@@ -29,7 +31,7 @@ function renderList(items) {
         return;
     }
 
-    list.innerHTML = items.map((item, index) => {
+    list.innerHTML = items.map((item) => {
         // Find the index in the ORIGINAL currentData to keep the modal working after search
         const originalIndex = currentData.indexOf(item);
         
@@ -42,31 +44,31 @@ function renderList(items) {
             <div class="price-container">
                 <div class="currency-row caps-text">
                     ${item.caps ? item.caps.toLocaleString() : 0} 
-                    <img src="fo76_caps.png" class="icon-red">
+                    <img src="fo76_caps.png" class="icon-red" alt="Caps">
                 </div>
                 <div class="currency-row bobble-text">
                     ${item.leaders || 0} 
-                    <img src="mtg.png" class="icon-blue">
+                    <img src="mtg.png" class="icon-blue" alt="Leaders">
                 </div>
             </div>
         </div>
     `}).join('');
 }
 
-// 1. TOGGLE IMAGE SIZE (NO FULLSCREEN)
+// 3. IMAGE TOGGLE LOGIC (Click to Expand/Shrink)
 function toggleImageSize() {
     const img = document.getElementById('modalImg');
-    // If it has standard size, change to expanded. If not, go back to standard.
-    if (img.classList.contains('standard-size')) {
-        img.classList.remove('standard-size');
-        img.classList.add('expanded-size');
+    // Swaps between small (standard) and large (expanded) inside the modal
+    if (img.classList.contains('img-small')) {
+        img.classList.remove('img-small');
+        img.classList.add('img-large');
     } else {
-        img.classList.remove('expanded-size');
-        img.classList.add('standard-size');
+        img.classList.remove('img-large');
+        img.classList.add('img-small');
     }
 }
 
-// 2. UPDATED OPENDETAILS
+// 4. MODAL LOGIC (OPEN DETAILS)
 function openDetails(index) {
     const item = currentData[index];
     if (!item) return;
@@ -76,25 +78,26 @@ function openDetails(index) {
     const cacheBuster = "?t=" + new Date().getTime();
     const itemImg = document.getElementById('modalImg');
     
-    // Always reset image to small size when opening a new item
+    // Set image and reset it to small state
     itemImg.src = (item.image || 'placeholder.png') + cacheBuster;
-    itemImg.className = 'standard-size'; 
+    itemImg.className = 'img-small'; 
 
     let modalHTML = `
         <div class="modal-pricing-block">
-            <div class="currency-row" style="justify-content: flex-start; margin-bottom: 8px;">
+            <div class="currency-row" style="justify-content: flex-start; margin-bottom: 10px; gap: 10px;">
                 <img src="fo76_caps.png" class="icon-red" style="width:24px;height:24px;"> 
-                <span class="caps-text" style="font-size: 1.4rem;">CAPS: ${item.caps ? item.caps.toLocaleString() : 0}</span>
+                <span class="caps-text" style="font-size: 1.5rem;">CAPS: ${item.caps ? item.caps.toLocaleString() : 0}</span>
             </div>
-            <div class="currency-row" style="justify-content: flex-start; margin-bottom: 15px;">
+            <div class="currency-row" style="justify-content: flex-start; gap: 10px;">
                 <img src="mtg.png" class="icon-blue" style="width:24px;height:24px;"> 
-                <span class="bobble-text" style="font-size: 1.4rem;">BOBBLEHEADS: ${item.leaders || 0}</span>
+                <span class="bobble-text" style="font-size: 1.5rem;">BOBBLEHEADS: ${item.leaders || 0}</span>
             </div>
     `;
 
+    // Support for alt_view (Wiki Link)
     if (item.alt_view) {
         modalHTML += `
-            <div class="alt-view-container" style="margin-top: 20px; border-top: 1px dashed #008800; padding-top: 15px;">
+            <div class="alt-view-container">
                 <a href="${item.alt_view}" target="_blank" class="alt-view-btn">
                     [ ACCESS EXTERNAL DATA ARCHIVE ]
                 </a>
@@ -105,30 +108,22 @@ function openDetails(index) {
     modalHTML += `</div>`; 
     document.getElementById('modalPrices').innerHTML = modalHTML;
     
-    // Show the green modal
+    // Display the modal
     document.getElementById('detailModal').style.display = 'flex';
 }
 
-// 3. UPDATED CLOSE (Ensures image resets for next time)
+// 5. MODAL LOGIC (CLOSE)
 function closeModal() {
     document.getElementById('detailModal').style.display = 'none';
-    document.getElementById('modalImg').className = 'standard-size';
+    // Reset image size for the next time it's opened
+    const img = document.getElementById('modalImg');
+    if (img) img.className = 'img-small';
 }
 
-// 4. CLICK OUTSIDE TO CLOSE
-window.onclick = function(event) {
-    const modal = document.getElementById('detailModal');
-    // If you click the dark area, the modal closes
-    if (event.target == modal) {
-        closeModal();
-    }
-}
-
-// 5. SEARCH LOGIC - "CHECK EVERYTHING"
+// 6. SEARCH LOGIC (Checks Name and Description)
 function filterItems() {
     const val = document.getElementById('searchInput').value.toLowerCase().trim();
     
-    // If search is empty, show everything
     if (val === "") {
         renderList(currentData);
         return;
@@ -137,26 +132,21 @@ function filterItems() {
     const filtered = currentData.filter(i => {
         const name = (i.name || "").toLowerCase();
         const description = (i.desc || "").toLowerCase();
-        
-        // Returns true if the search value is found in EITHER the name or description
         return name.includes(val) || description.includes(val);
     });
 
     renderList(filtered);
 }
 
-// 6. CLICK OUTSIDE TO CLOSE FIX
+// 7. GLOBAL CLICK HANDLER (Click Outside to Close)
 window.onclick = function(event) {
     const modal = document.getElementById('detailModal');
-    const zoom = document.getElementById('zoomOverlay');
-
+    // If clicking the semi-transparent background, close the modal
     if (event.target == modal) {
         closeModal();
     }
-    if (event.target == zoom) {
-        closeZoom();
-    }
 }
-// 7. INITIAL LOAD
-// Replace 'plans.json' with your actual main filename
+
+// 8. INITIAL LOAD
+// Set 'plans.json' as default, or any other file you want loaded first
 loadData(' ');
