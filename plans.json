@@ -1,18 +1,722 @@
 [
   {
-    "name": "plans test",
-    "desc": "plans test",
-    "image": "https://imgur.com/link-to-image.png",
-    "caps": 15000,
-    "leaders": 15000,
-    "ll3": 15000
+    "name": "Plan: Pocketed Leather Armor Limbs",
+    "desc": "Armor Mod Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
   },
   {
-    "name": "plans test",
-    "desc": "planstest",
-    "image": "https://imgur.com/link-to-image.png",
-    "caps": 15000,
-    "leaders": 15000,
-    "ll3": 15000
+    "name": "Plan: Fasnacht Balloons 02",
+    "desc": "CAMP Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Fasnacht Hanging Ribbons 01",
+    "desc": "CAMP Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Fasnacht Hanging Ribbons 02",
+    "desc": "CAMP Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Fasnacht Helvetia Garland 02",
+    "desc": "CAMP Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Fasnacht Ribbons Pole 01",
+    "desc": "CAMP Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Fasnacht Ribbons Pole 02",
+    "desc": "CAMP Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Assorted Lights",
+    "desc": "CAMP Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 469,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Basketball Hoop 2",
+    "desc": "CAMP Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 69,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Bear-Proof Trashcan",
+    "desc": "CAMP Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 269,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: BioCommMesh Trapper Armor Lining",
+    "desc": "Armor Mod Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 650,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Bottle and Cappy Balloon Statue",
+    "desc": "CAMP Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 869,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Bottle and Cappy Hoop Jump Statue",
+    "desc": "CAMP Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 869,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Broken Toilet",
+    "desc": "CAMP Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 69,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Chemistry Workbench",
+    "desc": "Crafting Station Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 169,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Cigarette Machine",
+    "desc": "CAMP Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 69,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Cryo Mine",
+    "desc": "Explosive Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 169,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Cushioned Raider Armor Legs",
+    "desc": "Armor Mod Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 169,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Deep Pocketed Combat Armor Chest",
+    "desc": "Armor Mod Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 1169,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Deep Pocketed Metal Armor Chest",
+    "desc": "Armor Mod Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 1169,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Deep Pocketed Robot Armor Chest",
+    "desc": "Armor Mod Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 1169,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Domestic Tables",
+    "desc": "CAMP Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 300,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Double Display Shelf",
+    "desc": "CAMP Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 300,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Electrified Mr. Handy Buzz Blade",
+    "desc": "Weapon Mod Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 50,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Flower Box - Ash Rose",
+    "desc": "CAMP Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 269,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Flower Box - Mutated Fern",
+    "desc": "CAMP Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 269,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Flowering Box - Ash Rose",
+    "desc": "CAMP Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 269,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Gas Signage",
+    "desc": "CAMP Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 100,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Herdsman's Bell - Fasnacht",
+    "desc": "Apparel Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 169,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Large Toolbox",
+    "desc": "CAMP Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 769,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Lawn Flamingoes",
+    "desc": "CAMP Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 200,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Lead Lined Raider Armor Chest",
+    "desc": "Armor Mod Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 569,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Light Combat Legs",
+    "desc": "Armor Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 669,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Light Metal Arms",
+    "desc": "Armor Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 150,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Light Metal Legs",
+    "desc": "Armor Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 150,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Light Metal Torso",
+    "desc": "Armor Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 150,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: MIRV Frag Grenade",
+    "desc": "Explosive Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 175,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Marine Legs",
+    "desc": "Armor Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 1200,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Marine Torso",
+    "desc": "Armor Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 1200,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Metal Diner Doors",
+    "desc": "CAMP Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 200,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Metal Shelves",
+    "desc": "CAMP Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 300,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Modern Kitchen Tables",
+    "desc": "CAMP Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 300,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Mole Miner Gauntlet",
+    "desc": "Weapon Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 169,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Mr. Handy Buzz Blade",
+    "desc": "Weapon Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 300,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Nuka Quantum Grenade",
+    "desc": "Explosive Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 225,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Nuka-Cola Ad Barrier",
+    "desc": "CAMP Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 1169,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Nuke Mine",
+    "desc": "Explosive Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 100,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Ogua Egg",
+    "desc": "CAMP Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 2269,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Pocketed Combat Armor Limbs",
+    "desc": "Armor Mod Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 1169,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Pocketed Leather Armor Chest",
+    "desc": "Armor Mod Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 1169,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Pocketed Leather Armor Limbs",
+    "desc": "Armor Mod Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 1169,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Pocketed Raider Armor Chest",
+    "desc": "Armor Mod Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 569,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Pocketed Raider Armor Limbs",
+    "desc": "Armor Mod Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 569,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Portable Toilet",
+    "desc": "CAMP Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 200,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Potted Plants",
+    "desc": "CAMP Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 469,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Power Armor Stations",
+    "desc": "CAMP Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 1169,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Pre-War Dressers",
+    "desc": "CAMP Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 769,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Pulse Grenade",
+    "desc": "Explosive Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 150,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Raider Jet Pack",
+    "desc": "Power Armor Mod Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 3000,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Shadowed Combat Armor Arms",
+    "desc": "Armor Mod Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 669,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Shadowed Robot Armor Chest",
+    "desc": "Armor Mod Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 669,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Shadowed Robot Armor Legs",
+    "desc": "Armor Mod Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 669,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Single-Action Revolver Ivory Grip",
+    "desc": "Weapon Mod Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 100,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Strengthened Leather Armor Limbs",
+    "desc": "Armor Mod Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 569,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Strengthened Raider Armor Limbs",
+    "desc": "Armor Mod Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 569,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: T-45 Jet Pack",
+    "desc": "Power Armor Mod Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 3000,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: T-45 Motion-Assist Servos",
+    "desc": "Power Armor Mod Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 420,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: T-51b Jet Pack",
+    "desc": "Power Armor Mod Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 3000,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: T-51b Motion-Assist Servos",
+    "desc": "Power Armor Mod Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 469,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Tesla Rifle",
+    "desc": "Weapon Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 2269,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Tesla Rifle ",
+    "desc": "Weapon Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 2569,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Tinker's Workbench",
+    "desc": "Crafting Station Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 250,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Ultra-Light Build Leather Armor Chest",
+    "desc": "Armor Mod Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 1169,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Ultra-Light Build Marine Armor Chest",
+    "desc": "Armor Mod Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 500,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Ultra-Light Build Marine Armor Limbs",
+    "desc": "Armor Mod Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 1169,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Ultra-Light Build Robot Armor Chest",
+    "desc": "Armor Mod Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 1169,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Ultracite Cooling Vent",
+    "desc": "Power Armor Mod Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 200,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Ultracite Helm",
+    "desc": "Power Armor Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 500,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Ultracite Jet Pack",
+    "desc": "Power Armor Mod Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 3000,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Ultracite Left Arm",
+    "desc": "Power Armor Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 500,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Ultracite Left Leg",
+    "desc": "Power Armor Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 500,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Ultracite Motion-Assist Servos",
+    "desc": "Power Armor Mod Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 200,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Ultracite Right Leg",
+    "desc": "Power Armor Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 500,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Ultracite Torso",
+    "desc": "Power Armor Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 500,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Welcome Mats",
+    "desc": "CAMP Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 200,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Wind Instruments",
+    "desc": "CAMP Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 350,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Wood Tables",
+    "desc": "CAMP Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 300,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Wooden Crate",
+    "desc": "CAMP Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 769,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Wooden Shack Doors",
+    "desc": "CAMP Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 200,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Plan: Wooden Stool",
+    "desc": "CAMP Plan",
+    "image": "https://github.com/xsmashx88x/SMASHFO76ITEMS/blob/main/images/FO76_Plan_CAMP.webp?raw=true",
+    "caps": 200,
+    "leaders": 0,
+    "ll3": 0
   }
 ]
