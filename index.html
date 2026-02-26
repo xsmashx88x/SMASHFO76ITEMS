@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <meta charset="UTF-8">
-    <!-- CRITICAL: This makes the site responsive on mobile -->
+    <meta charset="UTF-8">
+    <!-- Makes the site responsive on mobile -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SMASH'S List Of Items For Sale</title>
     <link rel="stylesheet" href="style.css">
@@ -12,9 +12,9 @@
     <div class="terminal-container">
         <header>
             <h1>SMASH'S List Of Items For Sale</h1>
-            <h2>Always Updating, Contact If Prices So Nothing</h2>
+            <h2>Always Updating, Contact If Prices Show Nothing</h2>
             <p>[ID: XBOX] xsmashx88x</p>
-                        <p>Thanks for checking out my camp, Then coming here.. Prices are not firm.. Check whats not listed on game and msg me we can work a deal :)</p>
+            <p class="header-desc">Thanks for checking out my camp, Then coming here.. Prices are not firm.. Check whats not listed on game and msg me we can work a deal :)</p>
         </header>
 
         <nav class="button-grid">
@@ -38,30 +38,30 @@
         </div>
 
         <div id="itemList" class="item-list">
-            <!-- Items load here -->
+            <!-- Items from JSON will load here -->
         </div>
     </div>
 
-<!-- 1. The Detail Modal (Green Box) -->
-<div id="detailModal" class="modal" onclick="closeModal()">
-    <div class="modal-content" onclick="event.stopPropagation()">
-        <h2 id="modalTitle"></h2>
-        <div id="modalImgContainer">
-            <!-- Clicking THIS opens the zoom -->
-            <img id="modalImg" src="" onclick="openZoom()" style="cursor: zoom-in;">
-        </div>
-        <div id="modalPrices"></div>
-        <p style="margin-top:20px; color:#0f0; font-size:0.8rem; opacity:0.5;">[ CLICK OUTSIDE TO EXIT ]</p>
-    </div>
-</div>
+    <!-- THE DETAIL MODAL -->
+    <!-- Clicking the background calls closeModal() -->
+    <div id="detailModal" class="modal" onclick="closeModal()">
+        <!-- Clicking inside the box (modal-content) does NOT close the modal -->
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <h2 id="modalTitle"></h2>
+            
+            <div id="modalImgContainer">
+                <!-- Clicking the image toggles between small and large inside the box -->
+                <img id="modalImg" src="" onclick="toggleImageSize()" class="img-small" title="Click to Expand/Shrink">
+            </div>
 
-<div id="modalImgContainer">
-    <!-- Clicking this will now just toggle its size -->
-    <img id="modalImg" src="" onclick="toggleImageSize()" class="standard-size">
-</div>
+            <div id="modalPrices">
+                <!-- Prices and Wiki Links are injected here by JS -->
+            </div>
+            
+            <p class="exit-hint">[ CLICK OUTSIDE TO EXIT ]</p>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
 </html>
-
-
