@@ -55,16 +55,17 @@ function renderList(items) {
     `}).join('');
 }
 
-// 3. IMAGE TOGGLE LOGIC (Click to Expand/Shrink)
+// TOGGLE IMAGE SIZE & MODAL WIDTH
 function toggleImageSize() {
     const img = document.getElementById('modalImg');
-    // Swaps between small (standard) and large (expanded) inside the modal
+    const modalBox = document.querySelector('.modal-content');
+    
     if (img.classList.contains('img-small')) {
-        img.classList.remove('img-small');
-        img.classList.add('img-large');
+        img.classList.replace('img-small', 'img-large');
+        modalBox.classList.add('wide'); // Makes the green box wider too
     } else {
-        img.classList.remove('img-large');
-        img.classList.add('img-small');
+        img.classList.replace('img-large', 'img-small');
+        modalBox.classList.remove('wide'); // Shrinks the green box back
     }
 }
 
@@ -112,12 +113,14 @@ function openDetails(index) {
     document.getElementById('detailModal').style.display = 'flex';
 }
 
-// 5. MODAL LOGIC (CLOSE)
+// Ensure the box resets when closed
 function closeModal() {
     document.getElementById('detailModal').style.display = 'none';
-    // Reset image size for the next time it's opened
     const img = document.getElementById('modalImg');
-    if (img) img.className = 'img-small';
+    const modalBox = document.querySelector('.modal-content');
+    
+    img.className = 'img-small';
+    modalBox.classList.remove('wide');
 }
 
 // 6. SEARCH LOGIC (Checks Name and Description)
