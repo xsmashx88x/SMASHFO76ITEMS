@@ -1,18 +1,290 @@
 [
   {
-    "name": "fasmask test",
-    "desc": "fasmask test",
-    "image": "https://imgur.com/link-to-image.png",
-    "caps": 15000,
-    "leaders": 15000,
-    "ll3": 15000
+    "name": "Alien Mask",
+    "desc": "Fasnacht Mask",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/alien.png",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
   },
   {
-    "name": "fasmask test",
-    "desc": "fasmask test",
-    "image": "https://imgur.com/link-to-image.png",
-    "caps": 15000,
-    "leaders": 15000,
-    "ll3": 15000
+    "name": "Beret Mask",
+    "desc": "Fasnacht Mask",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/beret.png",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Bigfoot Mask",
+    "desc": "Fasnacht Mask",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/bigfoot.png",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Blue Devil Mask",
+    "desc": "Fasnacht Mask",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/blue_devil.png",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Bone Head Mask",
+    "desc": "Fasnacht Mask",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/bone_head.png",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Brahmin Mask",
+    "desc": "Fasnacht Mask",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/brahmin.png",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Buffon Mask",
+    "desc": "Fasnacht Mask",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/buffon.png",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Captain Mask",
+    "desc": "Fasnacht Mask",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/captain.png",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Corn Cob Mask",
+    "desc": "Fasnacht Mask",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/corn_cob.png",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Crazy Guy Mask",
+    "desc": "Fasnacht Mask",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/crazy_guy.png",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Deathclaw Mask",
+    "desc": "Fasnacht Mask",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/deathclaw.png",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Demon Mask",
+    "desc": "Fasnacht Mask",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/demon.png",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Fiend Mask",
+    "desc": "Fasnacht Mask",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/fiend.png",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Giant Mask",
+    "desc": "Fasnacht Mask",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/giant.png",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Goblin Mask",
+    "desc": "Fasnacht Mask",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/goblin.png",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Hag Mask",
+    "desc": "Fasnacht Mask",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/hag.png",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Honey Bee Mask",
+    "desc": "Fasnacht Mask",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/honey_bee.png",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Jackalope Mask",
+    "desc": "Fasnacht Mask",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/jackalope.png",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Jester Mask",
+    "desc": "Fasnacht Mask",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/jester.png",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Loon Mask",
+    "desc": "Fasnacht Mask",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/loon.png",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Man Mask",
+    "desc": "Fasnacht Mask",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/man.png",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Minotaur Mask",
+    "desc": "Fasnacht Mask",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/minotaur.png",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Owl Mask",
+    "desc": "Fasnacht Mask",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/owl.png",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Pig Mask",
+    "desc": "Fasnacht Mask",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/pig.png",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Raven Mask",
+    "desc": "Fasnacht Mask",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/raven.png",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Robot Mask",
+    "desc": "Fasnacht Mask",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/robot.png",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Scorchbeast Mask",
+    "desc": "Fasnacht Mask",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/scorchbeast.png",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Scorchbeast Queen Mask",
+    "desc": "Fasnacht Mask",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/scorchbeast_queen.png",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Skull Mask",
+    "desc": "Fasnacht Mask",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/skull.png",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Soldier Mask",
+    "desc": "Fasnacht Mask",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/soldier.png",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Sun Mask",
+    "desc": "Fasnacht Mask",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/sun.png",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Toothy Man Mask",
+    "desc": "Fasnacht Mask",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/toothy_man.png",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Turkey Mask",
+    "desc": "Fasnacht Mask",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/turkey.png",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Unicorn Mask",
+    "desc": "Fasnacht Mask",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/unicorn.png",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Winter Man Mask",
+    "desc": "Fasnacht Mask",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/winter_man.png",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
+  },
+  {
+    "name": "Witch Mask",
+    "desc": "Fasnacht Mask",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/witch.png",
+    "caps": 0,
+    "leaders": 0,
+    "ll3": 0
   }
 ]
