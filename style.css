@@ -166,26 +166,24 @@ button:hover {
 }
 
 /* The Fullscreen Background */
+/* The Zoom Overlay (Z-index 2000 - MUST BE HIGHER) */
 .zoom-overlay {
     display: none; /* Hidden by default */
     position: fixed;
+    z-index: 2000; 
     top: 0; left: 0;
     width: 100%; height: 100%;
-    background: rgba(0, 0, 0, 0.95); /* Deep dark background */
-    z-index: 2000; /* Stays above everything else */
+    background: rgba(0, 0, 0, 0.98); /* Solid black */
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    cursor: zoom-out;
+    cursor: pointer;
 }
 
-/* The Enlarged Image */
 #zoomedImg {
     max-width: 95%;
     max-height: 85%;
-    border: 2px solid #0f0; /* Green terminal border */
-    box-shadow: 0 0 20px rgba(0, 255, 0, 0.3);
-    object-fit: contain;
+    border: 1px solid #0f0;
 }
 
 .zoom-hint {
