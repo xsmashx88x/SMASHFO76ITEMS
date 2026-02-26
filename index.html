@@ -2,61 +2,68 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!-- Makes the site responsive on mobile -->
+    <!-- Essential for Mobile Scaling -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SMASH'S List Of Items For Sale</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Google Font for Terminal Style -->
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="terminal-container">
         <header>
-            <h1>SMASH'S List Of Items For Sale</h1>
-            <h2>Always Updating, Contact If Prices Show Nothing</h2>
-            <p>[ID: XBOX] xsmashx88x</p>
-            <p class="header-desc">Thanks for checking out my camp, Then coming here.. Prices are not firm.. Check whats not listed on game and msg me we can work a deal :)</p>
+            <h1>SMASH'S ROBCO TERMINAL [v4.2]</h1>
+            <p class="id-tag">[ ACCESSING DATABASE: xsmashx88x ]</p>
+            <p class="header-desc">PRICES ARE NEGOTIABLE. IF A PRICE IS MISSING, MESSAGE ME ON XBOX TO WORK OUT A DEAL!</p>
         </header>
 
-<nav class="button-grid">
-    <button id="btn-enclave" onclick="loadData('enclavemods.json')">[Enclave MODS]</button>
-    <button id="btn-star" onclick="loadData('starmods.json')">[★ Mods]</button>
-    <button id="btn-fas" onclick="loadData('fasmask.json')">[FAS Mask]</button>
-    <button id="btn-plans" onclick="loadData('plans.json')">[PLANS]</button>
-    <button id="btn-recipe" onclick="loadData('recipe.json')">[Recipe]</button>
-    <button id="btn-weapons" onclick="loadData('weapons.json')">[WEAPONS]</button>
-    <button id="btn-armor" onclick="loadData('armor.json')">[Armor]</button>
-    <button id="btn-mods" onclick="loadData('mods.json')">[MODS]</button>
-    <button id="btn-food" onclick="loadData('fooddrink.json')">[Food Drinks]</button>
-    <button id="btn-aid" onclick="loadData('aid.json')">[Aid]</button>
-    <button id="btn-misc" onclick="loadData('miscjunk.json')">[MISC + Junk]</button>
-    <button id="btn-ammo" onclick="loadData('ammo.json')">[Ammo]</button>
-    <button id="btn-apparel" onclick="loadData('apparel.json')">[APPAREL]</button>
-</nav>
+        <!-- Navigation Grid: Counts will be added to labels automatically by JS -->
+        <nav class="button-grid">
+            <button id="btn-enclave" onclick="loadData('enclavemods.json')">[ENCLAVE MODS]</button>
+            <button id="btn-star" onclick="loadData('starmods.json')">[★ MODS]</button>
+            <button id="btn-fas" onclick="loadData('fasmask.json')">[FAS MASKS]</button>
+            <button id="btn-plans" onclick="loadData('plans.json')">[PLANS]</button>
+            <button id="btn-recipe" onclick="loadData('recipe.json')">[RECIPES]</button>
+            <button id="btn-weapons" onclick="loadData('weapons.json')">[WEAPONS]</button>
+            <button id="btn-armor" onclick="loadData('armor.json')">[ARMOR]</button>
+            <button id="btn-mods" onclick="loadData('mods.json')">[MODS]</button>
+            <button id="btn-food" onclick="loadData('fooddrink.json')">[FOOD & DRINK]</button>
+            <button id="btn-aid" onclick="loadData('aid.json')">[AID]</button>
+            <button id="btn-misc" onclick="loadData('miscjunk.json')">[MISC + JUNK]</button>
+            <button id="btn-ammo" onclick="loadData('ammo.json')">[AMMO]</button>
+            <button id="btn-apparel" onclick="loadData('apparel.json')">[APPAREL]</button>
+        </nav>
 
         <div class="search-area">
-            <input type="text" id="searchInput" placeholder="SEARCH After Picking A Option Above..." onkeyup="filterItems()">
+            <input type="text" id="searchInput" placeholder="SEARCH ARCHIVES (PICK A CATEGORY FIRST)..." onkeyup="filterItems()">
         </div>
 
+        <!-- This is where your list of items appears -->
         <div id="itemList" class="item-list">
-            <!-- Items from JSON will load here -->
+            <div class="item-row">[ STANDBY: INITIALIZING SYSTEM... ]</div>
         </div>
     </div>
 
-<!-- THE DETAIL MODAL -->
-<div id="detailModal" class="modal" onclick="closeModal()">
-    <div class="modal-content" onclick="event.stopPropagation()">
-        <h2 id="modalTitle"></h2>
-        
-        <div id="modalImgContainer">
-            <img id="modalImg" src="" onclick="toggleImageSize()" class="img-small" title="Click to Expand">
+    <!-- THE DETAIL MODAL (Green Terminal Box) -->
+    <!-- Clicking background calls closeModal() -->
+    <div id="detailModal" class="modal" onclick="closeModal()">
+        <!-- Clicking inside content calls stopPropagation() to prevent closing -->
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <h2 id="modalTitle"></h2>
+            
+            <div id="modalImgContainer">
+                <!-- Large, Clear Image. Clicks toggle expansion size -->
+                <img id="modalImg" src="" onclick="toggleImageSize()" class="img-small" title="Click to Expand/Shrink Image">
+            </div>
+
+            <!-- Pricing rows and External Wiki links injected here -->
+            <div id="modalPrices"></div>
+            
+            <p class="exit-hint">[ CLICK OUTSIDE THIS BOX TO EXIT ]</p>
         </div>
-
-        <div id="modalPrices"></div>
-        
-        <p class="exit-hint">[ CLICK OUTSIDE TO EXIT ]</p>
     </div>
-</div>
 
+    <!-- Ensure script.js is at the very bottom -->
     <script src="script.js"></script>
 </body>
 </html>
