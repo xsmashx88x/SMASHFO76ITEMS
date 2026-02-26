@@ -3,14 +3,16 @@
     "name": "Alien Mask",
     "desc": "Fasnacht Mask",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/alien.png",
+    "alt_view": "https://fallout.fandom.com/wiki/Fasnacht_alien_mask",
     "caps": 0,
     "leaders": 0,
     "ll3": 0
   },
   {
-    "name": "Beret Mask",
-    "desc": "Fasnacht Mask",
+    "name": "Beret",
+    "desc": "Fasnacht Apparel",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/beret.png",
+    "alt_view": "https://fallout.fandom.com/wiki/Fasnacht_beret",
     "caps": 0,
     "leaders": 0,
     "ll3": 0
@@ -19,6 +21,7 @@
     "name": "Bigfoot Mask",
     "desc": "Fasnacht Mask",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/bigfoot.png",
+    "alt_view": "https://fallout.fandom.com/wiki/Fasnacht_bigfoot_mask",
     "caps": 0,
     "leaders": 0,
     "ll3": 0
@@ -27,6 +30,7 @@
     "name": "Blue Devil Mask",
     "desc": "Fasnacht Mask",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/blue_devil.png",
+    "alt_view": "https://fallout.fandom.com/wiki/Fasnacht_Blue_Devil_mask",
     "caps": 0,
     "leaders": 0,
     "ll3": 0
@@ -35,6 +39,7 @@
     "name": "Bone Head Mask",
     "desc": "Fasnacht Mask",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/bone_head.png",
+    "alt_view": "https://fallout.fandom.com/wiki/Fasnacht_bone_head_mask",
     "caps": 0,
     "leaders": 0,
     "ll3": 0
@@ -43,14 +48,16 @@
     "name": "Brahmin Mask",
     "desc": "Fasnacht Mask",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/brahmin.png",
+    "alt_view": "https://fallout.fandom.com/wiki/Fasnacht_brahmin_mask",
     "caps": 0,
     "leaders": 0,
     "ll3": 0
   },
   {
-    "name": "Buffon Mask",
+    "name": "Buffoon Mask",
     "desc": "Fasnacht Mask",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/buffon.png",
+    "alt_view": "https://fallout.fandom.com/wiki/Fasnacht_buffoon_mask",
     "caps": 0,
     "leaders": 0,
     "ll3": 0
@@ -59,6 +66,7 @@
     "name": "Captain Mask",
     "desc": "Fasnacht Mask",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/captain.png",
+    "alt_view": "https://fallout.fandom.com/wiki/Fasnacht_captain_mask",
     "caps": 0,
     "leaders": 0,
     "ll3": 0
@@ -67,6 +75,7 @@
     "name": "Corn Cob Mask",
     "desc": "Fasnacht Mask",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/corn_cob.png",
+    "alt_view": "https://fallout.fandom.com/wiki/Fasnacht_corn_cob_mask",
     "caps": 0,
     "leaders": 0,
     "ll3": 0
@@ -75,6 +84,7 @@
     "name": "Crazy Guy Mask",
     "desc": "Fasnacht Mask",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/crazy_guy.png",
+    "alt_view": "https://fallout.fandom.com/wiki/Fasnacht_crazy_guy_mask",
     "caps": 0,
     "leaders": 0,
     "ll3": 0
@@ -83,6 +93,7 @@
     "name": "Deathclaw Mask",
     "desc": "Fasnacht Mask",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/deathclaw.png",
+    "alt_view": "https://fallout.fandom.com/wiki/Fasnacht_deathclaw_mask",
     "caps": 0,
     "leaders": 0,
     "ll3": 0
@@ -91,6 +102,7 @@
     "name": "Demon Mask",
     "desc": "Fasnacht Mask",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/demon.png",
+    "alt_view": "https://fallout.fandom.com/wiki/Fasnacht_demon_mask",
     "caps": 0,
     "leaders": 0,
     "ll3": 0
@@ -99,6 +111,7 @@
     "name": "Fiend Mask",
     "desc": "Fasnacht Mask",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/fiend.png",
+    "alt_view": "https://fallout.fandom.com/wiki/Fasnacht_fiend_mask",
     "caps": 0,
     "leaders": 0,
     "ll3": 0
@@ -107,6 +120,7 @@
     "name": "Giant Mask",
     "desc": "Fasnacht Mask",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/giant.png",
+    "alt_view": "https://fallout.fandom.com/wiki/Fasnacht_giant_mask",
     "caps": 0,
     "leaders": 0,
     "ll3": 0
@@ -115,6 +129,7 @@
     "name": "Goblin Mask",
     "desc": "Fasnacht Mask",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/goblin.png",
+    "alt_view": "https://fallout.fandom.com/wiki/Fasnacht_goblin_mask",
     "caps": 0,
     "leaders": 0,
     "ll3": 0
@@ -123,6 +138,7 @@
     "name": "Hag Mask",
     "desc": "Fasnacht Mask",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/hag.png",
+    "alt_view": "https://fallout.fandom.com/wiki/Fasnacht_hag_mask",
     "caps": 0,
     "leaders": 0,
     "ll3": 0
@@ -131,6 +147,7 @@
     "name": "Honey Bee Mask",
     "desc": "Fasnacht Mask",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/honey_bee.png",
+    "alt_view": "https://fallout.fandom.com/wiki/Fasnacht_honey_bee_mask",
     "caps": 0,
     "leaders": 0,
     "ll3": 0
@@ -139,6 +156,7 @@
     "name": "Jackalope Mask",
     "desc": "Fasnacht Mask",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/jackalope.png",
+    "alt_view": "https://fallout.fandom.com/wiki/Fasnacht_jackalope_mask",
     "caps": 0,
     "leaders": 0,
     "ll3": 0
@@ -147,6 +165,7 @@
     "name": "Jester Mask",
     "desc": "Fasnacht Mask",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/jester.png",
+    "alt_view": "https://fallout.fandom.com/wiki/Fasnacht_jester_mask",
     "caps": 0,
     "leaders": 0,
     "ll3": 0
@@ -155,6 +174,7 @@
     "name": "Loon Mask",
     "desc": "Fasnacht Mask",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/loon.png",
+    "alt_view": "https://fallout.fandom.com/wiki/Fasnacht_loon_mask",
     "caps": 0,
     "leaders": 0,
     "ll3": 0
@@ -163,6 +183,7 @@
     "name": "Man Mask",
     "desc": "Fasnacht Mask",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/man.png",
+    "alt_view": "https://fallout.fandom.com/wiki/Fasnacht_man_mask",
     "caps": 0,
     "leaders": 0,
     "ll3": 0
@@ -171,6 +192,7 @@
     "name": "Minotaur Mask",
     "desc": "Fasnacht Mask",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/minotaur.png",
+    "alt_view": "https://fallout.fandom.com/wiki/Fasnacht_minotaur_mask",
     "caps": 0,
     "leaders": 0,
     "ll3": 0
@@ -179,6 +201,7 @@
     "name": "Owl Mask",
     "desc": "Fasnacht Mask",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/owl.png",
+    "alt_view": "https://fallout.fandom.com/wiki/Fasnacht_owl_mask",
     "caps": 0,
     "leaders": 0,
     "ll3": 0
@@ -187,6 +210,7 @@
     "name": "Pig Mask",
     "desc": "Fasnacht Mask",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/pig.png",
+    "alt_view": "https://fallout.fandom.com/wiki/Fasnacht_pig_mask",
     "caps": 0,
     "leaders": 0,
     "ll3": 0
@@ -195,6 +219,7 @@
     "name": "Raven Mask",
     "desc": "Fasnacht Mask",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/raven.png",
+    "alt_view": "https://fallout.fandom.com/wiki/Fasnacht_raven_mask",
     "caps": 0,
     "leaders": 0,
     "ll3": 0
@@ -203,6 +228,7 @@
     "name": "Robot Mask",
     "desc": "Fasnacht Mask",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/robot.png",
+    "alt_view": "https://fallout.fandom.com/wiki/Fasnacht_robot_mask",
     "caps": 0,
     "leaders": 0,
     "ll3": 0
@@ -211,6 +237,7 @@
     "name": "Scorchbeast Mask",
     "desc": "Fasnacht Mask",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/scorchbeast.png",
+    "alt_view": "https://fallout.fandom.com/wiki/Fasnacht_scorchbeast_mask",
     "caps": 0,
     "leaders": 0,
     "ll3": 0
@@ -219,6 +246,7 @@
     "name": "Scorchbeast Queen Mask",
     "desc": "Fasnacht Mask",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/scorchbeast_queen.png",
+    "alt_view": "https://fallout.fandom.com/wiki/Fasnacht_scorchbeast_queen_mask",
     "caps": 0,
     "leaders": 0,
     "ll3": 0
@@ -227,6 +255,7 @@
     "name": "Skull Mask",
     "desc": "Fasnacht Mask",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/skull.png",
+    "alt_view": "https://fallout.fandom.com/wiki/Fasnacht_skull_mask",
     "caps": 0,
     "leaders": 0,
     "ll3": 0
@@ -235,6 +264,7 @@
     "name": "Soldier Mask",
     "desc": "Fasnacht Mask",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/soldier.png",
+    "alt_view": "https://fallout.fandom.com/wiki/Fasnacht_soldier_mask",
     "caps": 0,
     "leaders": 0,
     "ll3": 0
@@ -243,6 +273,7 @@
     "name": "Sun Mask",
     "desc": "Fasnacht Mask",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/sun.png",
+    "alt_view": "https://fallout.fandom.com/wiki/Fasnacht_sun_mask",
     "caps": 0,
     "leaders": 0,
     "ll3": 0
@@ -251,6 +282,7 @@
     "name": "Toothy Man Mask",
     "desc": "Fasnacht Mask",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/toothy_man.png",
+    "alt_view": "https://fallout.fandom.com/wiki/Fasnacht_toothy_man_mask",
     "caps": 0,
     "leaders": 0,
     "ll3": 0
@@ -259,6 +291,7 @@
     "name": "Turkey Mask",
     "desc": "Fasnacht Mask",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/turkey.png",
+    "alt_view": "https://fallout.fandom.com/wiki/Fasnacht_turkey_mask",
     "caps": 0,
     "leaders": 0,
     "ll3": 0
@@ -267,14 +300,16 @@
     "name": "Unicorn Mask",
     "desc": "Fasnacht Mask",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/unicorn.png",
+    "alt_view": "https://fallout.fandom.com/wiki/Fasnacht_unicorn_mask",
     "caps": 0,
     "leaders": 0,
     "ll3": 0
   },
   {
-    "name": "Winter Man Mask",
+    "name": "Old Man Winter Mask",
     "desc": "Fasnacht Mask",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/winter_man.png",
+    "alt_view": "https://fallout.fandom.com/wiki/Fasnacht_Old_Man_Winter_mask",
     "caps": 0,
     "leaders": 0,
     "ll3": 0
@@ -283,6 +318,7 @@
     "name": "Witch Mask",
     "desc": "Fasnacht Mask",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/fasmask/witch.png",
+    "alt_view": "https://fallout.fandom.com/wiki/Fasnacht_witch_mask",
     "caps": 0,
     "leaders": 0,
     "ll3": 0
