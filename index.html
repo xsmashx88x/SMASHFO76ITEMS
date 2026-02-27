@@ -171,19 +171,27 @@
     </div>
 
     <script>
-        let currentData = [];
+let currentData = []; // Data for the currently selected category
+        let allData = [];    // Master list of EVERYTHING for searching
+
+        // List of all your data files
+        const dataFiles = [
+            {id:'btn-enclave', f:'enclavemods.json', l:'ENCLAVE MODS'}, {id:'btn-star', f:'starmods.json', l:'★ MODS'},
+            {id:'btn-fas', f:'fasmask.json', l:'FAS MASK'}, {id:'btn-plans', f:'plans.json', l:'PLANS'},
+            {id:'btn-recipe', f:'recipe.json', l:'RECIPE'}, {id:'btn-weapons', f:'weapons.json', l:'WEAPONS'},
+            {id:'btn-armor', f:'armor.json', l:'ARMOR'}, {id:'btn-mods', f:'mods.json', l:'MODS'},
+            {id:'btn-food', f:'fooddrink.json', l:'FOOD & DRINK'}, {id:'btn-aid', f:'aid.json', l:'AID'},
+            {id:'btn-misc', f:'miscjunk.json', l:'MISC + JUNK'}, {id:'btn-ammo', f:'ammo.json', l:'AMMO'},
+            {id:'btn-apparel', f:'apparel.json', l:'APPAREL'}
+        ];
 
         function formatVal(val) {
-            if (val === undefined || val === null || val === "" || val === 0 || val === "0") {
-                return "---"; 
-            }
+            if (val === undefined || val === null || val === "" || val === 0 || val === "0") return "---"; 
             let text = val.toString().toUpperCase().trim();
             if (text === "YES" || text === "TRUE") return "✅ YES"; 
             if (text === "NO" || text === "FALSE") return "✖ NO";
             if (text === "WTT") return "🤝 WTT ONLY";
-            if (!isNaN(val) && !/[a-z]/i.test(val)) {
-                return Number(val).toLocaleString();
-            }
+            if (!isNaN(val) && !/[a-z]/i.test(val)) return Number(val).toLocaleString();
             return text;
         }
 
@@ -195,9 +203,10 @@
             localStorage.setItem('robco_user_color', hex);
         }
 
+        // Loads a specific category when a button is clicked
         async function loadData(filename) {
             const list = document.getElementById('itemList');
-            document.getElementById('searchInput').value = "";
+            document.getElementById('searchInput').value = ""; // Clear search when switching categories
             list.innerHTML = "<div class='item-row'>[ ACCESSING DATABASE... ]</div>";
             try {
                 const response = await fetch(filename + "?t=" + Date.now());
@@ -206,13 +215,18 @@
             } catch (e) { list.innerHTML = "<div class='item-row' style='color:red'>[ ERROR: FILE NOT FOUND ]</div>"; }
         }
 
+        // Renders the list to the screen
         function renderList(items) {
             const list = document.getElementById('itemList');
-            if (!items || items.length === 0) { list.innerHTML = "<div class='item-row'>[ NO DATA ]</div>"; return; }
+            if (!items || items.length === 0) { 
+                list.innerHTML = "<div class='item-row'>[ NO MATCHING DATA FOUND ]</div>"; 
+                return; 
+            }
             list.innerHTML = items.map(item => {
-                const idx = currentData.indexOf(item);
+                // Use the item itself to find index in whichever array it came from
+                const clickAction = `openDetails(${JSON.stringify(item).replace(/"/g, '&quot;')})`;
                 return `
-                <div class="item-row" onclick="openDetails(${idx})">
+                <div class="item-row" onclick='openDetails(${JSON.stringify(item).replace(/"/g, "&quot;")})'>
                     <div class="text-container">
                         <div class="item-name">${item.name}</div>
                         <div class="item-subtext">${item.desc || ''}</div>
@@ -226,8 +240,21 @@
             }).join('');
         }
 
-        function openDetails(idx) {
-            const item = currentData[idx];
+        // Filter function: Searches EVERYTHING if text is entered
+        function filterItems() {
+            const val = document.getElementById('searchInput').value.toLowerCase();
+            if (val === "") {
+                renderList(currentData); // If search is empty, show current category
+            } else {
+                const filtered = allData.filter(i => 
+                    i.name.toLowerCase().includes(val) || 
+                    (i.desc || '').toLowerCase().includes(val)
+                );
+                renderList(filtered); // If searching, show from global list
+            }
+        }
+
+        function openDetails(item) {
             document.getElementById('modalTitle').innerText = item.name;
             document.getElementById('modalDesc').innerHTML = item.desc || "";
             
@@ -257,18 +284,12 @@
                         <span class="modal-trade">${formatVal(item.trade)} TRADE</span>
                     </div>
                 </div>
-            `;
+            <div class="info-grid">`;
 
-            statsHTML += `<div class="info-grid">`;
             for (const [key, value] of Object.entries(item)) {
                 const skip = ['name', 'image', 'desc', 'caps', 'leaders', 'trade', 'alt_view'];
                 if (!skip.includes(key.toLowerCase())) {
-                    statsHTML += `
-                        <div class="info-line">
-                            <span class="info-key">${key.toUpperCase()}</span>
-                            <span class="info-value">${value}</span>
-                        </div>
-                    `;
+                    statsHTML += `<div class="info-line"><span class="info-key">${key.toUpperCase()}</span><span class="info-value">${value}</span></div>`;
                 }
             }
             statsHTML += `</div>`;
@@ -298,29 +319,22 @@
             }
         }
 
-        function filterItems() {
-            const val = document.getElementById('searchInput').value.toLowerCase();
-            renderList(currentData.filter(i => i.name.toLowerCase().includes(val) || (i.desc||'').toLowerCase().includes(val)));
-        }
-
-        async function updateCounts() {
-            const btns = [
-                {id:'btn-enclave', f:'enclavemods.json', l:'ENCLAVE MODS'}, {id:'btn-star', f:'starmods.json', l:'★ MODS'},
-                {id:'btn-fas', f:'fasmask.json', l:'FAS MASK'}, {id:'btn-plans', f:'plans.json', l:'PLANS'},
-                {id:'btn-recipe', f:'recipe.json', l:'RECIPE'}, {id:'btn-weapons', f:'weapons.json', l:'WEAPONS'},
-                {id:'btn-armor', f:'armor.json', l:'ARMOR'}, {id:'btn-mods', f:'mods.json', l:'MODS'},
-                {id:'btn-food', f:'fooddrink.json', l:'FOOD & DRINK'}, {id:'btn-aid', f:'aid.json', l:'AID'},
-                {id:'btn-misc', f:'miscjunk.json', l:'MISC + JUNK'}, {id:'btn-ammo', f:'ammo.json', l:'AMMO'},
-                {id:'btn-apparel', f:'apparel.json', l:'APPAREL'}
-            ];
-            btns.forEach(async b => {
+        // Initialize: Load counts and build the Master List
+        async function initialize() {
+            for (const b of dataFiles) {
                 try {
                     const r = await fetch(b.f + "?t=" + Date.now());
                     const d = await r.json();
+                    
+                    // Add to Master List for searching
+                    allData = [...allData, ...d];
+                    
+                    // Update the button counts
                     const btn = document.getElementById(b.id);
                     if (btn) btn.innerText = `[${b.l}] (${d.length})`;
-                } catch(e){}
-            });
+                } catch(e) { console.error("Error loading " + b.f); }
+            }
+            console.log("Global Database Loaded: " + allData.length + " items.");
         }
 
         window.onclick = (e) => { if (e.target == document.getElementById('detailModal')) closeModal(); }
@@ -328,7 +342,7 @@
         window.onload = () => {
             const savedColor = localStorage.getItem('robco_user_color');
             if (savedColor) changeTheme(savedColor);
-            updateCounts();
+            initialize();
         };
     </script>
 </body>
