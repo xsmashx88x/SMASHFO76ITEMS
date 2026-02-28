@@ -292,6 +292,7 @@ let currentData = []; // Data for the currently selected category
         }
 
 // Renders the list to the screen (Now with Automatic Alphabetical Sorting)
+// Renders the list to the screen (Now with Alphabetical Sorting & Date Labels)
         function renderList(items) {
             const list = document.getElementById('itemList');
             
@@ -300,17 +301,18 @@ let currentData = []; // Data for the currently selected category
                 return; 
             }
 
-            // --- SORTING LOGIC ---
-            // This compares name A to name B and puts them in A-Z order
-            const sortedItems = [...items].sort((a, b) => {
-                return a.name.localeCompare(b.name);
-            });
+            // 1. Sort A-Z by Name
+            const sortedItems = [...items].sort((a, b) => a.name.localeCompare(b.name));
 
-            // We use 'sortedItems' now instead of 'items'
+            // 2. Render HTML
             list.innerHTML = sortedItems.map(item => {
+                // Check if item has a date, if so, create a small label for it
+                const dateTag = item.date ? `<div style="font-size:0.75rem; color:var(--dim-color); margin-bottom: 2px;">[ RECEIVED: ${item.date} ]</div>` : '';
+                
                 return `
                 <div class="item-row" onclick='openDetails(${JSON.stringify(item).replace(/"/g, "&quot;")})'>
                     <div class="text-container">
+                        ${dateTag}
                         <div class="item-name">${item.name}</div>
                         <div class="item-subtext">${item.desc || ''}</div>
                     </div>
