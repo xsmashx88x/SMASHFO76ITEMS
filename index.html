@@ -100,7 +100,29 @@
         .modal-trade { color: #ffb347 !important; font-size: 1.8rem; font-weight: bold; }
         .modal-icon { width: 28px !important; height: 28px !important; }
 
+/* Container to center the single button */
+.recent-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px; /* Space between this and the grid below */
+    width: 100%;
+}
 
+/* Specific style for the top button to make it look important */
+.hero-btn {
+    width: 100%;
+    max-width: 400px; /* Limits how wide it gets on desktop */
+    border: 2px solid var(--main-color) !important;
+    font-size: 1.4rem !important;
+    background: rgba(0, 255, 65, 0.1) !important;
+}
+
+/* Ensure the main grid starts fresh below it */
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 10px;
+}
 
         /* SYSTEM UPDATE ALERT */
 #syncModal { 
