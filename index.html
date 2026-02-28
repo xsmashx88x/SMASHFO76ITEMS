@@ -124,7 +124,7 @@
             <p>[ ID: XBOX | xsmashx88x ]</p>
             <p class="header-desc">PRICES ARE NEGOTIABLE. CONTACT VIA XBOX FOR TRADES.</p>
         </header>
-
+<button id="btn-recent" onclick="showRecent()" style="border-color: #fff; color: #fff;">[ RECENT UPDATES ]</button>
         <nav class="button-grid">
             <button id="btn-enclave" onclick="loadData('enclavemods.json')">[ENCLAVE MODS]</button>
             <button id="btn-star" onclick="loadData('starmods.json')">[★ MODS]</button>
@@ -142,7 +142,7 @@
         </nav>
 
         <div class="search-area">
-            <input type="text" id="searchInput" placeholder="SEARCH ACTIVE CATEGORY..." onkeyup="filterItems()">
+            <input type="text" id="searchInput" placeholder="Search For Items..." onkeyup="filterItems()">
         </div>
 
         <div id="itemList">
@@ -326,17 +326,55 @@ let currentData = []; // Data for the currently selected category
             }
         }
 
+        function showRecent() {
+            document.getElementById('searchInput').value = ""; // Clear search
+            const list = document.getElementById('itemList');
+            
+            // Filter items that have a "date" field and sort them newest to oldest
+            const recentItems = allData
+                .filter(i => i.date) 
+                .sort((a, b) => new Date(b.date) - new Date(a.date))
+                .slice(0, 15); // Show only the 15 most recent
+
+            if (recentItems.length === 0) {
+                list.innerHTML = "<div class='item-row'>[ NO RECENT UPDATES LOGGED IN DATABASE ]</div>";
+                return;
+            }
+
+            // We use a custom render for Recent to show the Category tag
+            list.innerHTML = recentItems.map(item => {
+                return `
+                <div class="item-row" onclick='openDetails(${JSON.stringify(item).replace(/"/g, "&quot;")})'>
+                    <div class="text-container">
+                        <div style="font-size:0.8rem; color:var(--main-color); opacity:0.7;">[${item.categoryName}] - ${item.date}</div>
+                        <div class="item-name">${item.name}</div>
+                        <div class="item-subtext">${item.desc || ''}</div>
+                    </div>
+                    <div class="price-container">
+                        <div class="currency-row caps-text">${formatVal(item.caps)} <img src="fo76_caps.png" class="icon-red"></div>
+                        <div class="currency-row leaders-text">${formatVal(item.leaders)} <img src="mtg.png" class="icon-blue"></div>
+                        <div class="currency-row trade-text">${formatVal(item.trade)} <img src="mtg.png" class="icon-orange"></div>
+                    </div>
+                </div>`;
+            }).join('');
+        }
+
         // Initialize: Load counts and build the Master List
-        async function initialize() {
+async function initialize() {
+            allData = []; // Reset master list
             for (const b of dataFiles) {
                 try {
                     const r = await fetch(b.f + "?t=" + Date.now());
                     const d = await r.json();
                     
-                    // Add to Master List for searching
-                    allData = [...allData, ...d];
+                    // TAG EACH ITEM WITH ITS CATEGORY BEFORE ADDING TO MASTER LIST
+                    const taggedData = d.map(item => ({
+                        ...item,
+                        categoryName: b.l // Store the category name (e.g., "PLANS")
+                    }));
                     
-                    // Update the button counts
+                    allData = [...allData, ...taggedData];
+                    
                     const btn = document.getElementById(b.id);
                     if (btn) btn.innerText = `[${b.l}] (${d.length})`;
                 } catch(e) { console.error("Error loading " + b.f); }
