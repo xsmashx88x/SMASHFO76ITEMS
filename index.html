@@ -215,16 +215,23 @@ let currentData = []; // Data for the currently selected category
             } catch (e) { list.innerHTML = "<div class='item-row' style='color:red'>[ ERROR: FILE NOT FOUND ]</div>"; }
         }
 
-        // Renders the list to the screen
+// Renders the list to the screen (Now with Automatic Alphabetical Sorting)
         function renderList(items) {
             const list = document.getElementById('itemList');
+            
             if (!items || items.length === 0) { 
                 list.innerHTML = "<div class='item-row'>[ NO MATCHING DATA FOUND ]</div>"; 
                 return; 
             }
-            list.innerHTML = items.map(item => {
-                // Use the item itself to find index in whichever array it came from
-                const clickAction = `openDetails(${JSON.stringify(item).replace(/"/g, '&quot;')})`;
+
+            // --- SORTING LOGIC ---
+            // This compares name A to name B and puts them in A-Z order
+            const sortedItems = [...items].sort((a, b) => {
+                return a.name.localeCompare(b.name);
+            });
+
+            // We use 'sortedItems' now instead of 'items'
+            list.innerHTML = sortedItems.map(item => {
                 return `
                 <div class="item-row" onclick='openDetails(${JSON.stringify(item).replace(/"/g, "&quot;")})'>
                     <div class="text-container">
