@@ -402,22 +402,37 @@ let currentData = []; // Data for the currently selected category
             }
         }
 
-        function showRecent() {
+function showRecent() {
             document.getElementById('searchInput').value = ""; // Clear search
             const list = document.getElementById('itemList');
             
-            // Filter items that have a "date" field and sort them newest to oldest
-            const recentItems = allData
-                .filter(i => i.date) 
-                .sort((a, b) => new Date(b.date) - new Date(a.date))
-                .slice(0, 15); // Show only the 15 most recent
+            // 1. Calculate the "Cutoff Date" (7 days ago)
+            const today = new Date();
+            const sevenDaysAgo = new Date();
+            sevenDaysAgo.setDate(today.getDate() - 7);
 
+            // 2. Filter items that have a date AND are within the last 7 days
+            const recentItems = allData
+                .filter(item => {
+                    if (!item.date) return false;
+                    const itemDate = new Date(item.date);
+                    // Returns true if the item's date is greater than or equal to 7 days ago
+                    return itemDate >= sevenDaysAgo;
+                })
+                // 3. Sort them: Newest at the very top
+                .sort((a, b) => new Date(b.date) - new Date(a.date));
+
+            // 4. If nothing was added in the last week, show a specific message
             if (recentItems.length === 0) {
-                list.innerHTML = "<div class='item-row'>[ NO RECENT UPDATES LOGGED IN DATABASE ]</div>";
+                list.innerHTML = `
+                    <div class="item-row" style="justify-content: center; opacity: 0.6; flex-direction: column; padding: 40px;">
+                        <div>[ NO NEW SHIPMENTS IN THE LAST 7 DAYS ]</div>
+                        <div style="font-size: 0.8rem; margin-top: 10px;">CHECK BACK SOON FOR UPDATED STOCK</div>
+                    </div>`;
                 return;
             }
 
-            // We use a custom render for Recent to show the Category tag
+            // 5. Render the items found within the week
             list.innerHTML = recentItems.map(item => {
                 return `
                 <div class="item-row" onclick='openDetails(${JSON.stringify(item).replace(/"/g, "&quot;")})'>
