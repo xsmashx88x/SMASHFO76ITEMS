@@ -100,6 +100,43 @@
         .modal-trade { color: #ffb347 !important; font-size: 1.8rem; font-weight: bold; }
         .modal-icon { width: 28px !important; height: 28px !important; }
 
+
+
+        /* SYSTEM UPDATE ALERT */
+#syncModal { 
+    display: none; 
+    position: fixed; 
+    z-index: 9999; 
+    left: 0; top: 0; width: 100%; height: 100%; 
+    background: rgba(0,0,0,0.95); 
+    justify-content: center; align-items: center; 
+}
+.alert-box {
+    border: 3px solid #ff4444;
+    background: #1a0000;
+    padding: 30px;
+    max-width: 450px;
+    text-align: center;
+    box-shadow: 0 0 30px #ff4444;
+    font-family: 'VT323', monospace;
+}
+.alert-box h2 { color: #ff4444; margin: 0 0 15px 0; font-size: 2rem; }
+.blink { animation: blinker 1.5s linear infinite; }
+@keyframes blinker { 50% { opacity: 0; } }
+.sync-btn {
+    background: #ff4444; 
+    color: #000; 
+    font-weight: bold; 
+    width: 100%; 
+    padding: 15px; 
+    margin-top: 20px; 
+    border: none;
+    cursor: pointer;
+    font-family: 'VT323', monospace;
+    font-size: 1.2rem;
+}
+.sync-btn:hover { background: #fff; }
+ /*//////////////////////////////*/
         @media (max-width: 600px) { 
             .button-grid { grid-template-columns: 1fr; } 
             .item-name { font-size: 1.1rem; } 
@@ -170,6 +207,17 @@
             <p style="margin-top:20px; color:var(--dim-color); font-size:0.8rem;">[ CLICK OUTSIDE OR USE BUTTON TO EXIT ]</p>
         </div>
     </div>
+
+    <div id="syncModal">
+    <div class="alert-box">
+        <h2 class="blink">! SYSTEM OUT OF SYNC !</h2>
+        <p>NEW SHIPMENT DETECTED IN REMOTE DATABASE.</p>
+        <p style="color: var(--dim-color);">[ CACHE PURGE RECOMMENDED ]</p>
+        <button class="sync-btn" onclick="syncTerminal()">
+            RUN SYNC_DATABASE.EXE (REFRESH)
+        </button>
+    </div>
+</div>
 
     <script>
 let currentData = []; // Data for the currently selected category
@@ -390,6 +438,43 @@ async function initialize() {
             if (savedColor) changeTheme(savedColor);
             initialize();
         };
+
+// --- EDIT THIS LINE WHEN YOU UPDATE YOUR ITEMS   //updated ---
+        const TERMINAL_VERSION = "8.3.1"; 
+
+        function checkVersion() {
+            const lastSeenVersion = localStorage.getItem('robco_version');
+            
+            // If the user's browser has an older version (or no version)
+            if (lastSeenVersion && lastSeenVersion !== TERMINAL_VERSION) {
+                document.getElementById('syncModal').style.display = 'flex';
+            }
+            
+            // Note: We don't save the new version yet. 
+            // We save it ONLY after they click the Sync button.
+        }
+
+        function syncTerminal() {
+            // Save the current version so the message goes away
+            localStorage.setItem('robco_version', TERMINAL_VERSION);
+            // Force refresh to grab new JSON data
+            location.reload(true);
+        }
+
+        // UPDATE your window.onload to include the version check
+        window.onload = () => {
+            const savedColor = localStorage.getItem('robco_user_color');
+            if (savedColor) changeTheme(savedColor);
+            
+            // If it's their first time ever, just save the version quietly
+            if (!localStorage.getItem('robco_version')) {
+                localStorage.setItem('robco_version', TERMINAL_VERSION);
+            }
+
+            checkVersion(); 
+            initialize();
+        };
+
     </script>
 </body>
 </html>
