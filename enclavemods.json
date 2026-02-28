@@ -31,6 +31,15 @@
     "leaders": 0,
     "trade": "Yes"
   },
+    {
+    "name": "Enclave Plasma Gun Calibrated Capacitor",
+    "desc": "+50% Critical Damage, +20% Action Point Cost",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Item_mod.webp",
+    "caps": 0,
+    "leaders": 0,
+    "trade": "Yes"
+    "date": "2023-10-28"      
+  },
   {
     "name": "Enclave Plasma Gun Gamma Wave Emitter (2)",
     "desc": "Adds Burning damage and increases Critical Hit damage by 15%.",
@@ -144,3 +153,4 @@
     "trade": "Yes"
   }
 ]
+
