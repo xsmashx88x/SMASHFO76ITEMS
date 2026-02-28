@@ -71,6 +71,15 @@
     "leaders": 0,
     "trade": "Yes"
   },
+    {
+    "name": "★ Juggernaut's (2)",
+    "desc": "Damage Increases up to +100% as Health Increases",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76MZ_Legendary_box_1_star.webp",
+    "caps": 0,
+    "leaders": 0,
+    "trade": "Yes"
+    "date": "2-27-2026"
+  },
   {
     "name": "★ Junkie's (2)",
     "desc": "Damage increases with each addiction withdrawal.",
@@ -142,6 +151,15 @@
     "caps": 0,
     "leaders": 0,
     "trade": "Yes"
+  },
+    {
+    "name": "★ Weightless",
+    "desc": "-90% Weight",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76MZ_Legendary_box_1_star.webp",
+    "caps": 0,
+    "leaders": 0,
+    "trade": "Yes"
+    "date": "2-27-2026"  
   },
   {
     "name": "★ Zealot's",
@@ -255,6 +273,15 @@
     "leaders": 0,
     "trade": "Yes"
   },
+    {
+    "name": "★★ Powered",
+    "desc": "+5% Action Point Regen",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76MZ_Legendary_box_2_star.webp",
+    "caps": 0,
+    "leaders": 0,
+    "trade": "Yes"
+    "date": "2-27-2026"
+   },
   {
     "name": "★★ Rapid",
     "desc": "25% faster fire rate or 25% faster swing speed.",
@@ -272,7 +299,7 @@
     "trade": "Yes"
   },
   {
-    "name": "★★ StrengthQ",
+    "name": "★★ Strength",
     "desc": "+1 Strength (Melee) or +2 Strength (Armor).",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76MZ_Legendary_box_2_star.webp",
     "caps": 0,
