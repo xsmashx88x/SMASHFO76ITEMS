@@ -6,6 +6,7 @@
     "caps": 500,
     "leaders": 0,
     "trade": "Yes"
+    "date": "3-11-2026"
   },
   {
     "name": "Camp Item Place",
@@ -14,5 +15,6 @@
     "caps": 0,
     "leaders": 0,
     "trade": "Yes"
+    "date": "3-11-2026"
   }
 ]
