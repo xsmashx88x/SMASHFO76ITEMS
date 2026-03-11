@@ -53,35 +53,46 @@
 
 .item-row { 
     display: flex; 
+    flex-direction: row; /* Forces horizontal layout */
     justify-content: space-between; 
-    align-items: center; 
+    align-items: flex-start; 
     padding: 15px 10px; 
     border-bottom: 1px solid rgba(0,255,0,0.1); 
     cursor: pointer;
-    gap: 15px; /* Adds a gap between name and price */
+    gap: 15px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .text-container {
-    flex: 1; /* Takes up all available space */
-    min-width: 0; /* Important: allows text to wrap inside flexbox */
+    flex: 1; /* Makes the name/desc take up all left-side space */
+    min-width: 0; /* Allows text to wrap instead of pushing width */
+    text-align: left;
 }
 
         .item-row:hover { background: rgba(0, 255, 0, 0.1); }
 .item-name { 
-    font-size: 1.4rem; /* Slightly smaller to prevent overcrowding */
+    font-size: 1.4rem; 
     color: var(--main-color); 
-    font-weight: bold;
-    word-wrap: break-word; /* Wraps long words if necessary */
-    line-height: 1.1;
-}        .item-subtext { font-size: 1.1rem; color: var(--dim-color); white-space: normal; line-height: 1.2; }
+    font-weight: bold; 
+    word-wrap: break-word; /* Prevents long names from breaking the box */
+    display: block;
+}     
+.item-subtext { 
+    font-size: 1.1rem; 
+    color: var(--dim-color); 
+    white-space: normal; 
+    line-height: 1.2; 
+    margin-top: 5px;
+}
 
 .price-container { 
     text-align: right; 
     display: flex; 
     flex-direction: column; 
-    gap: 2px; 
-    min-width: 120px; /* Fixed width for the price side */
-    flex-shrink: 0;   /* Prevents it from getting squashed */
+    gap: 4px; 
+    min-width: 110px; /* Ensures prices have their own space */
+    flex-shrink: 0; /* Stops prices from being squashed */
 }
         .currency-row { display: flex; justify-content: flex-end; align-items: center; gap: 6px; font-weight: bold; font-size: 1.1rem; }
         
@@ -205,7 +216,7 @@
         </div>
 <!-- HERO BUTTON (ALONE IN MIDDLE) //updated -->
         <header>
-            <h1>SMASH'S ROBCO TERMINAL [v8.3.6]<br>Updates Every Tuesday/Wednesday</h1>
+            <h1>SMASH'S ROBCO TERMINAL [v8.3.7]<br>Updates Every Tuesday/Wednesday</h1>
             <p>[ ID: XBOX | xsmashx88x ]</p>
             <p>[ ID: DISCORD | xsmashx88x ]</p>
             <p class="header-desc">PRICES ARE NEGOTIABLE.<br>CONTACT VIA XBOX/DISCORD FOR Price/Trade.<br>Some Descriptions Might Be Wrong, Will Be Fixing That</p><p class="header-desc">Not All Items Are Listed, So Msg Me If Cant See Anything In Game Or Here.</p>
@@ -323,37 +334,42 @@ let currentData = []; // Data for the currently selected category
 
 // Renders the list to the screen (Now with Automatic Alphabetical Sorting)
 // Renders the list to the screen (Now with Alphabetical Sorting & Date Labels)
-        function renderList(items) {
-            const list = document.getElementById('itemList');
-            
-            if (!items || items.length === 0) { 
-                list.innerHTML = "<div class='item-row'>[ NO MATCHING DATA FOUND ]</div>"; 
-                return; 
-            }
+let currentViewItems = []; // Add this line above the function
 
-            // 1. Sort A-Z by Name
-            const sortedItems = [...items].sort((a, b) => a.name.localeCompare(b.name));
+function renderList(items) {
+    const list = document.getElementById('itemList');
+    
+    if (!items || items.length === 0) { 
+        list.innerHTML = "<div class='item-row'>[ NO MATCHING DATA FOUND ]</div>"; 
+        return; 
+    }
 
-            // 2. Render HTML
-            list.innerHTML = sortedItems.map(item => {
-                // Check if item has a date, if so, create a small label for it
-                const dateTag = item.date ? `<div style="font-size:0.75rem; color:var(--dim-color); margin-bottom: 2px;">[ RECEIVED: ${item.date} ]</div>` : '';
-                
-                return `
-                <div class="item-row" onclick='openDetails(${JSON.stringify(item).replace(/"/g, "&quot;")})'>
-                    <div class="text-container">
-                        ${dateTag}
-                        <div class="item-name">${item.name}</div>
-                        <div class="item-subtext">${item.desc || ''}</div>
-                    </div>
-                    <div class="price-container">
-                        <div class="currency-row caps-text">${formatVal(item.caps)} <img src="fo76_caps.png" class="icon-red"></div>
-                        <div class="currency-row leaders-text">${formatVal(item.leaders)} <img src="mtg.png" class="icon-blue"></div>
-                        <div class="currency-row trade-text">${formatVal(item.trade)} <img src="mtg.png" class="icon-orange"></div>
-                    </div>
-                </div>`;
-            }).join('');
-        }
+    // Sort A-Z
+    currentViewItems = [...items].sort((a, b) => a.name.localeCompare(b.name));
+
+    list.innerHTML = currentViewItems.map((item, index) => {
+        const dateTag = item.date ? `<div style="font-size:0.75rem; color:var(--dim-color); margin-bottom: 2px;">[ RECEIVED: ${item.date} ]</div>` : '';
+        
+        return `
+        <div class="item-row" onclick="openDetailsByIndex(${index})">
+            <div class="text-container">
+                ${dateTag}
+                <div class="item-name">${item.name}</div>
+                <div class="item-subtext">${item.desc || ''}</div>
+            </div>
+            <div class="price-container">
+                <div class="currency-row caps-text">${formatVal(item.caps)} <img src="fo76_caps.png" class="icon-red"></div>
+                <div class="currency-row leaders-text">${formatVal(item.leaders)} <img src="mtg.png" class="icon-blue"></div>
+                <div class="currency-row trade-text">${formatVal(item.trade)} <img src="mtg.png" class="icon-orange"></div>
+            </div>
+        </div>`;
+    }).join('');
+}
+
+// Add this new helper function right below renderList
+function openDetailsByIndex(index) {
+    openDetails(currentViewItems[index]);
+}
 
         // Filter function: Searches EVERYTHING if text is entered
         function filterItems() {
