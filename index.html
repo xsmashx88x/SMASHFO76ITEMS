@@ -191,7 +191,7 @@
 
         <nav class="button-grid">
             <button id="btn-enclave" onclick="loadData('enclavemods.json')">[ENCLAVE MODS]</button>
-            <button id="btn-star" onclick="loadData('starmods.json')">[★ MODS]</button>
+            <button id="btn-star" onclick="loadData('starmods.json')">[★|★★|★★★|★★★★| MODS]</button>
             <button id="btn-fas" onclick="loadData('fasmask.json')">[FAS MASK]</button>
             <button id="btn-plans" onclick="loadData('plans.json')">[PLANS]</button>
             <button id="btn-recipe" onclick="loadData('recipe.json')">[RECIPE]</button>
@@ -203,6 +203,7 @@
             <button id="btn-misc" onclick="loadData('miscjunk.json')">[MISC + JUNK]</button>
             <button id="btn-ammo" onclick="loadData('ammo.json')">[AMMO]</button>
             <button id="btn-apparel" onclick="loadData('apparel.json')">[APPAREL]</button>
+            <button id="btn-services" onclick="loadData('services.json')">[SERVICES]</button>
         </nav>
 
         <div class="search-area">
@@ -252,13 +253,13 @@ let currentData = []; // Data for the currently selected category
         // List of all your data files
         const dataFiles = [
              {id:'btn-recent', f:'recent.json', l:'RECENT UPDATES'}, 
-            {id:'btn-enclave', f:'enclavemods.json', l:'ENCLAVE MODS'}, {id:'btn-star', f:'starmods.json', l:'★ MODS'},
+            {id:'btn-enclave', f:'enclavemods.json', l:'ENCLAVE MODS'}, {id:'btn-star', f:'starmods.json', l:'★|★★|★★★|★★★★| MODS'},
             {id:'btn-fas', f:'fasmask.json', l:'FAS MASK'}, {id:'btn-plans', f:'plans.json', l:'PLANS'},
             {id:'btn-recipe', f:'recipe.json', l:'RECIPE'}, {id:'btn-weapons', f:'weapons.json', l:'WEAPONS'},
             {id:'btn-armor', f:'armor.json', l:'ARMOR'}, {id:'btn-mods', f:'mods.json', l:'MODS'},
             {id:'btn-food', f:'fooddrink.json', l:'FOOD & DRINK'}, {id:'btn-aid', f:'aid.json', l:'AID'},
             {id:'btn-misc', f:'miscjunk.json', l:'MISC + JUNK'}, {id:'btn-ammo', f:'ammo.json', l:'AMMO'},
-            {id:'btn-apparel', f:'apparel.json', l:'APPAREL'}
+            {id:'btn-apparel', f:'apparel.json', l:'APPAREL'},{id:'btn-services', f:'services.json', l:'Services'}
         ];
 
         function formatVal(val) {
