@@ -249,6 +249,10 @@
             <input type="text" id="searchInput" placeholder="Search For Items..." onkeyup="filterItems()">
         </div>
 
+        <div id="categoryNote" style="display: none; border: 1px dashed var(--main-color); padding: 10px; margin-bottom: 15px; background: rgba(0, 255, 65, 0.05); color: var(--main-color); line-height: 1.3;">
+    <!-- Text will appear here via JavaScript -->
+</div>
+
         <div id="itemList">
             <div class="item-row" style="justify-content: center; opacity: 0.5;">
                 [ SYSTEM READY: PLEASE SELECT A CATEGORY ABOVE ]
@@ -291,12 +295,12 @@ let currentData = []; // Data for the currently selected category
 
         // List of all your data files
         const dataFiles = [
-             {id:'btn-recent', f:'recent.json', l:'RECENT UPDATES'}, 
+             {id:'btn-recent', f:'recent.json', l:'RECENT UPDATES', note: "Showing all items added in the last 7 days."}, 
             {id:'btn-enclave', f:'enclavemods.json', l:'ENCLAVE MODS'}, {id:'btn-star', f:'starmods.json', l:'★|★★|★★★|★★★★| MODS'},
-            {id:'makemods', f:'makemods.json', l:'Mods I Can Make'},
+            {id:'makemods', f:'makemods.json', l:'Mods I Can Make', note: "Bring your own materials tho (unless i have it then i can make it)"},
             {id:'btn-fas', f:'fasmask.json', l:'FAS MASK'}, {id:'btn-plans', f:'plans.json', l:'PLANS'},
             {id:'btn-recipe', f:'recipe.json', l:'RECIPE'}, {id:'btn-weapons', f:'weapons.json', l:'WEAPONS'},
-            {id:'btn-armor', f:'armor.json', l:'ARMOR'}, {id:'btn-mods', f:'mods.json', l:'MODS'},
+            {id:'btn-armor', f:'armor.json', l:'ARMOR'}, {id:'btn-mods', f:'mods.json', l:'MODS', note: ""},
             {id:'btn-food', f:'fooddrink.json', l:'FOOD & DRINK'}, {id:'btn-aid', f:'aid.json', l:'AID'},
             {id:'btn-misc', f:'miscjunk.json', l:'MISC + JUNK'}, {id:'btn-ammo', f:'ammo.json', l:'AMMO'},
             {id:'btn-apparel', f:'apparel.json', l:'APPAREL'},{id:'btn-services', f:'services.json', l:'Services'}
@@ -321,16 +325,32 @@ let currentData = []; // Data for the currently selected category
         }
 
         // Loads a specific category when a button is clicked
-        async function loadData(filename) {
-            const list = document.getElementById('itemList');
-            document.getElementById('searchInput').value = ""; // Clear search when switching categories
-            list.innerHTML = "<div class='item-row'>[ ACCESSING DATABASE... ]</div>";
-            try {
-                const response = await fetch(filename + "?t=" + Date.now());
-                currentData = await response.json();
-                renderList(currentData);
-            } catch (e) { list.innerHTML = "<div class='item-row' style='color:red'>[ ERROR: FILE NOT FOUND ]</div>"; }
-        }
+async function loadData(filename) {
+    const list = document.getElementById('itemList');
+    const noteBox = document.getElementById('categoryNote');
+    document.getElementById('searchInput').value = ""; 
+    
+    // --- NEW LOGIC TO SHOW/HIDE NOTE ---
+    // Find the file info from our dataFiles array
+    const fileInfo = dataFiles.find(item => item.f === filename);
+    
+    if (fileInfo && fileInfo.note && fileInfo.note.trim() !== "") {
+        noteBox.innerHTML = `[ SYSTEM NOTE ]<br>${fileInfo.note}`;
+        noteBox.style.display = "block";
+    } else {
+        noteBox.style.display = "none";
+    }
+    // ------------------------------------
+
+    list.innerHTML = "<div class='item-row'>[ ACCESSING DATABASE... ]</div>";
+    try {
+        const response = await fetch(filename + "?t=" + Date.now());
+        currentData = await response.json();
+        renderList(currentData);
+    } catch (e) { 
+        list.innerHTML = "<div class='item-row' style='color:red'>[ ERROR: FILE NOT FOUND ]</div>"; 
+    }
+}
 
 // Renders the list to the screen (Now with Automatic Alphabetical Sorting)
 // Renders the list to the screen (Now with Alphabetical Sorting & Date Labels)
@@ -373,7 +393,9 @@ function openDetailsByIndex(index) {
 
         // Filter function: Searches EVERYTHING if text is entered
         function filterItems() {
-            const val = document.getElementById('searchInput').value.toLowerCase();
+                document.getElementById('categoryNote').style.display = "none";
+
+    const val = document.getElementById('searchInput').value.toLowerCase();
             if (val === "") {
                 renderList(currentData); // If search is empty, show current category
             } else {
