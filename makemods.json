@@ -1,1 +1,398 @@
-
+[
+  {
+    "name": "★ Aristocrat's",
+    "desc": "Damage increases as you increase Caps. (Max +50% at 29,000 Caps)",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76MZ_Legendary_box_1_star.webp",
+    "caps": 0,
+    "leaders": 0,
+    "trade": "Yes",
+    "date": "2024-03-11"
+  },
+  {
+    "name": "★ Assassin's",
+    "desc": "+50% damage to Humans / -15% damage from Humans.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76MZ_Legendary_box_1_star.webp",
+    "caps": 0,
+    "leaders": 0,
+    "trade": "Yes",
+    "date": "2024-03-11"
+  },
+  {
+    "name": "★ Berserker's",
+    "desc": "Damage increases as Damage Resistance decreases.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76MZ_Legendary_box_1_star.webp",
+    "caps": 0,
+    "leaders": 0,
+    "trade": "Yes",
+    "date": "2024-03-11"
+  },
+  {
+    "name": "★ Bolstering",
+    "desc": "Grants up to +35 Energy and Damage Resistance the lower your health.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76MZ_Legendary_box_1_star.webp",
+    "caps": 0,
+    "leaders": 0,
+    "trade": "Yes",
+    "date": "2024-03-11"
+  },
+  {
+    "name": "★ Chameleon",
+    "desc": "Blend with the environment while sneaking and not moving.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76MZ_Legendary_box_1_star.webp",
+    "caps": 0,
+    "leaders": 0,
+    "trade": "Yes",
+    "date": "2024-03-11"
+  },
+  {
+    "name": "★ Executioner's",
+    "desc": "+50% damage when your target is below 40% health.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76MZ_Legendary_box_1_star.webp",
+    "caps": 0,
+    "leaders": 0,
+    "trade": "Yes",
+    "date": "2024-03-11"
+  },
+  {
+    "name": "★ Furious",
+    "desc": "Damage increased after each consecutive hit on the same target.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76MZ_Legendary_box_1_star.webp",
+    "caps": 0,
+    "leaders": 0,
+    "trade": "Yes",
+    "date": "2024-03-11"
+  },
+  {
+    "name": "★ Ghoul Slayer's",
+    "desc": "+50% damage to Ghouls / -15% damage from Ghouls.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76MZ_Legendary_box_1_star.webp",
+    "caps": 0,
+    "leaders": 0,
+    "trade": "Yes",
+    "date": "2024-03-11"
+  },
+  {
+    "name": "★ Hunter's",
+    "desc": "+50% damage to Animals / -15% damage from Animals.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76MZ_Legendary_box_1_star.webp",
+    "caps": 0,
+    "leaders": 0,
+    "trade": "Yes",
+    "date": "2024-03-11"
+  },
+  {
+    "name": "★ Life Saving",
+    "desc": "When incapacitated, 50% chance to revive yourself with a Stimpak, once every minute.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76MZ_Legendary_box_1_star.webp",
+    "caps": 0,
+    "leaders": 0,
+    "trade": "Yes",
+    "date": "2024-03-11"
+  },
+  {
+    "name": "★ Mutant Slayer's",
+    "desc": "+50% damage to Super Mutants / -15% damage from Super Mutants.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76MZ_Legendary_box_1_star.webp",
+    "caps": 0,
+    "leaders": 0,
+    "trade": "Yes",
+    "date": "2024-03-11"
+  },
+  {
+    "name": "★ Mutant's",
+    "desc": "Damage increases by 5% for each mutation (max 25%).",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76MZ_Legendary_box_1_star.webp",
+    "caps": 0,
+    "leaders": 0,
+    "trade": "Yes",
+    "date": "2024-03-11"
+  },
+  {
+    "name": "★ Nocturnal",
+    "desc": "Damage increases during the night, decreases during the day.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76MZ_Legendary_box_1_star.webp",
+    "caps": 0,
+    "leaders": 0,
+    "trade": "Yes",
+    "date": "2024-03-11"
+  },
+  {
+    "name": "★ Quad",
+    "desc": "Quadruple ammo capacity.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76MZ_Legendary_box_1_star.webp",
+    "caps": 0,
+    "leaders": 0,
+    "trade": "Yes",
+    "date": "2024-03-11"
+  },
+  {
+    "name": "★ Stalker's",
+    "desc": "If not in combat, +100% VATS accuracy at +50% AP cost.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76MZ_Legendary_box_1_star.webp",
+    "caps": 0,
+    "leaders": 0,
+    "trade": "Yes",
+    "date": "2024-03-11"
+  },
+  {
+    "name": "★ Suppressor's",
+    "desc": "Reduce your target's damage output by 25% for 5 seconds.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76MZ_Legendary_box_1_star.webp",
+    "caps": 0,
+    "leaders": 0,
+    "trade": "Yes",
+    "date": "2024-03-11"
+  },
+  {
+    "name": "★ Troubleshooter's",
+    "desc": "+50% damage to Robots / -15% damage from Robots.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76MZ_Legendary_box_1_star.webp",
+    "caps": 0,
+    "leaders": 0,
+    "trade": "Yes",
+    "date": "2024-03-11"
+  },
+  {
+    "name": "★ Zealot's",
+    "desc": "+50% damage to Scorched / -15% damage from Scorched.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76MZ_Legendary_box_1_star.webp",
+    "caps": 0,
+    "leaders": 0,
+    "trade": "Yes",
+    "date": "2024-03-11"
+  },
+  {
+    "name": "★★ Basher's",
+    "desc": "Bashing damage increased by 50%.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76MZ_Legendary_box_2_star.webp",
+    "caps": 0,
+    "leaders": 0,
+    "trade": "Yes",
+    "date": "2024-03-11"
+  },
+  {
+    "name": "★★ Charisma",
+    "desc": "+2 Charisma.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76MZ_Legendary_box_2_star.webp",
+    "caps": 0,
+    "leaders": 0,
+    "trade": "Yes",
+    "date": "2024-03-11"
+  },
+  {
+    "name": "★★ Crippling",
+    "desc": "+50% limb damage.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76MZ_Legendary_box_2_star.webp",
+    "caps": 0,
+    "leaders": 0,
+    "trade": "Yes",
+    "date": "2024-03-11"
+  },
+  {
+    "name": "★★ Fireproof",
+    "desc": "+25 Fire Resistance.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76MZ_Legendary_box_2_star.webp",
+    "caps": 0,
+    "leaders": 0,
+    "trade": "Yes",
+    "date": "2024-03-11"
+  },
+  {
+    "name": "★★ Glutton",
+    "desc": "Hunger and Thirst grow 25% slower.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76MZ_Legendary_box_2_star.webp",
+    "caps": 0,
+    "leaders": 0,
+    "trade": "Yes",
+    "date": "2024-03-11"
+  },
+  {
+    "name": "★★ Inertial",
+    "desc": "Replenish 15 Action Points on each kill.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76MZ_Legendary_box_2_star.webp",
+    "caps": 0,
+    "leaders": 0,
+    "trade": "Yes",
+    "date": "2024-03-11"
+  },
+  {
+    "name": "★★ Last Shot",
+    "desc": "The final round in a magazine has a 25% chance to deal 100% bonus damage.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76MZ_Legendary_box_2_star.webp",
+    "caps": 0,
+    "leaders": 0,
+    "trade": "Yes",
+    "date": "2024-03-11"
+  },
+  {
+    "name": "★★ Luck",
+    "desc": "+2 Luck.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76MZ_Legendary_box_2_star.webp",
+    "caps": 0,
+    "leaders": 0,
+    "trade": "Yes",
+    "date": "2024-03-11"
+  },
+  {
+    "name": "★★ Perception",
+    "desc": "+2 Perception.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76MZ_Legendary_box_2_star.webp",
+    "caps": 0,
+    "leaders": 0,
+    "trade": "Yes",
+    "date": "2024-03-11"
+  },
+  {
+    "name": "★★ Poisoner's",
+    "desc": "+25 Poison Resistance.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76MZ_Legendary_box_2_star.webp",
+    "caps": 0,
+    "leaders": 0,
+    "trade": "Yes",
+    "date": "2024-03-11"
+  },
+  {
+    "name": "★★ Rapid",
+    "desc": "25% faster fire rate / 40% Weapon Speed.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76MZ_Legendary_box_2_star.webp",
+    "caps": 0,
+    "leaders": 0,
+    "trade": "Yes",
+    "date": "2024-03-11"
+  },
+  {
+    "name": "★★ Riposting",
+    "desc": "Reflects 50% of melee damage while blocking.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76MZ_Legendary_box_2_star.webp",
+    "caps": 0,
+    "leaders": 0,
+    "trade": "Yes",
+    "date": "2024-03-11"
+  },
+  {
+    "name": "★★ Strength",
+    "desc": "+2 Strength.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76MZ_Legendary_box_2_star.webp",
+    "caps": 0,
+    "leaders": 0,
+    "trade": "Yes",
+    "date": "2024-03-11"
+  },
+  {
+    "name": "★★ Vital",
+    "desc": "+50% critical damage.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76MZ_Legendary_box_2_star.webp",
+    "caps": 0,
+    "leaders": 0,
+    "trade": "Yes",
+    "date": "2024-03-11"
+  },
+  {
+    "name": "★★ Warming",
+    "desc": "+25 Cryo Resistance.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76MZ_Legendary_box_2_star.webp",
+    "caps": 0,
+    "leaders": 0,
+    "trade": "Yes",
+    "date": "2024-03-11"
+  },
+  {
+    "name": "★★★ Agility",
+    "desc": "+3 Agility.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76MZ_Legendary_box_3_star.webp",
+    "caps": 0,
+    "leaders": 0,
+    "trade": "Yes",
+    "date": "2024-03-11"
+  },
+  {
+    "name": "★★★ Cavalier's",
+    "desc": "75% chance to reduce damage by 15% while sprinting.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76MZ_Legendary_box_3_star.webp",
+    "caps": 0,
+    "leaders": 0,
+    "trade": "Yes",
+    "date": "2024-03-11"
+  },
+  {
+    "name": "★★★ Charisma",
+    "desc": "+3 Charisma.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76MZ_Legendary_box_3_star.webp",
+    "caps": 0,
+    "leaders": 0,
+    "trade": "Yes",
+    "date": "2024-03-11"
+  },
+  {
+    "name": "★★★ Diver's",
+    "desc": "Grants ability to breathe underwater.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76MZ_Legendary_box_3_star.webp",
+    "caps": 0,
+    "leaders": 0,
+    "trade": "Yes",
+    "date": "2024-03-11"
+  },
+  {
+    "name": "★★★ Doctor's",
+    "desc": "Stimpaks, RadAway, and Rad-X are 5% more effective.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76MZ_Legendary_box_3_star.webp",
+    "caps": 0,
+    "leaders": 0,
+    "trade": "Yes",
+    "date": "2024-03-11"
+  },
+  {
+    "name": "★★★ Electrified",
+    "desc": "10% chance to deal 100 Energy damage to melee attackers.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76MZ_Legendary_box_3_star.webp",
+    "caps": 0,
+    "leaders": 0,
+    "trade": "Yes",
+    "date": "2024-03-11"
+  },
+  {
+    "name": "★★★ Endurance",
+    "desc": "+3 Endurance.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76MZ_Legendary_box_3_star.webp",
+    "caps": 0,
+    "leaders": 0,
+    "trade": "Yes",
+    "date": "2024-03-11"
+  },
+  {
+    "name": "★★★ Lightweight",
+    "desc": "90% reduced weight.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76MZ_Legendary_box_3_star.webp",
+    "caps": 0,
+    "leaders": 0,
+    "trade": "Yes",
+    "date": "2024-03-11"
+  },
+  {
+    "name": "★★★ Safecracker's",
+    "desc": "Increases sweet spot while picking locks.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76MZ_Legendary_box_3_star.webp",
+    "caps": 0,
+    "leaders": 0,
+    "trade": "Yes",
+    "date": "2024-03-11"
+  },
+  {
+    "name": "★★★ Sentinel's",
+    "desc": "75% chance to reduce damage by 15% while standing still.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76MZ_Legendary_box_3_star.webp",
+    "caps": 0,
+    "leaders": 0,
+    "trade": "Yes",
+    "date": "2024-03-11"
+  },
+  {
+    "name": "★★★ V.A.T.S. Optimized",
+    "desc": "25% less Action Point cost.",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76MZ_Legendary_box_3_star.webp",
+    "caps": 0,
+    "leaders": 0,
+    "trade": "Yes",
+    "date": "2024-03-11"
+  }
+]
