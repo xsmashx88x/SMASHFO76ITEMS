@@ -51,12 +51,38 @@
 
         .search-area input { width: 100%; background: transparent; border: 1px solid var(--main-color); color: var(--main-color); padding: 12px; font-family: 'VT323', monospace; font-size: 1.5rem; box-sizing: border-box; margin-bottom: 20px; outline: none; }
 
-        .item-row { display: flex; justify-content: space-between; align-items: center; padding: 15px 10px; border-bottom: 1px solid rgba(0,255,0,0.1); cursor: pointer; }
-        .item-row:hover { background: rgba(0, 255, 0, 0.1); }
-        .item-name { font-size: 1.5rem; color: var(--main-color); font-weight: bold; }
-        .item-subtext { font-size: 1.1rem; color: var(--dim-color); white-space: normal; line-height: 1.2; }
+.item-row { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 15px 10px; 
+    border-bottom: 1px solid rgba(0,255,0,0.1); 
+    cursor: pointer;
+    gap: 15px; /* Adds a gap between name and price */
+}
 
-        .price-container { text-align: right; display: flex; flex-direction: column; gap: 2px; min-width: 110px; }
+.text-container {
+    flex: 1; /* Takes up all available space */
+    min-width: 0; /* Important: allows text to wrap inside flexbox */
+}
+
+        .item-row:hover { background: rgba(0, 255, 0, 0.1); }
+.item-name { 
+    font-size: 1.4rem; /* Slightly smaller to prevent overcrowding */
+    color: var(--main-color); 
+    font-weight: bold;
+    word-wrap: break-word; /* Wraps long words if necessary */
+    line-height: 1.1;
+}        .item-subtext { font-size: 1.1rem; color: var(--dim-color); white-space: normal; line-height: 1.2; }
+
+.price-container { 
+    text-align: right; 
+    display: flex; 
+    flex-direction: column; 
+    gap: 2px; 
+    min-width: 120px; /* Fixed width for the price side */
+    flex-shrink: 0;   /* Prevents it from getting squashed */
+}
         .currency-row { display: flex; justify-content: flex-end; align-items: center; gap: 6px; font-weight: bold; font-size: 1.1rem; }
         
         .caps-text { color: var(--caps-red); }
@@ -179,7 +205,7 @@
         </div>
 <!-- HERO BUTTON (ALONE IN MIDDLE) //updated -->
         <header>
-            <h1>SMASH'S ROBCO TERMINAL [v8.3.4]</h1>
+            <h1>SMASH'S ROBCO TERMINAL [v8.3.5]</h1>
             <p>[ ID: XBOX | xsmashx88x ]</p>
             <p>[ ID: DISCORD | xsmashx88x ]</p>
             <p class="header-desc">PRICES ARE NEGOTIABLE.<br>CONTACT VIA XBOX/DISCORD FOR Price/Trade.<br>Some Descriptions Might Be Wrong, Will Be Fixing That</p><p class="header-desc">Not All Items Are Listed, So Msg Me If Cant See Anything In Game Or Here.</p>
