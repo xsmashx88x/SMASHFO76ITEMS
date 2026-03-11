@@ -1,0 +1,18 @@
+[
+{
+    "name": "Fusion Core (Recharge)",
+    "desc": "Will join your game and recharge your cores for you max is [4] (how to pay) I offer you junk for 500 then you drop the cores and I charge, then will msg when done",
+    "image": "",
+    "caps": 500,
+    "leaders": 0,
+    "trade": "Yes"
+  },
+  {
+    "name": "Camp Item Place",
+    "desc": "If able to play an item for you will do it",
+    "image": "",
+    "caps": 0,
+    "leaders": 0,
+    "trade": "Yes"
+  }
+]
