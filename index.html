@@ -197,19 +197,24 @@
 .sync-btn:hover { background: #fff; }
  /*//////////////////////////////*/
 @media (max-width: 600px) { 
-    /* This makes the main buttons stay in 2 columns on mobile */
+    /* Main category grid stays 2 columns */
     .button-grid { grid-template-columns: 1fr 1fr !important; } 
     
-    /* This makes the Hero buttons stay in 2 columns on mobile */
+    /* Hero buttons stack vertically on mobile so text doesn't cut off */
     .recent-container { 
-        display: grid !important; 
-        grid-template-columns: 1fr 1fr; 
-        gap: 10px; 
+        display: flex !important; 
+        flex-direction: column !important; 
+        gap: 8px; 
     }
     
-    /* This ensures the search bar doesn't sit next to buttons */
-    .search-area { width: 100%; clear: both; margin-top: 15px; }
+    .hero-btn { 
+        width: 100% !important; 
+        max-width: none !important; 
+        font-size: 1.2rem !important; 
+        padding: 12px !important; 
+    }
 
+    .search-area { width: 100%; clear: both; margin-top: 15px; }
     .item-name { font-size: 1.1rem; } 
     .currency-row { font-size: 0.9rem; } 
     .close-modal-btn { width: 100%; position: relative; top: 0; right: 0; margin-bottom: 15px; }
@@ -243,10 +248,13 @@
     <button id="btn-recent" onclick="showRecent()" class="hero-btn" style="max-width: none;">
         [ RECENT UPDATES ]
     </button>
+
+        <button id="btn-proofs" onclick="loadData('proof.json')" class="hero-btn" style="border-color: var(--trade-orange) !important; color: var(--trade-orange) !important; max-width: none; font-size: 1.1rem !important;">
+        [ TRADE PROOFS ]
+    </button>
 </div>
 
         <nav class="button-grid">
-            <button id="btn-proofs" onclick="loadData('proofs.json')">[TRADE PROOFS]</button>
             <button id="btn-enclave" onclick="loadData('enclavemods.json')">[ENCLAVE MODS]</button>
             <button id="btn-star" onclick="loadData('starmods.json')">[★|★★|★★★|★★★★| MODS]</button>
             <button id="btn-makemods" onclick="loadData('makemods.json')">[Mods I Can Make]</button>
@@ -354,6 +362,7 @@ let currentData = []; // Data for the currently selected category
         // List of all your data files
         const dataFiles = [
              {id:'btn-recent', f:'recent.json', l:'RECENT UPDATES', note: "Showing all items added in the last 7 days."}, 
+             {id:'btn-proofs', f:'proof.json', l:'TRADE PROOFS', note: "Official logs of successful terminal transactions. Verified via Xbox/Discord."},
             {id:'btn-enclave', f:'enclavemods.json', l:'ENCLAVE MODS'}, {id:'btn-star', f:'starmods.json', l:'★|★★|★★★|★★★★| MODS'},
             {id:'makemods', f:'makemods.json', l:'Mods I Can Make', note: "Bring your own materials tho (unless i have it then i can make it)"},
             {id:'btn-fas', f:'fasmask.json', l:'FAS MASK'}, {id:'btn-plans', f:'plans.json', l:'PLANS'},
@@ -361,8 +370,7 @@ let currentData = []; // Data for the currently selected category
             {id:'btn-armor', f:'armor.json', l:'ARMOR'}, {id:'btn-mods', f:'mods.json', l:'MODS', note: ""},
             {id:'btn-food', f:'fooddrink.json', l:'FOOD & DRINK'}, {id:'btn-aid', f:'aid.json', l:'AID'},
             {id:'btn-misc', f:'miscjunk.json', l:'MISC + JUNK'}, {id:'btn-ammo', f:'ammo.json', l:'AMMO'},
-            {id:'btn-apparel', f:'apparel.json', l:'APPAREL'},{id:'btn-services', f:'services.json', l:'Services'},
-             {id:'btn-proofs', f:'proofs.json', l:'TRADE PROOFS', note: "Official logs of successful terminal transactions. Verified via Xbox/Discord."}
+            {id:'btn-apparel', f:'apparel.json', l:'APPAREL'},{id:'btn-services', f:'services.json', l:'Services'}
         ];
 
         function formatVal(val) {
