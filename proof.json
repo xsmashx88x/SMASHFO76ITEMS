@@ -1,1 +1,42 @@
-
+[
+      {
+    "name": "Pepitoria******",
+    "items": "Furios One Star Mod",
+    "price": "free",
+    "date": "2026-03-15",
+    "image": "proof_screenshot_01.png",
+    "desc": "Giving for free, he said people wanted 12k for that smfh",
+    "platform": "XBOX",
+    "status": "COMPLETED"
+  },
+    {
+    "name": "MrPlati******",
+    "items": "Nuke Cards",
+    "price": "free",
+    "date": "2026-03-13",
+    "image": "proof_screenshot_01.png",
+    "desc": "peeps i guess charge for them smfh... not me",
+    "platform": "XBOX",
+    "status": "COMPLETED"
+  },
+  {
+    "name": "JJb******",
+    "items": "Quad Mods",
+    "price": "free",
+    "date": "2026-03-10",
+    "image": "proof_screenshot_01.png",
+    "desc": "",
+    "platform": "XBOX",
+    "status": "COMPLETED"
+  },
+  {
+    "name": "anthony******",
+    "items": "Enclave Rifle With the god mods",
+    "price": "26k Caps",
+    "date": "2026-03-11",
+    "image": "proof_screenshot_02.png",
+    "desc": "most peeps he said wanted 40k caps",
+    "platform": "XBOX",
+    "status": "COMPLETED"
+  }
+]
