@@ -219,8 +219,15 @@
             <h1>SMASH'S ROBCO TERMINAL [v8.3.7]<br>Updates Every Tuesday/Wednesday</h1>
             <p>[ ID: XBOX | xsmashx88x ]</p>
             <p>[ ID: DISCORD | xsmashx88x ]</p>
-            <p class="header-desc">PRICES ARE NEGOTIABLE.<br>CONTACT VIA XBOX/DISCORD FOR Price/Trade.<br>Some Descriptions Might Be Wrong, Will Be Fixing That</p><p class="header-desc">Not All Items Are Listed, So Msg Me If Cant See Anything In Game Or Here.</p>
+         <!--   <p class="header-desc">PRICES ARE NEGOTIABLE.<br>CONTACT VIA XBOX/DISCORD FOR Price/Trade.<br>Some Descriptions Might Be Wrong, Will Be Fixing That</p><p class="header-desc">Not All Items Are Listed, So Msg Me If Cant See Anything In Game Or Here.</p>  -->
         </header>
+
+        <!-- HERO BUTTONS -->
+<div class="recent-container" style="flex-direction: column; gap: 10px; align-items: center;">
+    <!-- NEW ABOUT BUTTON -->
+    <button id="btn-about" onclick="openAboutModal()" class="hero-btn" style="border-color: var(--leaders-blue) !important; color: var(--leaders-blue) !important;">
+        [ SYSTEM INFORMATION ] [ CLICK ME ]
+    </button>
 
 <!-- HERO BUTTON (ALONE IN MIDDLE) -->
 <div class="recent-container">
@@ -278,6 +285,28 @@
         </div>
     </div>
 
+    <!-- ABOUT MODAL -->
+<div id="aboutModal" class="modal" onclick="closeAboutModal()">
+    <div class="modal-content" onclick="event.stopPropagation()">
+        <button class="close-modal-btn" onclick="closeAboutModal()">[X] CLOSE</button>
+        
+        <h2 style="color: var(--main-color); font-size: 2.2rem; margin-bottom: 10px;">Thanks Vault Hunter</h2>
+        <p style="color: var(--leaders-blue); margin-top: 0;">For Commining Here</p>
+
+        <!-- REPLACE 'your-image-here.png' with your actual image path -->
+        <img src="smash fo-av.png" style="width: 100%; max-width: 400px; border: 2px solid var(--main-color); margin: 15px 0; filter: grayscale(1) sepia(1) hue-rotate(100deg);">
+
+        <div style="text-align: left; line-height: 1.5; font-size: 1.2rem; border-top: 1px solid var(--dim-color); padding-top: 15px;">
+            <p>Welcome, This was done up to gives tho's who come to it, Better options.. So you can buy a little cheaper, Trade-up, Maybe get it free</p>
+            
+            <p>To many people list things not at market value but higher, lets say items for market vaule is 1393.. they will do 23973 its just sad.. another example is serums, ingame vaulse is 2k, some list for way under or 4/6k which is market value.. but i seen some list them for 20k to 30k to cover the cost of them buying the plan or cause someone charged them alot smfh</p>
+            
+            <p style="color: var(--trade-orange);">[ MY MISSION OBJECTIVE ]</p>
+            <p>Show Market Value, but tho's who come here know they can msg me and that will change... might not be alot but if something is 2500 can let it go for 1xxx same with if something is 3/6 can do 2/5 that or lower.</p>
+        </div>
+    </div>
+</div>
+
     <div id="syncModal">
     <div class="alert-box">
         <h2 class="blink">! SYSTEM OUT OF SYNC !</h2>
@@ -290,6 +319,22 @@
 </div>
 
     <script>
+
+function openAboutModal() {
+    document.getElementById('aboutModal').style.display = 'flex';
+}
+
+function closeAboutModal() {
+    document.getElementById('aboutModal').style.display = 'none';
+}
+
+// Update your window.onclick to also close this modal if clicking outside
+window.onclick = (e) => { 
+    if (e.target == document.getElementById('detailModal')) closeModal();
+    if (e.target == document.getElementById('aboutModal')) closeAboutModal(); 
+}
+
+
 let currentData = []; // Data for the currently selected category
         let allData = [];    // Master list of EVERYTHING for searching
 
