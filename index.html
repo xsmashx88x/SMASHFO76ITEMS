@@ -429,23 +429,24 @@ function renderList(items) {
     list.innerHTML = currentViewItems.map((item, index) => {
         const dateTag = item.date ? `<div style="font-size:0.75rem; color:var(--dim-color); margin-bottom: 2px;">[ LOG DATE: ${item.date} ]</div>` : '';
         
-        // CHECK IF THIS IS A PROOF (Checks if the item has the "proof" or "items" field)
-        if (item.proof || item.items) {
+        // --- PROOF MODE ---
+        // Triggers if the item has "items", "proof", or "proof_link"
+        if (item.items || item.proof || item.proof_link) {
             return `
             <div class="item-row" onclick="openDetailsByIndex(${index})">
                 <div class="text-container">
                     ${dateTag}
                     <div class="item-name" style="color:var(--leaders-blue)">TRADER: ${item.name}</div>
-                    <div class="item-subtext">EXCHANGED: ${item.items}</div>
+                    <div class="item-subtext" style="color:var(--main-color); opacity: 0.9;">EXCHANGED: ${item.items || 'VIEW LOG'}</div>
                 </div>
                 <div class="price-container">
                     <div class="currency-row trade-text" style="font-size:0.9rem;">VERIFIED ✅</div>
-                    <div class="currency-row" style="font-size:0.8rem; color:var(--dim-color);">${item.price}</div>
+                    <div class="currency-row" style="font-size:0.8rem; color:var(--dim-color);">${item.price || 'TRADE'}</div>
                 </div>
             </div>`;
         }
 
-        // STANDARD RENDER (For normal items)
+        // --- STANDARD ITEM MODE ---
         return `
         <div class="item-row" onclick="openDetailsByIndex(${index})">
             <div class="text-container">
@@ -483,52 +484,54 @@ function openDetailsByIndex(index) {
             }
         }
 
-        function openDetails(item) {
-            document.getElementById('modalTitle').innerText = item.name;
-            document.getElementById('modalDesc').innerHTML = item.desc || "";
-            
-            const imgContainer = document.getElementById('modalImgContainer');
-            const img = document.getElementById('modalImg');
+function openDetails(item) {
+    document.getElementById('modalTitle').innerText = item.name;
+    document.getElementById('modalDesc').innerHTML = item.desc || "";
+    
+    const imgContainer = document.getElementById('modalImgContainer');
+    const img = document.getElementById('modalImg');
 
-            if (item.image && item.image.trim() !== "") {
-                imgContainer.style.display = "block";
-                img.src = item.image + "?t=" + Date.now();
-                img.className = 'img-small';
-            } else {
-                imgContainer.style.display = "none";
-            }
+    // Handles URL links for images (Imgur, Discord, etc)
+    if (item.image && item.image.trim() !== "") {
+        imgContainer.style.display = "block";
+        img.src = item.image; // Browser handles the URL automatically
+        img.className = 'img-small';
+    } else {
+        imgContainer.style.display = "none";
+    }
 
-            let statsHTML = `
-                <div class="modal-pricing-block">
-                    <div class="modal-currency-row">
-                        <img src="fo76_caps.png" class="icon-red modal-icon">
-                        <span class="modal-caps">${formatVal(item.caps)} CAPS</span>
-                    </div>
-                    <div class="modal-currency-row">
-                        <img src="mtg.png" class="icon-blue modal-icon">
-                        <span class="modal-leaders">${formatVal(item.leaders)} LEADERS</span>
-                    </div>
-                    <div class="modal-currency-row">
-                        <img src="mtg.png" class="icon-orange modal-icon">
-                        <span class="modal-trade">${formatVal(item.trade)} TRADE</span>
-                    </div>
-                </div>
-            <div class="info-grid">`;
+    let statsHTML = `<div class="info-grid">`;
 
-            for (const [key, value] of Object.entries(item)) {
-                const skip = ['name', 'image', 'desc', 'caps', 'leaders', 'trade', 'alt_view'];
-                if (!skip.includes(key.toLowerCase())) {
-                    statsHTML += `<div class="info-line"><span class="info-key">${key.toUpperCase()}</span><span class="info-value">${value}</span></div>`;
-                }
-            }
-            statsHTML += `</div>`;
-
-            document.getElementById('modalStats').innerHTML = statsHTML;
-            document.getElementById('modalLinks').innerHTML = item.alt_view ? 
-                `<a href="${item.alt_view}" target="_blank" class="alt-view-btn">[ ACCESS EXTERNAL WIKI DATA ]</a>` : '';
-
-            document.getElementById('detailModal').style.display = 'flex';
+    // Logic to display item fields nicely
+    for (const [key, value] of Object.entries(item)) {
+        // Skip these as they are handled elsewhere in the modal
+        const skip = ['name', 'image', 'desc', 'caps', 'leaders', 'trade', 'alt_view', 'proof_link', 'categoryname'];
+        if (!skip.includes(key.toLowerCase()) && value !== "") {
+            statsHTML += `
+                <div class="info-line">
+                    <span class="info-key">${key.toUpperCase()}</span>
+                    <span class="info-value" style="color:var(--main-color)">${value}</span>
+                </div>`;
         }
+    }
+    statsHTML += `</div>`;
+
+    document.getElementById('modalStats').innerHTML = statsHTML;
+
+    // Create the links section
+    let linksHTML = '';
+    // If it's a standard wiki link
+    if (item.alt_view) {
+        linksHTML += `<a href="${item.alt_view}" target="_blank" class="alt-view-btn">[ ACCESS EXTERNAL WIKI DATA ]</a>`;
+    }
+    // If it's a proof/trade link (Reddit/FB/Discord)
+    if (item.proof_link) {
+        linksHTML += `<a href="${item.proof_link}" target="_blank" class="alt-view-btn" style="border-color:var(--trade-orange); color:var(--trade-orange)">[ VIEW ORIGINAL TRADE POST ]</a>`;
+    }
+
+    document.getElementById('modalLinks').innerHTML = linksHTML;
+    document.getElementById('detailModal').style.display = 'flex';
+}
 
         function closeModal() {
             document.getElementById('detailModal').style.display = 'none';
