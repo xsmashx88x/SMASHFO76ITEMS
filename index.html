@@ -196,12 +196,24 @@
 }
 .sync-btn:hover { background: #fff; }
  /*//////////////////////////////*/
-        @media (max-width: 600px) { 
-            .button-grid { grid-template-columns: 1fr; } 
-            .item-name { font-size: 1.1rem; } 
-            .currency-row { font-size: 0.9rem; } 
-            .close-modal-btn { width: 100%; position: relative; top: 0; right: 0; margin-bottom: 15px; }
-        }
+@media (max-width: 600px) { 
+    /* This makes the main buttons stay in 2 columns on mobile */
+    .button-grid { grid-template-columns: 1fr 1fr !important; } 
+    
+    /* This makes the Hero buttons stay in 2 columns on mobile */
+    .recent-container { 
+        display: grid !important; 
+        grid-template-columns: 1fr 1fr; 
+        gap: 10px; 
+    }
+    
+    /* This ensures the search bar doesn't sit next to buttons */
+    .search-area { width: 100%; clear: both; margin-top: 15px; }
+
+    .item-name { font-size: 1.1rem; } 
+    .currency-row { font-size: 0.9rem; } 
+    .close-modal-btn { width: 100%; position: relative; top: 0; right: 0; margin-bottom: 15px; }
+}
     </style>
 </head>
 <body>
@@ -216,22 +228,21 @@
         </div>
 <!-- HERO BUTTON (ALONE IN MIDDLE) //updated -->
         <header>
-            <h1>SMASH'S ROBCO TERMINAL [v8.3.8]<br>Updates Every Tuesday/Wednesday</h1>
+            <h1>SMASH'S ROBCO TERMINAL [v8.3.9]<br>Updates Every Tuesday/Wednesday</h1>
             <p>[ ID: XBOX | xsmashx88x ]</p>
             <p>[ ID: DISCORD | xsmashx88x ]</p>
 <p class="header-desc">PRICES ARE NEGOTIABLE.<br>CONTACT VIA XBOX/DISCORD FOR Price/Trade.<br>Some Descriptions Might Be Wrong, Will Be Fixing That</p><p class="header-desc">Not All Items Are Listed, So Msg Me If Cant See Anything In Game Or Here.</p> 
         </header>
 
         <!-- HERO BUTTONS -->
-<div class="recent-container" style="display: flex; gap: 15px; justify-content: center; align-items: center; flex-wrap: wrap;">
-    <!-- ABOUT BUTTON -->
-    <button id="btn-about" onclick="openAboutModal()" class="hero-btn" style="border-color: var(--leaders-blue) !important; color: var(--leaders-blue) !important;">
+<div class="recent-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 15px;">
+    <button id="btn-about" onclick="openAboutModal()" class="hero-btn" style="border-color: var(--leaders-blue) !important; color: var(--leaders-blue) !important; max-width: none;">
         [ SYSTEM INFORMATION ] [ CLICK ME ]
     </button>
-
-<!-- HERO BUTTON (ALONE IN MIDDLE) -->
-<div class="recent-container">
-    <button id="btn-recent" onclick="showRecent()" class="hero-btn">[ RECENT UPDATES ]</button>
+    
+    <button id="btn-recent" onclick="showRecent()" class="hero-btn" style="max-width: none;">
+        [ RECENT UPDATES ]
+    </button>
 </div>
 
         <nav class="button-grid">
@@ -328,10 +339,11 @@ function closeAboutModal() {
     document.getElementById('aboutModal').style.display = 'none';
 }
 
-// Update your window.onclick to also close this modal if clicking outside
-window.onclick = (e) => { 
-    if (e.target == document.getElementById('detailModal')) closeModal();
-    if (e.target == document.getElementById('aboutModal')) closeAboutModal(); 
+// Add this to your window.onclick so clicking outside closes it
+const originalOnClick = window.onclick;
+window.onclick = (e) => {
+    if (originalOnClick) originalOnClick(e);
+    if (e.target == document.getElementById('aboutModal')) closeAboutModal();
 }
 
 
