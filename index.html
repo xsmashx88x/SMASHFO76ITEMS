@@ -228,7 +228,7 @@
         </div>
 <!-- HERO BUTTON (ALONE IN MIDDLE) //updated -->
         <header>
-            <h1>SMASH'S ROBCO TERMINAL [v8.3.9]<br>Updates Every Tuesday/Wednesday</h1>
+            <h1>SMASH'S ROBCO TERMINAL [v8.4.0]<br>Updates Every Tuesday/Wednesday</h1>
             <p>[ ID: XBOX | xsmashx88x ]</p>
             <p>[ ID: DISCORD | xsmashx88x ]</p>
 <p class="header-desc">PRICES ARE NEGOTIABLE.<br>CONTACT VIA XBOX/DISCORD FOR Price/Trade.<br>Some Descriptions Might Be Wrong, Will Be Fixing That</p><p class="header-desc">Not All Items Are Listed, So Msg Me If Cant See Anything In Game Or Here.</p> 
@@ -246,6 +246,7 @@
 </div>
 
         <nav class="button-grid">
+            <button id="btn-proofs" onclick="loadData('proofs.json')">[TRADE PROOFS]</button>
             <button id="btn-enclave" onclick="loadData('enclavemods.json')">[ENCLAVE MODS]</button>
             <button id="btn-star" onclick="loadData('starmods.json')">[★|★★|★★★|★★★★| MODS]</button>
             <button id="btn-makemods" onclick="loadData('makemods.json')">[Mods I Can Make]</button>
@@ -360,7 +361,8 @@ let currentData = []; // Data for the currently selected category
             {id:'btn-armor', f:'armor.json', l:'ARMOR'}, {id:'btn-mods', f:'mods.json', l:'MODS', note: ""},
             {id:'btn-food', f:'fooddrink.json', l:'FOOD & DRINK'}, {id:'btn-aid', f:'aid.json', l:'AID'},
             {id:'btn-misc', f:'miscjunk.json', l:'MISC + JUNK'}, {id:'btn-ammo', f:'ammo.json', l:'AMMO'},
-            {id:'btn-apparel', f:'apparel.json', l:'APPAREL'},{id:'btn-services', f:'services.json', l:'Services'}
+            {id:'btn-apparel', f:'apparel.json', l:'APPAREL'},{id:'btn-services', f:'services.json', l:'Services'},
+             {id:'btn-proofs', f:'proofs.json', l:'TRADE PROOFS', note: "Official logs of successful terminal transactions. Verified via Xbox/Discord."}
         ];
 
         function formatVal(val) {
@@ -417,16 +419,33 @@ function renderList(items) {
     const list = document.getElementById('itemList');
     
     if (!items || items.length === 0) { 
-        list.innerHTML = "<div class='item-row'>[ NO MATCHING DATA FOUND ]</div>"; 
+        list.innerHTML = "<div class='item-row'>[ NO DATA FOUND ]</div>"; 
         return; 
     }
 
-    // Sort A-Z
+    // Sort A-Z by name
     currentViewItems = [...items].sort((a, b) => a.name.localeCompare(b.name));
 
     list.innerHTML = currentViewItems.map((item, index) => {
-        const dateTag = item.date ? `<div style="font-size:0.75rem; color:var(--dim-color); margin-bottom: 2px;">[ RECEIVED: ${item.date} ]</div>` : '';
+        const dateTag = item.date ? `<div style="font-size:0.75rem; color:var(--dim-color); margin-bottom: 2px;">[ LOG DATE: ${item.date} ]</div>` : '';
         
+        // CHECK IF THIS IS A PROOF (Checks if the item has the "proof" or "items" field)
+        if (item.proof || item.items) {
+            return `
+            <div class="item-row" onclick="openDetailsByIndex(${index})">
+                <div class="text-container">
+                    ${dateTag}
+                    <div class="item-name" style="color:var(--leaders-blue)">TRADER: ${item.name}</div>
+                    <div class="item-subtext">EXCHANGED: ${item.items}</div>
+                </div>
+                <div class="price-container">
+                    <div class="currency-row trade-text" style="font-size:0.9rem;">VERIFIED ✅</div>
+                    <div class="currency-row" style="font-size:0.8rem; color:var(--dim-color);">${item.price}</div>
+                </div>
+            </div>`;
+        }
+
+        // STANDARD RENDER (For normal items)
         return `
         <div class="item-row" onclick="openDetailsByIndex(${index})">
             <div class="text-container">
