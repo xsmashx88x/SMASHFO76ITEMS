@@ -397,7 +397,7 @@ let currentData = []; // Data for the currently selected category
             localStorage.setItem('robco_user_color', hex);
         }
 
-        // Loads a specific category when a button is clicked
+// Loads a specific category when a button is clicked
 async function loadData(filename) {
     const list = document.getElementById('itemList');
     const noteBox = document.getElementById('categoryNote');
@@ -414,6 +414,9 @@ async function loadData(filename) {
         noteBox.style.display = "none";
     }
     // ------------------------------------
+
+    // --- NEW CODE: Set a global flag for the currently loaded category ---
+    window.currentCategoryFile = filename; 
 
     list.innerHTML = "<div class='item-row'>[ ACCESSING DATABASE... ]</div>";
     try {
@@ -443,8 +446,8 @@ function renderList(items) {
         const dateTag = item.date ? `<div style="font-size:0.75rem; color:var(--dim-color); margin-bottom: 2px;">[ LOG DATE: ${item.date} ]</div>` : '';
         
         // --- PROOF MODE ---
-        // Triggers if the item has "items", "proof", or "proof_link"
-        if (item.items || item.proof || item.proof_link) {
+        // CHANGED LINE: Only apply "Proof Mode" logic if the current category is "proof.json"
+        if (window.currentCategoryFile === 'proof.json' && (item.items || item.proof || item.proof_link)) {
             return `
             <div class="item-row" onclick="openDetailsByIndex(${index})">
                 <div class="text-container">
@@ -459,7 +462,7 @@ function renderList(items) {
             </div>`;
         }
 
-        // --- STANDARD ITEM MODE ---
+        // --- STANDARD ITEM MODE --- (This will now correctly render the "Special People" list)
         return `
         <div class="item-row" onclick="openDetailsByIndex(${index})">
             <div class="text-container">
