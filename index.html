@@ -319,7 +319,7 @@
         <p style="color: var(--leaders-blue); margin-top: 0;">For Commining Here</p>
 
         <!-- REPLACE 'your-image-here.png' with your actual image path -->
-        <img src="smash fo-av.png" style="width: 100%; max-width: 400px; border: 2px solid var(--main-color); margin: 15px 0; filter: grayscale(1) sepia(1) hue-rotate(100deg);">
+        <img src="smashav.png" style="width: 100%; max-width: 400px; border: 2px solid var(--main-color); margin: 15px 0; filter: grayscale(1) sepia(1) hue-rotate(100deg);">
 
         <div style="text-align: left; line-height: 1.5; font-size: 1.2rem; border-top: 1px solid var(--dim-color); padding-top: 15px;">
             <p>Welcome, This was done up to gives tho's who come to it, Better options.. So you can buy a little cheaper, Trade-up, Maybe get it free</p>
@@ -643,7 +643,15 @@ async function initialize() {
         window.onload = () => {
             const savedColor = localStorage.getItem('robco_user_color');
             if (savedColor) changeTheme(savedColor);
+            
+            // If it's their first time ever, just save the version quietly
+            if (!localStorage.getItem('robco_version')) {
+                localStorage.setItem('robco_version', TERMINAL_VERSION);
+            }
+
+            checkVersion(); 
             initialize();
+            openAboutModal(); // Added this line to show the modal on page load.
         };
 
 // --- EDIT THIS LINE WHEN YOU UPDATE YOUR ITEMS   //updated ---
@@ -680,6 +688,7 @@ async function initialize() {
 
             checkVersion(); 
             initialize();
+            openAboutModal(); // This line ensures the About Modal pops up when the page loads
         };
 
     </script>
