@@ -233,7 +233,7 @@
         </div>
 <!-- HERO BUTTON (ALONE IN MIDDLE) //updated -->
         <header>
-            <h1>SMASH'S ROBCO TERMINAL [v8.4.0]<br>Updates Every Tuesday/Wednesday</h1>
+            <h1>SMASH'S ROBCO TERMINAL [v8.4.1]<br>Updates Every Tuesday/Wednesday</h1>
             <p>[ ID: XBOX | xsmashx88x ]</p>
             <p>[ ID: DISCORD | xsmashx88x ]</p>
 <p class="header-desc">PRICES ARE NEGOTIABLE.<br>CONTACT VIA XBOX/DISCORD FOR Price/Trade.<br>Some Descriptions Might Be Wrong, Will Be Fixing That</p><p class="header-desc">Not All Items Are Listed, So Msg Me If Cant See Anything In Game Or Here.</p> 
@@ -249,9 +249,14 @@
         [ RECENT UPDATES ]
     </button>
 
-        <button id="btn-proofs" onclick="loadData('proof.json')" class="hero-btn" style="border-color: var(--trade-orange) !important; color: var(--trade-orange) !important; max-width: none; font-size: 1.1rem !important;">
+    <button id="btn-proofs" onclick="loadData('proof.json')" class="hero-btn" style="border-color: var(--trade-orange) !important; color: var(--trade-orange) !important; max-width: none; font-size: 1.1rem !important;">
         [ TRADE PROOFS ]
     </button>
+    <!-- START NEW BUTTON -->
+    <button id="btn-special" onclick="loadData('special_people.json')" class="hero-btn" style="border-color: var(--leaders-blue) !important; color: var(--leaders-blue) !important; max-width: none; font-size: 1.1rem !important;">
+        [ SPECIAL PEOPLE OF THE WASTE LAND ]
+    </button>
+    <!-- END NEW BUTTON -->
 </div>
 
         <nav class="button-grid">
@@ -363,6 +368,7 @@ let currentData = []; // Data for the currently selected category
         const dataFiles = [
              {id:'btn-recent', f:'recent.json', l:'RECENT UPDATES', note: "Showing all items added in the last 7 days."}, 
              {id:'btn-proofs', f:'proof.json', l:'TRADE PROOFS', note: "Official logs of successful terminal transactions. Verified via Xbox/Discord."},
+             {id:'btn-special', f:'special_people.json', l:'Special People Of The Waste Land', note: "List of people who have gone above and beyond."}, // New entry added here
             {id:'btn-enclave', f:'enclavemods.json', l:'ENCLAVE MODS'}, {id:'btn-star', f:'starmods.json', l:'★|★★|★★★|★★★★| MODS'},
             {id:'makemods', f:'makemods.json', l:'Mods I Can Make', note: "Bring your own materials tho (unless i have it then i can make it)"},
             {id:'btn-fas', f:'fasmask.json', l:'FAS MASK'}, {id:'btn-plans', f:'plans.json', l:'PLANS'},
@@ -419,7 +425,6 @@ async function loadData(filename) {
     }
 }
 
-// Renders the list to the screen (Now with Automatic Alphabetical Sorting)
 // Renders the list to the screen (Now with Alphabetical Sorting & Date Labels)
 let currentViewItems = []; // Add this line above the function
 
