@@ -219,6 +219,45 @@
     .currency-row { font-size: 0.9rem; } 
     .close-modal-btn { width: 100%; position: relative; top: 0; right: 0; margin-bottom: 15px; }
 }
+
+
+/* ... existing modal styles ... */
+
+        /* Styles for the new "view raw" overlay button */
+        #modalImgContainer {
+            position: relative;
+            text-align: center;
+        }
+        .image-overlay-button {
+            position: absolute;
+            bottom: 20px; /* Adjust vertical position */
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 100;
+            background: rgba(0, 0, 0, 0.7);
+            border: 1px solid var(--main-color);
+            color: var(--main-color);
+            padding: 8px 15px;
+            cursor: pointer;
+            font-family: 'VT323', monospace;
+            display: none; /* Hidden by default */
+            transition: background 0.2s;
+            text-transform: uppercase;
+        }
+        .image-overlay-button:hover {
+            background: var(--main-color);
+            color: #000;
+        }
+
+        /* ... existing media query styles ... */
+        @media (max-width: 600px) {
+            /* ... existing media query styles ... */
+            .image-overlay-button {
+                bottom: 10px; /* Adjust for smaller screens */
+            }
+        }
+
+
     </style>
 </head>
 <body>
@@ -347,6 +386,67 @@
 </div>
 
     <script>
+
+// Add this new function to handle opening the raw image
+function viewRawImage() {
+    // Get the current image source from the modal image element
+    const imageUrl = document.getElementById('modalImg').src;
+    if (imageUrl) {
+        window.open(imageUrl, '_blank');
+    }
+}
+
+function openDetails(item) {
+    document.getElementById('modalTitle').innerText = item.name;
+    document.getElementById('modalDesc').innerHTML = item.desc || "";
+
+    const imgContainer = document.getElementById('modalImgContainer');
+    const img = document.getElementById('modalImg');
+    const rawBtn = document.querySelector('.image-overlay-button'); // Get new button
+
+    // Handles URL links for images (Imgur, Discord, etc)
+    if (item.image && item.image.trim() !== "") {
+        imgContainer.style.display = "block";
+        img.src = item.image; // Browser handles the URL automatically
+        img.className = 'img-small';
+        rawBtn.style.display = "block"; // Show the overlay button
+    } else {
+        imgContainer.style.display = "none";
+        rawBtn.style.display = "none"; // Hide the overlay button
+    }
+
+    let statsHTML = `<div class="info-grid">`;
+
+    // Logic to display item fields nicely
+    for (const [key, value] of Object.entries(item)) {
+        // Skip these as they are handled elsewhere in the modal
+        const skip = ['name', 'image', 'desc', 'caps', 'leaders', 'trade', 'alt_view', 'proof_link', 'categoryname'];
+        if (!skip.includes(key.toLowerCase()) && value !== "") {
+            statsHTML += `
+                <div class="info-line">
+                    <span class="info-key">${key.toUpperCase()}</span>
+                    <span class="info-value" style="color:var(--main-color)">${value}</span>
+                </div>`;
+        }
+    }
+    statsHTML += `</div>`;
+
+    document.getElementById('modalStats').innerHTML = statsHTML;
+
+    // Create the links section
+    let linksHTML = '';
+    // If it's a standard wiki link
+    if (item.alt_view) {
+        linksHTML += `<a href="${item.alt_view}" target="_blank" class="alt-view-btn">[ ACCESS EXTERNAL WIKI DATA ]</a>`;
+    }
+    // If it's a proof/trade link (Reddit/FB/Discord)
+    if (item.proof_link) {
+        linksHTML += `<a href="${item.proof_link}" target="_blank" class="alt-view-btn" style="border-color:var(--trade-orange); color:var(--trade-orange)">[ VIEW ORIGINAL TRADE POST ]</a>`;
+    }
+
+    document.getElementById('modalLinks').innerHTML = linksHTML;
+    document.getElementById('detailModal').style.display = 'flex';
+}        
 
 function openAboutModal() {
     document.getElementById('aboutModal').style.display = 'flex';
