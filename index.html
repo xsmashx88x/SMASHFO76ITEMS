@@ -27,6 +27,12 @@
             transition: color 0.3s ease;
         }
 
+        /* NEW STYLE: Override uppercase for specific elements */
+        .natural-case {
+            text-transform: none !important;
+            letter-spacing: normal !important;
+        }
+
         .terminal-container {
             max-width: 900px;
             margin: auto;
@@ -196,6 +202,79 @@
 }
 .sync-btn:hover { background: #fff; }
  /*//////////////////////////////*/
+
+/* NEW LIGHTBOX MODAL STYLES */
+#imageLightbox {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1001; /* Higher z-index than detailModal */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9); /* Darker overlay */
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Important for preventing scroll issues during zoom/pan */
+}
+#lightboxImageContainer {
+    position: relative; /* Needed for absolute positioning of controls */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#lightboxImage {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    border: 2px solid var(--main-color);
+    transition: transform 0.2s ease; /* Smooth transition for zoom */
+    transform-origin: center center; /* Zoom from the center */
+    cursor: grab; /* Indicates image can be dragged (panned) */
+}
+#lightboxControls {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1002;
+    background: rgba(0, 0, 0, 0.7);
+    border: 1px solid var(--main-color);
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    font-family: 'VT323', monospace;
+}
+#lightboxControls button {
+    background: rgba(0, 30, 0, 0.2);
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+    padding: 5px 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.2s;
+}
+#lightboxControls button:hover {
+    background: var(--main-color);
+    color: #000;
+}
+#lightboxControls button.close-btn {
+    background: #ff4444;
+    color: #000;
+}
+#lightboxControls button.close-btn:hover {
+    background: #fff;
+}
+#lightboxControls button.current-zoom {
+    background: none;
+    border: none;
+    pointer-events: none; /* Prevent clicking */
+}
+
+
 @media (max-width: 600px) { 
     /* Main category grid stays 2 columns */
     .button-grid { grid-template-columns: 1fr 1fr !important; } 
@@ -218,77 +297,14 @@
     .item-name { font-size: 1.1rem; } 
     .currency-row { font-size: 0.9rem; } 
     .close-modal-btn { width: 100%; position: relative; top: 0; right: 0; margin-bottom: 15px; }
+
+    #lightboxControls {
+        bottom: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 90%;
+    }
 }
-
-
-/* ... existing modal styles ... */
-
-        /* Styles for the new "view raw" overlay button */
-        #modalImgContainer {
-            position: relative;
-            text-align: center;
-        }
-        .image-overlay-button {
-            position: absolute;
-            bottom: 20px; /* Adjust vertical position */
-            left: 50%;
-            transform: translateX(-50%);
-            z-index: 100;
-            background: rgba(0, 0, 0, 0.7);
-            border: 1px solid var(--main-color);
-            color: var(--main-color);
-            padding: 8px 15px;
-            cursor: pointer;
-            font-family: 'VT323', monospace;
-            display: none; /* Hidden by default */
-            transition: background 0.2s;
-            text-transform: uppercase;
-        }
-        .image-overlay-button:hover {
-            background: var(--main-color);
-            color: #000;
-        }
-
-        /* NEW LIGHTBOX MODAL STYLES */
-        #imageLightbox {
-            display: none; /* Hidden by default */
-            position: fixed;
-            z-index: 1001; /* Higher z-index than detailModal */
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.9); /* Darker overlay */
-            justify-content: center;
-            align-items: center;
-            cursor: pointer;
-        }
-        #imageLightbox .close-modal-btn {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            z-index: 1002;
-            background: #ff4444;
-            color: #000;
-        }
-        #lightboxImage {
-            display: block;
-            max-width: 95%;
-            max-height: 95%;
-            margin: auto;
-            border: 2px solid var(--main-color);
-            transition: 0.3s;
-        }
-
-        /* ... existing media query styles ... */
-        @media (max-width: 600px) {
-            /* ... existing media query styles ... */
-            .image-overlay-button {
-                bottom: 10px; /* Adjust for smaller screens */
-            }
-        }
-
-
     </style>
 </head>
 <body>
@@ -311,8 +327,8 @@
 
         <!-- HERO BUTTONS -->
 <div class="recent-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 15px;">
-    <button id="btn-about" onclick="openAboutModal()" class="hero-btn" style="border-color: var(--leaders-blue) !important; color: var(--leaders-blue) !important; max-width: none;">
-        [ SYSTEM INFORMATION ] [ CLICK ME ]
+    <button id="btn-about" onclick="openAboutModal()" class="hero-btn natural-case" style="border-color: var(--leaders-blue) !important; color: var(--leaders-blue) !important; max-width: none;">
+        [ System Information ] [ Click Me ]
     </button>
     
     <button id="btn-recent" onclick="showRecent()" class="hero-btn" style="max-width: none;">
@@ -323,11 +339,11 @@
         [ TRADE/GIVE | PROOFS ]
     </button>
     <!-- START NEW BUTTON -->
-    <button id="btn-special" onclick="loadData('special_people.json')" class="hero-btn" style="border-color: var(--leaders-blue) !important; color: var(--leaders-blue) !important; max-width: none; font-size: 1.1rem !important;">
-        [ SPECIAL PEOPLE OF THE WASTE LAND ]
+    <button id="btn-special" onclick="loadData('special_people.json')" class="hero-btn natural-case" style="border-color: var(--leaders-blue) !important; color: var(--leaders-blue) !important; max-width: none; font-size: 1.1rem !important;">
+        [ Special People of the Waste Land ]
     </button>
-        <button id="btn-marketplace" onclick="loadData('mark76ish.json')" class="hero-btn" style="border-color: var(--caps-red) !important; color: var(--caps-red) !important; max-width: none; font-size: 1.1rem !important;">
-        [ PEOPLE OF MARKET PLACE ]
+    <button id="btn-marketplace" onclick="loadData('mark76ish.json')" class="hero-btn natural-case" style="border-color: var(--caps-red) !important; color: var(--caps-red) !important; max-width: none; font-size: 1.1rem !important;">
+        [ People of Market Place ]
     </button>
     <!-- END NEW BUTTON -->
 </div>
@@ -372,7 +388,6 @@
             <h2 id="modalTitle" style="font-size: 2rem; margin: 0;"></h2>
             <div id="modalDesc"></div>
             
-            <!-- FIXED: THE CONTAINER WRAPPER WAS MISSING -->
             <div id="modalImgContainer">
                 <img id="modalImg" src="" onclick="toggleImageSize()" class="img-small">
                 <button class="image-overlay-button" onclick="openLightbox()">[ VIEW RAW FULL SIZE IMAGE ]</button>
@@ -384,9 +399,17 @@
         </div>
     </div>
 
+    <!-- NEW LIGHTBOX MODAL -->
     <div id="imageLightbox" onclick="closeLightbox()">
-        <img id="lightboxImage" src="" onclick="event.stopPropagation()">
-        <button class="close-modal-btn" onclick="closeLightbox()">[X] CLOSE</button>
+        <div id="lightboxImageContainer">
+            <img id="lightboxImage" src="" onclick="event.stopPropagation()">
+            <div id="lightboxControls">
+                <button onclick="zoomIn()">ZOOM IN</button>
+                <button onclick="zoomOut()">ZOOM OUT</button>
+                <button onclick="resetZoom()">RESET</button>
+                <button onclick="closeLightbox()" class="close-btn">[X] CLOSE</button>
+            </div>
+        </div>
     </div>    
 
     <!-- ABOUT MODAL -->
@@ -423,8 +446,6 @@
 </div>
 
     <script>
-
-
 
 function openAboutModal() {
     document.getElementById('aboutModal').style.display = 'flex';
@@ -550,7 +571,8 @@ function renderList(items) {
             <div class="text-container">
                 ${dateTag}
                 <div class="item-name">${item.name}</div>
-                <div class="item-subtext">${item.desc || ''}</div>
+                <!-- Truncate description for list view, show full in modal -->
+                <div class="item-subtext">${truncateString(item.desc || '', 100)}</div>
             </div>
             <div class="price-container">
                 <div class="currency-row caps-text">${formatVal(item.caps)} <img src="fo76_caps.png" class="icon-red"></div>
@@ -582,18 +604,52 @@ function openDetailsByIndex(index) {
             }
         }
 
-// Add this new function to handle opening the lightbox
+// --- LIGHTBOX/ZOOM FUNCTIONALITY ---
+
+// Global variables for zoom state
+let currentZoomLevel = 1;
+const zoomStep = 0.2;
+
 function openLightbox() {
     // Get the current image source from the detail modal image element
     const imageUrl = document.getElementById('modalImg').src;
     document.getElementById('lightboxImage').src = imageUrl;
     document.getElementById('imageLightbox').style.display = 'flex';
+    resetZoom(); // Reset zoom level when opening
 }
 
-// Add this function to close the lightbox
 function closeLightbox() {
     document.getElementById('imageLightbox').style.display = 'none';
 }
+
+function zoomIn() {
+    currentZoomLevel = Math.min(currentZoomLevel + zoomStep, 5); // Max zoom 5x
+    applyZoom();
+}
+
+function zoomOut() {
+    currentZoomLevel = Math.max(currentZoomLevel - zoomStep, 1); // Min zoom 1x
+    applyZoom();
+}
+
+function resetZoom() {
+    currentZoomLevel = 1;
+    applyZoom();
+}
+
+function applyZoom() {
+    const imgElement = document.getElementById('lightboxImage');
+    imgElement.style.transform = `scale(${currentZoomLevel})`;
+}
+
+// --- TRUNCATION FUNCTION ---
+function truncateString(str, maxLength) {
+    if (str.length > maxLength) {
+        return str.substring(0, maxLength - 3) + "...";
+    }
+    return str;
+}
+// ----------------------------
 
 function openDetails(item) {
     document.getElementById('modalTitle').innerText = item.name;
@@ -702,7 +758,7 @@ function showRecent() {
                     <div class="text-container">
                         <div style="font-size:0.8rem; color:var(--main-color); opacity:0.7;">[${item.categoryName}] - ${item.date}</div>
                         <div class="item-name">${item.name}</div>
-                        <div class="item-subtext">${item.desc || ''}</div>
+                        <div class="item-subtext">${truncateString(item.desc || '', 100)}</div>
                     </div>
                     <div class="price-container">
                         <div class="currency-row caps-text">${formatVal(item.caps)} <img src="fo76_caps.png" class="icon-red"></div>
@@ -738,7 +794,8 @@ async function initialize() {
 
         window.onclick = (e) => { 
             if (e.target == document.getElementById('detailModal')) closeModal(); 
-            if (e.target == document.getElementById('imageLightbox')) closeLightbox(); // Close lightbox on outside click
+            // Close lightbox on outside click, but not on controls or image itself
+            if (e.target == document.getElementById('imageLightbox')) closeLightbox(); 
         }
 
         window.onload = () => {
