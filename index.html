@@ -401,13 +401,13 @@
 
     <!-- NEW LIGHTBOX MODAL -->
     <div id="imageLightbox" onclick="closeLightbox()">
-        <div id="lightboxImageContainer">
-            <img id="lightboxImage" src="" onclick="event.stopPropagation()">
+        <div id="lightboxImageContainer" onclick="event.stopPropagation()">
+            <img id="lightboxImage" src="">
             <div id="lightboxControls">
-                <button onclick="zoomIn()">ZOOM IN</button>
-                <button onclick="zoomOut()">ZOOM OUT</button>
-                <button onclick="resetZoom()">RESET</button>
-                <button onclick="closeLightbox()" class="close-btn">[X] CLOSE</button>
+                <button onclick="zoomIn(); event.stopPropagation()">ZOOM IN</button>
+                <button onclick="zoomOut(); event.stopPropagation()">ZOOM OUT</button>
+                <button onclick="resetZoom(); event.stopPropagation()">RESET</button>
+                <button onclick="closeLightbox(); event.stopPropagation()" class="close-btn">[X] CLOSE</button>
             </div>
         </div>
     </div>    
@@ -446,6 +446,8 @@
 </div>
 
     <script>
+
+
 
 function openAboutModal() {
     document.getElementById('aboutModal').style.display = 'flex';
@@ -545,6 +547,9 @@ function renderList(items) {
     // Sort A-Z by name
     currentViewItems = [...items].sort((a, b) => a.name.localeCompare(b.name));
 
+    // Determine if prices should be hidden for this category
+    const hidePrices = window.currentCategoryFile === 'special_people.json' || window.currentCategoryFile === 'mark76ish.json';
+
     list.innerHTML = currentViewItems.map((item, index) => {
         const dateTag = item.date ? `<div style="font-size:0.75rem; color:var(--dim-color); margin-bottom: 2px;">[ LOG DATE: ${item.date} ]</div>` : '';
         
@@ -565,7 +570,14 @@ function renderList(items) {
             </div>`;
         }
 
-        // --- STANDARD ITEM MODE --- (This will now correctly render the "Special People" list)
+        // --- STANDARD ITEM MODE --- (with new price hiding logic)
+        const priceHTML = hidePrices ? '' : `
+            <div class="price-container">
+                <div class="currency-row caps-text">${formatVal(item.caps)} <img src="fo76_caps.png" class="icon-red"></div>
+                <div class="currency-row leaders-text">${formatVal(item.leaders)} <img src="mtg.png" class="icon-blue"></div>
+                <div class="currency-row trade-text">${formatVal(item.trade)} <img src="mtg.png" class="icon-orange"></div>
+            </div>`;
+
         return `
         <div class="item-row" onclick="openDetailsByIndex(${index})">
             <div class="text-container">
@@ -574,11 +586,7 @@ function renderList(items) {
                 <!-- Truncate description for list view, show full in modal -->
                 <div class="item-subtext">${truncateString(item.desc || '', 100)}</div>
             </div>
-            <div class="price-container">
-                <div class="currency-row caps-text">${formatVal(item.caps)} <img src="fo76_caps.png" class="icon-red"></div>
-                <div class="currency-row leaders-text">${formatVal(item.leaders)} <img src="mtg.png" class="icon-blue"></div>
-                <div class="currency-row trade-text">${formatVal(item.trade)} <img src="mtg.png" class="icon-orange"></div>
-            </div>
+            ${priceHTML}
         </div>`;
     }).join('');
 }
@@ -753,6 +761,13 @@ function showRecent() {
 
             // 5. Render the items found within the week
             list.innerHTML = recentItems.map(item => {
+                const priceHTML = `
+                    <div class="price-container">
+                        <div class="currency-row caps-text">${formatVal(item.caps)} <img src="fo76_caps.png" class="icon-red"></div>
+                        <div class="currency-row leaders-text">${formatVal(item.leaders)} <img src="mtg.png" class="icon-blue"></div>
+                        <div class="currency-row trade-text">${formatVal(item.trade)} <img src="mtg.png" class="icon-orange"></div>
+                    </div>`;
+
                 return `
                 <div class="item-row" onclick='openDetails(${JSON.stringify(item).replace(/"/g, "&quot;")})'>
                     <div class="text-container">
@@ -760,11 +775,7 @@ function showRecent() {
                         <div class="item-name">${item.name}</div>
                         <div class="item-subtext">${truncateString(item.desc || '', 100)}</div>
                     </div>
-                    <div class="price-container">
-                        <div class="currency-row caps-text">${formatVal(item.caps)} <img src="fo76_caps.png" class="icon-red"></div>
-                        <div class="currency-row leaders-text">${formatVal(item.leaders)} <img src="mtg.png" class="icon-blue"></div>
-                        <div class="currency-row trade-text">${formatVal(item.trade)} <img src="mtg.png" class="icon-orange"></div>
-                    </div>
+                    ${priceHTML}
                 </div>`;
             }).join('');
         }
