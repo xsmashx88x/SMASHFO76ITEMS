@@ -224,6 +224,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: grab; /* Indicates image can be dragged (panned) */
 }
 #lightboxImage {
     display: block;
@@ -233,10 +234,13 @@
     border: 2px solid var(--main-color);
     transition: transform 0.2s ease; /* Smooth transition for zoom */
     transform-origin: center center; /* Zoom from the center */
-    cursor: grab; /* Indicates image can be dragged (panned) */
+    user-select: none; /* Prevent image dragging from selecting text */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 #lightboxControls {
-    position: absolute;
+    position: fixed; /* Keep controls visible in viewport */
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
@@ -401,13 +405,14 @@
 
     <!-- NEW LIGHTBOX MODAL -->
     <div id="imageLightbox" onclick="closeLightbox()">
-        <div id="lightboxImageContainer" onclick="event.stopPropagation()">
+        <div id="lightboxImageContainer">
             <img id="lightboxImage" src="">
             <div id="lightboxControls">
-                <button onclick="zoomIn(); event.stopPropagation()">ZOOM IN</button>
-                <button onclick="zoomOut(); event.stopPropagation()">ZOOM OUT</button>
-                <button onclick="resetZoom(); event.stopPropagation()">RESET</button>
-                <button onclick="closeLightbox(); event.stopPropagation()" class="close-btn">[X] CLOSE</button>
+                <button onclick="zoomIn(event)">ZOOM IN</button>
+                <button onclick="zoomOut(event)">ZOOM OUT</button>
+                <button onclick="resetZoom(event)">RESET</button>
+                <button onclick="openRawImageNewTab(event)">OPEN RAW IN NEW TAB</button>
+                <button onclick="closeLightbox(event)" class="close-btn">[X] CLOSE</button>
             </div>
         </div>
     </div>    
@@ -614,9 +619,14 @@ function openDetailsByIndex(index) {
 
 // --- LIGHTBOX/ZOOM FUNCTIONALITY ---
 
-// Global variables for zoom state
+// Global variables for zoom state and pan state
 let currentZoomLevel = 1;
 const zoomStep = 0.2;
+let panX = 0;
+let panY = 0;
+let isDragging = false;
+let startX = 0;
+let startY = 0;
 
 function openLightbox() {
     // Get the current image source from the detail modal image element
@@ -626,29 +636,89 @@ function openLightbox() {
     resetZoom(); // Reset zoom level when opening
 }
 
-function closeLightbox() {
+function closeLightbox(e) {
+    // Only close if clicking on the background, not on the image container or controls
+    if (e && e.target !== document.getElementById('imageLightbox')) return;
     document.getElementById('imageLightbox').style.display = 'none';
 }
 
-function zoomIn() {
+function zoomIn(e) {
+    e.stopPropagation(); // Prevent event bubbling
     currentZoomLevel = Math.min(currentZoomLevel + zoomStep, 5); // Max zoom 5x
-    applyZoom();
+    applyTransform();
 }
 
-function zoomOut() {
+function zoomOut(e) {
+    e.stopPropagation(); // Prevent event bubbling
     currentZoomLevel = Math.max(currentZoomLevel - zoomStep, 1); // Min zoom 1x
-    applyZoom();
+    // Reset pan position if zooming out below 100% and pan is not center
+    if (currentZoomLevel === 1) {
+        panX = 0;
+        panY = 0;
+    }
+    applyTransform();
 }
 
-function resetZoom() {
+function resetZoom(e) {
+    e.stopPropagation(); // Prevent event bubbling
     currentZoomLevel = 1;
-    applyZoom();
+    panX = 0;
+    panY = 0;
+    applyTransform();
 }
 
-function applyZoom() {
-    const imgElement = document.getElementById('lightboxImage');
-    imgElement.style.transform = `scale(${currentZoomLevel})`;
+function openRawImageNewTab(e) {
+    e.stopPropagation(); // Prevent event bubbling
+    const imageUrl = document.getElementById('lightboxImage').src;
+    window.open(imageUrl, '_blank');
 }
+
+function applyTransform() {
+    const imgElement = document.getElementById('lightboxImage');
+    imgElement.style.transform = `scale(${currentZoomLevel}) translate(${panX}px, ${panY}px)`;
+}
+
+// Pan logic event handlers
+function handleMouseDown(e) {
+    e.preventDefault(); // Prevent default browser drag behavior
+    isDragging = true;
+    startX = e.clientX;
+    startY = e.clientY;
+    document.getElementById('lightboxImageContainer').style.cursor = 'grabbing';
+}
+
+function handleMouseMove(e) {
+    if (!isDragging || currentZoomLevel === 1) return; // Only drag if zoomed in and dragging
+    e.preventDefault();
+
+    const dx = e.clientX - startX;
+    const dy = e.clientY - startY;
+
+    panX += dx / currentZoomLevel; // Adjust pan speed based on zoom level
+    panY += dy / currentZoomLevel;
+
+    startX = e.clientX;
+    startY = e.clientY;
+
+    applyTransform();
+}
+
+function handleMouseUp() {
+    isDragging = false;
+    document.getElementById('lightboxImageContainer').style.cursor = 'grab';
+}
+
+// Add event listeners for pan functionality
+document.addEventListener('DOMContentLoaded', () => {
+    const imageContainer = document.getElementById('lightboxImageContainer');
+    imageContainer.addEventListener('mousedown', handleMouseDown);
+    document.addEventListener('mousemove', handleMouseMove);
+    document.addEventListener('mouseup', handleMouseUp);
+    // Add event listener for touch screens (optional, but good for mobile)
+    imageContainer.addEventListener('touchstart', (e) => handleMouseDown(e.touches[0]));
+    document.addEventListener('touchmove', (e) => handleMouseMove(e.touches[0]));
+    document.addEventListener('touchend', handleMouseUp);
+});
 
 // --- TRUNCATION FUNCTION ---
 function truncateString(str, maxLength) {
@@ -806,7 +876,7 @@ async function initialize() {
         window.onclick = (e) => { 
             if (e.target == document.getElementById('detailModal')) closeModal(); 
             // Close lightbox on outside click, but not on controls or image itself
-            if (e.target == document.getElementById('imageLightbox')) closeLightbox(); 
+            if (e.target == document.getElementById('imageLightbox')) closeLightbox(e); 
         }
 
         window.onload = () => {
