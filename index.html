@@ -495,6 +495,7 @@
         function toggleImageSize() { document.getElementById('modalImg').classList.toggle('img-large'); }
 
         // --- FIXED IMAGE VIEWER LOGIC ---
+        let initialPinchDistance = null;
         let currentZoomLevel = 1;
         let panX = 0;
         let panY = 0;
@@ -541,30 +542,62 @@ function closeLightbox(e) {
         function openRawImageNewTab(e) { e.stopPropagation(); window.open(document.getElementById('lightboxImage').src, '_blank'); }
 
         // Panning Handlers (Universal)
-        function startPan(e) {
-            if (e.target.tagName === 'BUTTON') return;
-            isDragging = true;
-            const clientX = e.touches ? e.touches[0].clientX : e.clientX;
-            const clientY = e.touches ? e.touches[0].clientY : e.clientY;
-            startX = clientX - (panX * currentZoomLevel);
-            startY = clientY - (panY * currentZoomLevel);
-            document.getElementById('lightboxImageContainer').style.cursor = 'grabbing';
-        }
+function startPan(e) {
+    if (e.target.tagName === 'BUTTON') return;
+    
+    if (e.touches && e.touches.length === 2) {
+        // Start Pinch
+        initialPinchDistance = Math.hypot(
+            e.touches[0].clientX - e.touches[1].clientX,
+            e.touches[0].clientY - e.touches[1].clientY
+        );
+    } else {
+        // Start Drag
+        isDragging = true;
+        const clientX = e.touches ? e.touches[0].clientX : e.clientX;
+        const clientY = e.touches ? e.touches[0].clientY : e.clientY;
+        startX = clientX - (panX * currentZoomLevel);
+        startY = clientY - (panY * currentZoomLevel);
+        document.getElementById('lightboxImageContainer').style.cursor = 'grabbing';
+    }
+}
 
-        function doPan(e) {
-            if (!isDragging) return;
-            if (e.cancelable) e.preventDefault();
-            const clientX = e.touches ? e.touches[0].clientX : e.clientX;
-            const clientY = e.touches ? e.touches[0].clientY : e.clientY;
-            panX = (clientX - startX) / currentZoomLevel;
-            panY = (clientY - startY) / currentZoomLevel;
-            applyTransform();
-        }
+function doPan(e) {
+    if (e.cancelable) e.preventDefault();
 
-        function stopPan() {
-            isDragging = false;
-            document.getElementById('lightboxImageContainer').style.cursor = 'grab';
-        }
+    // Handle Pinch Zoom
+    if (e.touches && e.touches.length === 2 && initialPinchDistance) {
+        const currentDistance = Math.hypot(
+            e.touches[0].clientX - e.touches[1].clientX,
+            e.touches[0].clientY - e.touches[1].clientY
+        );
+        
+        const delta = currentDistance / initialPinchDistance;
+        const sensitivity = 0.05; // Adjust for faster/slower zoom
+        
+        if (delta > 1) currentZoomLevel = Math.min(currentZoomLevel + sensitivity, 5);
+        else if (delta < 1) currentZoomLevel = Math.max(currentZoomLevel - sensitivity, 1);
+        
+        if (currentZoomLevel === 1) { panX = 0; panY = 0; }
+        initialPinchDistance = currentDistance;
+        applyTransform();
+        return;
+    }
+
+    // Handle Normal Panning
+    if (!isDragging) return;
+    const clientX = e.touches ? e.touches[0].clientX : e.clientX;
+    const clientY = e.touches ? e.touches[0].clientY : e.clientY;
+    panX = (clientX - startX) / currentZoomLevel;
+    panY = (clientY - startY) / currentZoomLevel;
+    applyTransform();
+}
+
+function stopPan() {
+    isDragging = false;
+    initialPinchDistance = null; // Add this line
+    document.getElementById('lightboxImageContainer').style.cursor = 'grab';
+}
 
         // --- INITIALIZATION ---
         async function initialize() {
