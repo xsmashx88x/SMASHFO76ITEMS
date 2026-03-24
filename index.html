@@ -249,6 +249,7 @@
     border: 1px solid var(--main-color);
     padding: 10px;
     display: flex;
+    flex-wrap: wrap; /* Allow wrapping on small screens */
     gap: 10px;
     font-family: 'VT323', monospace;
 }
@@ -260,6 +261,7 @@
     font-size: 1rem;
     cursor: pointer;
     transition: 0.2s;
+    flex-shrink: 0; /* Prevent buttons from shrinking */
 }
 #lightboxControls button:hover {
     background: var(--main-color);
@@ -404,7 +406,7 @@
     </div>
 
     <!-- NEW LIGHTBOX MODAL -->
-    <div id="imageLightbox" onclick="closeLightbox()">
+    <div id="imageLightbox" onclick="closeLightbox(event)">
         <div id="lightboxImageContainer">
             <img id="lightboxImage" src="">
             <div id="lightboxControls">
@@ -638,6 +640,7 @@ function openLightbox() {
 
 function closeLightbox(e) {
     // Only close if clicking on the background, not on the image container or controls
+    // Use event.target to ensure click is on the lightbox background itself, not child elements
     if (e && e.target !== document.getElementById('imageLightbox')) return;
     document.getElementById('imageLightbox').style.display = 'none';
 }
@@ -678,7 +681,7 @@ function applyTransform() {
     imgElement.style.transform = `scale(${currentZoomLevel}) translate(${panX}px, ${panY}px)`;
 }
 
-// Pan logic event handlers
+// Pan logic event handlers (Mouse)
 function handleMouseDown(e) {
     e.preventDefault(); // Prevent default browser drag behavior
     isDragging = true;
@@ -694,7 +697,8 @@ function handleMouseMove(e) {
     const dx = e.clientX - startX;
     const dy = e.clientY - startY;
 
-    panX += dx / currentZoomLevel; // Adjust pan speed based on zoom level
+    // Adjust pan distance relative to zoom level to keep movement consistent
+    panX += dx / currentZoomLevel;
     panY += dy / currentZoomLevel;
 
     startX = e.clientX;
@@ -708,17 +712,49 @@ function handleMouseUp() {
     document.getElementById('lightboxImageContainer').style.cursor = 'grab';
 }
 
+// Pan logic event handlers (Touch)
+function handleTouchStart(e) {
+    e.preventDefault();
+    isDragging = true;
+    startX = e.touches[0].clientX;
+    startY = e.touches[0].clientY;
+    document.getElementById('lightboxImageContainer').style.cursor = 'grabbing';
+}
+
+function handleTouchMove(e) {
+    if (!isDragging || currentZoomLevel === 1) return;
+    e.preventDefault();
+
+    const dx = e.touches[0].clientX - startX;
+    const dy = e.touches[0].clientY - startY;
+
+    panX += dx / currentZoomLevel;
+    panY += dy / currentZoomLevel;
+
+    startX = e.touches[0].clientX;
+    startY = e.touches[0].clientY;
+
+    applyTransform();
+}
+
+function handleTouchEnd() {
+    isDragging = false;
+    document.getElementById('lightboxImageContainer').style.cursor = 'grab';
+}
+
 // Add event listeners for pan functionality
 document.addEventListener('DOMContentLoaded', () => {
     const imageContainer = document.getElementById('lightboxImageContainer');
+    // Mouse listeners for desktop
     imageContainer.addEventListener('mousedown', handleMouseDown);
     document.addEventListener('mousemove', handleMouseMove);
     document.addEventListener('mouseup', handleMouseUp);
-    // Add event listener for touch screens (optional, but good for mobile)
-    imageContainer.addEventListener('touchstart', (e) => handleMouseDown(e.touches[0]));
-    document.addEventListener('touchmove', (e) => handleMouseMove(e.touches[0]));
-    document.addEventListener('touchend', handleMouseUp);
+    // Touch listeners for mobile
+    imageContainer.addEventListener('touchstart', handleTouchStart);
+    document.addEventListener('touchmove', handleTouchMove);
+    document.addEventListener('touchend', handleTouchEnd);
 });
+
 
 // --- TRUNCATION FUNCTION ---
 function truncateString(str, maxLength) {
