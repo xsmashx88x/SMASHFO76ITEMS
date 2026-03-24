@@ -325,7 +325,7 @@
         </div>
 <!-- HERO BUTTON (ALONE IN MIDDLE) //updated -->
         <header>
-            <h1>SMASH'S ROBCO TERMINAL [v8.4.1]<br>Updates Every Tuesday/Wednesday</h1>
+            <h1>SMASH'S ROBCO TERMINAL [v8.4.2]<br>Updates Every Tuesday/Wednesday</h1>
             <p>[ ID: XBOX | xsmashx88x ]</p>
             <p>[ ID: DISCORD | xsmashx88x ]</p>
 <p class="header-desc">PRICES ARE NEGOTIABLE.<br>CONTACT VIA XBOX/DISCORD FOR Price/Trade.<br>Some Descriptions Might Be Wrong, Will Be Fixing That</p><p class="header-desc">Not All Items Are Listed, So Msg Me If Cant See Anything In Game Or Here.</p> 
@@ -644,7 +644,6 @@ function closeLightbox(e) {
     // Ensure that clicks on child elements (like the controls) do not trigger this.
     // The event listener on the lightbox div itself will close on background click.
     document.getElementById('imageLightbox').style.display = 'none';
-    e.stopPropagation(); // Stop propagation to prevent unintended closing from background click handler
 }
 
 
@@ -687,6 +686,7 @@ function applyTransform() {
 // Pan logic event handlers (Mouse)
 function handleMouseDown(e) {
     e.preventDefault(); // Prevent default browser drag behavior
+    e.stopPropagation(); 
     isDragging = true;
     startX = e.clientX;
     startY = e.clientY;
@@ -718,6 +718,7 @@ function handleMouseUp() {
 // Pan logic event handlers (Touch)
 function handleTouchStart(e) {
     e.preventDefault();
+        e.stopPropagation();
     isDragging = true;
     startX = e.touches[0].clientX;
     startY = e.touches[0].clientY;
