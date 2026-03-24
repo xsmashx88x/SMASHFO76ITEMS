@@ -407,9 +407,10 @@
 
     <!-- NEW LIGHTBOX MODAL -->
     <div id="imageLightbox" onclick="closeLightbox(event)">
-        <div id="lightboxImageContainer">
+        <div id="lightboxImageContainer" onclick="event.stopPropagation()">
             <img id="lightboxImage" src="">
             <div id="lightboxControls">
+                <!-- Buttons updated to stop event propagation on click -->
                 <button onclick="zoomIn(event)">ZOOM IN</button>
                 <button onclick="zoomOut(event)">ZOOM OUT</button>
                 <button onclick="resetZoom(event)">RESET</button>
@@ -639,8 +640,9 @@ function openLightbox() {
 }
 
 function closeLightbox(e) {
-    // Only close if clicking on the background, not on the image container or controls
-    // Use event.target to ensure click is on the lightbox background itself, not child elements
+    // Check if the click event target is NOT the close button itself,
+    // and NOT one of the image controls (to avoid closing accidentally).
+    // The main check here is if it's the lightbox background.
     if (e && e.target !== document.getElementById('imageLightbox')) return;
     document.getElementById('imageLightbox').style.display = 'none';
 }
