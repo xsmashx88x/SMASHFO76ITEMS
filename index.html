@@ -221,6 +221,8 @@
 }
 
 
+/* ... existing modal styles ... */
+
         /* Styles for the new "view raw" overlay button */
         #modalImgContainer {
             position: relative;
@@ -245,6 +247,37 @@
         .image-overlay-button:hover {
             background: var(--main-color);
             color: #000;
+        }
+
+        /* NEW LIGHTBOX MODAL STYLES */
+        #imageLightbox {
+            display: none; /* Hidden by default */
+            position: fixed;
+            z-index: 1001; /* Higher z-index than detailModal */
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.9); /* Darker overlay */
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+        #imageLightbox .close-modal-btn {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 1002;
+            background: #ff4444;
+            color: #000;
+        }
+        #lightboxImage {
+            display: block;
+            max-width: 95%;
+            max-height: 95%;
+            margin: auto;
+            border: 2px solid var(--main-color);
+            transition: 0.3s;
         }
 
         /* ... existing media query styles ... */
@@ -350,6 +383,11 @@
             <p style="margin-top:20px; color:var(--dim-color); font-size:0.8rem;">[ CLICK OUTSIDE OR USE BUTTON TO EXIT ]</p>
         </div>
     </div>
+
+    <div id="imageLightbox" onclick="closeLightbox()">
+        <img id="lightboxImage" src="" onclick="event.stopPropagation()">
+        <button class="close-modal-btn" onclick="closeLightbox()">[X] CLOSE</button>
+    </div>    
 
     <!-- ABOUT MODAL -->
 <div id="aboutModal" class="modal" onclick="closeAboutModal()">
@@ -551,6 +589,19 @@ function viewRawImage() {
     if (imageUrl) {
         window.open(imageUrl, '_blank');
     }
+}
+
+// Add this new function to handle opening the lightbox
+function openLightbox() {
+    // Get the current image source from the detail modal image element
+    const imageUrl = document.getElementById('modalImg').src;
+    document.getElementById('lightboxImage').src = imageUrl;
+    document.getElementById('imageLightbox').style.display = 'flex';
+}
+
+// Add this function to close the lightbox
+function closeLightbox() {
+    document.getElementById('imageLightbox').style.display = 'none';
 }
 
 function openDetails(item) {
