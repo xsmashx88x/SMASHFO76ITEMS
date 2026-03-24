@@ -509,11 +509,26 @@
             resetZoom();
         }
 
-        function closeLightbox(e) {
-            if (!e || e.target === document.getElementById('imageLightbox') || e.target === document.getElementById('lightboxImageContainer')) {
-                document.getElementById('imageLightbox').style.display = 'none';
-            }
-        }
+function closeLightbox(e) {
+    // If an event exists, stop it from bubbling up to other elements
+    if (e) {
+        e.stopPropagation();
+        if (e.stopImmediatePropagation) e.stopImmediatePropagation();
+    }
+
+    // Identify the targets
+    const lightbox = document.getElementById('imageLightbox');
+    const container = document.getElementById('lightboxImageContainer');
+
+    // Close if: 
+    // 1. No event (called manually)
+    // 2. Clicked the background overlay or the container
+    // 3. Clicked a button with the 'close-btn' class
+    if (!e || e.target === lightbox || e.target === container || e.target.classList.contains('close-btn')) {
+        lightbox.style.display = 'none';
+        resetZoom(); // Clean up zoom state for next time
+    }
+}
 
         function applyTransform() {
             const img = document.getElementById('lightboxImage');
