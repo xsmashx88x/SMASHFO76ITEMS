@@ -411,12 +411,12 @@
             <img id="lightboxImage" src="">
             <div id="lightboxControls">
                 <!-- Buttons updated to stop event propagation on click -->
-                <button onclick="zoomIn(event)">ZOOM IN</button>
-                <button onclick="zoomOut(event)">ZOOM OUT</button>
-                <button onclick="resetZoom(event)">RESET</button>
-                <button onclick="openRawImageNewTab(event)">OPEN RAW IN NEW TAB</button>
-                <button onclick="closeLightbox(event)" class="close-btn">[X] CLOSE</button>
-            </div>
+    <button onclick="zoomIn(event); event.stopPropagation()">ZOOM IN</button>
+    <button onclick="zoomOut(event); event.stopPropagation()">ZOOM OUT</button>
+    <button onclick="resetZoom(event); event.stopPropagation()">RESET</button>
+    <button onclick="openRawImageNewTab(event); event.stopPropagation()">OPEN RAW IN NEW TAB</button>
+    <button onclick="closeLightbox(event); event.stopPropagation()" class="close-btn">[X] CLOSE</button>
+</div>
         </div>
     </div>    
 
@@ -686,7 +686,7 @@ function applyTransform() {
 // Pan logic event handlers (Mouse)
 function handleMouseDown(e) {
     e.preventDefault(); // Prevent default browser drag behavior
-    e.stopPropagation(); 
+    e.stopPropagation(); // 
     isDragging = true;
     startX = e.clientX;
     startY = e.clientY;
@@ -718,7 +718,8 @@ function handleMouseUp() {
 // Pan logic event handlers (Touch)
 function handleTouchStart(e) {
     e.preventDefault();
-        e.stopPropagation();
+    e.stopPropagation(); 
+
     isDragging = true;
     startX = e.touches[0].clientX;
     startY = e.touches[0].clientY;
