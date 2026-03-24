@@ -375,7 +375,7 @@
             <!-- FIXED: THE CONTAINER WRAPPER WAS MISSING -->
             <div id="modalImgContainer">
                 <img id="modalImg" src="" onclick="toggleImageSize()" class="img-small">
-                <button class="image-overlay-button" onclick="viewRawImage()">[ VIEW RAW FULL SIZE IMAGE ]</button>
+                <button class="image-overlay-button" onclick="openLightbox()">[ VIEW RAW FULL SIZE IMAGE ]</button>
             </div>
 
             <div id="modalStats" class="info-grid"></div>
@@ -582,15 +582,6 @@ function openDetailsByIndex(index) {
             }
         }
 
-// Add this new function to handle opening the raw image
-function viewRawImage() {
-    // Get the current image source from the modal image element
-    const imageUrl = document.getElementById('modalImg').src;
-    if (imageUrl) {
-        window.open(imageUrl, '_blank');
-    }
-}
-
 // Add this new function to handle opening the lightbox
 function openLightbox() {
     // Get the current image source from the detail modal image element
@@ -745,7 +736,10 @@ async function initialize() {
             console.log("Global Database Loaded: " + allData.length + " items.");
         }
 
-        window.onclick = (e) => { if (e.target == document.getElementById('detailModal')) closeModal(); }
+        window.onclick = (e) => { 
+            if (e.target == document.getElementById('detailModal')) closeModal(); 
+            if (e.target == document.getElementById('imageLightbox')) closeLightbox(); // Close lightbox on outside click
+        }
 
         window.onload = () => {
             const savedColor = localStorage.getItem('robco_user_color');
