@@ -407,18 +407,18 @@
 
     <!-- NEW LIGHTBOX MODAL -->
     <div id="imageLightbox" onclick="closeLightbox(event)">
-        <div id="lightboxImageContainer">
-            <img id="lightboxImage" src="">
-            <div id="lightboxControls">
-                <!-- Buttons updated to stop event propagation on click -->
-    <button onclick="zoomIn(event); event.stopPropagation()">ZOOM IN</button>
-    <button onclick="zoomOut(event); event.stopPropagation()">ZOOM OUT</button>
-    <button onclick="resetZoom(event); event.stopPropagation()">RESET</button>
-    <button onclick="openRawImageNewTab(event); event.stopPropagation()">OPEN RAW IN NEW TAB</button>
-    <button onclick="closeLightbox(event); event.stopPropagation()" class="close-btn">[X] CLOSE</button>
-</div>
+    <div id="lightboxImageContainer" class="lightbox-interact-area">
+        <img id="lightboxImage" src="">
+        <div id="lightboxControls" class="lightbox-interact-area">
+            <!-- Buttons updated to stop event propagation on click -->
+            <button onclick="zoomIn(event)">ZOOM IN</button>
+            <button onclick="zoomOut(event)">ZOOM OUT</button>
+            <button onclick="resetZoom(event)">RESET</button>
+            <button onclick="openRawImageNewTab(event)">OPEN RAW IN NEW TAB</button>
+            <button onclick="closeLightbox(event)" class="close-btn">[X] CLOSE</button>
         </div>
-    </div>    
+    </div>
+</div>
 
     <!-- ABOUT MODAL -->
 <div id="aboutModal" class="modal" onclick="closeAboutModal()">
@@ -640,12 +640,19 @@ function openLightbox() {
 }
 
 function closeLightbox(e) {
-    // Close the lightbox modal.
-    // Ensure that clicks on child elements (like the controls) do not trigger this.
-    // The event listener on the lightbox div itself will close on background click.
+    // Check if the click event target or any of its parent elements have the 'lightbox-interact-area' class.
+    // If they do, ignore the click. This prevents clicks on the image or controls from closing the lightbox.
+    let target = e.target;
+    while (target) {
+        if (target.classList && target.classList.contains('lightbox-interact-area')) {
+            // If we find the interaction area, do nothing (i.e., don't close the modal)
+            return; 
+        }
+        target = target.parentNode;
+    }
+    // If no interaction area found, it must be the background, so close it.
     document.getElementById('imageLightbox').style.display = 'none';
 }
-
 
 function zoomIn(e) {
     e.stopPropagation(); // Prevent event bubbling
@@ -685,8 +692,9 @@ function applyTransform() {
 
 // Pan logic event handlers (Mouse)
 function handleMouseDown(e) {
-    e.preventDefault(); // Prevent default browser drag behavior
-    e.stopPropagation(); // 
+    e.preventDefault(); 
+    e.stopPropagation(); // <-- Add this line to stop propagation at the image container level.
+
     isDragging = true;
     startX = e.clientX;
     startY = e.clientY;
@@ -718,7 +726,7 @@ function handleMouseUp() {
 // Pan logic event handlers (Touch)
 function handleTouchStart(e) {
     e.preventDefault();
-    e.stopPropagation(); 
+    e.stopPropagation(); // <-- Add this line to stop propagation at the image container level.
 
     isDragging = true;
     startX = e.touches[0].clientX;
