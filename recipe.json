@@ -1,4 +1,10 @@
 [
+    {
+    "name": "Recipe: Sweet Roll (5 left) ",
+    "desc": "Grants the Moo-Moo Curds and Pickled Pumpkin | this comes in s25/26",
+    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/Fo76_recipe.webp",
+    "caps": 0, "leaders": 0, "trade": "Yes"
+  },
   {
     "name": "Recipe: Bloatfly Loaf",
     "desc": "Teaches you how to cook a Bloatfly Loaf at a cooking station, which provides food and a small health buff.",
