@@ -1240,17 +1240,5 @@
     "desc": "Unlocks a classic outdoor wooden picnic table for your C.A.M.P.",
     "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
     "caps": 0, "leaders": 0, "trade": "Yes"
-  },
-  {
-    "name": "Player Title: Masked",
-    "desc": "Unlocks the 'Masked' title to be displayed on your player nameplate.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "trade": "Yes"
-  },
-  {
-    "name": "Player Title: Mutated",
-    "desc": "Unlocks the 'Mutated' title to be displayed on your player nameplate.",
-    "image": "https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/images/FO76_Plan_CAMP.webp",
-    "caps": 0, "leaders": 0, "trade": "Yes"
   }
 ]
