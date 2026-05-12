@@ -27,6 +27,7 @@
             transition: color 0.3s ease;
         }
 
+        /* NEW STYLE: Override uppercase for specific elements */
         .natural-case {
             text-transform: none !important;
             letter-spacing: normal !important;
@@ -43,6 +44,30 @@
             background-size: 100% 3px, 3px 100%;
         }
 
+        /* NEW STYLE: STAND-OUT HEADER BOX */
+        .header-warning-box {
+            border: 2px solid var(--main-color);
+            padding: 15px;
+            margin: 15px auto;
+            max-width: 80%;
+            background: rgba(0, 255, 65, 0.05);
+            box-shadow: 0 0 10px var(--glow-color);
+            position: relative;
+            overflow: hidden;
+        }
+        .header-warning-box::after {
+            content: " ";
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.1) 25%), linear-gradient(90deg, rgba(255, 0, 0, 0.03), rgba(0, 255, 0, 0.01), rgba(0, 0, 255, 0.03));
+            pointer-events: none;
+            animation: scanline 6s linear infinite;
+        }
+        @keyframes scanline {
+            0% { transform: translateY(-100%); }
+            100% { transform: translateY(100%); }
+        }
+
         .theme-controls { display: flex; justify-content: flex-end; align-items: center; gap: 10px; margin-bottom: 15px; border-bottom: 1px solid var(--dim-color); padding-bottom: 10px; }
         .color-dot { width: 18px; height: 18px; border: 1px solid #fff; border-radius: 50%; cursor: pointer; }
         #customPicker { background: none; border: 1px solid var(--main-color); width: 25px; height: 25px; cursor: pointer; padding: 0; }
@@ -56,49 +81,49 @@
 
         .search-area input { width: 100%; background: transparent; border: 1px solid var(--main-color); color: var(--main-color); padding: 12px; font-family: 'VT323', monospace; font-size: 1.5rem; box-sizing: border-box; margin-bottom: 20px; outline: none; }
 
-        .item-row { 
-            display: flex; 
-            flex-direction: row; 
-            justify-content: space-between; 
-            align-items: flex-start; 
-            padding: 15px 10px; 
-            border-bottom: 1px solid rgba(0,255,0,0.1); 
-            cursor: pointer;
-            gap: 15px;
-            width: 100%;
-            box-sizing: border-box;
-        }
+.item-row { 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    padding: 15px 10px; 
+    border-bottom: 1px solid rgba(0,255,0,0.1); 
+    cursor: pointer;
+    gap: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
 
-        .text-container {
-            flex: 1; 
-            min-width: 0; 
-            text-align: left;
-        }
+.text-container {
+    flex: 1; 
+    min-width: 0; 
+    text-align: left;
+}
 
         .item-row:hover { background: rgba(0, 255, 0, 0.1); }
-        .item-name { 
-            font-size: 1.4rem; 
-            color: var(--main-color); 
-            font-weight: bold; 
-            word-wrap: break-word; 
-            display: block;
-        }     
-        .item-subtext { 
-            font-size: 1.1rem; 
-            color: var(--dim-color); 
-            white-space: normal; 
-            line-height: 1.2; 
-            margin-top: 5px;
-        }
+.item-name { 
+    font-size: 1.4rem; 
+    color: var(--main-color); 
+    font-weight: bold; 
+    word-wrap: break-word; 
+    display: block;
+}     
+.item-subtext { 
+    font-size: 1.1rem; 
+    color: var(--dim-color); 
+    white-space: normal; 
+    line-height: 1.2; 
+    margin-top: 5px;
+}
 
-        .price-container { 
-            text-align: right; 
-            display: flex; 
-            flex-direction: column; 
-            gap: 4px; 
-            min-width: 110px; 
-            flex-shrink: 0; 
-        }
+.price-container { 
+    text-align: right; 
+    display: flex; 
+    flex-direction: column; 
+    gap: 4px; 
+    min-width: 110px; 
+    flex-shrink: 0; 
+}
         .currency-row { display: flex; justify-content: flex-end; align-items: center; gap: 6px; font-weight: bold; font-size: 1.1rem; }
         
         .caps-text { color: var(--caps-red); }
@@ -135,116 +160,212 @@
         .alt-view-btn { display: inline-block; color: var(--main-color); text-decoration: none; padding: 10px; border: 1px solid var(--main-color); margin-top: 20px; width: 100%; box-sizing: border-box; }
         .alt-view-btn:hover { background: var(--main-color); color: #000; }
 
-        .recent-container {
-            display: flex;
-            justify-content: center;
-            margin-bottom: 15px; 
-            width: 100%;
-        }
+        .modal-pricing-block { margin-top: 15px; border-top: 2px solid var(--main-color); padding-top: 15px; text-align: left; }
+        .modal-currency-row { display: flex; align-items: center; justify-content: flex-start; gap: 12px; margin-bottom: 10px; padding: 5px; background: rgba(255, 255, 255, 0.03); }
+        .modal-caps { color: #ff4444 !important; font-size: 1.8rem; font-weight: bold; }
+        .modal-leaders { color: #44aaff !important; font-size: 1.8rem; font-weight: bold; }
+        .modal-trade { color: #ffb347 !important; font-size: 1.8rem; font-weight: bold; }
+        .modal-icon { width: 28px !important; height: 28px !important; }
 
-        .hero-btn {
-            width: 100%;
-            max-width: 400px; 
-            border: 2px solid var(--main-color) !important;
-            font-size: 1.4rem !important;
-            background: rgba(0, 255, 65, 0.1) !important;
-        }
+.recent-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px; 
+    width: 100%;
+}
 
-        /* NEW LIGHTBOX MODAL STYLES */
-        #imageLightbox {
-            display: none; 
-            position: fixed;
-            z-index: 2000; 
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.95); 
-            justify-content: center;
-            align-items: center;
-            overflow: hidden; 
-            touch-action: none; /* Prevents browser scroll during pan */
-        }
-        #lightboxImageContainer {
-            width: 100%;
-            height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            cursor: grab;
-            position: relative;
-        }
-        #lightboxImage {
-            max-width: 100%;
-            max-height: 100%;
-            border: 2px solid var(--main-color);
-            transition: transform 0.1s ease-out; 
-            user-select: none;
-            -webkit-user-drag: none;
-        }
-        #lightboxControls {
-            position: absolute;
-            bottom: 30px;
-            left: 50%;
-            transform: translateX(-50%);
-            background: rgba(0, 0, 0, 0.85);
-            border: 2px solid var(--main-color);
-            padding: 10px;
-            display: flex;
-            gap: 10px;
-            z-index: 2001;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-        #lightboxControls button {
-            font-size: 1rem;
-            padding: 8px 12px;
-        }
-        #lightboxControls .close-btn { background: #ff4444; color: #000; border-color: #ff4444; }
+.hero-btn {
+    width: 100%;
+    max-width: 400px; 
+    border: 2px solid var(--main-color) !important;
+    font-size: 1.4rem !important;
+    background: rgba(0, 255, 65, 0.1) !important;
+}
+
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 10px;
+}
 
         /* SYSTEM UPDATE ALERT */
-        #syncModal { 
-            display: none; 
-            position: fixed; 
-            z-index: 9999; 
-            left: 0; top: 0; width: 100%; height: 100%; 
-            background: rgba(0,0,0,0.95); 
-            justify-content: center; align-items: center; 
-        }
-        .alert-box {
-            border: 3px solid #ff4444;
-            background: #1a0000;
-            padding: 30px;
-            max-width: 450px;
-            text-align: center;
-            box-shadow: 0 0 30px #ff4444;
-            font-family: 'VT323', monospace;
-        }
-        .alert-box h2 { color: #ff4444; margin: 0 0 15px 0; font-size: 2rem; }
-        .blink { animation: blinker 1.5s linear infinite; }
-        @keyframes blinker { 50% { opacity: 0; } }
-        .sync-btn {
-            background: #ff4444; 
-            color: #000; 
-            font-weight: bold; 
-            width: 100%; 
-            padding: 15px; 
-            margin-top: 20px; 
-            border: none;
-            cursor: pointer;
-            font-family: 'VT323', monospace;
-            font-size: 1.2rem;
-        }
-        .sync-btn:hover { background: #fff; }
+#syncModal { 
+    display: none; 
+    position: fixed; 
+    z-index: 9999; 
+    left: 0; top: 0; width: 100%; height: 100%; 
+    background: rgba(0,0,0,0.95); 
+    justify-content: center; align-items: center; 
+}
+.alert-box {
+    border: 3px solid #ff4444;
+    background: #1a0000;
+    padding: 30px;
+    max-width: 450px;
+    text-align: center;
+    box-shadow: 0 0 30px #ff4444;
+    font-family: 'VT323', monospace;
+}
+.alert-box h2 { color: #ff4444; margin: 0 0 15px 0; font-size: 2rem; }
+.blink { animation: blinker 1.5s linear infinite; }
+@keyframes blinker { 50% { opacity: 0; } }
+.sync-btn {
+    background: #ff4444; 
+    color: #000; 
+    font-weight: bold; 
+    width: 100%; 
+    padding: 15px; 
+    margin-top: 20px; 
+    border: none;
+    cursor: pointer;
+    font-family: 'VT323', monospace;
+    font-size: 1.2rem;
+}
+.sync-btn:hover { background: #fff; }
 
-        @media (max-width: 600px) { 
-            .button-grid { grid-template-columns: 1fr 1fr !important; } 
-            .recent-container { display: flex !important; flex-direction: column !important; gap: 8px; }
-            .hero-btn { width: 100% !important; max-width: none !important; font-size: 1.2rem !important; padding: 12px !important; }
-            .item-name { font-size: 1.1rem; } 
-            .close-modal-btn { width: 100%; position: relative; top: 0; right: 0; margin-bottom: 15px; }
-            #lightboxControls { bottom: 10px; width: 95%; }
-        }
+/* NEW LIGHTBOX MODAL STYLES */
+#imageLightbox {
+    display: none; 
+    position: fixed;
+    z-index: 2001;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9); 
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
+}
+#lightboxImageContainer {
+    position: relative; 
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: grab; 
+}
+#lightboxImage {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    border: 2px solid var(--main-color);
+    transition: transform 0.2s ease; 
+    transform-origin: center center; 
+    user-select: none; 
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+#lightboxControls {
+    position: fixed; 
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2002;
+    background: rgba(0, 0, 0, 0.7);
+    border: 1px solid var(--main-color);
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px;
+    font-family: 'VT323', monospace;
+}
+#lightboxControls button {
+    background: rgba(0, 30, 0, 0.2);
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+    padding: 5px 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.2s;
+    flex-shrink: 0; 
+}
+#lightboxControls button:hover {
+    background: var(--main-color);
+    color: #000;
+}
+#lightboxControls button.close-btn {
+    background: #ff4444;
+    color: #000;
+}
+#lightboxControls button.close-btn:hover {
+    background: #fff;
+}
+
+/* NEW MODAL CONTENT STYLES */
+.artwork-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    text-align: left;
+    margin-top: 20px;
+}
+.artwork-link-box {
+    border: 1px solid var(--dim-color);
+    padding: 15px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.artwork-link-box:hover {
+    border-color: #ff00ff;
+    background: rgba(255, 0, 255, 0.05);
+}
+.artwork-link-box h3 {
+    margin: 0 0 5px 0;
+    color: #ff00ff;
+    font-size: 1.5rem;
+}
+.artwork-link-box p {
+    margin: 0;
+    font-size: 1rem;
+    color: var(--dim-color);
+}
+
+.outfit-content {
+    text-align: left;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    margin-top: 20px;
+}
+.outfit-img-large {
+    width: 100%;
+    border: 2px solid white;
+    margin-bottom: 20px;
+}
+.outfit-list {
+    color: var(--trade-orange);
+    list-style-type: square;
+    padding-left: 25px;
+}
+
+
+@media (max-width: 600px) { 
+    .button-grid { grid-template-columns: 1fr 1fr !important; } 
+    .recent-container { 
+        display: flex !important; 
+        flex-direction: column !important; 
+        gap: 8px; 
+    }
+    .hero-btn { 
+        width: 100% !important; 
+        max-width: none !important; 
+        font-size: 1.2rem !important; 
+        padding: 12px !important; 
+    }
+    .search-area { width: 100%; clear: both; margin-top: 15px; }
+    .item-name { font-size: 1.1rem; } 
+    .currency-row { font-size: 0.9rem; } 
+    .close-modal-btn { width: 100%; position: relative; top: 0; right: 0; margin-bottom: 15px; }
+    #lightboxControls {
+        bottom: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 90%;
+    }
+}
     </style>
 </head>
 <body>
@@ -259,19 +380,45 @@
         </div>
 
         <header>
-            <h1>SMASH'S ROBCO TERMINAL [v8.4.2]<br>Updates Every Tuesday/Wednesday</h1>
-            <p>[ ID: XBOX | xsmashx88x ]</p>
-            <p>[ ID: DISCORD | xsmashx88x ]</p>
-            <p class="header-desc">PRICES ARE NEGOTIABLE.<br>CONTACT VIA XBOX/DISCORD FOR Price/Trade.<br>Some Descriptions Might Be Wrong, Will Be Fixing That</p>
-            <p class="header-desc">Not All Items Are Listed, So Msg Me If Cant See Anything In Game Or Here.</p> 
+            <h1>SMASH'S ROBCO TERMINAL [v8.4.2]<br>Updated Every Tuesday/Wednesday</h1>
+            <p>[ ID: XBOX : xsmashx88x ] | [ ID: DISCORD : xsmashx88x ]</p>
+            <p>Updated Not Long Ago : Tho I can make more mods/have more mods/plans/guns/apparel : then what show here</p>
+            
+            <!-- NEW STAND-OUT BOX -->
+            <div class="header-warning-box natural-case">
+                <p class="header-desc" style="margin: 5px 0;">PRICES ARE NEGOTIABLE. CONTACT VIA XBOX/DISCORD FOR Price/Trade.</p>
+                <p class="header-desc" style="margin: 5px 0; color: #ffb347;">Some Descriptions Might Be Wrong, Will Be Fixing That.</p>
+                <p class="header-desc" style="margin: 5px 0; color: #44aaff;">Not All Items Are Listed, So Msg Me If Cant See Anything In Game Or Here.</p>
+            </div>
         </header>
 
+        <!-- NEW TOP BUTTONS -->
         <div class="recent-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 15px;">
-            <button onclick="openAboutModal()" class="hero-btn natural-case" style="border-color: var(--leaders-blue) !important; color: var(--leaders-blue) !important; max-width: none;">[ System Information ] [ Click Me ]</button>
-            <button onclick="showRecent()" class="hero-btn" style="max-width: none;">[ RECENT UPDATES ]</button>
-            <button onclick="loadData('proof.json')" class="hero-btn" style="border-color: var(--trade-orange) !important; color: var(--trade-orange) !important; max-width: none; font-size: 1.1rem !important;">[ TRADE/GIVE | PROOFS ]</button>
-            <button onclick="loadData('special_people.json')" class="hero-btn natural-case" style="border-color: var(--leaders-blue) !important; color: var(--leaders-blue) !important; max-width: none; font-size: 1.1rem !important;">[ Special People of the Waste Land ]</button>
-            <button onclick="loadData('mark76ish.json')" class="hero-btn natural-case" style="border-color: var(--caps-red) !important; color: var(--caps-red) !important; max-width: none; font-size: 1.1rem !important;">[ People of Market Place ]</button>
+            <button onclick="openArtworkModal()" class="hero-btn natural-case" style="border-color: #ff00ff !important; color: #ff00ff !important; max-width: none;">
+                [ Your Items For Artwork ]
+            </button>
+            <button onclick="openOutfitModal()" class="hero-btn natural-case" style="border-color: #ffffff !important; color: #ffffff !important; max-width: none;">
+                [ Mr. Fallout Outfit ]
+            </button>
+        </div>
+
+        <!-- ORIGINAL HERO BUTTONS -->
+        <div class="recent-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 15px;">
+            <button id="btn-about" onclick="openAboutModal(true)" class="hero-btn natural-case" style="border-color: var(--leaders-blue) !important; color: var(--leaders-blue) !important; max-width: none;">
+                [ System Information ] [ Click Me ]
+            </button>
+            <button id="btn-recent" onclick="showRecent()" class="hero-btn" style="max-width: none;">
+                [ RECENT UPDATES ]
+            </button>
+            <button id="btn-proofs" onclick="loadData('proof.json')" class="hero-btn" style="border-color: var(--trade-orange) !important; color: var(--trade-orange) !important; max-width: none; font-size: 1.1rem !important;">
+                [ TRADE/GIVE | PROOFS ]
+            </button>
+            <button id="btn-special" onclick="loadData('special_people.json')" class="hero-btn natural-case" style="border-color: var(--leaders-blue) !important; color: var(--leaders-blue) !important; max-width: none; font-size: 1.1rem !important;">
+                [ Special People of the Waste Land ]
+            </button>
+                <button id="btn-marketplace" onclick="loadData('mark76ish.json')" class="hero-btn natural-case" style="border-color: var(--caps-red) !important; color: var(--caps-red) !important; max-width: none; font-size: 1.1rem !important; grid-column: span 2;">
+        [ People Of FO76 Market Places + Communities ]
+    </button>
         </div>
 
         <nav class="button-grid">
@@ -299,19 +446,61 @@
         <div id="categoryNote" style="display: none; border: 1px dashed var(--main-color); padding: 10px; margin-bottom: 15px; background: rgba(0, 255, 65, 0.05); color: var(--main-color); line-height: 1.3;"></div>
 
         <div id="itemList">
-            <div class="item-row" style="justify-content: center; opacity: 0.5;">[ SYSTEM READY: PLEASE SELECT A CATEGORY ABOVE ]</div>
+            <div class="item-row" style="justify-content: center; opacity: 0.5;">
+                [ SYSTEM READY: PLEASE SELECT A CATEGORY ABOVE ]
+            </div>
         </div>
     </div>
 
+    <!-- ARTWORK MODAL -->
+    <div id="artworkModal" class="modal" onclick="closeArtworkModal()">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <button class="close-modal-btn" onclick="closeArtworkModal()">[X] CLOSE</button>
+            <h2 style="color: #ff00ff; font-size: 2.2rem; margin-bottom: 10px;">ARTWORK COLLECTIONS</h2>
+<div class="artwork-container natural-case" style="display: flex; flex-direction: column; gap: 20px; align-items: center;">
+    <iframe src="https://www.behance.net/embed/project/248756685?ilo0=1" height="316" width="100%" style="max-width:500px; border:1px solid var(--main-color);" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+    <iframe src="https://www.behance.net/embed/project/238185805?ilo0=1" height="316" width="100%" style="max-width:500px; border:1px solid var(--main-color);" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+    <iframe src="https://www.behance.net/embed/project/196254611?ilo0=1" height="316" width="100%" style="max-width:500px; border:1px solid var(--main-color);" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+    <iframe src="https://www.behance.net/embed/project/176457041?ilo0=1" height="316" width="100%" style="max-width:500px; border:1px solid var(--main-color);" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- OUTFIT MODAL -->
+    <div id="outfitModal" class="modal" onclick="closeOutfitModal()">
+        <div class="modal-content" onclick="event.stopPropagation()" style="max-width: 800px;">
+            <button class="close-modal-btn" onclick="closeOutfitModal()">[X] CLOSE</button>
+            <h2 style="color: white; font-size: 2.2rem; margin-bottom: 10px;">MR. FALLOUT OUTFIT</h2>
+            <div class="outfit-content natural-case">
+                <img src="https://raw.githubusercontent.com/xsmashx88x/SMASHFO76ITEMS/main/al8d92.png" class="outfit-img-large">
+                <p style="color: var(--main-color); font-size: 1.4rem; font-weight: bold;">Eh Vault hunter so you like the look of this? Well your in luck I got some codes (for you and friends)</p>
+                <p style="color: var(--dim-color); margin-bottom: 20px;">*Will take mods/guns/plans/ammo/mats | as well will have to be alot tho*</p>
+                
+                <h3 style="color: var(--trade-orange); border-bottom: 1px solid var(--trade-orange); padding-bottom: 5px;">Trading for Rare Outfits like:</h3>
+                <ul class="outfit-list">
+                    <li>TFJ (Tattered Field Jacket)</li>
+                    <li>WPJS (White Powder Jumpsuit)</li>
+                    <li>FCJS (Forest Camo Jumpsuit)</li>
+                    <li>LC (Leather Coat)</li>
+                    <li>TLC (Traveling Leather Coat)</li>
+                    <li>RFU (Responders Fireman Uniform)</li>
+                    <li>Blue Ridge Caravan outfit</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- DETAIL WINDOW -->
     <div id="detailModal" class="modal" onclick="closeModal()">
         <div class="modal-content" onclick="event.stopPropagation()">
             <button class="close-modal-btn" onclick="closeModal()">[X] CLOSE</button>
             <h2 id="modalTitle" style="font-size: 2rem; margin: 0;"></h2>
             <div id="modalDesc"></div>
             
-            <div id="modalImgContainer" style="position: relative;">
+            <div id="modalImgContainer">
                 <img id="modalImg" src="" onclick="toggleImageSize()" class="img-small">
-                <button class="image-overlay-button" onclick="openLightbox()" style="background: var(--main-color); color: #000; border: none; padding: 10px; font-family: 'VT323'; cursor: pointer; margin-top: 10px; width: 100%;">[ VIEW RAW FULL SIZE IMAGE ]</button>
+                <button class="image-overlay-button" onclick="openLightbox()">[ VIEW RAW FULL SIZE IMAGE ]</button>
             </div>
 
             <div id="modalStats" class="info-grid"></div>
@@ -320,76 +509,107 @@
         </div>
     </div>
 
+    <!-- LIGHTBOX MODAL -->
     <div id="imageLightbox" onclick="closeLightbox(event)">
-        <div id="lightboxImageContainer">
-            <img id="lightboxImage" src="" onclick="event.stopPropagation()">
-            <div id="lightboxControls" onclick="event.stopPropagation()">
-                <button onclick="zoomIn(event)">ZOOM IN</button>
-                <button onclick="zoomOut(event)">ZOOM OUT</button>
-                <button onclick="resetZoom(event)">RESET</button>
-                <button onclick="openRawImageNewTab(event)">OPEN IN NEW TAB</button>
-                <button onclick="closeLightbox(event)" class="close-btn">[X] CLOSE</button>
-            </div>
+    <div id="lightboxImageContainer" class="lightbox-interact-area">
+        <img id="lightboxImage" src="">
+        <div id="lightboxControls" class="lightbox-interact-area">
+            <button onclick="zoomIn(event)">ZOOM IN</button>
+            <button onclick="zoomOut(event)">ZOOM OUT</button>
+            <button onclick="resetZoom(event)">RESET</button>
+            <button onclick="openRawImageNewTab(event)">OPEN RAW IN NEW TAB</button>
+            <button onclick="closeLightbox(event)" class="close-btn">[X] CLOSE</button>
         </div>
     </div>
+</div>
 
-    <div id="aboutModal" class="modal" onclick="closeAboutModal()">
-        <div class="modal-content" onclick="event.stopPropagation()">
-            <button class="close-modal-btn" onclick="closeAboutModal()">[X] CLOSE</button>
-            <h2 style="color: var(--main-color); font-size: 2.2rem; margin-bottom: 10px;">Thanks Vault Hunter</h2>
-            <p style="color: var(--leaders-blue); margin-top: 0;">For Commining Here</p>
-            <img src="smashav.png" style="width: 100%; max-width: 400px; border: 2px solid var(--main-color); margin: 15px 0; filter: grayscale(1) sepia(1) hue-rotate(100deg);">
-            <div style="text-align: left; line-height: 1.5; font-size: 1.2rem; border-top: 1px solid var(--dim-color); padding-top: 15px;">
-                <p>Welcome, This was done up to gives tho's who come to it, Better options.. So you can buy a little cheaper, Trade-up, Maybe get it free</p>
-                <p style="color: var(--trade-orange);">[ MY MISSION OBJECTIVE ]</p>
-                <p>Show Market Value, but tho's who come here know they can msg me and that will change...</p>
-            </div>
+    <!-- ABOUT MODAL -->
+<div id="aboutModal" class="modal" onclick="closeAboutModal()">
+    <div class="modal-content" onclick="event.stopPropagation()">
+        <button class="close-modal-btn" onclick="closeAboutModal()">[X] CLOSE</button>
+        
+        <h2 style="color: var(--main-color); font-size: 2.2rem; margin-bottom: 10px;">Thanks Vault Hunter</h2>
+        <p style="color: var(--leaders-blue); margin-top: 0;">For Commining Here</p>
+
+        <!-- Wrapper to control visibility -->
+<div id="aboutImgWrapper" style="display: none; text-align: center;">
+    <img src="smashav.png" style="width: 100%; max-width: 400px; border: 2px solid var(--main-color); margin: 15px 0; filter: grayscale(1) sepia(1) hue-rotate(100deg);">
+</div>
+
+        <div style="text-align: left; line-height: 1.5; font-size: 1.2rem; border-top: 1px solid var(--dim-color); padding-top: 15px;">
+            <p>Welcome, This was done up to gives tho's who come to it, Better options.. So you can buy a little cheaper, Trade-up, Maybe get it free</p>
+            <p>To many people list things not at market value but higher, lets say items for market vaule is 1393.. they will do 23973 its just sad.. another example is serums, ingame vaulse is 2k, some list for way under or 4/6k which is market value.. but i seen some list them for 20k to 30k to cover the cost of them buying the plan or cause someone charged them alot smfh</p>
+            <p style="color: var(--trade-orange);">[ MY MISSION OBJECTIVE ]</p>
+            <p>Show Market Value, but tho's who come here know they can msg me and that will change... might not be alot but if something is 2500 can let it go for 1xxx same with if something is 3/6 can do 2/5 that or lower.</p>
         </div>
     </div>
+</div>
 
     <div id="syncModal">
-        <div class="alert-box">
-            <h2 class="blink">! SYSTEM OUT OF SYNC !</h2>
-            <p>NEW SHIPMENT DETECTED IN REMOTE DATABASE.</p>
-            <button class="sync-btn" onclick="syncTerminal()">RUN SYNC_DATABASE.EXE (REFRESH)</button>
-        </div>
+    <div class="alert-box">
+        <h2 class="blink">! SYSTEM OUT OF SYNC !</h2>
+        <p>NEW SHIPMENT DETECTED IN REMOTE DATABASE.</p>
+        <p style="color: var(--dim-color);">[ CACHE PURGE RECOMMENDED ]</p>
+        <button class="sync-btn" onclick="syncTerminal()">
+            RUN SYNC_DATABASE.EXE (REFRESH)
+        </button>
     </div>
+</div>
 
     <script>
-        let currentData = [];
-        let allData = [];
-        const TERMINAL_VERSION = "8.4.2";
+
+function openArtworkModal() {
+    document.getElementById('artworkModal').style.display = 'flex';
+}
+function closeArtworkModal() {
+    document.getElementById('artworkModal').style.display = 'none';
+}
+
+function openOutfitModal() {
+    document.getElementById('outfitModal').style.display = 'flex';
+}
+function closeOutfitModal() {
+    document.getElementById('outfitModal').style.display = 'none';
+}
+
+function openAboutModal(showImg = false) {
+    document.getElementById('aboutImgWrapper').style.display = showImg ? 'block' : 'none';
+    document.getElementById('aboutModal').style.display = 'flex';
+}
+
+function closeAboutModal() {
+    document.getElementById('aboutModal').style.display = 'none';
+}
+
+// Global modal handling
+const originalOnClick = window.onclick;
+window.onclick = (e) => {
+    if (originalOnClick) originalOnClick(e);
+    if (e.target == document.getElementById('aboutModal')) closeAboutModal();
+    if (e.target == document.getElementById('detailModal')) closeModal(); 
+    if (e.target == document.getElementById('imageLightbox')) closeLightbox(e); 
+    if (e.target == document.getElementById('artworkModal')) closeArtworkModal();
+    if (e.target == document.getElementById('outfitModal')) closeOutfitModal();
+}
+
+
+let currentData = []; 
+let allData = [];    
 
         const dataFiles = [
-            {id:'btn-recent', f:'recent.json', l:'RECENT UPDATES', note: "Showing all items added in the last 7 days."}, 
-            {id:'btn-proofs', f:'proof.json', l:'TRADE PROOFS'},
-            {id:'btn-special', f:'special_people.json', l:'Special People Of The Waste Land'},
-            {id:'btn-marketplace', f:'mark76ish.json', l:'People of Market Place'},
-            {id:'btn-enclave', f:'enclavemods.json', l:'ENCLAVE MODS'}, 
-            {id:'btn-star', f:'starmods.json', l:'★|★★|★★★|★★★★| MODS'},
-            {id:'btn-makemods', f:'makemods.json', l:'Mods I Can Make'},
-            {id:'btn-fas', f:'fasmask.json', l:'FAS MASK'}, 
-            {id:'btn-plans', f:'plans.json', l:'PLANS'},
-            {id:'btn-recipe', f:'recipe.json', l:'RECIPE'}, 
-            {id:'btn-weapons', f:'weapons.json', l:'WEAPONS'},
-            {id:'btn-armor', f:'armor.json', l:'ARMOR'}, 
-            {id:'btn-mods', f:'mods.json', l:'MODS'},
-            {id:'btn-food', f:'fooddrink.json', l:'FOOD & DRINK'}, 
-            {id:'btn-aid', f:'aid.json', l:'AID'},
-            {id:'btn-misc', f:'miscjunk.json', l:'MISC + JUNK'}, 
-            {id:'btn-ammo', f:'ammo.json', l:'AMMO'},
-            {id:'btn-apparel', f:'apparel.json', l:'APPAREL'},
-            {id:'btn-services', f:'services.json', l:'Services'}
+             {id:'btn-recent', f:'recent.json', l:'RECENT UPDATES', note: "Showing all items added in the last 7 days."}, 
+             {id:'btn-proofs', f:'proof.json', l:'TRADE PROOFS', note: "Official logs of successful terminal transactions. Verified via Xbox/Discord."},
+             {id:'btn-special', f:'special_people.json', l:'Special People Of The Waste Land', note: "List of people who have gone above and beyond."}, 
+             {id:'btn-marketplace', f:'mark76ish.json', l:'People Of FO76 Market Places + Communities', note: "the scammers, the rude, the crazy"},
+            {id:'btn-enclave', f:'enclavemods.json', l:'ENCLAVE MODS'}, {id:'btn-star', f:'starmods.json', l:'★|★★|★★★|★★★★| MODS'},
+            {id:'makemods', f:'makemods.json', l:'Mods I Can Make', note: "Bring your own materials tho (unless i have it then i can make it)"},
+            {id:'btn-fas', f:'fasmask.json', l:'FAS MASK'}, {id:'btn-plans', f:'plans.json', l:'PLANS'},
+            {id:'btn-recipe', f:'recipe.json', l:'RECIPE'}, {id:'btn-weapons', f:'weapons.json', l:'WEAPONS'},
+            {id:'btn-armor', f:'armor.json', l:'ARMOR'}, {id:'btn-mods', f:'mods.json', l:'MODS', note: ""},
+            {id:'btn-food', f:'fooddrink.json', l:'FOOD & DRINK'}, {id:'btn-aid', f:'aid.json', l:'AID'},
+            {id:'btn-misc', f:'miscjunk.json', l:'MISC + JUNK'}, {id:'btn-ammo', f:'ammo.json', l:'AMMO'},
+            {id:'btn-apparel', f:'apparel.json', l:'APPAREL'},{id:'btn-services', f:'services.json', l:'Services'}
         ];
-
-        // --- THEME & UTILS ---
-        function changeTheme(hex) {
-            document.documentElement.style.setProperty('--main-color', hex);
-            document.documentElement.style.setProperty('--dim-color', hex + '99'); 
-            document.documentElement.style.setProperty('--glow-color', hex + '40');
-            document.getElementById('customPicker').value = hex;
-            localStorage.setItem('robco_user_color', hex);
-        }
 
         function formatVal(val) {
             if (val === undefined || val === null || val === "" || val === 0 || val === "0") return "---"; 
@@ -401,219 +621,385 @@
             return text;
         }
 
-        function truncateString(str, maxLength) {
-            return str.length > maxLength ? str.substring(0, maxLength - 3) + "..." : str;
+        function changeTheme(hex) {
+            document.documentElement.style.setProperty('--main-color', hex);
+            document.documentElement.style.setProperty('--dim-color', hex + '99'); 
+            document.documentElement.style.setProperty('--glow-color', hex + '40');
+            document.getElementById('customPicker').value = hex;
+            localStorage.setItem('robco_user_color', hex);
         }
 
-        // --- DATA LOADING ---
-        async function loadData(filename) {
-            const list = document.getElementById('itemList');
-            const noteBox = document.getElementById('categoryNote');
-            document.getElementById('searchInput').value = ""; 
-            window.currentCategoryFile = filename; 
+async function loadData(filename) {
+    const list = document.getElementById('itemList');
+    const noteBox = document.getElementById('categoryNote');
+    document.getElementById('searchInput').value = ""; 
+    
+    const fileInfo = dataFiles.find(item => item.f === filename);
+    
+    if (fileInfo && fileInfo.note && fileInfo.note.trim() !== "") {
+        noteBox.innerHTML = `[ SYSTEM NOTE ]<br>${fileInfo.note}`;
+        noteBox.style.display = "block";
+    } else {
+        noteBox.style.display = "none";
+    }
 
-            const fileInfo = dataFiles.find(item => item.f === filename);
-            noteBox.style.display = (fileInfo && fileInfo.note) ? "block" : "none";
-            if (fileInfo && fileInfo.note) noteBox.innerHTML = `[ SYSTEM NOTE ]<br>${fileInfo.note}`;
+    window.currentCategoryFile = filename; 
 
-            list.innerHTML = "<div class='item-row'>[ ACCESSING DATABASE... ]</div>";
-            try {
-                const response = await fetch(filename + "?t=" + Date.now());
-                currentData = await response.json();
-                renderList(currentData);
-            } catch (e) { 
-                list.innerHTML = "<div class='item-row' style='color:red'>[ ERROR: DATA NOT FOUND ]</div>"; 
+    list.innerHTML = "<div class='item-row'>[ ACCESSING DATABASE... ]</div>";
+    try {
+        const response = await fetch(filename + "?t=" + Date.now());
+        currentData = await response.json();
+        renderList(currentData);
+    } catch (e) { 
+        list.innerHTML = "<div class='item-row' style='color:red'>[ ERROR: FILE NOT FOUND | Or Contact SMASH ]</div>"; 
+    }
+}
+
+let currentViewItems = []; 
+
+function renderList(items) {
+    const list = document.getElementById('itemList');
+    
+    if (!items || items.length === 0) { 
+        list.innerHTML = "<div class='item-row'>[ NO DATA FOUND ]</div>"; 
+        return; 
+    }
+
+    currentViewItems = [...items].sort((a, b) => a.name.localeCompare(b.name));
+
+    const hidePrices = window.currentCategoryFile === 'special_people.json' || window.currentCategoryFile === 'mark76ish.json';
+
+    list.innerHTML = currentViewItems.map((item, index) => {
+        const dateTag = item.date ? `<div style="font-size:0.75rem; color:var(--dim-color); margin-bottom: 2px;">[ LOG DATE: ${item.date} ]</div>` : '';
+        
+        if (window.currentCategoryFile === 'proof.json' && (item.items || item.proof || item.proof_link)) {
+            return `
+            <div class="item-row" onclick="openDetailsByIndex(${index})">
+                <div class="text-container">
+                    ${dateTag}
+                    <div class="item-name" style="color:var(--leaders-blue)">TRADER: ${item.name}</div>
+                    <div class="item-subtext" style="color:var(--main-color); opacity: 0.9;">EXCHANGED: ${item.items || 'VIEW LOG'}</div>
+                </div>
+                <div class="price-container">
+                    <div class="currency-row trade-text" style="font-size:0.9rem;">VERIFIED ✅</div>
+                    <div class="currency-row" style="font-size:0.8rem; color:var(--dim-color);">${item.price || 'TRADE'}</div>
+                </div>
+            </div>`;
+        }
+
+        const priceHTML = hidePrices ? '' : `
+            <div class="price-container">
+                <div class="currency-row caps-text">${formatVal(item.caps)} <img src="fo76_caps.png" class="icon-red"></div>
+                <div class="currency-row leaders-text">${formatVal(item.leaders)} <img src="mtg.png" class="icon-blue"></div>
+                <div class="currency-row trade-text">${formatVal(item.trade)} <img src="mtg.png" class="icon-orange"></div>
+            </div>`;
+
+        return `
+        <div class="item-row" onclick="openDetailsByIndex(${index})">
+            <div class="text-container">
+                ${dateTag}
+                <div class="item-name">${item.name}</div>
+                <div class="item-subtext">${truncateString(item.desc || '', 100)}</div>
+            </div>
+            ${priceHTML}
+        </div>`;
+    }).join('');
+}
+
+function openDetailsByIndex(index) {
+    openDetails(currentViewItems[index]);
+}
+
+        function filterItems() {
+                document.getElementById('categoryNote').style.display = "none";
+
+    const val = document.getElementById('searchInput').value.toLowerCase();
+            if (val === "") {
+                renderList(currentData); 
+            } else {
+                const filtered = allData.filter(i => 
+                    i.name.toLowerCase().includes(val) || 
+                    (i.desc || '').toLowerCase().includes(val)
+                );
+                renderList(filtered); 
             }
         }
 
-        function renderList(items) {
-            const list = document.getElementById('itemList');
-            if (!items || items.length === 0) { list.innerHTML = "<div class='item-row'>[ NO DATA FOUND ]</div>"; return; }
+let currentZoomLevel = 1;
+const zoomStep = 0.2;
+let panX = 0;
+let panY = 0;
+let isDragging = false;
+let startX = 0;
+let startY = 0;
 
-            const sortedItems = [...items].sort((a, b) => a.name.localeCompare(b.name));
-            const hidePrices = window.currentCategoryFile === 'special_people.json' || window.currentCategoryFile === 'mark76ish.json';
+function openLightbox() {
+    const imageUrl = document.getElementById('modalImg').src;
+    document.getElementById('lightboxImage').src = imageUrl;
+    document.getElementById('imageLightbox').style.display = 'flex';
+    resetZoom(); 
+}
 
-            list.innerHTML = sortedItems.map((item) => {
-                const dateTag = item.date ? `<div style="font-size:0.75rem; color:var(--dim-color);">[ LOG DATE: ${item.date} ]</div>` : '';
-                
-                if (window.currentCategoryFile === 'proof.json') {
-                    return `<div class="item-row" onclick='openDetails(${JSON.stringify(item).replace(/"/g, "&quot;")})'>
-                        <div class="text-container">${dateTag}<div class="item-name" style="color:var(--leaders-blue)">TRADER: ${item.name}</div><div class="item-subtext">EXCHANGED: ${item.items || 'VIEW LOG'}</div></div>
-                        <div class="price-container"><div class="currency-row trade-text">VERIFIED ✅</div></div>
-                    </div>`;
-                }
+function closeLightbox(e) {
+    let target = e.target;
+    while (target) {
+        if (target.classList && target.classList.contains('lightbox-interact-area')) {
+            return; 
+        }
+        target = target.parentNode;
+    }
+    document.getElementById('imageLightbox').style.display = 'none';
+}
 
-                const priceHTML = hidePrices ? '' : `<div class="price-container">
-                    <div class="currency-row caps-text">${formatVal(item.caps)} <img src="fo76_caps.png" class="icon-red"></div>
-                    <div class="currency-row leaders-text">${formatVal(item.leaders)} <img src="mtg.png" class="icon-blue"></div>
-                    <div class="currency-row trade-text">${formatVal(item.trade)} <img src="mtg.png" class="icon-orange"></div>
+function zoomIn(e) {
+    e.stopPropagation(); 
+    currentZoomLevel = Math.min(currentZoomLevel + zoomStep, 5); 
+    applyTransform();
+}
+
+function zoomOut(e) {
+    e.stopPropagation(); 
+    currentZoomLevel = Math.max(currentZoomLevel - zoomStep, 1); 
+    if (currentZoomLevel === 1) {
+        panX = 0;
+        panY = 0;
+    }
+    applyTransform();
+}
+
+function resetZoom(e) {
+    if(e) e.stopPropagation(); 
+    currentZoomLevel = 1;
+    panX = 0;
+    panY = 0;
+    applyTransform();
+}
+
+function openRawImageNewTab(e) {
+    e.stopPropagation(); 
+    const imageUrl = document.getElementById('lightboxImage').src;
+    window.open(imageUrl, '_blank');
+}
+
+function applyTransform() {
+    const imgElement = document.getElementById('lightboxImage');
+    imgElement.style.transform = `scale(${currentZoomLevel}) translate(${panX}px, ${panY}px)`;
+}
+
+function handleMouseDown(e) {
+    e.preventDefault(); 
+    e.stopPropagation(); 
+
+    isDragging = true;
+    startX = e.clientX;
+    startY = e.clientY;
+    document.getElementById('lightboxImageContainer').style.cursor = 'grabbing';
+}
+
+function handleMouseMove(e) {
+    if (!isDragging || currentZoomLevel === 1) return; 
+    e.preventDefault();
+
+    const dx = e.clientX - startX;
+    const dy = e.clientY - startY;
+
+    panX += dx / currentZoomLevel;
+    panY += dy / currentZoomLevel;
+
+    startX = e.clientX;
+    startY = e.clientY;
+
+    applyTransform();
+}
+
+function handleMouseUp() {
+    isDragging = false;
+    document.getElementById('lightboxImageContainer').style.cursor = 'grab';
+}
+
+function handleTouchStart(e) {
+    e.preventDefault();
+    e.stopPropagation(); 
+
+    isDragging = true;
+    startX = e.touches[0].clientX;
+    startY = e.touches[0].clientY;
+    document.getElementById('lightboxImageContainer').style.cursor = 'grabbing';
+}
+
+function handleTouchMove(e) {
+    if (!isDragging || currentZoomLevel === 1) return;
+    e.preventDefault();
+
+    const dx = e.touches[0].clientX - startX;
+    const dy = e.touches[0].clientY - startY;
+
+    panX += dx / currentZoomLevel;
+    panY += dy / currentZoomLevel;
+
+    startX = e.touches[0].clientX;
+    startY = e.touches[0].clientY;
+
+    applyTransform();
+}
+
+function handleTouchEnd() {
+    isDragging = false;
+    document.getElementById('lightboxImageContainer').style.cursor = 'grab';
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    const imageContainer = document.getElementById('lightboxImageContainer');
+    imageContainer.addEventListener('mousedown', handleMouseDown);
+    document.addEventListener('mousemove', handleMouseMove);
+    document.addEventListener('mouseup', handleMouseUp);
+    imageContainer.addEventListener('touchstart', handleTouchStart);
+    document.addEventListener('touchmove', handleTouchMove);
+    document.addEventListener('touchend', handleTouchEnd);
+});
+
+
+function truncateString(str, maxLength) {
+    if (str.length > maxLength) {
+        return str.substring(0, maxLength - 3) + "...";
+    }
+    return str;
+}
+
+function openDetails(item) {
+    document.getElementById('modalTitle').innerText = item.name;
+    document.getElementById('modalDesc').innerHTML = item.desc || "";
+
+    const imgContainer = document.getElementById('modalImgContainer');
+    const img = document.getElementById('modalImg');
+    const rawBtn = document.querySelector('.image-overlay-button'); 
+
+    if (item.image && item.image.trim() !== "") {
+        imgContainer.style.display = "block";
+        img.src = item.image; 
+        img.className = 'img-small';
+        rawBtn.style.display = "block"; 
+    } else {
+        imgContainer.style.display = "none";
+        rawBtn.style.display = "none"; 
+    }
+
+    let statsHTML = `<div class="info-grid">`;
+
+    for (const [key, value] of Object.entries(item)) {
+        const skip = ['name', 'image', 'desc', 'caps', 'leaders', 'trade', 'alt_view', 'proof_link', 'categoryname'];
+        if (!skip.includes(key.toLowerCase()) && value !== "") {
+            statsHTML += `
+                <div class="info-line">
+                    <span class="info-key">${key.toUpperCase()}</span>
+                    <span class="info-value" style="color:var(--main-color)">${value}</span>
                 </div>`;
+        }
+    }
+    statsHTML += `</div>`;
 
-                return `<div class="item-row" onclick='openDetails(${JSON.stringify(item).replace(/"/g, "&quot;")})'>
-                    <div class="text-container">${dateTag}<div class="item-name">${item.name}</div><div class="item-subtext">${truncateString(item.desc || '', 100)}</div></div>
+    document.getElementById('modalStats').innerHTML = statsHTML;
+
+    let linksHTML = '';
+    if (item.alt_view) {
+        linksHTML += `<a href="${item.alt_view}" target="_blank" class="alt-view-btn">[ ACCESS EXTERNAL WIKI DATA ]</a>`;
+    }
+    if (item.proof_link) {
+        linksHTML += `<a href="${item.proof_link}" target="_blank" class="alt-view-btn" style="border-color:var(--trade-orange); color:var(--trade-orange)">[ VIEW ORIGINAL TRADE POST ]</a>`;
+    }
+
+    document.getElementById('modalLinks').innerHTML = linksHTML;
+    document.getElementById('detailModal').style.display = 'flex';
+}
+
+        function closeModal() {
+            document.getElementById('detailModal').style.display = 'none';
+            document.getElementById('modalImg').className = 'img-small';
+            document.querySelector('.modal-content').classList.remove('wide');
+        }
+
+        function toggleImageSize() {
+            const img = document.getElementById('modalImg');
+            const box = document.querySelector('.modal-content');
+            if (img.classList.contains('img-small')) {
+                img.classList.replace('img-small', 'img-large');
+                box.classList.add('wide');
+            } else {
+                img.classList.replace('img-large', 'img-small');
+                box.classList.remove('wide');
+            }
+        }
+
+function showRecent() {
+            document.getElementById('searchInput').value = ""; 
+            const list = document.getElementById('itemList');
+            
+            const today = new Date();
+            const sevenDaysAgo = new Date();
+            sevenDaysAgo.setDate(today.getDate() - 7);
+
+            const recentItems = allData
+                .filter(item => {
+                    if (!item.date) return false;
+                    const itemDate = new Date(item.date);
+                    return itemDate >= sevenDaysAgo;
+                })
+                .sort((a, b) => new Date(b.date) - new Date(a.date));
+
+            if (recentItems.length === 0) {
+                list.innerHTML = `
+                    <div class="item-row" style="justify-content: center; opacity: 0.6; flex-direction: column; padding: 40px;">
+                        <div>[ NO NEW SHIPMENTS IN THE LAST 7 DAYS ]</div>
+                        <div style="font-size: 0.8rem; margin-top: 10px;">CHECK BACK SOON FOR UPDATED STOCK</div>
+                    </div>`;
+                return;
+            }
+
+            list.innerHTML = recentItems.map(item => {
+                const priceHTML = `
+                    <div class="price-container">
+                        <div class="currency-row caps-text">${formatVal(item.caps)} <img src="fo76_caps.png" class="icon-red"></div>
+                        <div class="currency-row leaders-text">${formatVal(item.leaders)} <img src="mtg.png" class="icon-blue"></div>
+                        <div class="currency-row trade-text">${formatVal(item.trade)} <img src="mtg.png" class="icon-orange"></div>
+                    </div>`;
+
+                return `
+                <div class="item-row" onclick='openDetails(${JSON.stringify(item).replace(/"/g, "&quot;")})'>
+                    <div class="text-container">
+                        <div style="font-size:0.8rem; color:var(--main-color); opacity:0.7;">[${item.categoryName}] - ${item.date}</div>
+                        <div class="item-name">${item.name}</div>
+                        <div class="item-subtext">${truncateString(item.desc || '', 100)}</div>
+                    </div>
                     ${priceHTML}
                 </div>`;
             }).join('');
         }
 
-        function filterItems() {
-            const val = document.getElementById('searchInput').value.toLowerCase();
-            if (val === "") { renderList(currentData); } 
-            else {
-                const filtered = allData.filter(i => i.name.toLowerCase().includes(val) || (i.desc || '').toLowerCase().includes(val));
-                renderList(filtered);
-            }
-        }
-
-        // --- MODAL LOGIC ---
-        function openDetails(item) {
-            document.getElementById('modalTitle').innerText = item.name;
-            document.getElementById('modalDesc').innerHTML = item.desc || "";
-            const imgContainer = document.getElementById('modalImgContainer');
-            const img = document.getElementById('modalImg');
-            
-            if (item.image) {
-                imgContainer.style.display = "block";
-                img.src = item.image;
-            } else {
-                imgContainer.style.display = "none";
-            }
-
-            let statsHTML = `<div class="info-grid">`;
-            for (const [key, value] of Object.entries(item)) {
-                if (!['name', 'image', 'desc', 'caps', 'leaders', 'trade', 'alt_view', 'proof_link', 'categoryName', 'date'].includes(key.toLowerCase()) && value !== "") {
-                    statsHTML += `<div class="info-line"><span class="info-key">${key.toUpperCase()}</span><span class="info-value">${value}</span></div>`;
-                }
-            }
-            document.getElementById('modalStats').innerHTML = statsHTML + `</div>`;
-            document.getElementById('detailModal').style.display = 'flex';
-        }
-
-        function closeModal() { document.getElementById('detailModal').style.display = 'none'; }
-        function openAboutModal() { document.getElementById('aboutModal').style.display = 'flex'; }
-        function closeAboutModal() { document.getElementById('aboutModal').style.display = 'none'; }
-        function toggleImageSize() { document.getElementById('modalImg').classList.toggle('img-large'); }
-
-        // --- FIXED IMAGE VIEWER LOGIC ---
-        let initialPinchDistance = null;
-        let currentZoomLevel = 1;
-        let panX = 0;
-        let panY = 0;
-        let isDragging = false;
-        let startX = 0;
-        let startY = 0;
-
-        function openLightbox() {
-            const imageUrl = document.getElementById('modalImg').src;
-            document.getElementById('lightboxImage').src = imageUrl;
-            document.getElementById('imageLightbox').style.display = 'flex';
-            resetZoom();
-        }
-
-function closeLightbox(e) {
-    // If an event exists, stop it from bubbling up to other elements
-    if (e) {
-        e.stopPropagation();
-        if (e.stopImmediatePropagation) e.stopImmediatePropagation();
-    }
-
-    // Identify the targets
-    const lightbox = document.getElementById('imageLightbox');
-    const container = document.getElementById('lightboxImageContainer');
-
-    // Close if: 
-    // 1. No event (called manually)
-    // 2. Clicked the background overlay or the container
-    // 3. Clicked a button with the 'close-btn' class
-    if (!e || e.target === lightbox || e.target === container || e.target.classList.contains('close-btn')) {
-        lightbox.style.display = 'none';
-        resetZoom(); // Clean up zoom state for next time
-    }
-}
-
-        function applyTransform() {
-            const img = document.getElementById('lightboxImage');
-            img.style.transform = `scale(${currentZoomLevel}) translate(${panX}px, ${panY}px)`;
-        }
-
-        function zoomIn(e) { e.stopPropagation(); currentZoomLevel = Math.min(currentZoomLevel + 0.3, 5); applyTransform(); }
-        function zoomOut(e) { e.stopPropagation(); currentZoomLevel = Math.max(currentZoomLevel - 0.3, 1); if(currentZoomLevel === 1) {panX=0; panY=0;} applyTransform(); }
-        function resetZoom(e) { if(e) e.stopPropagation(); currentZoomLevel = 1; panX = 0; panY = 0; applyTransform(); }
-        function openRawImageNewTab(e) { e.stopPropagation(); window.open(document.getElementById('lightboxImage').src, '_blank'); }
-
-        // Panning Handlers (Universal)
-function startPan(e) {
-    if (e.target.tagName === 'BUTTON') return;
-    
-    if (e.touches && e.touches.length === 2) {
-        // Start Pinch
-        initialPinchDistance = Math.hypot(
-            e.touches[0].clientX - e.touches[1].clientX,
-            e.touches[0].clientY - e.touches[1].clientY
-        );
-    } else {
-        // Start Drag
-        isDragging = true;
-        const clientX = e.touches ? e.touches[0].clientX : e.clientX;
-        const clientY = e.touches ? e.touches[0].clientY : e.clientY;
-        startX = clientX - (panX * currentZoomLevel);
-        startY = clientY - (panY * currentZoomLevel);
-        document.getElementById('lightboxImageContainer').style.cursor = 'grabbing';
-    }
-}
-
-function doPan(e) {
-    if (e.cancelable) e.preventDefault();
-
-    // Handle Pinch Zoom
-    if (e.touches && e.touches.length === 2 && initialPinchDistance) {
-        const currentDistance = Math.hypot(
-            e.touches[0].clientX - e.touches[1].clientX,
-            e.touches[0].clientY - e.touches[1].clientY
-        );
-        
-        const delta = currentDistance / initialPinchDistance;
-        const sensitivity = 0.05; // Adjust for faster/slower zoom
-        
-        if (delta > 1) currentZoomLevel = Math.min(currentZoomLevel + sensitivity, 5);
-        else if (delta < 1) currentZoomLevel = Math.max(currentZoomLevel - sensitivity, 1);
-        
-        if (currentZoomLevel === 1) { panX = 0; panY = 0; }
-        initialPinchDistance = currentDistance;
-        applyTransform();
-        return;
-    }
-
-    // Handle Normal Panning
-    if (!isDragging) return;
-    const clientX = e.touches ? e.touches[0].clientX : e.clientX;
-    const clientY = e.touches ? e.touches[0].clientY : e.clientY;
-    panX = (clientX - startX) / currentZoomLevel;
-    panY = (clientY - startY) / currentZoomLevel;
-    applyTransform();
-}
-
-function stopPan() {
-    isDragging = false;
-    initialPinchDistance = null; // Add this line
-    document.getElementById('lightboxImageContainer').style.cursor = 'grab';
-}
-
-        // --- INITIALIZATION ---
-        async function initialize() {
+async function initialize() {
+            allData = []; 
             for (const b of dataFiles) {
                 try {
                     const r = await fetch(b.f + "?t=" + Date.now());
                     const d = await r.json();
-                    allData = [...allData, ...d.map(i => ({...i, categoryName: b.l}))];
+                    
+                    const taggedData = d.map(item => ({
+                        ...item,
+                        categoryName: b.l 
+                    }));
+                    
+                    allData = [...allData, ...taggedData];
+                    
                     const btn = document.getElementById(b.id);
                     if (btn) btn.innerText = `[${b.l}] (${d.length})`;
-                } catch(e) {}
+                } catch(e) { console.error("Error loading " + b.f); }
             }
         }
 
+        const TERMINAL_VERSION = "8.4.2"; 
+
         function checkVersion() {
-            if (localStorage.getItem('robco_version') !== TERMINAL_VERSION) {
+            const lastSeenVersion = localStorage.getItem('robco_version');
+            if (lastSeenVersion && lastSeenVersion !== TERMINAL_VERSION) {
                 document.getElementById('syncModal').style.display = 'flex';
             }
         }
@@ -623,27 +1009,19 @@ function stopPan() {
             location.reload(true);
         }
 
-        function showRecent() {
-            const cutoff = new Date(); cutoff.setDate(cutoff.getDate() - 7);
-            const recent = allData.filter(i => i.date && new Date(i.date) >= cutoff).sort((a,b) => new Date(b.date) - new Date(a.date));
-            renderList(recent);
-        }
-
         window.onload = () => {
             const savedColor = localStorage.getItem('robco_user_color');
             if (savedColor) changeTheme(savedColor);
-            if (!localStorage.getItem('robco_version')) localStorage.setItem('robco_version', TERMINAL_VERSION);
-            checkVersion(); initialize(); openAboutModal();
+            
+            if (!localStorage.getItem('robco_version')) {
+                localStorage.setItem('robco_version', TERMINAL_VERSION);
+            }
 
-            // Setup Pan Listeners
-            const container = document.getElementById('imageLightbox');
-            container.addEventListener('mousedown', startPan);
-            window.addEventListener('mousemove', doPan);
-            window.addEventListener('mouseup', stopPan);
-            container.addEventListener('touchstart', startPan, {passive: false});
-            container.addEventListener('touchmove', doPan, {passive: false});
-            container.addEventListener('touchend', stopPan);
+            checkVersion(); 
+            initialize();
+            openAboutModal(false); // AUTO-POPUP: showImg is false
         };
+
     </script>
 </body>
 </html>
